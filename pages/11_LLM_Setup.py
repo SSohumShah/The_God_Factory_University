@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.database import get_setting, save_setting
-from ui.theme import inject_theme, arcane_header, rune_divider, stat_card, play_sfx
+from ui.theme import inject_theme, arcane_header, rune_divider, stat_card, play_sfx, sanitize_llm_output
 
 inject_theme()
 arcane_header("LLM Setup Wizard", "Configure your AI model provider step by step.")
@@ -188,7 +188,7 @@ The Ollama service starts automatically after installation.
                 if result["ok"]:
                     play_sfx("success")
                     st.success(f"Ollama is working. Response in {result['latency_ms']}ms")
-                    st.markdown(f"> {result['response']}")
+                    st.markdown(f"> {sanitize_llm_output(result['response'])}")
                 else:
                     st.error(f"Test failed: {result['error']}")
         else:
@@ -261,7 +261,7 @@ The Ollama service starts automatically after installation.
                 if result["ok"]:
                     play_sfx("success")
                     st.success(f"LM Studio is working. Response in {result['latency_ms']}ms")
-                    st.markdown(f"> {result['response']}")
+                    st.markdown(f"> {sanitize_llm_output(result['response'])}")
                 else:
                     st.error(f"Test failed: {result['error']}")
         else:
@@ -452,7 +452,7 @@ if wizard_path == "cloud":
                 if result["ok"]:
                     play_sfx("success")
                     st.success(f"Working! Response in {result['latency_ms']}ms")
-                    st.markdown(f"> {result['response']}")
+                    st.markdown(f"> {sanitize_llm_output(result['response'])}")
                 else:
                     st.error(f"Failed: {result['error']}")
                     st.markdown("Check your API key and internet connection.")

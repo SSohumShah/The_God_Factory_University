@@ -231,15 +231,14 @@ if st.button("Save LLM Settings", use_container_width=True):
 # ─── Test LLM ─────────────────────────────────────────────────────────────────
 if st.button("Test LLM Connection"):
     try:
-        from llm.providers import UniversalLLMClient
-        cfg = {
-            "provider": selected_prov,
-            "model": selected_model,
-            "api_key": api_key or get_setting("llm_api_key", ""),
-            "base_url": base_url or get_setting("llm_base_url", ""),
-        }
-        client = UniversalLLMClient(cfg)
-        reply = client.chat([{"role": "user", "content": "Reply with exactly: 'Connection verified.' and nothing else."}])
+        from llm.providers import LLMConfig, chat
+        cfg = LLMConfig(
+            provider=selected_prov,
+            model=selected_model,
+            api_key=api_key or get_setting("llm_api_key", ""),
+            base_url=base_url or get_setting("llm_base_url", ""),
+        )
+        reply = chat(cfg, [{"role": "user", "content": "Reply with exactly: 'Connection verified.' and nothing else."}])
         st.success(f"LLM responded: {reply}")
     except Exception as e:
         st.error(f"Connection failed: {e}")

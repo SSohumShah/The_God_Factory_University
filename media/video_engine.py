@@ -28,6 +28,8 @@ from pathlib import Path
 from typing import Callable
 
 import numpy as np
+
+from core.logger import log_render, log_error
 from PIL import Image, ImageDraw, ImageFont
 
 # ─── Configure moviepy to use bundled ffmpeg ──────────────────────────────────
@@ -315,6 +317,7 @@ def render_lecture(lecture_data: dict, output_dir: Path, chunk_by_scene: bool = 
     lecture_data: the full lecture dict as stored in the DB (data field parsed).
     """
     output_dir.mkdir(parents=True, exist_ok=True)
+    _render_t0 = time.time()
     lid = lecture_data.get("lecture_id", lecture_data.get("id", "lec"))
     temp_dir = CACHE_DIR / f"{lid}_{_slug(lecture_data.get('title', 'lecture'))}"
     temp_dir.mkdir(parents=True, exist_ok=True)
@@ -335,9 +338,24 @@ def render_lecture(lecture_data: dict, output_dir: Path, chunk_by_scene: bool = 
         }]
 
     clips: list[tuple[dict, VideoClip]] = []
+    failed_scenes: list[str] = []
     for scene in scenes:
-        clip = _build_scene_clip(lecture_data, scene, temp_dir, voice_id, binaural)
-        clips.append((scene, clip))
+        bid = scene.get("block_id", "?")
+        clip = None
+        for attempt in range(2):
+            try:
+                clip = _build_scene_clip(lecture_data, scene, temp_dir, voice_id, binaural)
+                break
+            except Exception as e:
+                if attempt == 0:
+                    log_error(f"Scene {bid} attempt 1 failed: {e}, retrying",
+                              category="render", error_id="SCENE_RETRY")
+                else:
+                    log_error(f"Scene {bid} failed after retry: {e}",
+                              category="render", error_id="SCENE_FAIL")
+                    failed_scenes.append(bid)
+        if clip is not None:
+            clips.append((scene, clip))
 
     outputs: list[Path] = []
     ffmpeg_params = ["-preset", "fast"]
@@ -370,16 +388,28 @@ def render_lecture(lecture_data: dict, output_dir: Path, chunk_by_scene: bool = 
 
     unlock_achievement("video_render")
     add_xp(100, f"Rendered lecture {lid}", "video")
+    log_render(lid, "completed", duration_s=time.time() - _render_t0, scenes=len(scenes))
     return outputs
 
 
-def batch_render_all(output_dir: Path, progress_callback=None) -> list[Path]:
-    """Render every lecture in the database as full MP4s."""
+def batch_render_all(output_dir: Path, progress_callback=None) -> dict:
+    """Render every lecture in the database as full MP4s.
+
+    Returns a summary dict:
+        outputs: list[Path]  - successfully rendered files
+        total: int           - total jobs attempted
+        succeeded: int
+        failed: int
+        errors: list[str]    - error messages for failed renders
+        elapsed_s: float     - total wall time
+    """
     from core.database import get_all_courses, get_modules, get_lectures
-    import concurrent.futures, json as _json
+    import json as _json
 
     all_outputs: list[Path] = []
     jobs: list[dict] = []
+    errors: list[str] = []
+    t0 = time.time()
 
     for course in get_all_courses():
         for module in get_modules(course["id"]):
@@ -398,13 +428,28 @@ def batch_render_all(output_dir: Path, progress_callback=None) -> list[Path]:
             outs = render_lecture(lec_data, output_dir)
             all_outputs.extend(outs)
         except Exception as e:
-            print(f"[batch] Failed {lec_data.get('lecture_id', '?')}: {e}")
+            err_msg = f"{lec_data.get('lecture_id', '?')}: {e}"
+            errors.append(err_msg)
+            log_error(f"Batch render failed: {err_msg}",
+                      category="render", error_id="BATCH_RENDER_FAIL")
         if progress_callback:
             progress_callback(i + 1, total)
 
     if len(all_outputs) >= 5:
         unlock_achievement("batch_render")
-    return all_outputs
+
+    elapsed = time.time() - t0
+    log_render("batch", "completed", duration_s=elapsed,
+               total=total, succeeded=len(all_outputs), failed=len(errors))
+
+    return {
+        "outputs": all_outputs,
+        "total": total,
+        "succeeded": len(all_outputs),
+        "failed": len(errors),
+        "errors": errors,
+        "elapsed_s": round(elapsed, 2),
+    }
 
 
 # ─── Timeline editor support ─────────────────────────────────────────────────

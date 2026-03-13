@@ -23,6 +23,32 @@ import time
 
 import numpy as np
 import streamlit as st
+import re
+
+
+# ─── LLM output sanitizer ────────────────────────────────────────────────────
+
+def sanitize_llm_output(text: str) -> str:
+    """Sanitize LLM-generated text before rendering via st.markdown.
+
+    Strips potentially dangerous HTML tags while preserving safe Markdown.
+    Prevents XSS injection through st.markdown(unsafe_allow_html=True) contexts.
+    """
+    if not isinstance(text, str):
+        return str(text)
+    # Remove script tags and their contents
+    text = re.sub(r'<script[^>]*>.*?</script>', '', text, flags=re.DOTALL | re.IGNORECASE)
+    # Remove iframe, object, embed, form tags
+    text = re.sub(r'<(iframe|object|embed|form|link|meta)[^>]*>.*?</\1>', '', text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r'<(iframe|object|embed|form|link|meta)[^>]*/?\s*>', '', text, flags=re.IGNORECASE)
+    # Remove event handler attributes (onclick, onerror, onload, etc.)
+    text = re.sub(r'\bon\w+\s*=\s*["\'][^"\']*["\']', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'\bon\w+\s*=\s*\S+', '', text, flags=re.IGNORECASE)
+    # Remove javascript: URLs
+    text = re.sub(r'javascript\s*:', '', text, flags=re.IGNORECASE)
+    # Remove data: URLs (can contain scripts)
+    text = re.sub(r'data\s*:\s*text/html', 'data:blocked', text, flags=re.IGNORECASE)
+    return text
 
 # ─── CSS constants ────────────────────────────────────────────────────────────
 FONT_CSS = """

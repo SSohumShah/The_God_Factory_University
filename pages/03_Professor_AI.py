@@ -16,7 +16,7 @@ from core.database import (
     get_setting, save_chat_history, get_chat_history, bulk_import_json,
     save_llm_generated, add_xp, unlock_achievement,
 )
-from ui.theme import inject_theme, arcane_header, rune_divider, play_sfx, stat_card, help_button
+from ui.theme import inject_theme, arcane_header, rune_divider, play_sfx, stat_card, help_button, sanitize_llm_output
 
 inject_theme()
 arcane_header("Professor AI", "Your boundless guide through the arcane.")
@@ -70,7 +70,7 @@ with tab_chat:
     with chat_box:
         for msg in history[-40:]:
             with st.chat_message(msg["role"]):
-                st.markdown(msg["content"])
+                st.markdown(sanitize_llm_output(msg["content"]))
 
     user_input = st.chat_input("Ask the Professor anything...")
     if user_input:
@@ -87,8 +87,8 @@ with tab_chat:
                     prof = get_professor()
                     for chunk in prof.stream(user_input):
                         full_response += chunk
-                        placeholder.markdown(full_response + " ▌")
-                    placeholder.markdown(full_response)
+                        placeholder.markdown(sanitize_llm_output(full_response) + " \u25cc")
+                    placeholder.markdown(sanitize_llm_output(full_response))
                     save_chat_history(session_id, "assistant", full_response)
                     add_xp(5, "Consulted the Professor", "professor_chat")
                 except Exception as e:
@@ -290,7 +290,7 @@ with tab_guide:
                 prof = get_professor()
                 answer = prof.explain_app(question)
                 st.markdown("### Answer")
-                st.markdown(answer)
+                st.markdown(sanitize_llm_output(answer))
                 add_xp(5, "App guide query", "help")
             except Exception as e:
                 st.error(f"Failed: {e}")

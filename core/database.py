@@ -8,6 +8,7 @@ import json
 import sqlite3
 import time
 from contextlib import contextmanager
+from datetime import datetime
 from pathlib import Path
 
 DB_PATH = Path(__file__).resolve().parent.parent / "university.db"
@@ -280,6 +281,11 @@ def set_progress(lecture_id: str, status: str, watch_time_s: float = 0, score: f
         )
     if status == "completed":
         add_xp(75, f"Completed lecture {lecture_id}", "lecture_complete")
+        unlock_achievement("speed_reader")
+        if count_completed() >= 10:
+            unlock_achievement("ten_lectures")
+        if datetime.now().hour < 5:
+            unlock_achievement("night_owl")
 
 
 def count_completed() -> int:
@@ -316,7 +322,14 @@ def submit_assignment(assignment_id: str, score: float, feedback: str = "") -> N
             "UPDATE assignments SET submitted_at=?, score=?, feedback=? WHERE id=?",
             (time.time(), score, feedback, assignment_id),
         )
+        max_sc = con.execute("SELECT max_score FROM assignments WHERE id=?", (assignment_id,)).fetchone()
+    unlock_achievement("first_quiz")
+    if max_sc and max_sc["max_score"] and max_sc["max_score"] > 0 and score >= max_sc["max_score"]:
+        unlock_achievement("perfect_score")
+    if datetime.now().hour < 5:
+        unlock_achievement("night_owl")
     add_xp(50, f"Submitted assignment {assignment_id}", "assignment")
+    _check_achievements_degrees()
 
 
 def get_assignments(course_id: str | None = None) -> list[dict]:
@@ -506,6 +519,22 @@ def _check_achievements_xp(total_xp: int) -> None:
         unlock_achievement("xp_5000")
 
 
+def _check_achievements_degrees() -> None:
+    """Check all degree-tier achievements after grade/credit changes."""
+    earned = eligible_degrees()
+    _DEGREE_MAP = {
+        "Certificate": "degree_cert",
+        "Associate": "degree_assoc",
+        "Bachelor": "degree_bachelor",
+        "Master": "degree_master",
+        "Doctorate": "degree_doctor",
+    }
+    for deg in earned:
+        aid = _DEGREE_MAP.get(deg)
+        if aid:
+            unlock_achievement(aid)
+
+
 # ─── Schema validation ─────────────────────────────────────────────────────────
 
 _SCHEMA_CACHE: dict | None = None
@@ -573,6 +602,9 @@ def bulk_import_json(raw: str, validate_only: bool = False) -> tuple[int, list[s
     imported = 0
     errors = []
     for i, obj in enumerate(objects):
+        if not isinstance(obj, dict):
+            errors.append(f"Object {i + 1}: expected a JSON object, got {type(obj).__name__}")
+            continue
         # Schema validation
         schema_errors = validate_course_json(obj)
         if schema_errors:
@@ -591,6 +623,12 @@ def bulk_import_json(raw: str, validate_only: bool = False) -> tuple[int, list[s
     if imported > 0 and not validate_only:
         unlock_achievement("bulk_import")
         add_xp(imported * 25, f"Bulk imported {imported} objects", "import")
+        from core.logger import log_import
+        log_import("bulk_json", "completed", items=imported)
+
+    if errors:
+        from core.logger import log_import
+        log_import("bulk_json", "errors", items=len(errors))
 
     return imported, errors
 

@@ -124,6 +124,26 @@ PROVIDER_CATALOGUE: dict[str, dict] = {
 }
 
 
+# ─── Provider capabilities ────────────────────────────────────────────────────
+
+PROVIDER_CAPABILITIES: dict[str, dict] = {
+    "ollama":      {"streaming": True,  "context_window": 8192,   "json_mode": True,  "cost_per_1k_input": 0.0,    "cost_per_1k_output": 0.0},
+    "lmstudio":    {"streaming": True,  "context_window": 8192,   "json_mode": True,  "cost_per_1k_input": 0.0,    "cost_per_1k_output": 0.0},
+    "openai":      {"streaming": True,  "context_window": 128000, "json_mode": True,  "cost_per_1k_input": 0.005,  "cost_per_1k_output": 0.015},
+    "github":      {"streaming": True,  "context_window": 128000, "json_mode": True,  "cost_per_1k_input": 0.0,    "cost_per_1k_output": 0.0},
+    "anthropic":   {"streaming": True,  "context_window": 200000, "json_mode": False, "cost_per_1k_input": 0.003,  "cost_per_1k_output": 0.015},
+    "groq":        {"streaming": True,  "context_window": 32768,  "json_mode": True,  "cost_per_1k_input": 0.0,    "cost_per_1k_output": 0.0},
+    "mistral":     {"streaming": True,  "context_window": 32768,  "json_mode": True,  "cost_per_1k_input": 0.002,  "cost_per_1k_output": 0.006},
+    "together":    {"streaming": True,  "context_window": 32768,  "json_mode": True,  "cost_per_1k_input": 0.0008, "cost_per_1k_output": 0.0008},
+    "huggingface": {"streaming": True,  "context_window": 8192,   "json_mode": False, "cost_per_1k_input": 0.0,    "cost_per_1k_output": 0.0},
+}
+
+
+def get_capability(provider: str, key: str, default=None):
+    """Look up a single capability for a provider."""
+    return PROVIDER_CAPABILITIES.get(provider, {}).get(key, default)
+
+
 # ─── Hardware check ───────────────────────────────────────────────────────────
 
 def check_hardware() -> dict:
@@ -267,6 +287,8 @@ def _compat_chat(cfg: LLMConfig, base_url: str, api_key: str, messages: list[dic
         return resp.choices[0].message.content or ""
     except Exception as e:
         error_type, user_msg = classify_error(e)
+        from core.logger import log_provider_call
+        log_provider_call(cfg.provider, cfg.model, f"error:{error_type}")
         return f"[LLM ERROR] ({error_type}) {user_msg}"
 
 
@@ -288,6 +310,8 @@ def _anthropic_chat(cfg: LLMConfig, api_key: str, messages: list[dict], stream: 
         return resp.content[0].text
     except Exception as e:
         error_type, user_msg = classify_error(e)
+        from core.logger import log_provider_call
+        log_provider_call(cfg.provider, cfg.model, f"error:{error_type}")
         return f"[LLM ERROR] ({error_type}) {user_msg}"
 
 
@@ -303,3 +327,41 @@ def cfg_from_settings() -> LLMConfig:
         api_key=get_setting("llm_api_key", ""),
         base_url=get_setting("llm_base_url", ""),
     )
+
+
+# ─── Fallback ─────────────────────────────────────────────────────────────────
+
+def chat_with_fallback(
+    configs: list[LLMConfig],
+    messages: list[dict],
+    stream: bool = False,
+) -> tuple[str | Generator, LLMConfig | None, list[str]]:
+    """Try each config in order. Returns (response, winning_config, error_log).
+
+    If all fail, response is the last error string and winning_config is None.
+    """
+    errors: list[str] = []
+    for cfg in configs:
+        result = chat(cfg, messages, stream=stream)
+        if isinstance(result, str) and result.startswith("[LLM ERROR]"):
+            errors.append(f"{cfg.provider}/{cfg.model}: {result}")
+            continue
+        return result, cfg, errors
+    return (errors[-1] if errors else "[LLM ERROR] No providers configured"), None, errors
+
+
+# ─── Token estimation & cost telemetry ────────────────────────────────────────
+
+def estimate_tokens(text: str) -> int:
+    """Rough token count (~4 chars per token for English)."""
+    return max(1, len(text) // 4)
+
+
+def estimate_cost(provider: str, input_text: str, output_text: str) -> float:
+    """Estimate cost in USD for an interaction."""
+    caps = PROVIDER_CAPABILITIES.get(provider, {})
+    in_cost = caps.get("cost_per_1k_input", 0.0)
+    out_cost = caps.get("cost_per_1k_output", 0.0)
+    in_tokens = estimate_tokens(input_text)
+    out_tokens = estimate_tokens(output_text)
+    return (in_tokens / 1000 * in_cost) + (out_tokens / 1000 * out_cost)
