@@ -8,7 +8,7 @@ Cross-reference: [check1.md](check1.md) covers the product roadmap and delivery 
 - [x] All 8 pages compile without syntax/import errors (py_compile verified)
 - [x] All 6 core modules import cleanly (importlib verified)
 - [x] `from __future__ import annotations` added to `database.py` for Python 3.9 compatibility
-- [ ] Create and maintain a single source-of-truth API contract doc for:
+- [x] Create and maintain a single source-of-truth API contract doc for:
   - `core.database`
   - `llm.professor`
   - `llm.providers`
@@ -26,7 +26,7 @@ Cross-reference: [check1.md](check1.md) covers the product roadmap and delivery 
 - [x] Hardware check utility (`check_hardware()` with GPU/RAM/CPU detection)
 - [x] Provider config from settings helper (`cfg_from_settings()`)
 - [x] PROVIDER_CATALOGUE dict with models, base URLs, setup hints for all 10 providers
-- [ ] Add provider health-check endpoint/function (connectivity + auth + model list)
+- [x] Add provider health-check endpoint/function (connectivity + auth + model list)
 - [x] Add standardized error mapping (`auth_error`, `rate_limit`, `network`, `bad_model`, `provider_down`)
 - [x] Add provider capability map (streaming, context size, json-mode, cost metadata)
 - [x] Add provider fallback policy (ordered fallback with user opt-in)
@@ -37,14 +37,14 @@ Cross-reference: [check1.md](check1.md) covers the product roadmap and delivery 
 - [x] Streaming chat method added (`stream()`)
 - [x] Constructor accepts configurable `session_id`
 - [x] Chat history persistence via `append_chat()` / `get_chat()` in DB
-- [ ] Ensure all Professor methods return a normalized structure:
+- [x] Ensure all Professor methods return a normalized structure:
   - `raw_text`
   - `parsed_json` (nullable)
   - `warnings`
   - `provider_used`
-- [ ] Add JSON parse hardening with repair attempts for model responses
-- [ ] Add guardrails for overlong outputs and missing required fields
-- [ ] Add chat history truncation policy and token budgeting
+- [x] Add JSON parse hardening with repair attempts for model responses
+- [x] Add guardrails for overlong outputs and missing required fields
+- [x] Add chat history truncation policy and token budgeting
 
 ## D. Media Engine Contract
 - [x] Video engine exists with MoviePy pipeline (`media/video_engine.py`)

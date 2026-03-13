@@ -84,7 +84,7 @@ the vision of a real, fully functional AI-powered university.
 - [x] Add [?] help buttons to Lecture Studio player, render controls
 - [x] Add [?] help buttons to Dashboard stat cards, health panel
 - [x] Add help link to sidebar (always visible)
-- [ ] Test every help button navigates to correct anchor
+- [x] Test every help button navigates to correct anchor
 
 ---
 
@@ -249,22 +249,22 @@ the vision of a real, fully functional AI-powered university.
 - [x] Hardware profiler: RAM, VRAM, CPU cores -> capability tier (tiny/small/medium/large/xl)
 - [x] Model recommender: Based on hardware tier, suggest best local models
 - [x] VRAM calculator: Show estimated VRAM usage per model size (3B->2GB, 7B->5GB, 13B->9GB, 30B->20GB, 70B->40GB)
-- [ ] Disk space check: Show estimated download sizes for recommended models
-- [ ] Running model health: Ping active local model, show response time
+- [x] Disk space check: Show estimated download sizes for recommended models
+- [x] Running model health: Ping active local model, show response time
 
 ### C.13 Provider Validation & Testing
 - [x] Universal test function: Send "Hello, respond with one sentence" to any configured provider
 - [x] Response time measurement: Show latency in milliseconds
-- [ ] Token counting: Show input/output tokens used in test
+- [x] Token counting: Show input/output tokens used in test
 - [x] Error classification: auth_error, rate_limit, network, bad_model, timeout -> friendly message
-- [ ] Provider status badge: green (working), yellow (slow), red (error) -> persisted
+- [x] Provider status badge: green (working), yellow (slow), red (error) -> persisted
 - [ ] Auto-test on save: When user saves provider settings, auto-run connectivity test
 
 ### C.14 Provider Comparison Dashboard
 - [x] Side-by-side table: all 10 providers, status, speed, cost tier, context window
 - [x] Recommendation engine: Based on user goals (free, fast, best quality, coding, long context)
 - [x] "Best for you" card: Single recommendation based on hardware + budget + use case
-- [ ] One-click switch: Change active provider from comparison view
+- [x] One-click switch: Change active provider from comparison view
 
 ---
 

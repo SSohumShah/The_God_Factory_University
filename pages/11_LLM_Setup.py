@@ -28,7 +28,7 @@ def _detect_hardware() -> dict:
 def _test_provider(provider: str, api_key: str, model: str, base_url: str) -> dict:
     """Send a test prompt to the provider and return result dict."""
     import time
-    from llm.providers import LLMConfig, chat
+    from llm.providers import LLMConfig, chat, estimate_tokens
     cfg = LLMConfig(
         provider=provider,
         model=model,
@@ -41,9 +41,14 @@ def _test_provider(provider: str, api_key: str, model: str, base_url: str) -> di
     try:
         result = chat(cfg, [{"role": "user", "content": "Respond with exactly: Hello from Arcane University"}])
         elapsed = round((time.time() - start) * 1000)
-        return {"ok": True, "response": str(result)[:200], "latency_ms": elapsed}
+        text = str(result)[:200]
+        tokens = estimate_tokens(text)
+        # Store status badge for this provider
+        save_setting(f"provider_status_{provider}", "green" if elapsed < 3000 else "yellow")
+        return {"ok": True, "response": text, "latency_ms": elapsed, "tokens": tokens}
     except Exception as e:
-        return {"ok": False, "error": str(e), "latency_ms": 0}
+        save_setting(f"provider_status_{provider}", "red")
+        return {"ok": False, "error": str(e), "latency_ms": 0, "tokens": 0}
 
 def _check_local_service(url: str) -> bool:
     """Check if a local service is accessible."""
@@ -54,10 +59,26 @@ def _check_local_service(url: str) -> bool:
     except Exception:
         return False
 
+def _ping_local_health(url: str) -> dict | None:
+    """Ping a local LLM endpoint and return latency, or None if unreachable."""
+    import time, requests
+    try:
+        start = time.time()
+        resp = requests.get(url.rstrip("/").replace("/v1", "") + "/", timeout=3)
+        ms = round((time.time() - start) * 1000)
+        if resp.status_code < 500:
+            return {"status": "online", "latency_ms": ms}
+    except Exception:
+        pass
+    return None
+
 # ─── Sidebar: Current Config ─────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("### CURRENT LLM CONFIG")
-    st.markdown(f"**Provider**: {get_setting('llm_provider', 'ollama')}")
+    _cur_provider = get_setting('llm_provider', 'ollama')
+    _badge_color = {"green": "\U0001f7e2", "yellow": "\U0001f7e1", "red": "\U0001f534"}.get(
+        get_setting(f"provider_status_{_cur_provider}", ""), "\u26aa")
+    st.markdown(f"**Provider**: {_cur_provider} {_badge_color}")
     st.markdown(f"**Model**: {get_setting('llm_model', 'llama3')}")
     has_key = bool(get_setting("llm_api_key", ""))
     st.markdown(f"**API Key**: {'Set' if has_key else 'Not set'}")
@@ -100,13 +121,18 @@ wizard_path = st.session_state.get("wizard_path", "")
 if wizard_path:
     rune_divider("HARDWARE PROFILE")
     hw = _detect_hardware()
-    h1, h2, h3 = st.columns(3)
+    h1, h2, h3, h4 = st.columns(4)
     with h1:
         stat_card("System RAM", f"{hw['ram_gb']} GB", colour="#00d4ff")
     with h2:
         stat_card("GPU VRAM", f"{hw['gpu_vram_gb']} GB", colour="#ffd700" if hw["gpu_vram_gb"] > 0 else "#e04040")
     with h3:
         stat_card("GPU", hw["gpu_name"], colour="#40dc80" if hw["gpu_name"] != "None" else "#606080")
+    with h4:
+        import shutil
+        disk = shutil.disk_usage(str(ROOT))
+        free_gb = round(disk.free / (1024 ** 3), 1)
+        stat_card("Disk Free", f"{free_gb} GB", colour="#40dc80" if free_gb > 10 else "#e04040")
 
     st.markdown(
         f"**Recommended model**: `{hw['recommended_model']}` — {hw['recommended_reason']}"
@@ -165,7 +191,9 @@ The Ollama service starts automatically after installation.
         st.markdown("**Auto-Detection:**")
         ollama_running = _check_local_service("http://localhost:11434")
         if ollama_running:
-            st.success("Ollama service detected at localhost:11434")
+            _hp = _ping_local_health("http://localhost:11434")
+            _ping_txt = f" (ping: {_hp['latency_ms']}ms)" if _hp else ""
+            st.success(f"Ollama service detected at localhost:11434{_ping_txt}")
             # Try to list models
             try:
                 from llm.providers import list_ollama_models
@@ -187,7 +215,7 @@ The Ollama service starts automatically after installation.
                 result = _test_provider("ollama", "ollama", selected_model, "http://localhost:11434/v1")
                 if result["ok"]:
                     play_sfx("success")
-                    st.success(f"Ollama is working. Response in {result['latency_ms']}ms")
+                    st.success(f"Ollama is working. Response in {result['latency_ms']}ms · ~{result['tokens']} tokens")
                     st.markdown(f"> {sanitize_llm_output(result['response'])}")
                 else:
                     st.error(f"Test failed: {result['error']}")
@@ -250,7 +278,9 @@ The Ollama service starts automatically after installation.
         st.markdown("**Auto-Detection:**")
         lms_running = _check_local_service("http://localhost:1234")
         if lms_running:
-            st.success("LM Studio server detected at localhost:1234")
+            _hp = _ping_local_health("http://localhost:1234")
+            _ping_txt = f" (ping: {_hp['latency_ms']}ms)" if _hp else ""
+            st.success(f"LM Studio server detected at localhost:1234{_ping_txt}")
             model_name = st.text_input("Model name (shown in LM Studio):", "")
             if st.button("Save & Test LM Studio", use_container_width=True):
                 save_setting("llm_provider", "lmstudio")
@@ -260,7 +290,7 @@ The Ollama service starts automatically after installation.
                 result = _test_provider("lmstudio", "lm-studio", model_name or "default", "http://localhost:1234/v1")
                 if result["ok"]:
                     play_sfx("success")
-                    st.success(f"LM Studio is working. Response in {result['latency_ms']}ms")
+                    st.success(f"LM Studio is working. Response in {result['latency_ms']}ms · ~{result['tokens']} tokens")
                     st.markdown(f"> {sanitize_llm_output(result['response'])}")
                 else:
                     st.error(f"Test failed: {result['error']}")
@@ -451,7 +481,7 @@ if wizard_path == "cloud":
                     result = _test_provider(prov["key"], api_key.strip(), model, base_url.strip())
                 if result["ok"]:
                     play_sfx("success")
-                    st.success(f"Working! Response in {result['latency_ms']}ms")
+                    st.success(f"Working! Response in {result['latency_ms']}ms · ~{result['tokens']} tokens")
                     st.markdown(f"> {sanitize_llm_output(result['response'])}")
                 else:
                     st.error(f"Failed: {result['error']}")
@@ -477,6 +507,24 @@ with st.expander("All Providers At a Glance"):
 
 **Recommendation for new users**: Start with **Groq** (free, fast) or **Ollama** (free, private).
 """)
+    st.markdown("**Quick Switch** — activate a previously configured provider:")
+    _switch_providers = [
+        ("ollama", "llama3", "http://localhost:11434/v1"),
+        ("groq", None, None),
+        ("github", None, None),
+        ("openai", None, None),
+        ("anthropic", None, None),
+    ]
+    _sw_cols = st.columns(len(_switch_providers))
+    for _sw_col, (_sw_key, _sw_model, _sw_url) in zip(_sw_cols, _switch_providers):
+        with _sw_col:
+            if st.button(_sw_key.title(), key=f"switch_{_sw_key}", use_container_width=True):
+                save_setting("llm_provider", _sw_key)
+                if _sw_model:
+                    save_setting("llm_model", _sw_model)
+                if _sw_url:
+                    save_setting("llm_base_url", _sw_url)
+                st.rerun()
 
 # ─── Quick Recommendation ─────────────────────────────────────────────────────
 rune_divider("RECOMMENDATION")

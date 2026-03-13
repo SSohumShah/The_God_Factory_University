@@ -296,6 +296,56 @@ _reg("llm-test", "LLM Connectivity Test",
      "- Approximate response latency\n\n"
      "If the test fails, check your provider settings or visit the LLM Setup Wizard.")
 
+# ─── Additional topics ────────────────────────────────────────────────────────
+_reg("first-launch", "First Launch",
+     "On your very first launch, Arcane University:\n\n"
+     "1. Creates the SQLite database and seeds default settings\n"
+     "2. Seeds 17 achievement definitions and weekly quests\n"
+     "3. Auto-imports the bundled demo course from `notes.txt` (if present)\n"
+     "4. Opens the Dashboard at http://localhost:8501\n\n"
+     "You can re-run setup.bat safely — it is fully idempotent and will not "
+     "duplicate data or overwrite your progress.")
+
+_reg("render-settings", "Render Settings",
+     "Control the quality and format of rendered lecture videos:\n\n"
+     "- **FPS**: 10 (fast draft) · 15 (default) · 24 (smooth) · 30 (cinematic)\n"
+     "- **Resolution**: 960×540 (default) · 1280×720 · 1920×1080\n"
+     "- **Output mode**: full (narration + music) · music_only · narration_only\n"
+     "- **Render backend**: local engine · Runway / Pika / ComfyUI prompts\n\n"
+     "Higher quality settings increase render time and file size. Use 'fast draft' "
+     "(10 fps, 960×540) for previews, then render final at higher quality.")
+
+_reg("prompt-pack-export", "Prompt Pack Export",
+     "The batch pipeline can generate prompt packs for external video tools:\n\n"
+     "- **Runway ML**: Cinematic scene prompts optimised for Gen-2/Gen-3\n"
+     "- **Pika Labs**: Animation-style prompts with motion directives\n"
+     "- **ComfyUI**: Structured prompt/negative-prompt pairs with metadata\n\n"
+     "Prompt packs are saved as JSONL in the `data/` directory. Import the JSON "
+     "into your preferred external tool to generate higher-fidelity video clips.")
+
+_reg("assignment-records", "Assignment Records",
+     "Each assignment tracks:\n\n"
+     "- **Score** (0–100) and derived letter grade (A+ through F)\n"
+     "- **Feedback** from the Professor AI or manual entry\n"
+     "- **Deadline status**: on-time, late (with penalty), or no deadline\n"
+     "- **Weight** for GPA calculation (default 1.0)\n"
+     "- **Term** grouping for transcript organisation\n\n"
+     "View all assignment records on the Grades page, grouped by term.")
+
+_reg("xp-events", "XP Events",
+     "Actions that earn XP:\n\n"
+     "| Action | XP |\n"
+     "|--------|----|\n"
+     "| Complete a lecture | +10 |\n"
+     "| Submit assignment | +25 |\n"
+     "| Import a course (bulk) | +25 per object |\n"
+     "| Generate curriculum | +100 |\n"
+     "| Consult Professor | +5 |\n"
+     "| Unlock achievement | varies (25–200) |\n"
+     "| Complete weekly quest | varies (50–100) |\n\n"
+     "**Streak bonus**: +5% per consecutive day (max +50% at 10-day streak).\n"
+     "View your complete XP history on the Achievements page.")
+
 
 def get_help(anchor: str) -> dict | None:
     """Return a help entry by anchor key, or None if not found."""

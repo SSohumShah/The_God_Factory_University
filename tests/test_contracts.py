@@ -112,3 +112,29 @@ class TestCoreModulesImport:
     def test_module_imports(self, module_name: str):
         mod = importlib.import_module(module_name)
         assert mod is not None
+
+
+class TestHelpNavigation:
+    """Every help_button() topic_key used in pages must have a matching HELP_ENTRIES entry."""
+
+    def test_all_help_button_anchors_exist(self):
+        import re
+        from core.help_registry import HELP_ENTRIES
+
+        pages_dir = ROOT / "pages"
+        app_file = ROOT / "app.py"
+        missing = []
+
+        files = list(pages_dir.glob("*.py")) + [app_file]
+        for py_file in files:
+            text = py_file.read_text(encoding="utf-8")
+            for m in re.finditer(r'help_button\(["\']([^"\']+)', text):
+                key = m.group(1)
+                if key not in HELP_ENTRIES:
+                    missing.append(f"{py_file.name}: {key}")
+
+        assert not missing, f"Missing help entries: {missing}"
+
+    def test_minimum_entry_count(self):
+        from core.help_registry import HELP_ENTRIES
+        assert len(HELP_ENTRIES) >= 32, f"Expected >=32 help entries, got {len(HELP_ENTRIES)}"
