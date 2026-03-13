@@ -256,7 +256,8 @@ def _frame_renderer(lecture: dict, scene: dict, particles: list[tuple],
 
 # ─── Scene clip builder ───────────────────────────────────────────────────────
 
-def _build_scene_clip(lecture: dict, scene: dict, temp_dir: Path, voice_id: str, binaural_preset: str) -> VideoClip:
+def _build_scene_clip(lecture: dict, scene: dict, temp_dir: Path, voice_id: str,
+                      binaural_preset: str, output_mode: str = "full") -> VideoClip:
     bid = scene.get("block_id", "A")
     lid = lecture.get("lecture_id", "lec")
     W = int(get_setting("video_width", "960"))
@@ -287,12 +288,15 @@ def _build_scene_clip(lecture: dict, scene: dict, temp_dir: Path, voice_id: str,
     bin_path = temp_dir / f"{lid}_{bid}_bin.wav"
     write_wav_stereo(bin_path, bin_data)
 
-    # ── Mix audio ─────────────────────────────────────────────────────────────
+    # ── Mix audio (respecting output_mode) ────────────────────────────────────
     try:
-        tts_clip  = AudioFileClip(str(tts_path)).volumex(1.0)
-        amb_clip  = AudioFileClip(str(amb_path)).volumex(0.35)
-        bin_clip  = AudioFileClip(str(bin_path)).volumex(0.20)
-        audio_mix = CompositeAudioClip([bin_clip, amb_clip, tts_clip])
+        layers = []
+        if output_mode in ("full", "music_only"):
+            layers.append(AudioFileClip(str(amb_path)).volumex(0.35))
+            layers.append(AudioFileClip(str(bin_path)).volumex(0.20))
+        if output_mode in ("full", "narration_only"):
+            layers.append(AudioFileClip(str(tts_path)).volumex(1.0))
+        audio_mix = CompositeAudioClip(layers) if layers else AudioFileClip(str(tts_path))
     except Exception:
         from moviepy.editor import AudioFileClip as AFC
         audio_mix = AFC(str(tts_path))
@@ -311,10 +315,11 @@ def _build_scene_clip(lecture: dict, scene: dict, temp_dir: Path, voice_id: str,
 
 def render_lecture(lecture_data: dict, output_dir: Path, chunk_by_scene: bool = False,
                    fps: int | None = None, width: int | None = None, height: int | None = None,
-                   suffix: str = "") -> list[Path]:
+                   suffix: str = "", output_mode: str = "full") -> list[Path]:
     """
     Render a lecture to one (or more) MP4 files.
     lecture_data: the full lecture dict as stored in the DB (data field parsed).
+    output_mode: "full" (default) | "music_only" | "narration_only"
     """
     output_dir.mkdir(parents=True, exist_ok=True)
     _render_t0 = time.time()
@@ -344,7 +349,8 @@ def render_lecture(lecture_data: dict, output_dir: Path, chunk_by_scene: bool = 
         clip = None
         for attempt in range(2):
             try:
-                clip = _build_scene_clip(lecture_data, scene, temp_dir, voice_id, binaural)
+                clip = _build_scene_clip(lecture_data, scene, temp_dir, voice_id, binaural,
+                                         output_mode=output_mode)
                 break
             except Exception as e:
                 if attempt == 0:

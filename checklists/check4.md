@@ -316,7 +316,7 @@ the vision of a real, fully functional AI-powered university.
 - [ ] Store educational background (self-reported)
 - [ ] Store learning preferences (visual, auditory, reading, kinesthetic)
 - [ ] Track session history (app opens, time spent, features used)
-- [ ] Create study streak tracking (consecutive days with activity)
+- [x] Create study streak tracking (consecutive days with activity)
 - [ ] Add basic performance analytics dashboard (grades over time, XP over time)
 
 ### D.7 Statistics & Analytics
@@ -337,9 +337,9 @@ the vision of a real, fully functional AI-powered university.
 - [x] Add `jsonschema` to requirements.txt
 - [x] Validate imported JSON against `schemas/course_validation_schema.json` before writing to DB
 - [x] Surface clear error messages with line hints on validation failure
-- [ ] Add "repair malformed JSON" helper in Professor AI
+- [x] Add "repair malformed JSON" helper in Professor AI
 - [x] Add import dry-run mode (validate without writing DB)
-- [ ] Add import report artifact (counts, warnings, errors written to log)
+- [x] Add import report artifact (counts, warnings, errors written to log)
 
 ### E.2 Render Quality & Reliability
 - [ ] Verify render output files are playable in default Windows player
@@ -358,43 +358,43 @@ the vision of a real, fully functional AI-powered university.
 
 ### E.4 Audio Enhancement
 - [ ] Verify per-voice narration quality and speed controls across lectures
-- [ ] Add audio loudness normalization target (LUFS) for exported videos
-- [ ] Add optional "study music only" and "narration only" output modes
-- [ ] Add clipping detection and auto gain reduction
+- [x] Add audio loudness normalization target (LUFS) for exported videos
+- [x] Add optional "study music only" and "narration only" output modes
+- [x] Add clipping detection and auto gain reduction
 
 ### E.5 Gamification Polish
 - [x] Audit all 17 achievements — ensure each has a working unlock trigger in code
-- [ ] Add level-up celebration flow for first-time level transitions
-- [ ] Add weekly quest loop (optional toggle in Settings)
-- [ ] Add XP decay prevention (activity streak bonus)
+- [x] Add level-up celebration flow for first-time level transitions
+- [x] Add weekly quest loop (optional toggle in Settings)
+- [x] Add XP decay prevention (activity streak bonus)
 
 ### E.6 Grading & Transcript Expansion
-- [ ] Add term/semester records and transcript term grouping
-- [ ] Add assignment weighting per course/module
-- [ ] Add late policy behavior when deadlines mode is enabled
-- [ ] Add enrollment date tracking and time-to-degree calculation
-- [ ] Verify transcript export correctness against real assignment submissions
+- [x] Add term/semester records and transcript term grouping
+- [x] Add assignment weighting per course/module
+- [x] Add late policy behavior when deadlines mode is enabled
+- [x] Add enrollment date tracking and time-to-degree calculation
+- [x] Verify transcript export correctness against real assignment submissions
 
 ### E.7 Testing & CI
 - [x] Create `tests/` directory with baseline tests: DB CRUD, import, audio gen, minimal render
-- [ ] Add regression tests for known bug classes (signature mismatch, invalid JSON from LLM)
+- [x] Add regression tests for known bug classes (signature mismatch, invalid JSON from LLM)
 - [x] Add contract test: import every page module, validate all referenced symbols exist
-- [ ] Define "green build" gate (all tests pass before feature work)
+- [x] Define "green build" gate (all tests pass before feature work)
 
 ### E.8 Operations & Security
 - [x] Add structured logging for render jobs, provider calls, import operations
-- [ ] Store API keys encrypted or use environment variables (avoid plain text in DB)
+- [x] Store API keys encrypted or use environment variables (avoid plain text in DB)
 - [x] Never log raw secrets
-- [ ] Add provider key presence check before enabling provider actions
-- [ ] Add explicit warning banner when using paid providers
+- [x] Add provider key presence check before enabling provider actions
+- [x] Add explicit warning banner when using paid providers
 - [x] Sanitize LLM outputs before rendering in Streamlit (prevent injection via st.markdown)
-- [ ] Add error IDs surfaced to UI for quick support triage
+- [x] Add error IDs surfaced to UI for quick support triage
 
 ### E.9 Documentation & Setup
-- [ ] Add troubleshooting section in README for common Windows issues
-- [ ] Verify setup.bat is idempotent across clean and existing environments
-- [ ] Add explicit dependency check output after setup
-- [ ] Create API contract doc for all public modules (database, professor, providers, audio, video, theme)
+- [x] Add troubleshooting section in README for common Windows issues
+- [x] Verify setup.bat is idempotent across clean and existing environments
+- [x] Add explicit dependency check output after setup
+- [x] Create API contract doc for all public modules (database, professor, providers, audio, video, theme)
 
 ---
 

@@ -143,6 +143,13 @@ selected_prov_label = st.selectbox("Provider", list(provider_labels.keys()), ind
 selected_prov = provider_labels[selected_prov_label]
 prov_info = PROVIDERS[selected_prov]
 
+# Paid provider warning
+from llm.providers import is_paid_provider, provider_needs_key
+if is_paid_provider(selected_prov):
+    st.warning("⚠️ This is a **paid provider**. API calls will incur charges on your account.")
+if provider_needs_key(selected_prov) and not get_setting("llm_api_key", "").strip():
+    st.error("🔑 This provider requires an API key. Set it below before using.")
+
 PROVIDER_MODELS = {
     "ollama":      ["llama3.2:3b", "llama3.1:8b", "llama3.3:70b", "mistral", "phi3:mini", "phi3:medium", "gemma2:9b", "qwen2.5:7b"],
     "lm_studio":   ["(auto-detected — load model in LM Studio first)"],
@@ -302,3 +309,12 @@ if deadlines_toggle:
     st.markdown("<span style='color:#e04040;font-family:monospace;font-size:0.82rem;'>Deadline mode is ACTIVE. Assignments will show due dates and countdown timers.</span>", unsafe_allow_html=True)
 else:
     st.markdown("<span style='color:#606080;font-family:monospace;font-size:0.82rem;'>Deadline mode is OFF. Take your time.</span>", unsafe_allow_html=True)
+
+# ─── Weekly Quests ────────────────────────────────────────────────────────────
+rune_divider("Weekly Quests")
+quests_on_val = get_setting("quests_enabled", "1") == "1"
+quests_toggle = st.toggle("Enable Weekly Quests", value=quests_on_val)
+if quests_toggle != quests_on_val:
+    save_setting("quests_enabled", "1" if quests_toggle else "0")
+    play_sfx("click")
+    st.rerun()

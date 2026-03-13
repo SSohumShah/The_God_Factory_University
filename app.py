@@ -21,7 +21,7 @@ st.set_page_config(
 
 from core.database import (
     bulk_import_json, get_all_courses, get_setting, get_level,
-    get_xp, count_completed,
+    get_xp, count_completed, get_active_quests,
 )
 from ui.theme import (
     inject_theme, arcane_header, rune_divider,
@@ -67,6 +67,14 @@ with st.sidebar:
     st.page_link("pages/10_Help.py",              label="  [?] Help")
     st.page_link("pages/11_LLM_Setup.py",         label="  [>] LLM Setup Wizard")
 
+# ─── Level-up Celebration ─────────────────────────────────────────────────
+_pending = get_setting("_pending_level_up")
+if _pending:
+    from core.database import set_setting
+    set_setting("_pending_level_up", "")
+    st.balloons()
+    st.success(f"LEVEL UP!  You have ascended to **{_pending}**!")
+
 # ─── Dashboard ───────────────────────────────────────────────────────────────
 arcane_header("Arcane University", "Where knowledge is power and every lesson is a quest.")
 help_button("dashboard-overview")
@@ -86,6 +94,17 @@ with c3:
     stat_card("Total XP", f"{xp_total:,}", colour="#40dc80")
 with c4:
     stat_card("Rank", level_title, colour="#b8b8d0")
+
+# ─── Weekly Quests ────────────────────────────────────────────────────────────
+if get_setting("quests_enabled", "1") == "1":
+    quests = get_active_quests()
+    if quests:
+        rune_divider("Weekly Quests")
+        for q in quests:
+            pct = int(q["progress"] / max(q["target"], 1) * 100)
+            icon = "🏆" if q["completed"] else "⚔️"
+            st.markdown(f"{icon} **{q['title']}** — {q['progress']}/{q['target']}  (+{q['xp_reward']} XP)")
+            st.progress(min(pct, 100))
 
 rune_divider("Quick Start")
 st.markdown(

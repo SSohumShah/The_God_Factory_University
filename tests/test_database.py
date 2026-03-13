@@ -24,12 +24,18 @@ db.DB_PATH = Path(_tmp.name)
 @pytest.fixture(autouse=True)
 def fresh_db():
     """Reinitialise the DB before every test so tests are isolated."""
-    # Wipe and recreate
-    db.DB_PATH.unlink(missing_ok=True)
+    # Wipe and recreate (including WAL/SHM files)
+    for suffix in ("", "-wal", "-shm"):
+        Path(str(db.DB_PATH) + suffix).unlink(missing_ok=True)
     db.init_db()
     db.seed_achievements()
+    # Neutralise streak bonus so XP tests get exact amounts
+    from datetime import datetime
+    db.set_setting("streak_last_date", datetime.now().strftime("%Y-%m-%d"))
+    db.set_setting("streak_days", "0")
     yield
-    db.DB_PATH.unlink(missing_ok=True)
+    for suffix in ("", "-wal", "-shm"):
+        Path(str(db.DB_PATH) + suffix).unlink(missing_ok=True)
 
 
 # ─── Schema & Init ──────────────────────────────────────────────────────────
@@ -44,7 +50,8 @@ class TestInit:
             ]
         for expected in ("courses", "modules", "lectures", "progress",
                          "xp_events", "settings", "assignments",
-                         "chat_history", "llm_generated", "achievements"):
+                         "chat_history", "llm_generated", "achievements",
+                         "quests", "terms", "schema_version"):
             assert expected in tables, f"Missing table: {expected}"
 
     def test_init_is_idempotent(self):

@@ -233,3 +233,34 @@ with st.expander("Compile check for all pages and modules"):
         st.success(f"All {len(results)} files compile OK.")
     else:
         st.warning(f"{ok_count}/{len(results)} files OK.")
+
+
+# ─── Recent Error Log ───────────────────────────────────────────────────────
+rune_divider("Recent Errors")
+log_file = ROOT / "logs" / "arcane.log"
+if log_file.exists():
+    import json as _json
+    with st.expander("View recent error log entries"):
+        lines = log_file.read_text(encoding="utf-8", errors="replace").strip().splitlines()
+        errors = []
+        for line in reversed(lines[-200:]):
+            try:
+                entry = _json.loads(line)
+                if entry.get("level") == "ERROR":
+                    eid = entry.get("error_id", "—")
+                    errors.append({
+                        "Error ID": eid,
+                        "Category": entry.get("category", ""),
+                        "Message": entry.get("message", "")[:120],
+                        "Timestamp": entry.get("ts", ""),
+                    })
+            except _json.JSONDecodeError:
+                continue
+            if len(errors) >= 50:
+                break
+        if errors:
+            st.dataframe(errors, use_container_width=True, hide_index=True)
+        else:
+            st.info("No errors in recent log.")
+else:
+    st.info("No log file found yet. Errors will appear here after operations.")

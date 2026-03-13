@@ -40,6 +40,13 @@ with st.expander("[ BULK IMPORT ] -- Paste JSON from LLM or file", expanded=Fals
             dry = validate_clicked
             with st.spinner("Validating..." if dry else "Importing..."):
                 count, errors = bulk_import_json(raw.strip(), validate_only=dry)
+            # Build structured import report
+            report = {
+                "mode": "dry_run" if dry else "import",
+                "objects_processed": count,
+                "errors": len(errors),
+                "error_details": errors,
+            }
             if count:
                 if dry:
                     st.success(f"Validation passed for {count} object(s). Ready to import.")
@@ -49,6 +56,15 @@ with st.expander("[ BULK IMPORT ] -- Paste JSON from LLM or file", expanded=Fals
                     add_xp(count * 10, "Library import", "import")
             for e in errors:
                 st.error(e)
+            if errors or count:
+                with st.expander("Import Report", expanded=bool(errors)):
+                    st.json(report)
+                    st.download_button(
+                        "Download Report JSON",
+                        json.dumps(report, indent=2),
+                        file_name="import_report.json",
+                        mime="application/json",
+                    )
         else:
             st.warning("Paste some JSON first.")
 

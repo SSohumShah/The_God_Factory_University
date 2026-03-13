@@ -127,6 +127,42 @@ schemas/
 checklists/             Development roadmap and tracking
 ```
 
+## Troubleshooting
+
+### Windows
+
+| Problem | Fix |
+|---------|-----|
+| `python` is not recognized | Re-run the Python installer and check **"Add Python to PATH"**, then restart your terminal |
+| `No module named venv` | Run `pip install virtualenv` or reinstall Python with the standard library option |
+| Long path errors (`filename too long`) | Enable long paths: `reg add HKLM\SYSTEM\CurrentControlSet\Control\FileSystem /v LongPathsEnabled /t REG_DWORD /d 1 /f` (admin) |
+| `pip install` SSL errors | Try `pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt` |
+| Edge-TTS timeout / `No connection` | Check firewall — edge-tts requires outbound HTTPS to `*.tts.speech.microsoft.com` |
+| MoviePy FFmpeg errors | FFmpeg is bundled via imageio-ffmpeg — run `pip install --force-reinstall imageio-ffmpeg` |
+| `.venv\Scripts\activate` permission denied | Run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` in PowerShell |
+| Black screen in rendered video | Upgrade Pillow: `pip install --upgrade Pillow` |
+
+### macOS / Linux
+
+| Problem | Fix |
+|---------|-----|
+| `python3: command not found` | macOS: `brew install python@3.11` · Ubuntu: `sudo apt install python3 python3-venv` |
+| `externally-managed-environment` (PEP 668) | Always use the `.venv` virtual environment — the setup script creates one |
+| `No module named _tkinter` | Install tkinter: `sudo apt install python3-tk` (Ubuntu) or ignore — it is optional |
+| Permission denied on `setup.sh` | Run `chmod +x setup.sh start.sh` first |
+| Audio playback issues | edge-tts runs server-side; playback is in your browser — check browser audio permissions |
+
+### General
+
+| Problem | Fix |
+|---------|-----|
+| Database locked errors | Close other Streamlit tabs sharing the same database file |
+| Import JSON fails | Paste raw JSON (not a code fence). Use **schemas/SCHEMA_GUIDE.md** to get the format right |
+| Professor AI not responding | Open **Diagnostics** (page 9) to test provider connectivity. Check **LLM Setup** (page 11) |
+| Tests fail with stale data | Delete `university.db`, `university.db-wal`, and `university.db-shm`, then re-run |
+
+---
+
 ## Manual Setup
 
 ```bash

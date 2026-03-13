@@ -13,7 +13,7 @@ import json
 import sqlite3
 import time
 from contextlib import contextmanager
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 # ─── Sub-module imports (canonical data & helpers) ──────────────────────────
@@ -114,7 +114,10 @@ def init_db() -> None:
             score        REAL,
             max_score    REAL DEFAULT 100,
             feedback     TEXT,
-            data         TEXT
+            data         TEXT,
+            weight       REAL DEFAULT 1.0,
+            term_id      TEXT,
+            late_penalty REAL DEFAULT 0.0
         );
 
         CREATE TABLE IF NOT EXISTS xp_events (
@@ -155,6 +158,25 @@ def init_db() -> None:
             value TEXT
         );
 
+        CREATE TABLE IF NOT EXISTS quests (
+            id          TEXT PRIMARY KEY,
+            title       TEXT NOT NULL,
+            description TEXT,
+            target      INTEGER NOT NULL DEFAULT 1,
+            progress    INTEGER NOT NULL DEFAULT 0,
+            xp_reward   INTEGER NOT NULL DEFAULT 50,
+            week_start  TEXT NOT NULL,
+            completed   INTEGER NOT NULL DEFAULT 0
+        );
+
+        CREATE TABLE IF NOT EXISTS terms (
+            id          TEXT PRIMARY KEY,
+            title       TEXT NOT NULL,
+            start_date  TEXT,
+            end_date    TEXT,
+            order_index INTEGER DEFAULT 0
+        );
+
         INSERT OR IGNORE INTO settings VALUES ('deadlines_enabled', '0');
         INSERT OR IGNORE INTO settings VALUES ('voice_id', 'en-US-AriaNeural');
         INSERT OR IGNORE INTO settings VALUES ('binaural_mode', 'gamma_40hz');
@@ -171,7 +193,47 @@ def init_db() -> None:
         INSERT OR IGNORE INTO settings VALUES ('comfy_endpoint', 'http://localhost:8188');
         INSERT OR IGNORE INTO settings VALUES ('student_name', 'Scholar');
         INSERT OR IGNORE INTO settings VALUES ('xp_total', '0');
+        INSERT OR IGNORE INTO settings VALUES ('streak_days', '0');
+        INSERT OR IGNORE INTO settings VALUES ('streak_last_date', '');
+        INSERT OR IGNORE INTO settings VALUES ('_pending_level_up', '');
+        INSERT OR IGNORE INTO settings VALUES ('enrollment_date', '');
+
+        CREATE TABLE IF NOT EXISTS schema_version (
+            version INTEGER PRIMARY KEY,
+            applied_at REAL DEFAULT (unixepoch())
+        );
         """)
+
+
+# ─── Schema migrations ────────────────────────────────────────────────────────
+
+_MIGRATIONS: list[tuple[int, str, str]] = [
+    # (version, label, SQL)
+    # Add new migrations here as tuples: (next_int, "description", "SQL;")
+]
+
+
+def get_schema_version() -> int:
+    with tx() as con:
+        row = con.execute(
+            "SELECT MAX(version) AS v FROM schema_version"
+        ).fetchone()
+    return row["v"] if row and row["v"] is not None else 0
+
+
+def run_migrations() -> int:
+    current = get_schema_version()
+    applied = 0
+    for version, _label, sql in _MIGRATIONS:
+        if version <= current:
+            continue
+        with tx() as con:
+            con.executescript(sql)
+            con.execute(
+                "INSERT INTO schema_version (version) VALUES (?)", (version,)
+            )
+        applied += 1
+    return applied
 
 
 # ─── Settings ──────────────────────────────────────────────────────────────────
@@ -204,14 +266,40 @@ LEVELS = [
 
 
 def add_xp(amount: int, description: str, event_type: str = "general") -> int:
-    total = int(get_setting("xp_total", "0")) + amount
+    old_total = int(get_setting("xp_total", "0"))
+    # Streak bonus: consecutive days with activity
+    today = datetime.now().strftime("%Y-%m-%d")
+    last_date = get_setting("streak_last_date", "")
+    streak = int(get_setting("streak_days", "0"))
+    if last_date != today:
+        yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+        if last_date == yesterday:
+            streak += 1
+        elif last_date:
+            streak = 1
+        else:
+            streak = 1
+        set_setting("streak_days", str(streak))
+        set_setting("streak_last_date", today)
+    # Apply streak bonus (5% per day, max 50%)
+    bonus_pct = min(streak * 5, 50) / 100.0
+    effective = amount + int(amount * bonus_pct)
+    total = old_total + effective
     set_setting("xp_total", str(total))
     with tx() as con:
         con.execute(
             "INSERT INTO xp_events (event_type,xp_gained,description) VALUES (?,?,?)",
-            (event_type, amount, description),
+            (event_type, effective, description),
         )
+    # Detect level-up
+    old_level = get_level(old_total)[0]
+    new_level = get_level(total)[0]
+    if new_level > old_level:
+        set_setting("_pending_level_up", LEVELS[new_level][1])
     _check_achievements_xp(total)
+    # Update XP quest (skip if this XP is from a quest to avoid recursion)
+    if event_type != "quest":
+        update_quest_progress("earn_200_xp", effective)
     return total
 
 
@@ -310,6 +398,7 @@ def set_progress(lecture_id: str, status: str, watch_time_s: float = 0, score: f
             unlock_achievement("ten_lectures")
         if datetime.now().hour < 5:
             unlock_achievement("night_owl")
+        update_quest_progress("complete_3_lectures")
 
 
 def count_completed() -> int:
@@ -324,8 +413,8 @@ def save_assignment(assignment: dict) -> None:
     with tx() as con:
         con.execute(
             """INSERT OR REPLACE INTO assignments
-               (id,lecture_id,course_id,title,description,type,due_at,max_score,data)
-               VALUES (:id,:lecture_id,:course_id,:title,:description,:type,:due_at,:max_score,:data)""",
+               (id,lecture_id,course_id,title,description,type,due_at,max_score,data,weight,term_id)
+               VALUES (:id,:lecture_id,:course_id,:title,:description,:type,:due_at,:max_score,:data,:weight,:term_id)""",
             {
                 "id": assignment["id"],
                 "lecture_id": assignment.get("lecture_id"),
@@ -336,23 +425,36 @@ def save_assignment(assignment: dict) -> None:
                 "due_at": assignment.get("due_at"),
                 "max_score": assignment.get("max_score", 100),
                 "data": json.dumps(assignment.get("data", {})),
+                "weight": assignment.get("weight", 1.0),
+                "term_id": assignment.get("term_id"),
             },
         )
 
 
+
 def submit_assignment(assignment_id: str, score: float, feedback: str = "") -> None:
+    now = time.time()
+    late_penalty = 0.0
+    if get_setting("deadlines_enabled", "0") == "1":
+        with tx() as con:
+            row = con.execute("SELECT due_at FROM assignments WHERE id=?", (assignment_id,)).fetchone()
+        if row and row["due_at"] and now > row["due_at"]:
+            days_late = (now - row["due_at"]) / 86400.0
+            late_penalty = min(days_late * 10.0, 50.0)
+    adjusted_score = max(score - (score * late_penalty / 100.0), 0)
     with tx() as con:
         con.execute(
-            "UPDATE assignments SET submitted_at=?, score=?, feedback=? WHERE id=?",
-            (time.time(), score, feedback, assignment_id),
+            "UPDATE assignments SET submitted_at=?, score=?, feedback=?, late_penalty=? WHERE id=?",
+            (now, adjusted_score, feedback, late_penalty, assignment_id),
         )
         max_sc = con.execute("SELECT max_score FROM assignments WHERE id=?", (assignment_id,)).fetchone()
     unlock_achievement("first_quiz")
-    if max_sc and max_sc["max_score"] and max_sc["max_score"] > 0 and score >= max_sc["max_score"]:
+    if max_sc and max_sc["max_score"] and max_sc["max_score"] > 0 and adjusted_score >= max_sc["max_score"]:
         unlock_achievement("perfect_score")
     if datetime.now().hour < 5:
         unlock_achievement("night_owl")
     add_xp(50, f"Submitted assignment {assignment_id}", "assignment")
+    update_quest_progress("submit_assignment")
     _check_achievements_degrees()
 
 
@@ -377,7 +479,45 @@ def get_overdue(now: float | None = None) -> list[dict]:
 
 # ─── GPA & Grades (delegated to db_grades.py) ─────────────────────────────────
 
-# score_to_grade, GRADE_SCALE, DEGREE_TRACKS imported at top
+# score_to_grade, GRADE_SCALE, DEGREE_TRACKS impor
+
+
+# ─── Terms & Enrollment ───────────────────────────────────────────────────────
+
+def upsert_term(term_id: str, title: str, start_date: str = "", end_date: str = "", order_index: int = 0) -> None:
+    with tx() as con:
+        con.execute(
+            "INSERT OR REPLACE INTO terms (id,title,start_date,end_date,order_index) VALUES (?,?,?,?,?)",
+            (term_id, title, start_date, end_date, order_index),
+        )
+
+
+def get_terms() -> list[dict]:
+    with tx() as con:
+        rows = con.execute("SELECT * FROM terms ORDER BY order_index, id").fetchall()
+    return [dict(r) for r in rows]
+
+
+def get_assignments_by_term(term_id: str) -> list[dict]:
+    with tx() as con:
+        rows = con.execute(
+            "SELECT * FROM assignments WHERE term_id=? ORDER BY due_at", (term_id,)
+        ).fetchall()
+    return [dict(r) for r in rows]
+
+
+def get_enrollment_date() -> str:
+    ed = get_setting("enrollment_date", "")
+    if not ed:
+        ed = datetime.now().strftime("%Y-%m-%d")
+        set_setting("enrollment_date", ed)
+    return ed
+
+
+def time_to_degree_days() -> int:
+    ed = get_enrollment_date()
+    start = datetime.strptime(ed, "%Y-%m-%d")
+    return (datetime.now() - start).days
 
 
 def compute_gpa() -> tuple[float, int]:
@@ -456,6 +596,67 @@ def _check_achievements_degrees() -> None:
     _check_achievements_degrees_raw(eligible_degrees, unlock_achievement)
 
 
+# ─── Weekly Quests ──────────────────────────────────────────────────────────────
+
+_QUEST_TEMPLATES = [
+    ("complete_3_lectures", "Complete 3 Lectures", "Finish 3 lectures this week", 3, 100),
+    ("earn_200_xp", "Earn 200 XP", "Accumulate 200 XP this week", 200, 75),
+    ("submit_assignment", "Submit an Assignment", "Turn in at least 1 assignment", 1, 50),
+]
+
+
+def _current_week_start() -> str:
+    today = datetime.now()
+    monday = today - timedelta(days=today.weekday())
+    return monday.strftime("%Y-%m-%d")
+
+
+def seed_weekly_quests() -> None:
+    week = _current_week_start()
+    with tx() as con:
+        existing = con.execute(
+            "SELECT id FROM quests WHERE week_start=?", (week,)
+        ).fetchall()
+    if existing:
+        return
+    with tx() as con:
+        for qid, title, desc, target, xp in _QUEST_TEMPLATES:
+            con.execute(
+                "INSERT OR IGNORE INTO quests (id,title,description,target,progress,xp_reward,week_start) "
+                "VALUES (?,?,?,?,0,?,?)",
+                (f"{qid}_{week}", title, desc, target, xp, week),
+            )
+
+
+def get_active_quests() -> list[dict]:
+    week = _current_week_start()
+    with tx() as con:
+        rows = con.execute(
+            "SELECT * FROM quests WHERE week_start=? ORDER BY id", (week,)
+        ).fetchall()
+    return [dict(r) for r in rows]
+
+
+def update_quest_progress(quest_prefix: str, increment: int = 1) -> None:
+    week = _current_week_start()
+    qid = f"{quest_prefix}_{week}"
+    with tx() as con:
+        row = con.execute(
+            "SELECT progress, target, completed, xp_reward FROM quests WHERE id=?", (qid,)
+        ).fetchone()
+    if not row or row["completed"]:
+        return
+    new_progress = min(row["progress"] + increment, row["target"])
+    completed = 1 if new_progress >= row["target"] else 0
+    with tx() as con:
+        con.execute(
+            "UPDATE quests SET progress=?, completed=? WHERE id=?",
+            (new_progress, completed, qid),
+        )
+    if completed:
+        add_xp(row["xp_reward"], f"Quest complete: {quest_prefix}", "quest")
+
+
 # ─── Schema validation ─────────────────────────────────────────────────────────
 
 _SCHEMA_CACHE: dict | None = None
@@ -524,10 +725,17 @@ def bulk_import_json(raw: str, validate_only: bool = False) -> tuple[int, list[s
             imported += 1
             continue
         try:
-            _import_one_object(obj)
-            imported += 1
+            with tx() as conn:
+                conn.execute("SAVEPOINT import_obj")
+                try:
+                    _import_one_object(obj)
+                    conn.execute("RELEASE SAVEPOINT import_obj")
+                    imported += 1
+                except Exception as e:
+                    conn.execute("ROLLBACK TO SAVEPOINT import_obj")
+                    errors.append(f"Object {i + 1}: {e}")
         except Exception as e:
-            errors.append(str(e))
+            errors.append(f"Object {i + 1}: {e}")
 
     if imported > 0 and not validate_only:
         unlock_achievement("bulk_import")
@@ -595,7 +803,9 @@ def _import_lecture_flat(obj: dict) -> None:
 
 # ─── Bootstrap ─────────────────────────────────────────────────────────────────
 init_db()
+run_migrations()
 seed_achievements()
+seed_weekly_quests()
 
 
 # ─── Compatibility shims (re-exported for UI pages) ────────────────────────────

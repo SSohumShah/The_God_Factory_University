@@ -84,10 +84,10 @@ Cross-reference: [check1.md](check1.md) covers the product roadmap and delivery 
 - [x] Chat history persistence (`append_chat`, `get_chat`)
 - [x] LLM generated content tracking (`save_llm_generated`, `get_llm_generated`, `mark_imported`)
 - [x] Achievement seed data (17 achievement definitions)
-- [ ] Add JSON Schema validation on import path (jsonschema library)
-- [ ] Add transaction rollback for partial import failures
-- [ ] Add import report artifact (counts, warnings, errors)
-- [ ] Add migration version table and migration runner
+- [x] Add JSON Schema validation on import path (jsonschema library)
+- [x] Add transaction rollback for partial import failures
+- [x] Add import report artifact (counts, warnings, errors)
+- [x] Add migration version table and migration runner
 
 ## G. Testing and CI Gates
 - [x] Add baseline tests:

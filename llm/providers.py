@@ -144,6 +144,17 @@ def get_capability(provider: str, key: str, default=None):
     return PROVIDER_CAPABILITIES.get(provider, {}).get(key, default)
 
 
+def is_paid_provider(provider: str) -> bool:
+    """Return True if the provider has non-zero cost."""
+    caps = PROVIDER_CAPABILITIES.get(provider, {})
+    return caps.get("cost_per_1k_input", 0) > 0 or caps.get("cost_per_1k_output", 0) > 0
+
+
+def provider_needs_key(provider: str) -> bool:
+    """Return True if the provider requires an API key."""
+    return provider not in ("ollama", "lmstudio")
+
+
 # ─── Hardware check ───────────────────────────────────────────────────────────
 
 def check_hardware() -> dict:

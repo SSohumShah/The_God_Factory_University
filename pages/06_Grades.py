@@ -17,6 +17,7 @@ sys.path.insert(0, str(ROOT))
 from core.database import (
     get_all_courses, get_assignments, compute_gpa, credits_earned,
     eligible_degrees, get_setting, score_to_grade,
+    get_enrollment_date, time_to_degree_days, get_terms, get_assignments_by_term,
 )
 from ui.theme import (
     inject_theme, arcane_header, rune_divider, render_gpa_display,
@@ -44,6 +45,34 @@ with g2:
     stat_card("Credits Earned", str(credits), colour="#ffd700")
 with g3:
     stat_card("Eligible Degrees", ", ".join(eligible) if eligible else "None yet", colour="#40dc80")
+
+# Enrollment & Time-to-degree
+g4, g5 = st.columns(2)
+with g4:
+    stat_card("Enrolled", get_enrollment_date(), colour="#b8b8d0")
+with g5:
+    stat_card("Days Studied", str(time_to_degree_days()), colour="#b8b8d0")
+
+# Term grouping (if any terms exist)
+terms = get_terms()
+if terms:
+    rune_divider("Assignments by Term")
+    for term in terms:
+        ta = get_assignments_by_term(term["id"])
+        if not ta:
+            continue
+        with st.expander(f"Term: {term['title']}  ({len(ta)} assignments)"):
+            for a in ta:
+                sc = a.get("score") or 0.0
+                mx = a.get("max_score") or 100.0
+                pct = (sc / mx * 100) if mx else 0.0
+                grade, _ = score_to_grade(pct)
+                status = "Submitted" if a.get("submitted_at") else "Pending"
+                lp = a.get("late_penalty", 0)
+                lp_str = f" (late: -{lp:.0f}%)" if lp else ""
+                st.markdown(f"- **{a['title']}** — {grade} ({pct:.0f}%) [{status}]{lp_str}")
+
+    stat_card("Days Studied", str(time_to_degree_days()), colour="#b8b8d0")
 
 if eligible:
     degree_display(eligible)

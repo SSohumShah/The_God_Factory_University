@@ -71,6 +71,12 @@ if %ERRORLEVEL% NEQ 0 (
   echo [SETUP] Failed generating pipeline files. Continuing anyway...
 )
 
+echo [SETUP] Verifying installed dependencies...
+python -c "import streamlit,moviepy,edge_tts,PIL,numpy;print('[SETUP] Core deps OK: streamlit='+streamlit.__version__+', moviepy='+moviepy.__version__+', Pillow='+PIL.__version__+', numpy='+numpy.__version__)"
+if %ERRORLEVEL% NEQ 0 (
+  echo [SETUP] Warning: some dependencies may be missing. Check output above.
+)
+
 echo [SETUP] Setup complete. Run start.bat to launch the university.
 pause
 exit /b 0

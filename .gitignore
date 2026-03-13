@@ -37,3 +37,8 @@ desktop.ini
 # ── Misc ──────────────────────────────────────────────────────────────────
 *.log
 *.tmp
+debug_out.txt
+regtest*.txt
+testrun*.txt
+test_out*.txt
+.secret_key

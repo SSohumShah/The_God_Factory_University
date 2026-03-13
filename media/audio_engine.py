@@ -252,6 +252,67 @@ def generate_sfx_bytes(sfx_name: str) -> bytes:
     return buf.getvalue()
 
 
+# ─── Loudness & Clipping Helpers ──────────────────────────────────────────────
+
+def measure_rms_lufs(data: np.ndarray) -> float:
+    """Estimate integrated loudness in LUFS (simplified RMS-based).
+
+    Uses the EBU R 128 approximation:
+        LUFS ≈ -0.691 + 10*log10(mean_square)
+    *data* can be int16 or float64 (mono or stereo).
+    Returns -inf for silence.
+    """
+    samples = data.astype(np.float64)
+    if samples.ndim == 2:
+        samples = samples.mean(axis=1)
+    # Normalize int16 range
+    if data.dtype == np.int16:
+        samples = samples / 32768.0
+    mean_sq = np.mean(samples ** 2)
+    if mean_sq == 0:
+        return float("-inf")
+    return -0.691 + 10 * np.log10(mean_sq)
+
+
+def normalize_loudness(data: np.ndarray, target_lufs: float = -14.0) -> np.ndarray:
+    """Scale *data* so its RMS-LUFS matches *target_lufs*.
+
+    Returns the same dtype as input, clipped to valid range.
+    """
+    current = measure_rms_lufs(data)
+    if np.isinf(current):
+        return data
+    diff_db = target_lufs - current
+    gain = 10 ** (diff_db / 20.0)
+    if data.dtype == np.int16:
+        result = np.clip(data.astype(np.float64) * gain, -32768, 32767)
+        return result.astype(np.int16)
+    return np.clip(data * gain, -1.0, 1.0)
+
+
+def detect_clipping(data: np.ndarray, threshold: float = 0.99) -> bool:
+    """Return True if any sample exceeds *threshold* of full scale."""
+    if data.dtype == np.int16:
+        limit = int(32767 * threshold)
+        return bool(np.any(np.abs(data) >= limit))
+    return bool(np.any(np.abs(data) >= threshold))
+
+
+def auto_gain(data: np.ndarray, headroom_db: float = 3.0) -> np.ndarray:
+    """Reduce gain if clipping is detected, leaving *headroom_db* of headroom."""
+    if not detect_clipping(data):
+        return data
+    if data.dtype == np.int16:
+        peak = np.max(np.abs(data.astype(np.float64)))
+        target_peak = 32767 * (10 ** (-headroom_db / 20.0))
+        gain = target_peak / peak if peak > 0 else 1.0
+        return np.clip(data.astype(np.float64) * gain, -32768, 32767).astype(np.int16)
+    peak = np.max(np.abs(data))
+    target_peak = 10 ** (-headroom_db / 20.0)
+    gain = target_peak / peak if peak > 0 else 1.0
+    return np.clip(data * gain, -1.0, 1.0)
+
+
 def write_wav_stereo(path: Path, data: np.ndarray, sample_rate: int = SAMPLE_RATE) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with wave.open(str(path), "wb") as wf:

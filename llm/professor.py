@@ -94,6 +94,72 @@ class Professor:
         messages = self._history()
         return chat(self._cfg(), messages, stream=stream)
 
+    # ─── JSON helpers ────────────────────────────────────────────────────────
+
+    @staticmethod
+    def repair_json(raw: str) -> str | None:
+        """Attempt to recover valid JSON from malformed LLM output.
+
+        Tries, in order:
+          1. Direct parse
+          2. Extract from markdown code fences
+          3. Strip trailing commas before } or ]
+          4. Balance unclosed brackets/braces
+        Returns the repaired JSON string, or None if unrecoverable.
+        """
+        import re
+
+        def _try_parse(text: str):
+            try:
+                json.loads(text)
+                return text
+            except (json.JSONDecodeError, ValueError):
+                return None
+
+        raw = raw.strip()
+
+        # 1. Direct parse
+        result = _try_parse(raw)
+        if result:
+            return result
+
+        # 2. Extract from markdown code fences
+        fence = re.search(r"```(?:json)?\s*\n?(.*?)```", raw, re.DOTALL)
+        if fence:
+            result = _try_parse(fence.group(1).strip())
+            if result:
+                return result
+
+        # 3. Strip trailing commas (,} or ,])
+        cleaned = re.sub(r",\s*([}\]])", r"\1", raw)
+        result = _try_parse(cleaned)
+        if result:
+            return result
+
+        # Also try on fenced content
+        if fence:
+            cleaned = re.sub(r",\s*([}\]])", r"\1", fence.group(1).strip())
+            result = _try_parse(cleaned)
+            if result:
+                return result
+
+        # 4. Balance unclosed brackets/braces
+        opens = {"[": "]", "{": "}"}
+        stack = []
+        for ch in cleaned:
+            if ch in opens:
+                stack.append(opens[ch])
+            elif ch in ("]", "}"):
+                if stack and stack[-1] == ch:
+                    stack.pop()
+        if stack:
+            balanced = cleaned + "".join(reversed(stack))
+            result = _try_parse(balanced)
+            if result:
+                return result
+
+        return None
+
     # ─── Public methods ──────────────────────────────────────────────────────
 
     def ask(self, question: str, stream: bool = False):

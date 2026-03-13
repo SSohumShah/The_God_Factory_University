@@ -55,5 +55,8 @@ python -c "from core.database import init_db; init_db(); print('[SETUP] Database
 echo "[SETUP] Generating lecture pipeline files..."
 python generate_assets.py || echo "[SETUP] Pipeline generation skipped (non-fatal)."
 
+echo "[SETUP] Verifying installed dependencies..."
+python -c "import streamlit,moviepy,edge_tts,PIL,numpy;print('[SETUP] Core deps OK: streamlit='+streamlit.__version__+', moviepy='+moviepy.__version__+', Pillow='+PIL.__version__+', numpy='+numpy.__version__)"
+
 echo ""
 echo "[SETUP] Setup complete. Run ./start.sh to launch the university."
