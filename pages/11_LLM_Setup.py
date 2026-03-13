@@ -461,7 +461,7 @@ if wizard_path == "cloud":
 
     c1, c2 = st.columns(2)
     with c1:
-        if st.button("Save Configuration", use_container_width=True):
+        if st.button("Save & Test", use_container_width=True):
             if not api_key.strip():
                 st.warning("Please enter an API key.")
             else:
@@ -471,6 +471,15 @@ if wizard_path == "cloud":
                 save_setting("llm_base_url", base_url.strip())
                 play_sfx("click")
                 st.success(f"Saved! Provider: {prov['key']}, Model: {model}")
+                with st.spinner("Testing connection..."):
+                    result = _test_provider(prov["key"], api_key.strip(), model, base_url.strip())
+                if result["ok"]:
+                    play_sfx("success")
+                    st.success(f"Working! Response in {result['latency_ms']}ms · ~{result['tokens']} tokens")
+                    st.markdown(f"> {sanitize_llm_output(result['response'])}")
+                else:
+                    st.error(f"Test failed: {result['error']}")
+                    st.markdown("Check your API key and internet connection.")
 
     with c2:
         if st.button("Test Connection", use_container_width=True):

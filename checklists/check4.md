@@ -22,7 +22,7 @@ the vision of a real, fully functional AI-powered university.
 - [x] Help entry: "What is the Dashboard?" — purpose, stat cards, quick start workflow
 - [x] Help entry: "System Health" — what each probe checks, what failures mean
 - [x] Help entry: "XP and Levels" — how XP is earned, level thresholds, rank titles
-- [ ] Help entry: "First Launch" — what happens on first run, auto-import from notes.txt
+- [x] Help entry: "First Launch" — what happens on first run, auto-import from notes.txt
 
 ### A.3 Help Content — Library
 - [x] Help entry: "Importing Courses" — JSON formats accepted, single/array/multiline, schema reference
@@ -49,19 +49,19 @@ the vision of a real, fully functional AI-powered university.
 
 ### A.7 Help Content — Batch Render
 - [x] Help entry: "Queue Management" — selecting lectures, starting batch render
-- [ ] Help entry: "Render Settings" — FPS, resolution, output format
-- [ ] Help entry: "Prompt Pack Export" — Runway/Pika/ComfyUI formats, external tool integration
+- [x] Help entry: "Render Settings" — FPS, resolution, output format
+- [x] Help entry: "Prompt Pack Export" — Runway/Pika/ComfyUI formats, external tool integration
 
 ### A.8 Help Content — Grades & Transcript
 - [x] Help entry: "GPA Calculation" — formula, grade scale table, honors thresholds
 - [x] Help entry: "Degree Eligibility" — credit + GPA gates for each degree tier
 - [x] Help entry: "Transcript Download" — CSV vs JSON, what fields are included
-- [ ] Help entry: "Assignment Records" — score, grade, feedback, deadline status
+- [x] Help entry: "Assignment Records" — score, grade, feedback, deadline status
 
 ### A.9 Help Content — Achievements
 - [x] Help entry: "Achievement System" — categories, unlock triggers, XP rewards
 - [x] Help entry: "Level System" — 10 tiers, XP thresholds, rank names and symbols
-- [ ] Help entry: "XP Events" — what actions earn XP, event types
+- [x] Help entry: "XP Events" — what actions earn XP, event types
 
 ### A.10 Help Content — Settings
 - [x] Help entry: "Voice Settings" — edge-tts voices, rate/pitch sliders, preview
@@ -258,7 +258,7 @@ the vision of a real, fully functional AI-powered university.
 - [x] Token counting: Show input/output tokens used in test
 - [x] Error classification: auth_error, rate_limit, network, bad_model, timeout -> friendly message
 - [x] Provider status badge: green (working), yellow (slow), red (error) -> persisted
-- [ ] Auto-test on save: When user saves provider settings, auto-run connectivity test
+- [x] Auto-test on save: When user saves provider settings, auto-run connectivity test
 
 ### C.14 Provider Comparison Dashboard
 - [x] Side-by-side table: all 10 providers, status, speed, cost tier, context window
@@ -272,61 +272,61 @@ the vision of a real, fully functional AI-powered university.
 > Gaps between the current 5-degree system and the full K-Doctorate academic structure in check3.
 
 ### D.1 Grade Level System
-- [ ] Extend database schema: add `grade_level` table (K, 1-12, Freshman, Sophomore, Junior, Senior, Graduate, Doctoral)
-- [ ] Add student grade level to profile/settings
-- [ ] Create grade-level-appropriate content filtering
-- [ ] Implement grade level progression logic
-- [ ] Add grade level display in student profile
+- [x] Extend database schema: add `grade_level` table (K, 1-12, Freshman, Sophomore, Junior, Senior, Graduate, Doctoral)
+- [x] Add student grade level to profile/settings
+- [x] Create grade-level-appropriate content filtering
+- [x] Implement grade level progression logic
+- [x] Add grade level display in student profile
 
 ### D.2 Subject Taxonomy
-- [ ] Create `subjects` table — hierarchical (domain > field > subfield > topic)
-- [ ] Seed initial subject taxonomy (minimum: Math, Science, English, History, CS, Arts)
-- [ ] Map existing courses to subjects
-- [ ] Add subject browsing UI to Library
-- [ ] Add subject-based course recommendations
+- [x] Create `subjects` table — hierarchical (domain > field > subfield > topic)
+- [x] Seed initial subject taxonomy (minimum: Math, Science, English, History, CS, Arts)
+- [x] Map existing courses to subjects
+- [x] Add subject browsing UI to Library
+- [x] Add subject-based course recommendations
 
 ### D.3 Placement Testing Foundation
-- [ ] Create `placement_tests` table (test_id, subject, difficulty_range, created_at)
-- [ ] Create `placement_questions` table (question_id, test_id, question_text, options, correct_answer, difficulty)
-- [ ] Create `placement_results` table (result_id, student, test_id, score, recommended_level, taken_at)
-- [ ] Implement basic placement test engine using Professor AI to generate questions
-- [ ] Create placement test UI page (`pages/12_Placement.py`)
-- [ ] Implement adaptive difficulty: increase/decrease based on performance
-- [ ] Generate placement recommendation based on results
+- [x] Create `placement_tests` table (test_id, subject, difficulty_range, created_at)
+- [x] Create `placement_questions` table (question_id, test_id, question_text, options, correct_answer, difficulty)
+- [x] Create `placement_results` table (result_id, student, test_id, score, recommended_level, taken_at)
+- [x] Implement basic placement test engine using Professor AI to generate questions
+- [x] Create placement test UI page (`pages/12_Placement.py`)
+- [x] Implement adaptive difficulty: increase/decrease based on performance
+- [x] Generate placement recommendation based on results
 
 ### D.4 Standardized Test Prep Foundation
-- [ ] Create `test_prep` table (prep_id, test_name, section, question_bank_json)
-- [ ] Create basic GED practice module (math + reading as first targets)
-- [ ] Create basic SAT practice module (math + reading as first targets)
-- [ ] Implement timed test mode (countdown, section timing)
-- [ ] Implement score calculation with percentile estimation
-- [ ] Add test prep UI page (`pages/13_Test_Prep.py`)
-- [ ] Use Professor AI to generate practice questions on demand
+- [x] Create `test_prep` table (prep_id, test_name, section, question_bank_json)
+- [x] Create basic GED practice module (math + reading as first targets)
+- [x] Create basic SAT practice module (math + reading as first targets)
+- [x] Implement timed test mode (countdown, section timing)
+- [x] Implement score calculation with percentile estimation
+- [x] Add test prep UI page (`pages/13_Test_Prep.py`)
+- [x] Use Professor AI to generate practice questions on demand
 
 ### D.5 Expanded Curriculum Structure
-- [ ] Add `programs` table — defines academic programs (CS Major, MBA, etc.)
-- [ ] Add `program_requirements` table — courses/credits needed per program
-- [ ] Add `enrollments` table — student enrollment in programs
-- [ ] Create program browsing page or section in Library
-- [ ] Implement program progress tracking (required vs completed courses)
-- [ ] Add program completion / certificate generation
+- [x] Add `programs` table — defines academic programs (CS Major, MBA, etc.)
+- [x] Add `program_requirements` table — courses/credits needed per program
+- [x] Add `enrollments` table — student enrollment in programs
+- [x] Create program browsing page or section in Library
+- [x] Implement program progress tracking (required vs completed courses)
+- [x] Add program completion / certificate generation
 
 ### D.6 Student Profile Enhancement
-- [ ] Add student profile page (`pages/14_Profile.py`)
-- [ ] Store educational background (self-reported)
-- [ ] Store learning preferences (visual, auditory, reading, kinesthetic)
-- [ ] Track session history (app opens, time spent, features used)
+- [x] Add student profile page (`pages/14_Profile.py`)
+- [x] Store educational background (self-reported)
+- [x] Store learning preferences (visual, auditory, reading, kinesthetic)
+- [x] Track session history (app opens, time spent, features used)
 - [x] Create study streak tracking (consecutive days with activity)
-- [ ] Add basic performance analytics dashboard (grades over time, XP over time)
+- [x] Add basic performance analytics dashboard (grades over time, XP over time)
 
 ### D.7 Statistics & Analytics
-- [ ] Add `activity_log` table (event_type, timestamp, duration, metadata)
-- [ ] Track lecture views, quiz attempts, assignment submissions, professor queries
-- [ ] Create statistics dashboard (`pages/15_Statistics.py`)
-- [ ] Display: total study hours, lectures completed, assignments submitted, quizzes taken
-- [ ] Display: daily/weekly activity heatmap
-- [ ] Display: grade trend chart (GPA over time)
-- [ ] Display: subject performance breakdown
+- [x] Add `activity_log` table (event_type, timestamp, duration, metadata)
+- [x] Track lecture views, quiz attempts, assignment submissions, professor queries
+- [x] Create statistics dashboard (`pages/15_Statistics.py`)
+- [x] Display: total study hours, lectures completed, assignments submitted, quizzes taken
+- [x] Display: daily/weekly activity heatmap
+- [x] Display: grade trend chart (GPA over time)
+- [x] Display: subject performance breakdown
 
 ---
 
@@ -412,22 +412,22 @@ the vision of a real, fully functional AI-powered university.
 ### F.2 Beta Complete
 - [ ] All 10 providers validated with real connectivity tests
 - [x] Help system covers all pages with contextual [?] buttons
-- [ ] Placement test foundation working (Phase D.3)
-- [ ] Student profile and basic statistics (Phase D.6, D.7)
+- [x] Placement test foundation working (Phase D.3)
+- [x] Student profile and basic statistics (Phase D.6, D.7)
 - [ ] Batch render overnight pass with error recovery
 - [ ] Degree + grading + deadlines + achievements validated end-to-end
 
 ### F.3 University Ready
-- [ ] Full walkthrough wizard for every provider (Phase C.2-C.11)
-- [ ] Subject taxonomy and program structure (Phase D.2, D.5)
-- [ ] Test prep foundation — GED + SAT (Phase D.4)
-- [ ] Grade level system operational (Phase D.1)
-- [ ] Full test suite green (Phase E.7)
-- [ ] README and troubleshooting docs complete
+- [x] Full walkthrough wizard for every provider (Phase C.2-C.11)
+- [x] Subject taxonomy and program structure (Phase D.2, D.5)
+- [x] Test prep foundation — GED + SAT (Phase D.4)
+- [x] Grade level system operational (Phase D.1)
+- [x] Full test suite green (Phase E.7)
+- [x] README and troubleshooting docs complete
 - [ ] Fresh Windows install verified
 
 ### F.4 God Factory (check3.md Integration)
-- [ ] Phase 0: Core Academic Architecture — grade levels, subject taxonomy
+- [x] Phase 0: Core Academic Architecture — grade levels, subject taxonomy
 - [ ] Phase 1: Placement & Aptitude Testing — adaptive engine, prerequisite assessment
 - [ ] Phase 2: Standardized Test Prep — GED, SAT, ACT, GRE, GMAT, LSAT, MCAT, Bar, USMLE, NCLEX, CPA
 - [ ] Phase 3: Curriculum K-Doctorate — K-5, middle school, high school, undergrad (10 schools, 3+ majors each), masters, doctoral

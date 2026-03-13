@@ -277,13 +277,7 @@ def get_schema_version() -> int:
 
 
 def run_migrations() -> int:
-    current try:
-                con.executescript(sql)
-            except sqlite3.OperationalError:
-                pass  # e.g. column already exists from DDL
-                con.executescript(sql)
-            except sqlite3.OperationalError:
-                pass  # e.g. column already exists from DDL
+    current = get_schema_version()
     applied = 0
     for version, _label, sql in _MIGRATIONS:
         if version <= current:
@@ -292,7 +286,7 @@ def run_migrations() -> int:
             try:
                 con.executescript(sql)
             except sqlite3.OperationalError:
-                pass  # column already exists
+                pass  # e.g. column already exists from DDL
             con.execute(
                 "INSERT INTO schema_version (version) VALUES (?)", (version,)
             )
@@ -728,10 +722,6 @@ def log_activity(event_type: str, duration_s: float = 0, metadata: dict | None =
 
 def get_activity_summary() -> dict:
     return _get_activity_summary_raw(tx)
-
-
-# ─── t_all_subjects() -> list[dict]:
-    return _get_all_subjects_raw(tx)
 
 
 # ─── Schema validation & Bulk import (delegated to db_import.py) ───────────────

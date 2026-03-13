@@ -28,6 +28,7 @@ Cross-reference: [check2.md](check2.md) covers the engineering contract and inte
 - [ ] Add assignment weighting per course/module
 - [ ] Add late policy behavior when deadlines mode is enabled
 - [ ] Add enrollment date tracking and time-to-degree calculation
+- [ ] Add assignment generation and other class material to schema capabilities
 
 ## 3. Curriculum and Library Experience
 - [x] Library page built (`pages/01_Library.py`)
