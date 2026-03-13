@@ -1,0 +1,36 @@
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── Database (regenerated on setup) ───────────────────────────────────────
+*.db
+*.db-wal
+*.db-shm
+
+# ── Rendered media (large, user-generated) ────────────────────────────────
+exports/
+data/
+
+# ── OS junk ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ── IDE / editor ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ── Misc ──────────────────────────────────────────────────────────────────
+*.log
+*.tmp

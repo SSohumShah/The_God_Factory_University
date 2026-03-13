@@ -1,0 +1,66 @@
+{
+  "_schema_version": "2.0",
+  "_instructions": "Give this JSON to any LLM with the topics you want to learn. The LLM will return a filled-in version. Paste that output into the University app Bulk Import box.",
+  "course_id": "REQUIRED_unique_snake_case_string",
+  "title": "REQUIRED Course Title",
+  "description": "A short paragraph describing the course.",
+  "credits": 3,
+  "modules": [
+    {
+      "module_id": "M01",
+      "title": "Module Title",
+      "lectures": [
+        {
+          "lecture_id": "M01L01",
+          "title": "Lecture Title",
+          "duration_min": 60,
+          "prerequisites": [],
+          "learning_objectives": [
+            "Students will be able to ...",
+            "Students will understand ..."
+          ],
+          "core_terms": ["term1", "term2", "term3"],
+          "math_focus": ["concept1", "concept2"],
+          "ai_focus": ["ai_topic1"],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Describe what the student implements",
+            "deliverable": "filename.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "An open-ended reflection question for the student."
+          },
+          "video_recipe": {
+            "narrative_arc": ["hook", "concept", "demo", "practice", "recap"],
+            "scene_blocks": [
+              {
+                "block_id": "A",
+                "duration_s": 90,
+                "narration_prompt": "What the narrator says in this scene.",
+                "visual_prompt": "What should be shown visually (for video generators).",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "keyboard taps",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "B",
+                "duration_s": 120,
+                "narration_prompt": "Second scene narration.",
+                "visual_prompt": "Second scene visual description.",
+                "ambiance": {
+                  "music": "focused pulse",
+                  "sfx": "gentle ticks",
+                  "color_palette": "ink and gold"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

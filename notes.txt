@@ -1,0 +1,330 @@
+{
+	"course_spec_version": "1.0",
+	"generated_on": "2026-03-12",
+	"course_id": "CS_AI_PROGRAMMING_MATH_FOUNDATIONS_TO_SYSTEMS",
+	"title": "Integrated Computer Science, Programming, AI, and Math Lecture Course",
+	"audience": "Beginner to advanced learner building end-to-end CS and AI fluency",
+	"total_modules": 12,
+	"total_lectures": 36,
+	"estimated_total_hours": 180,
+	"source_seed_topics": [
+		"physical symbol hypothesis",
+		"knowledge engineering environment",
+		"heuristics",
+		"access underlying knowledge base",
+		"explain reasoning path to operator",
+		"Lisp",
+		"symbol manipulation",
+		"knowledge as symbolic representation",
+		"programs and data share structure"
+	],
+	"pipeline_contract": {
+		"primary_key": "lecture_id",
+		"required_lecture_fields": [
+			"lecture_id",
+			"module_id",
+			"title",
+			"duration_min",
+			"prerequisites",
+			"learning_objectives",
+			"core_terms",
+			"math_focus",
+			"coding_lab",
+			"ai_focus",
+			"assessment",
+			"video_recipe"
+		],
+		"video_fields_required": [
+			"narrative_arc",
+			"scene_blocks"
+		],
+		"scene_block_required": [
+			"block_id",
+			"duration_s",
+			"narration_prompt",
+			"visual_prompt",
+			"ambiance"
+		]
+	},
+	"global_render_defaults": {
+		"target_output": "word_to_visual_video_generator",
+		"voice_style": "clear professor, medium pace, precise diction",
+		"subtitle_mode": "technical keywords highlighted",
+		"aspect_ratio": "16:9",
+		"resolution": "1920x1080",
+		"fps": 30,
+		"default_color_direction": "ink, parchment, cyan accents",
+		"default_ambiance": {
+			"music": "low-volume ambient electronic",
+			"sfx": "subtle page turns, keyboard taps",
+			"visual_motion": "slow camera drift, occasional zoom on equations"
+		}
+	},
+	"program_outcomes": [
+		"Model computational problems formally and choose suitable algorithms",
+		"Implement robust software in Python and systems-level code in C",
+		"Apply discrete math, calculus, probability, and linear algebra to CS and AI",
+		"Build classical symbolic AI and modern machine learning systems",
+		"Explain model behavior, tradeoffs, and ethical implications",
+		"Design, test, debug, and deploy reproducible software pipelines"
+	],
+	"modules": [
+		{
+			"module_id": "M01",
+			"title": "Computation, Symbols, and Logic",
+			"module_outcomes": [
+				"Connect symbolic representation with computation",
+				"Understand physical symbol hypothesis and knowledge systems",
+				"Use formal logic for machine reasoning"
+			],
+			"lectures": [
+				{
+					"lecture_id": "M01L01",
+					"module_id": "M01",
+					"title": "What Is Computation and Why Symbols Matter",
+					"duration_min": 75,
+					"prerequisites": [],
+					"learning_objectives": ["Define computation", "Differentiate data vs representation", "State physical symbol hypothesis"],
+					"core_terms": ["algorithm", "state", "symbol", "physical symbol hypothesis"],
+					"math_focus": ["sets", "functions", "relations"],
+					"coding_lab": {"language": "Python", "task": "Build simple symbolic expression evaluator", "deliverable": "evaluator.py"},
+					"ai_focus": ["symbolic AI foundations"],
+					"assessment": {"quiz_questions": 6, "programming_exercises": 1, "reflection_prompt": "When is symbolic representation better than raw numeric data?"},
+					"video_recipe": {
+						"narrative_arc": ["hook", "concept", "worked example", "exercise", "recap"],
+						"scene_blocks": [
+							{"block_id": "A", "duration_s": 120, "narration_prompt": "Introduce computation as transformation of symbolic states.", "visual_prompt": "Animated state graph turning input tokens into output tokens.", "ambiance": {"music": "warm synth pad", "sfx": "soft clicks", "color_palette": "paper beige and cyan"}},
+							{"block_id": "B", "duration_s": 240, "narration_prompt": "Explain physical symbol hypothesis in historical AI context.", "visual_prompt": "Timeline from early AI labs to modern systems, with symbol trees.", "ambiance": {"music": "minimal pulse", "sfx": "chalk writing", "color_palette": "ink blue and graphite"}},
+							{"block_id": "C", "duration_s": 180, "narration_prompt": "Walk through tiny symbolic evaluator.", "visual_prompt": "Split screen code and expression rewrite steps.", "ambiance": {"music": "light rhythmic ambient", "sfx": "keyboard taps", "color_palette": "slate and mint"}}
+						]
+					}
+				},
+				{
+					"lecture_id": "M01L02",
+					"module_id": "M01",
+					"title": "Propositional and Predicate Logic for Machines",
+					"duration_min": 90,
+					"prerequisites": ["M01L01"],
+					"learning_objectives": ["Write well-formed formulas", "Perform inference", "Map logic to knowledge base queries"],
+					"core_terms": ["proposition", "predicate", "quantifier", "entailment", "inference rule"],
+					"math_focus": ["truth tables", "quantifiers", "proof by contradiction"],
+					"coding_lab": {"language": "Python", "task": "Implement backward chaining on toy KB", "deliverable": "logic_engine.py"},
+					"ai_focus": ["logical reasoning"],
+					"assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "How can a system explain which logic path it followed?"},
+					"video_recipe": {
+						"narrative_arc": ["motivation", "formalism", "demo", "practice", "summary"],
+						"scene_blocks": [
+							{"block_id": "A", "duration_s": 180, "narration_prompt": "Show why explicit logic is useful for auditable AI.", "visual_prompt": "Decision flowchart with highlighted inference path.", "ambiance": {"music": "calm electronic", "sfx": "pen strokes", "color_palette": "charcoal and teal"}},
+							{"block_id": "B", "duration_s": 240, "narration_prompt": "Teach quantifiers with real examples.", "visual_prompt": "Animated quantifier domains and variable bindings.", "ambiance": {"music": "sparse piano-synth", "sfx": "quiet ticks", "color_palette": "navy and amber"}},
+							{"block_id": "C", "duration_s": 210, "narration_prompt": "Run backward chaining trace and verbal explanation.", "visual_prompt": "Console trace plus highlighted KB facts.", "ambiance": {"music": "focused pulse", "sfx": "terminal beeps", "color_palette": "blackboard green and ivory"}}
+						]
+					}
+				},
+				{
+					"lecture_id": "M01L03",
+					"module_id": "M01",
+					"title": "Heuristics and Search in Problem Solving",
+					"duration_min": 75,
+					"prerequisites": ["M01L02"],
+					"learning_objectives": ["Compare uninformed and informed search", "Design heuristics", "Analyze optimality and completeness"],
+					"core_terms": ["heuristic", "A*", "admissible", "branching factor"],
+					"math_focus": ["graph theory", "cost functions", "big-O review"],
+					"coding_lab": {"language": "Python", "task": "Implement BFS, DFS, A* on grid world", "deliverable": "search_lab.py"},
+					"ai_focus": ["classical planning and search"],
+					"assessment": {"quiz_questions": 7, "programming_exercises": 1, "reflection_prompt": "When should speed beat guaranteed optimality?"},
+					"video_recipe": {
+						"narrative_arc": ["problem", "method", "comparison", "lab", "recap"],
+						"scene_blocks": [
+							{"block_id": "A", "duration_s": 120, "narration_prompt": "Frame search as navigation in state space.", "visual_prompt": "Maze transforming into abstract graph.", "ambiance": {"music": "steady pulse", "sfx": "soft whooshes", "color_palette": "deep blue and lime"}},
+							{"block_id": "B", "duration_s": 240, "narration_prompt": "Compare BFS, DFS, and A* with metrics.", "visual_prompt": "Side-by-side frontier expansion animation.", "ambiance": {"music": "measured arpeggio", "sfx": "tick marks", "color_palette": "gray and cyan"}},
+							{"block_id": "C", "duration_s": 180, "narration_prompt": "Build admissible heuristic intuition.", "visual_prompt": "Distance lower-bound overlays on map.", "ambiance": {"music": "subtle drone", "sfx": "marker strokes", "color_palette": "sand and cobalt"}}
+						]
+					}
+				}
+			]
+		},
+		{
+			"module_id": "M02",
+			"title": "Programming Fundamentals",
+			"module_outcomes": ["Write idiomatic Python", "Control complexity with functions and data structures", "Debug systematically"],
+			"lectures": [
+				{
+					"lecture_id": "M02L01",
+					"module_id": "M02",
+					"title": "Python Syntax, Types, and Control Flow",
+					"duration_min": 75,
+					"prerequisites": [],
+					"learning_objectives": ["Use core data types", "Write conditional logic", "Use loops safely"],
+					"core_terms": ["variable", "type", "loop", "scope"],
+					"math_focus": ["basic arithmetic", "modular reasoning"],
+					"coding_lab": {"language": "Python", "task": "Build command-line gradebook analyzer", "deliverable": "gradebook.py"},
+					"ai_focus": ["foundation for all AI coding"],
+					"assessment": {"quiz_questions": 6, "programming_exercises": 1, "reflection_prompt": "How do type choices affect bug rates?"},
+					"video_recipe": {"narrative_arc": ["setup", "syntax", "exercise", "debug", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 160, "narration_prompt": "Introduce Python as language for rapid experimentation.", "visual_prompt": "Animated notebook and terminal workflow.", "ambiance": {"music": "bright ambient", "sfx": "typing", "color_palette": "cream and ink"}}]}
+				},
+				{
+					"lecture_id": "M02L02",
+					"module_id": "M02",
+					"title": "Functions, Recursion, and Testing",
+					"duration_min": 90,
+					"prerequisites": ["M02L01"],
+					"learning_objectives": ["Design reusable functions", "Use recursion correctly", "Write unit tests"],
+					"core_terms": ["pure function", "recurrence", "unit test", "assertion"],
+					"math_focus": ["recurrence relations", "induction intuition"],
+					"coding_lab": {"language": "Python", "task": "Implement recursive parser with tests", "deliverable": "parser_and_tests.py"},
+					"ai_focus": ["recursive structures in trees and search"],
+					"assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "Why are tests critical in model pipelines?"},
+					"video_recipe": {"narrative_arc": ["motivation", "patterns", "test-first", "debugging", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 180, "narration_prompt": "Show function contracts and examples.", "visual_prompt": "Function signature cards sliding into test matrix.", "ambiance": {"music": "steady lo-fi", "sfx": "paper flips", "color_palette": "white and indigo"}}]}
+				},
+				{
+					"lecture_id": "M02L03",
+					"module_id": "M02",
+					"title": "Data Structures in Python",
+					"duration_min": 75,
+					"prerequisites": ["M02L02"],
+					"learning_objectives": ["Choose suitable data structures", "Analyze tradeoffs", "Implement stack and queue abstractions"],
+					"core_terms": ["list", "dict", "set", "stack", "queue", "hashing"],
+					"math_focus": ["amortized analysis basics"],
+					"coding_lab": {"language": "Python", "task": "Build task scheduler using priority queue", "deliverable": "scheduler.py"},
+					"ai_focus": ["open/closed sets in search and planning"],
+					"assessment": {"quiz_questions": 7, "programming_exercises": 1, "reflection_prompt": "How does data structure choice impact AI runtime?"},
+					"video_recipe": {"narrative_arc": ["problem", "structures", "benchmark", "exercise", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 170, "narration_prompt": "Contrast array-like vs hash-like access.", "visual_prompt": "Memory diagrams with pointer movement.", "ambiance": {"music": "minimal techno ambient", "sfx": "clicks", "color_palette": "graphite and aqua"}}]}
+				}
+			]
+		},
+		{
+			"module_id": "M03",
+			"title": "Discrete Mathematics for CS",
+			"module_outcomes": ["Reason formally", "Count combinatorial structures", "Use graph models"],
+			"lectures": [
+				{"lecture_id": "M03L01", "module_id": "M03", "title": "Logic, Proofs, and Sets", "duration_min": 90, "prerequisites": ["M01L02"], "learning_objectives": ["Use proof techniques", "Manipulate sets and relations", "Translate statements formally"], "core_terms": ["direct proof", "contrapositive", "bijection"], "math_focus": ["proof methods", "set algebra"], "coding_lab": {"language": "Python", "task": "Validate logical identities with truth tables", "deliverable": "proof_checker.py"}, "ai_focus": ["formal guarantees"], "assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "Where do proofs fail in practical systems?"}, "video_recipe": {"narrative_arc": ["idea", "proof", "counterexample", "practice", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 200, "narration_prompt": "Build proof intuition with visual truth grids.", "visual_prompt": "Truth table tiles animating into implication maps.", "ambiance": {"music": "calm pulse", "sfx": "chalk taps", "color_palette": "chalk white and forest"}}]}},
+				{"lecture_id": "M03L02", "module_id": "M03", "title": "Combinatorics and Probability Foundations", "duration_min": 90, "prerequisites": ["M03L01"], "learning_objectives": ["Count permutations and combinations", "Apply conditional probability", "Use Bayes theorem"], "core_terms": ["combination", "independence", "Bayes"], "math_focus": ["counting", "probability rules"], "coding_lab": {"language": "Python", "task": "Monte Carlo estimators for probability", "deliverable": "monte_carlo.py"}, "ai_focus": ["uncertainty handling"], "assessment": {"quiz_questions": 9, "programming_exercises": 1, "reflection_prompt": "How does prior selection affect decisions?"}, "video_recipe": {"narrative_arc": ["uncertainty", "rules", "simulation", "exercise", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 180, "narration_prompt": "Connect counting to model search spaces.", "visual_prompt": "Combinatorial tree growth animation.", "ambiance": {"music": "gentle sequence", "sfx": "card shuffles", "color_palette": "midnight and gold"}}]}},
+				{"lecture_id": "M03L03", "module_id": "M03", "title": "Graphs, Trees, and Finite Automata", "duration_min": 75, "prerequisites": ["M03L01"], "learning_objectives": ["Model systems as graphs", "Traverse trees", "Understand automata basics"], "core_terms": ["vertex", "edge", "DFA", "accepting state"], "math_focus": ["graph traversal", "state machines"], "coding_lab": {"language": "Python", "task": "Implement DFA simulator and graph traversal", "deliverable": "automata_graphs.py"}, "ai_focus": ["state-space models"], "assessment": {"quiz_questions": 7, "programming_exercises": 1, "reflection_prompt": "Why are automata still relevant in modern AI pipelines?"}, "video_recipe": {"narrative_arc": ["model", "formalization", "demo", "practice", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 170, "narration_prompt": "Show finite state control in parsing and protocols.", "visual_prompt": "Nodes lighting up as symbols stream in.", "ambiance": {"music": "clean digital", "sfx": "signal blips", "color_palette": "black, white, cyan"}}]}}
+			]
+		},
+		{
+			"module_id": "M04",
+			"title": "Algorithms and Complexity",
+			"module_outcomes": ["Analyze runtime and memory", "Choose and implement core algorithms", "Recognize hard problems"],
+			"lectures": [
+				{"lecture_id": "M04L01", "module_id": "M04", "title": "Big-O and Algorithm Analysis", "duration_min": 75, "prerequisites": ["M02L03", "M03L01"], "learning_objectives": ["Compute asymptotic bounds", "Compare growth rates", "Profile bottlenecks"], "core_terms": ["Big-O", "Big-Theta", "worst-case", "average-case"], "math_focus": ["limits intuition", "summations"], "coding_lab": {"language": "Python", "task": "Benchmark sorting and searching implementations", "deliverable": "complexity_bench.py"}, "ai_focus": ["scaling behavior"], "assessment": {"quiz_questions": 7, "programming_exercises": 1, "reflection_prompt": "Which optimization gave largest payoff and why?"}, "video_recipe": {"narrative_arc": ["cost", "notation", "measurement", "tradeoff", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 180, "narration_prompt": "Convert loops into asymptotic expressions.", "visual_prompt": "Code lines morphing into curves on log plot.", "ambiance": {"music": "steady low pulse", "sfx": "metronome", "color_palette": "steel and orange"}}]}},
+				{"lecture_id": "M04L02", "module_id": "M04", "title": "Sorting, Searching, and Divide-and-Conquer", "duration_min": 90, "prerequisites": ["M04L01"], "learning_objectives": ["Implement classic algorithms", "Prove correctness informally", "Understand recurrence runtime"], "core_terms": ["merge sort", "quick sort", "binary search"], "math_focus": ["master theorem intuition"], "coding_lab": {"language": "Python", "task": "Implement and compare sorting variants", "deliverable": "sorting_suite.py"}, "ai_focus": ["preprocessing for model data"], "assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "When is a theoretically slower algorithm faster in practice?"}, "video_recipe": {"narrative_arc": ["problem", "strategy", "comparison", "lab", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 210, "narration_prompt": "Explain divide-and-conquer visually.", "visual_prompt": "Array splitting animation with recursion tree.", "ambiance": {"music": "light percussive ambient", "sfx": "slice sounds", "color_palette": "navy and silver"}}]}},
+				{"lecture_id": "M04L03", "module_id": "M04", "title": "Dynamic Programming and Greedy Algorithms", "duration_min": 90, "prerequisites": ["M04L02"], "learning_objectives": ["Detect overlapping subproblems", "Build DP tables", "Know greedy failure modes"], "core_terms": ["optimal substructure", "memoization", "tabulation", "greedy choice"], "math_focus": ["recurrence optimization"], "coding_lab": {"language": "Python", "task": "Solve knapsack and shortest path variants", "deliverable": "dp_greedy_lab.py"}, "ai_focus": ["planning and resource allocation"], "assessment": {"quiz_questions": 9, "programming_exercises": 1, "reflection_prompt": "How do you decide between DP and greedy under time pressure?"}, "video_recipe": {"narrative_arc": ["intuition", "construction", "counterexample", "exercise", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 200, "narration_prompt": "Demonstrate memoization as cached recursion graph.", "visual_prompt": "Call graph with repeated nodes collapsing to cache hits.", "ambiance": {"music": "focused ambient", "sfx": "soft pings", "color_palette": "emerald and charcoal"}}]}}
+			]
+		},
+		{
+			"module_id": "M05",
+			"title": "Computer Systems and Architecture",
+			"module_outcomes": ["Understand machine-level execution", "Reason about memory", "Use OS abstractions"],
+			"lectures": [
+				{"lecture_id": "M05L01", "module_id": "M05", "title": "Digital Logic to CPU Execution", "duration_min": 75, "prerequisites": ["M03L03"], "learning_objectives": ["Explain instruction cycle", "Differentiate registers and RAM", "Map code to machine actions"], "core_terms": ["ALU", "register", "instruction pointer", "cache"], "math_focus": ["binary arithmetic"], "coding_lab": {"language": "C", "task": "Inspect generated assembly for C snippets", "deliverable": "cpu_walkthrough.md"}, "ai_focus": ["hardware-aware AI optimization"], "assessment": {"quiz_questions": 7, "programming_exercises": 1, "reflection_prompt": "How do CPU bottlenecks influence model inference?"}, "video_recipe": {"narrative_arc": ["hardware", "execution", "example", "lab", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 180, "narration_prompt": "Follow one instruction through fetch-decode-execute.", "visual_prompt": "CPU datapath animation with highlighted signals.", "ambiance": {"music": "mechanical ambient", "sfx": "clock ticks", "color_palette": "iron gray and amber"}}]}},
+				{"lecture_id": "M05L02", "module_id": "M05", "title": "Memory, Pointers, and C Programming", "duration_min": 90, "prerequisites": ["M05L01", "M02L03"], "learning_objectives": ["Manage memory explicitly", "Avoid undefined behavior", "Use pointers safely"], "core_terms": ["stack", "heap", "pointer", "segmentation fault"], "math_focus": ["address arithmetic"], "coding_lab": {"language": "C", "task": "Implement dynamic array with bounds checks", "deliverable": "dynarray.c"}, "ai_focus": ["performance critical AI kernels"], "assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "Where is low-level control worth complexity cost?"}, "video_recipe": {"narrative_arc": ["risk", "mechanism", "debug", "practice", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 200, "narration_prompt": "Visualize stack and heap growth over time.", "visual_prompt": "Memory map animation while C code executes.", "ambiance": {"music": "tense minimal", "sfx": "memory clicks", "color_palette": "burgundy and graphite"}}]}},
+				{"lecture_id": "M05L03", "module_id": "M05", "title": "Operating Systems, Processes, and Concurrency", "duration_min": 90, "prerequisites": ["M05L02"], "learning_objectives": ["Explain process scheduling", "Use threads safely", "Avoid race conditions"], "core_terms": ["process", "thread", "mutex", "deadlock"], "math_focus": ["resource graphs"], "coding_lab": {"language": "Python", "task": "Build producer-consumer with synchronization", "deliverable": "concurrency_lab.py"}, "ai_focus": ["parallel data pipelines"], "assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "What is the cost of concurrency bugs in ML production?"}, "video_recipe": {"narrative_arc": ["motivation", "model", "hazards", "lab", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 180, "narration_prompt": "Show scheduler behavior under load.", "visual_prompt": "Timeline lanes for competing threads.", "ambiance": {"music": "rhythmic ambient", "sfx": "switch clicks", "color_palette": "teal and black"}}]}}
+			]
+		},
+		{
+			"module_id": "M06",
+			"title": "Linear Algebra and Calculus for AI",
+			"module_outcomes": ["Manipulate vectors and matrices", "Understand gradients", "Link geometry to learning"],
+			"lectures": [
+				{"lecture_id": "M06L01", "module_id": "M06", "title": "Vectors, Matrices, and Linear Transformations", "duration_min": 90, "prerequisites": ["M03L01"], "learning_objectives": ["Perform matrix operations", "Interpret transformations geometrically", "Understand rank and basis"], "core_terms": ["vector space", "basis", "rank", "eigenvector"], "math_focus": ["matrix algebra", "determinants"], "coding_lab": {"language": "Python", "task": "Implement matrix ops with NumPy and without", "deliverable": "linear_algebra_lab.py"}, "ai_focus": ["feature spaces and embeddings"], "assessment": {"quiz_questions": 9, "programming_exercises": 1, "reflection_prompt": "Why does rank deficiency hurt learning?"}, "video_recipe": {"narrative_arc": ["geometry", "algebra", "application", "exercise", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 220, "narration_prompt": "Map 2D vectors through linear transforms.", "visual_prompt": "Grid warping animations under matrix multiplication.", "ambiance": {"music": "airy synth", "sfx": "swells", "color_palette": "white, cyan, black"}}]}},
+				{"lecture_id": "M06L02", "module_id": "M06", "title": "Derivatives, Gradients, and Optimization", "duration_min": 90, "prerequisites": ["M06L01"], "learning_objectives": ["Compute derivatives", "Use gradient descent", "Explain local minima"], "core_terms": ["gradient", "partial derivative", "learning rate", "convexity"], "math_focus": ["single and multivariable calculus"], "coding_lab": {"language": "Python", "task": "Gradient descent from scratch", "deliverable": "gradient_descent.py"}, "ai_focus": ["training objective optimization"], "assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "How does learning rate schedule affect convergence?"}, "video_recipe": {"narrative_arc": ["slope", "descent", "pitfalls", "demo", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 200, "narration_prompt": "Visualize gradient flow on loss surfaces.", "visual_prompt": "3D loss landscape with descent path.", "ambiance": {"music": "slow pulse", "sfx": "wind rise", "color_palette": "deep blue and coral"}}]}},
+				{"lecture_id": "M06L03", "module_id": "M06", "title": "Probability, Statistics, and Estimation", "duration_min": 90, "prerequisites": ["M03L02"], "learning_objectives": ["Use distributions", "Estimate parameters", "Interpret confidence and variance"], "core_terms": ["likelihood", "MLE", "variance", "bias"], "math_focus": ["normal distribution", "expectation", "variance"], "coding_lab": {"language": "Python", "task": "Estimate parameters for synthetic datasets", "deliverable": "stats_estimation.py"}, "ai_focus": ["model uncertainty"], "assessment": {"quiz_questions": 10, "programming_exercises": 1, "reflection_prompt": "What does high variance look like in predictions?"}, "video_recipe": {"narrative_arc": ["uncertainty", "models", "estimation", "practice", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 210, "narration_prompt": "Relate distributions to noisy real data.", "visual_prompt": "Histograms morphing into parametric curves.", "ambiance": {"music": "soft analytical", "sfx": "data blips", "color_palette": "indigo and cream"}}]}}
+			]
+		},
+		{
+			"module_id": "M07",
+			"title": "Knowledge Representation and Lisp",
+			"module_outcomes": ["Build symbolic knowledge bases", "Implement explainable reasoning traces", "Understand homoiconicity in Lisp"],
+			"lectures": [
+				{"lecture_id": "M07L01", "module_id": "M07", "title": "Knowledge Representation Schemes", "duration_min": 75, "prerequisites": ["M01L02", "M03L01"], "learning_objectives": ["Compare frames, rules, and semantic networks", "Design queryable KB schemas", "Track provenance"], "core_terms": ["knowledge base", "ontology", "rule", "semantic network"], "math_focus": ["graph structures", "logic consistency"], "coding_lab": {"language": "Python", "task": "Create rule-based medical triage KB", "deliverable": "kb_triage.json and query_engine.py"}, "ai_focus": ["expert systems"], "assessment": {"quiz_questions": 7, "programming_exercises": 1, "reflection_prompt": "How should a system expose its reasoning to operators?"}, "video_recipe": {"narrative_arc": ["knowledge", "structures", "query", "trace", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 180, "narration_prompt": "Show different representation choices and tradeoffs.", "visual_prompt": "Same domain shown as graph, table, and rules.", "ambiance": {"music": "mysterious minimal", "sfx": "node pops", "color_palette": "sepia and cyan"}}]}},
+				{"lecture_id": "M07L02", "module_id": "M07", "title": "Lisp and Symbolic Programming", "duration_min": 90, "prerequisites": ["M02L02"], "learning_objectives": ["Read and write Lisp expressions", "Use recursion idiomatically", "Understand code-as-data"], "core_terms": ["S-expression", "homoiconicity", "macro", "list processing"], "math_focus": ["tree recursion"], "coding_lab": {"language": "Lisp", "task": "Build symbolic simplifier for algebraic expressions", "deliverable": "simplifier.lisp"}, "ai_focus": ["symbol manipulation"], "assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "Why is code-as-data powerful for AI tooling?"}, "video_recipe": {"narrative_arc": ["syntax", "execution", "meta-programming", "lab", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 220, "narration_prompt": "Demonstrate nested S-expressions as trees.", "visual_prompt": "Parenthesized code unfolding into AST branches.", "ambiance": {"music": "retro-futurist ambient", "sfx": "soft beeps", "color_palette": "green phosphor and black"}}]}},
+				{"lecture_id": "M07L03", "module_id": "M07", "title": "Expert Systems and Explanation Engines", "duration_min": 90, "prerequisites": ["M07L01", "M07L02"], "learning_objectives": ["Build rule engines", "Generate explanation traces", "Handle uncertainty with confidence factors"], "core_terms": ["forward chaining", "backward chaining", "explanation trace"], "math_focus": ["certainty factors", "rule confidence"], "coding_lab": {"language": "Python", "task": "Implement explainable rule engine with why/how questions", "deliverable": "expert_system.py"}, "ai_focus": ["interpretable AI"], "assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "What makes an explanation useful to non-technical operators?"}, "video_recipe": {"narrative_arc": ["need", "engine", "trace", "evaluation", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 200, "narration_prompt": "Walk through query and explanation output.", "visual_prompt": "Rule firing timeline with highlighted evidence.", "ambiance": {"music": "focused ambient", "sfx": "logic chimes", "color_palette": "midnight and amber"}}]}}
+			]
+		},
+		{
+			"module_id": "M08",
+			"title": "Machine Learning Foundations",
+			"module_outcomes": ["Build supervised models", "Evaluate rigorously", "Diagnose errors"],
+			"lectures": [
+				{"lecture_id": "M08L01", "module_id": "M08", "title": "Supervised Learning Workflow", "duration_min": 90, "prerequisites": ["M06L03", "M02L03"], "learning_objectives": ["Formulate prediction tasks", "Split datasets correctly", "Choose evaluation metrics"], "core_terms": ["train/validation/test", "overfitting", "generalization"], "math_focus": ["loss functions", "risk minimization"], "coding_lab": {"language": "Python", "task": "Train and evaluate regression/classification baselines", "deliverable": "ml_workflow.ipynb"}, "ai_focus": ["supervised learning"], "assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "How do leakage and bias enter data workflows?"}, "video_recipe": {"narrative_arc": ["pipeline", "model", "evaluation", "failure modes", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 220, "narration_prompt": "Visualize end-to-end supervised pipeline.", "visual_prompt": "Dataflow diagram from raw data to metrics dashboard.", "ambiance": {"music": "clean modern ambient", "sfx": "dashboard blips", "color_palette": "white, black, cyan"}}]}},
+				{"lecture_id": "M08L02", "module_id": "M08", "title": "Linear Models, Trees, and Ensembles", "duration_min": 90, "prerequisites": ["M08L01"], "learning_objectives": ["Train linear and tree models", "Understand bias-variance tradeoff", "Use ensemble methods"], "core_terms": ["regularization", "decision tree", "random forest", "boosting"], "math_focus": ["L1/L2 penalties"], "coding_lab": {"language": "Python", "task": "Compare model families on same dataset", "deliverable": "model_comparison.py"}, "ai_focus": ["classical ML"], "assessment": {"quiz_questions": 9, "programming_exercises": 1, "reflection_prompt": "Which model was easiest to explain and why?"}, "video_recipe": {"narrative_arc": ["family overview", "mechanics", "comparison", "lab", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 200, "narration_prompt": "Contrast linear boundaries and tree partitions.", "visual_prompt": "2D classification boundaries morph across models.", "ambiance": {"music": "steady and neutral", "sfx": "soft taps", "color_palette": "teal and graphite"}}]}},
+				{"lecture_id": "M08L03", "module_id": "M08", "title": "Model Evaluation, Error Analysis, and Fairness", "duration_min": 90, "prerequisites": ["M08L02"], "learning_objectives": ["Interpret confusion matrix and ROC", "Run error slicing", "Assess fairness metrics"], "core_terms": ["precision", "recall", "AUC", "demographic parity"], "math_focus": ["conditional rates"], "coding_lab": {"language": "Python", "task": "Build evaluation report with subgroup analysis", "deliverable": "evaluation_report.py"}, "ai_focus": ["responsible AI"], "assessment": {"quiz_questions": 10, "programming_exercises": 1, "reflection_prompt": "What interventions improve fairness without severe performance loss?"}, "video_recipe": {"narrative_arc": ["metrics", "tradeoffs", "slices", "action", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 210, "narration_prompt": "Show threshold impact on precision and recall.", "visual_prompt": "Interactive ROC and PR curves with moving threshold.", "ambiance": {"music": "serious ambient", "sfx": "monitor tones", "color_palette": "black, orange, white"}}]}}
+			]
+		},
+		{
+			"module_id": "M09",
+			"title": "Neural Networks and Deep Learning",
+			"module_outcomes": ["Implement neural networks", "Train deep models", "Debug optimization failures"],
+			"lectures": [
+				{"lecture_id": "M09L01", "module_id": "M09", "title": "Perceptrons to Multi-Layer Networks", "duration_min": 90, "prerequisites": ["M06L02", "M08L01"], "learning_objectives": ["Understand neuron model", "Apply activations", "Build MLPs"], "core_terms": ["activation", "weight", "bias", "backpropagation"], "math_focus": ["chain rule", "matrix calculus intuition"], "coding_lab": {"language": "Python", "task": "Implement MLP from scratch", "deliverable": "mlp_from_scratch.py"}, "ai_focus": ["deep learning basics"], "assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "Why does depth increase expressiveness?"}, "video_recipe": {"narrative_arc": ["history", "mechanism", "training", "exercise", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 220, "narration_prompt": "Show signal passing through layered neurons.", "visual_prompt": "Network graph with weighted edges pulsing.", "ambiance": {"music": "expansive ambient", "sfx": "electronic pulses", "color_palette": "violet-free cyan/gold"}}]}},
+				{"lecture_id": "M09L02", "module_id": "M09", "title": "CNNs, RNNs, and Sequence Modeling", "duration_min": 90, "prerequisites": ["M09L01"], "learning_objectives": ["Use convolutions for images", "Use recurrent structures for sequences", "Recognize training instability"], "core_terms": ["convolution", "pooling", "hidden state", "vanishing gradient"], "math_focus": ["discrete convolution"], "coding_lab": {"language": "Python", "task": "Train CNN on image set and RNN on text", "deliverable": "cnn_rnn_lab.ipynb"}, "ai_focus": ["vision and sequence models"], "assessment": {"quiz_questions": 9, "programming_exercises": 1, "reflection_prompt": "When should you choose convolution vs attention?"}, "video_recipe": {"narrative_arc": ["data modality", "architectures", "comparison", "lab", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 210, "narration_prompt": "Animate convolution kernels scanning images.", "visual_prompt": "Feature maps appearing layer by layer.", "ambiance": {"music": "dynamic ambient", "sfx": "scan sweeps", "color_palette": "indigo and lime"}}]}},
+				{"lecture_id": "M09L03", "module_id": "M09", "title": "Transformers and Attention Mechanisms", "duration_min": 90, "prerequisites": ["M09L02"], "learning_objectives": ["Explain self-attention", "Understand positional encoding", "Train small transformer"], "core_terms": ["query", "key", "value", "multi-head attention"], "math_focus": ["softmax", "dot-product similarity"], "coding_lab": {"language": "Python", "task": "Implement mini-transformer for next-token prediction", "deliverable": "mini_transformer.py"}, "ai_focus": ["modern language models"], "assessment": {"quiz_questions": 10, "programming_exercises": 1, "reflection_prompt": "What are the memory and compute costs of attention?"}, "video_recipe": {"narrative_arc": ["motivation", "attention math", "architecture", "demo", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 230, "narration_prompt": "Illustrate token-to-token attention weights.", "visual_prompt": "Sentence tokens connected by weighted arcs.", "ambiance": {"music": "futurist ambient", "sfx": "data shimmer", "color_palette": "obsidian and cyan"}}]}}
+			]
+		},
+		{
+			"module_id": "M10",
+			"title": "Data Engineering, MLOps, and Deployment",
+			"module_outcomes": ["Build reproducible data pipelines", "Ship models safely", "Monitor production systems"],
+			"lectures": [
+				{"lecture_id": "M10L01", "module_id": "M10", "title": "Data Pipelines and Feature Engineering", "duration_min": 75, "prerequisites": ["M08L01"], "learning_objectives": ["Design ETL/ELT flows", "Engineer stable features", "Validate data quality"], "core_terms": ["ETL", "feature store", "data drift", "schema validation"], "math_focus": ["summary statistics for monitoring"], "coding_lab": {"language": "Python", "task": "Build batch feature pipeline with validation", "deliverable": "feature_pipeline.py"}, "ai_focus": ["reliable training data"], "assessment": {"quiz_questions": 7, "programming_exercises": 1, "reflection_prompt": "Which data quality check catches highest-risk failures?"}, "video_recipe": {"narrative_arc": ["ingestion", "transform", "validate", "serve", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 180, "narration_prompt": "Map raw events to model-ready features.", "visual_prompt": "Pipeline DAG with validation gates.", "ambiance": {"music": "steady workflow ambient", "sfx": "pipeline hum", "color_palette": "stone and cyan"}}]}},
+				{"lecture_id": "M10L02", "module_id": "M10", "title": "Experiment Tracking and Reproducibility", "duration_min": 75, "prerequisites": ["M10L01"], "learning_objectives": ["Track runs and metrics", "Version data and models", "Reproduce results"], "core_terms": ["artifact", "lineage", "reproducibility", "seed"], "math_focus": ["variance across runs"], "coding_lab": {"language": "Python", "task": "Log experiments and compare runs", "deliverable": "experiment_tracker.py"}, "ai_focus": ["scientific ML practice"], "assessment": {"quiz_questions": 7, "programming_exercises": 1, "reflection_prompt": "What is the minimum metadata needed to reproduce a model?"}, "video_recipe": {"narrative_arc": ["chaos", "control", "tools", "workflow", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 170, "narration_prompt": "Show failed reproduction scenario and fix.", "visual_prompt": "Run metadata table with missing field highlighted.", "ambiance": {"music": "sober ambient", "sfx": "notification pings", "color_palette": "gray and amber"}}]}},
+				{"lecture_id": "M10L03", "module_id": "M10", "title": "Serving, Monitoring, and Incident Response", "duration_min": 90, "prerequisites": ["M10L02"], "learning_objectives": ["Deploy model APIs", "Set SLOs", "Respond to drift incidents"], "core_terms": ["latency", "throughput", "SLO", "canary release"], "math_focus": ["time-series alert thresholds"], "coding_lab": {"language": "Python", "task": "Deploy inference API with monitoring hooks", "deliverable": "model_service.py"}, "ai_focus": ["production reliability"], "assessment": {"quiz_questions": 8, "programming_exercises": 1, "reflection_prompt": "How do you triage a sudden model quality drop?"}, "video_recipe": {"narrative_arc": ["deployment", "observability", "incident", "recovery", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 210, "narration_prompt": "Simulate drift alert and rollback decision.", "visual_prompt": "Ops dashboard with anomaly spike and rollback timeline.", "ambiance": {"music": "urgent but controlled", "sfx": "alert tone soft", "color_palette": "dark slate and warning orange"}}]}}
+			]
+		},
+		{
+			"module_id": "M11",
+			"title": "Theory of Computation and Advanced AI Topics",
+			"module_outcomes": ["Understand computability limits", "Reason about complexity classes", "Connect theory to modern AI"],
+			"lectures": [
+				{"lecture_id": "M11L01", "module_id": "M11", "title": "Computability and Turing Machines", "duration_min": 90, "prerequisites": ["M03L03"], "learning_objectives": ["Define Turing-computable functions", "Understand undecidability", "Recognize reduction ideas"], "core_terms": ["Turing machine", "halting problem", "decidable"], "math_focus": ["formal language basics"], "coding_lab": {"language": "Python", "task": "Simulate simple Turing machine", "deliverable": "tm_simulator.py"}, "ai_focus": ["limits of algorithmic reasoning"], "assessment": {"quiz_questions": 9, "programming_exercises": 1, "reflection_prompt": "Why do theoretical limits matter for practical AI?"}, "video_recipe": {"narrative_arc": ["model", "limits", "proof sketch", "simulation", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 220, "narration_prompt": "Animate tape head operations and state transitions.", "visual_prompt": "Infinite tape illusion with head movement.", "ambiance": {"music": "slow conceptual ambient", "sfx": "mechanical ticks", "color_palette": "black and ivory"}}]}},
+				{"lecture_id": "M11L02", "module_id": "M11", "title": "Complexity Classes and Intractability", "duration_min": 90, "prerequisites": ["M04L01", "M11L01"], "learning_objectives": ["Differentiate P, NP, NP-complete", "Use reductions", "Discuss approximation strategies"], "core_terms": ["P", "NP", "NP-complete", "reduction"], "math_focus": ["polynomial bounds"], "coding_lab": {"language": "Python", "task": "Approximate NP-hard scheduling instance", "deliverable": "np_approx_lab.py"}, "ai_focus": ["search complexity in planning"], "assessment": {"quiz_questions": 9, "programming_exercises": 1, "reflection_prompt": "How do practitioners cope with intractable problems?"}, "video_recipe": {"narrative_arc": ["classes", "reductions", "implications", "lab", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 210, "narration_prompt": "Build intuition for reductions via puzzle mappings.", "visual_prompt": "One problem graph morphing into another.", "ambiance": {"music": "intense minimal", "sfx": "shape snaps", "color_palette": "midnight and crimson"}}]}},
+				{"lecture_id": "M11L03", "module_id": "M11", "title": "Probabilistic Inference and Causal Reasoning", "duration_min": 90, "prerequisites": ["M06L03", "M08L03"], "learning_objectives": ["Perform Bayesian inference", "Use graphical models", "Distinguish correlation from causation"], "core_terms": ["Bayesian network", "posterior", "intervention", "DAG"], "math_focus": ["conditional probability", "do-calculus intuition"], "coding_lab": {"language": "Python", "task": "Infer posteriors in small Bayesian network", "deliverable": "bayes_net_lab.py"}, "ai_focus": ["reasoning under uncertainty"], "assessment": {"quiz_questions": 10, "programming_exercises": 1, "reflection_prompt": "How does causal framing change model decisions?"}, "video_recipe": {"narrative_arc": ["uncertainty", "structure", "inference", "causality", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 220, "narration_prompt": "Show evidence update through Bayesian network.", "visual_prompt": "Probability bars updating along DAG edges.", "ambiance": {"music": "soft investigative ambient", "sfx": "pulse blips", "color_palette": "navy and mint"}}]}}
+			]
+		},
+		{
+			"module_id": "M12",
+			"title": "Capstone Studio and Communication",
+			"module_outcomes": ["Integrate full-stack AI/CS knowledge", "Communicate technical decisions", "Deliver production-grade capstone"],
+			"lectures": [
+				{"lecture_id": "M12L01", "module_id": "M12", "title": "Capstone Proposal and System Design", "duration_min": 75, "prerequisites": ["M10L03"], "learning_objectives": ["Define problem scope", "Select metrics", "Design architecture"], "core_terms": ["requirements", "architecture", "tradeoff analysis"], "math_focus": ["metric selection and validation"], "coding_lab": {"language": "Mixed", "task": "Draft architecture and implementation backlog", "deliverable": "capstone_design_doc.md"}, "ai_focus": ["project scoping"], "assessment": {"quiz_questions": 0, "programming_exercises": 1, "reflection_prompt": "What is your failure mode plan?"}, "video_recipe": {"narrative_arc": ["brief", "constraints", "design", "milestones", "summary"], "scene_blocks": [{"block_id": "A", "duration_s": 170, "narration_prompt": "Guide scope definition with measurable outcomes.", "visual_prompt": "Architecture boxes and arrows forming progressively.", "ambiance": {"music": "motivational ambient", "sfx": "marker strokes", "color_palette": "cream and slate"}}]}},
+				{"lecture_id": "M12L02", "module_id": "M12", "title": "Implementation Sprint and Technical Review", "duration_min": 120, "prerequisites": ["M12L01"], "learning_objectives": ["Ship MVP", "Run code review", "Document validation evidence"], "core_terms": ["MVP", "code review", "test coverage", "ablation"], "math_focus": ["experimental comparison"], "coding_lab": {"language": "Mixed", "task": "Build capstone MVP and validation report", "deliverable": "capstone_repo + report.md"}, "ai_focus": ["integration and validation"], "assessment": {"quiz_questions": 0, "programming_exercises": 1, "reflection_prompt": "Which design choices changed after empirical testing?"}, "video_recipe": {"narrative_arc": ["build", "test", "review", "iterate", "recap"], "scene_blocks": [{"block_id": "A", "duration_s": 220, "narration_prompt": "Show iterative development and test feedback loops.", "visual_prompt": "Kanban board moving tasks from backlog to done.", "ambiance": {"music": "energetic but calm", "sfx": "task pop", "color_palette": "graphite and turquoise"}}]}},
+				{"lecture_id": "M12L03", "module_id": "M12", "title": "Final Presentation, Explainability, and Future Directions", "duration_min": 90, "prerequisites": ["M12L02"], "learning_objectives": ["Present technical story", "Defend design decisions", "Plan roadmap improvements"], "core_terms": ["technical narrative", "explainability", "roadmap"], "math_focus": ["confidence reporting", "uncertainty communication"], "coding_lab": {"language": "Mixed", "task": "Prepare demo and postmortem", "deliverable": "slides + demo script + postmortem.md"}, "ai_focus": ["communication and governance"], "assessment": {"quiz_questions": 0, "programming_exercises": 1, "reflection_prompt": "What will you automate next in your pipeline?"}, "video_recipe": {"narrative_arc": ["demo", "evidence", "explain", "feedback", "closure"], "scene_blocks": [{"block_id": "A", "duration_s": 210, "narration_prompt": "Teach how to communicate evidence-backed claims.", "visual_prompt": "Before/after system metrics and architecture recap montage.", "ambiance": {"music": "uplifting ambient finale", "sfx": "soft riser", "color_palette": "white, black, gold"}}]}}
+			]
+		}
+	],
+	"capstone_requirements": {
+		"minimum_features": [
+			"Data ingestion and validation",
+			"Model training and evaluation",
+			"Explainability or reasoning trace output",
+			"Deployment endpoint or executable interface",
+			"Monitoring metrics"
+		],
+		"minimum_math_justification": [
+			"Loss function justification",
+			"Metric selection rationale",
+			"Error analysis with distributional summary"
+		]
+	},
+	"assessment_policy": {
+		"module_quizzes_weight": 0.25,
+		"coding_labs_weight": 0.45,
+		"midcourse_project_weight": 0.1,
+		"capstone_weight": 0.2
+	},
+	"delivery_modes": [
+		"instructor-led lecture",
+		"self-paced video",
+		"guided lab"
+	],
+	"machine_ingestion_notes": {
+		"flatten_key": "modules[].lectures[]",
+		"duration_field_unit": "minutes for lectures, seconds for scene blocks",
+		"safe_defaults_if_missing": {
+			"voice_style": "clear professor",
+			"music": "low ambient",
+			"color_palette": "ink and cyan"
+		}
+	}
+}
