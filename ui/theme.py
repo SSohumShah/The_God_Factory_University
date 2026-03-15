@@ -6,7 +6,7 @@ Colour palette:
   - Obsidian background:   #060812
   - Deep panel:            #0e1230
   - God Factory cyan:           #00d4ff
-  - Alchemist gold:        #ffd700
+  - Accent gold:           #ffd700
   - Crimson alert:         #e04040
   - Shadow silver:         #b8b8d0
   - Dim mist:              #606080
@@ -229,10 +229,6 @@ def section_divider(label: str = "") -> None:
         line = "◆" + "─" * 58 + "◆"
     st.markdown(f"<p style='color:#00d4ff44;font-family:monospace;letter-spacing:2px;'>{line}</p>",
                 unsafe_allow_html=True)
-
-
-# Backward compatibility alias
-rune_divider = section_divider
 
 
 def stat_card(label: str, value: str, delta: str = "", colour: str = "#00d4ff") -> None:

@@ -202,7 +202,7 @@ The Ollama service starts automatically after installation.
                     st.markdown(f"**Installed models**: {', '.join(models)}")
                     selected_model = st.selectbox("Choose a model:", models)
                 else:
-                    st.warning("No models found. Run `ollama pull llama3.2` in your terminal.")
+                    st.warning("No models installed yet. Use 'Pull a New Model' below to download one.")
                     selected_model = st.text_input("Model name:", "llama3.2")
             except Exception:
                 selected_model = st.text_input("Model name:", "llama3.2")
@@ -225,10 +225,72 @@ The Ollama service starts automatically after installation.
                 "After installing, restart this page."
             )
 
-        # Manual pull helper
+        # Pull a model directly from the UI
         with st.expander("Pull a New Model"):
-            pull_model = st.text_input("Model to pull:", "llama3.2", key="ollama_pull")
-            st.markdown(f"Run this in your terminal: `ollama pull {pull_model}`")
+            OLLAMA_CATALOG = {
+                "Tiny (1-3B) — 4 GB RAM": [
+                    "llama3.2:1b", "qwen3:0.6b", "qwen3:1.7b", "qwen2.5:0.5b",
+                    "qwen2.5:1.5b", "qwen2.5-coder:0.5b", "qwen2.5-coder:1.5b",
+                    "gemma3:1b", "deepseek-r1:1.5b", "phi3:mini", "tinyllama",
+                    "smollm2:135m", "smollm2:360m", "smollm2:1.7b",
+                ],
+                "Small (7-8B) — 8 GB RAM": [
+                    "llama3.2", "llama3.1:8b", "llama3:8b", "qwen3:8b",
+                    "qwen2.5:7b", "qwen2.5-coder:7b", "mistral:7b",
+                    "gemma3:4b", "gemma2:9b", "deepseek-r1:7b", "deepseek-r1:8b",
+                    "phi4:14b", "codellama:7b", "starcoder2:7b",
+                    "dolphin-mistral", "neural-chat", "starling-lm",
+                    "nous-hermes2", "orca-mini", "stable-code",
+                    "nomic-embed-text", "mxbai-embed-large",
+                ],
+                "Medium (13-14B) — 16 GB RAM": [
+                    "qwen3:14b", "qwen2.5:14b", "qwen2.5-coder:14b",
+                    "gemma3:12b", "deepseek-r1:14b", "codellama:13b",
+                    "llava:13b", "wizard-math:13b", "vicuna:13b",
+                    "starcoder2:15b",
+                ],
+                "Large (27-34B) — 32 GB RAM": [
+                    "qwen3:30b", "qwen3:32b", "qwen2.5:32b",
+                    "qwen2.5-coder:32b", "gemma3:27b", "gemma2:27b",
+                    "deepseek-r1:32b", "codellama:34b",
+                    "command-r:35b", "llava:34b", "yi:34b",
+                ],
+                "XL (70B+) — 64 GB RAM": [
+                    "llama3.1:70b", "llama3:70b", "qwen3:235b",
+                    "qwen2.5:72b", "deepseek-r1:70b", "deepseek-r1:671b",
+                    "codellama:70b", "command-r-plus",
+                ],
+            }
+            size_cat = st.selectbox("Model size category:", list(OLLAMA_CATALOG.keys()))
+            pull_model = st.selectbox("Model to pull:", OLLAMA_CATALOG[size_cat], key="ollama_pull")
+
+            pc1, pc2 = st.columns(2)
+            with pc1:
+                if st.button("Pull Model via API", use_container_width=True):
+                    import requests as _req
+                    with st.spinner(f"Pulling {pull_model} — this may take several minutes..."):
+                        try:
+                            resp = _req.post(
+                                "http://localhost:11434/api/pull",
+                                json={"name": pull_model},
+                                timeout=600,
+                                stream=True,
+                            )
+                            resp.raise_for_status()
+                            status_area = st.empty()
+                            for line in resp.iter_lines():
+                                if line:
+                                    import json as _json
+                                    data = _json.loads(line)
+                                    status_area.text(data.get("status", ""))
+                            play_sfx("success")
+                            st.success(f"Successfully pulled {pull_model}")
+                            st.rerun()
+                        except Exception as pull_err:
+                            st.error(f"Pull failed: {pull_err}")
+            with pc2:
+                st.markdown(f"**Or run in terminal:**")
+                st.code(f"ollama pull {pull_model}", language="bash")
 
         # Troubleshooting
         with st.expander("Troubleshooting"):
@@ -319,6 +381,7 @@ if wizard_path == "cloud":
             "url": "https://api.groq.com/openai/v1",
             "models": ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "mixtral-8x7b-32768", "gemma2-9b-it"],
             "signup": "console.groq.com",
+            "signup_url": "https://console.groq.com/keys",
             "key_prefix": "gsk_",
             "cost": "FREE tier — generous rate limits, no payment required",
             "setup": [
@@ -335,6 +398,7 @@ if wizard_path == "cloud":
             "url": "https://models.inference.ai.azure.com",
             "models": ["gpt-4.1", "gpt-4.1-mini", "gpt-4.1-nano", "o4-mini", "o3-mini", "Meta-Llama-3.1-405B-Instruct", "Meta-Llama-3.1-70B-Instruct", "Mistral-large-2411", "Phi-4", "DeepSeek-R1"],
             "signup": "github.com/settings/tokens",
+            "signup_url": "https://github.com/settings/tokens",
             "key_prefix": "ghp_",
             "cost": "FREE during preview — uses your GitHub Personal Access Token",
             "setup": [
@@ -352,6 +416,7 @@ if wizard_path == "cloud":
             "url": "https://api.openai.com/v1",
             "models": ["gpt-4.1", "gpt-4.1-mini", "gpt-4.1-nano", "gpt-4o", "gpt-4o-mini", "o3-mini"],
             "signup": "platform.openai.com",
+            "signup_url": "https://platform.openai.com/api-keys",
             "key_prefix": "sk-",
             "cost": "PAID — gpt-4o: ~$2.50 input / $10 output per 1M tokens; gpt-4o-mini: ~$0.15 / $0.60",
             "setup": [
@@ -369,6 +434,7 @@ if wizard_path == "cloud":
             "url": "https://api.anthropic.com",
             "models": ["claude-sonnet-4-20250514", "claude-3-5-haiku-20241022", "claude-3-5-sonnet-20241022"],
             "signup": "console.anthropic.com",
+            "signup_url": "https://console.anthropic.com/settings/keys",
             "key_prefix": "sk-ant-",
             "cost": "PAID — Sonnet: ~$3/$15 per 1M tokens; Haiku: ~$0.25/$1.25",
             "setup": [
@@ -386,6 +452,7 @@ if wizard_path == "cloud":
             "url": "https://api.mistral.ai/v1",
             "models": ["mistral-large-latest", "mistral-small-latest", "codestral-latest"],
             "signup": "console.mistral.ai",
+            "signup_url": "https://console.mistral.ai/api-keys",
             "key_prefix": "",
             "cost": "FREE experiment tier; Scale tier: Small ~$0.1/$0.3, Large ~$2/$6 per 1M tokens",
             "setup": [
@@ -402,6 +469,7 @@ if wizard_path == "cloud":
             "url": "https://api.together.xyz/v1",
             "models": ["meta-llama/Llama-3.3-70B-Instruct-Turbo", "meta-llama/Llama-3.1-70B-Instruct-Turbo", "Qwen/Qwen2.5-72B-Instruct-Turbo", "deepseek-ai/DeepSeek-R1"],
             "signup": "api.together.xyz",
+            "signup_url": "https://api.together.xyz/settings/api-keys",
             "key_prefix": "",
             "cost": "FREE $5 credit on signup; then pay-as-you-go (Llama 8B: ~$0.18/1M tokens)",
             "setup": [
@@ -417,6 +485,7 @@ if wizard_path == "cloud":
             "url": "https://api-inference.huggingface.co/v1",
             "models": ["meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Llama-3.1-8B-Instruct", "Qwen/Qwen2.5-72B-Instruct", "mistralai/Mistral-7B-Instruct-v0.3"],
             "signup": "huggingface.co/settings/tokens",
+            "signup_url": "https://huggingface.co/settings/tokens",
             "key_prefix": "hf_",
             "cost": "FREE tier for Inference API (rate-limited); Pro for dedicated endpoints",
             "setup": [
@@ -437,7 +506,11 @@ if wizard_path == "cloud":
 
     # Cost and notes
     st.markdown(f"**Cost**: {prov['cost']}")
-    st.markdown(f"**Signup**: {prov['signup']}")
+    st.link_button(
+        f"Get {provider_label.split('(')[0].strip()} API Key",
+        prov["signup_url"],
+        use_container_width=True,
+    )
     st.info(prov["notes"])
 
     # Step-by-step

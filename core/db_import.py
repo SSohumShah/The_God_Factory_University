@@ -10,6 +10,7 @@ from pathlib import Path
 
 
 _SCHEMA_CACHE: dict | None = None
+_ASSIGNMENT_SCHEMA_CACHE: dict | None = None
 
 
 def _load_schema() -> dict | None:
@@ -22,6 +23,20 @@ def _load_schema() -> dict | None:
     try:
         _SCHEMA_CACHE = json.loads(schema_path.read_text(encoding="utf-8"))
         return _SCHEMA_CACHE
+    except Exception:
+        return None
+
+
+def _load_assignment_schema() -> dict | None:
+    global _ASSIGNMENT_SCHEMA_CACHE
+    if _ASSIGNMENT_SCHEMA_CACHE is not None:
+        return _ASSIGNMENT_SCHEMA_CACHE
+    schema_path = Path(__file__).resolve().parent.parent / "schemas" / "assignment_schema.json"
+    if not schema_path.exists():
+        return None
+    try:
+        _ASSIGNMENT_SCHEMA_CACHE = json.loads(schema_path.read_text(encoding="utf-8"))
+        return _ASSIGNMENT_SCHEMA_CACHE
     except Exception:
         return None
 
@@ -44,8 +59,29 @@ def validate_course_json(obj: dict) -> list[str]:
     return errors
 
 
+def validate_assignment_batch(obj: dict) -> list[str]:
+    try:
+        import jsonschema
+    except ImportError:
+        return []
+    schema = _load_assignment_schema()
+    if schema is None:
+        return []
+    errors = []
+    v = jsonschema.Draft7Validator(schema)
+    for error in v.iter_errors(obj):
+        path = " -> ".join(str(p) for p in error.absolute_path) if error.absolute_path else "(root)"
+        errors.append(f"AssignmentSchema: {path}: {error.message}")
+    return errors
+
+
+def _is_assignment_batch(obj: dict) -> bool:
+    return "assignments" in obj and isinstance(obj.get("assignments"), list) and "modules" not in obj
+
+
 def bulk_import_json(raw: str, *, tx_func, upsert_course, upsert_module, upsert_lecture,
-                     unlock_achievement, add_xp, validate_only: bool = False) -> tuple[int, list[str]]:
+                     unlock_achievement, add_xp, validate_only: bool = False,
+                     save_assignment_fn=None) -> tuple[int, list[str]]:
     objects = []
     raw = raw.strip()
     try:
@@ -65,6 +101,24 @@ def bulk_import_json(raw: str, *, tx_func, upsert_course, upsert_module, upsert_
     for i, obj in enumerate(objects):
         if not isinstance(obj, dict):
             errors.append(f"Object {i + 1}: expected a JSON object, got {type(obj).__name__}")
+            continue
+        if _is_assignment_batch(obj):
+            schema_errors = validate_assignment_batch(obj)
+            if schema_errors:
+                prefix = f"Object {i + 1}" if len(objects) > 1 else "Input"
+                errors.extend(f"{prefix}: {e}" for e in schema_errors)
+                continue
+            if validate_only:
+                imported += 1
+                continue
+            if save_assignment_fn is None:
+                errors.append(f"Object {i + 1}: assignment batch detected but no assignment handler available")
+                continue
+            try:
+                _import_assignment_batch(obj, tx_func=tx_func, save_assignment_fn=save_assignment_fn)
+                imported += 1
+            except Exception as e:
+                errors.append(f"Object {i + 1}: {e}")
             continue
         schema_errors = validate_course_json(obj)
         if schema_errors:
@@ -156,3 +210,26 @@ def _import_lecture_flat(obj: dict, *, upsert_lecture) -> None:
     mid = obj.get("module_id", "unassigned")
     cid = obj.get("course_id", "unassigned")
     upsert_lecture(lid, mid, cid, obj.get("title", "Lecture"), obj.get("duration_min", 60), 0, obj)
+
+
+def _import_assignment_batch(obj: dict, *, tx_func, save_assignment_fn) -> None:
+    course_id = obj["course_id"]
+    for i, asn in enumerate(obj["assignments"]):
+        asn_id = asn.get("assignment_id") or f"{course_id}-A{i:02d}"
+        save_assignment_fn({
+            "id": asn_id,
+            "course_id": course_id,
+            "lecture_id": asn.get("due_after_lecture"),
+            "title": asn["title"],
+            "description": asn.get("description", ""),
+            "type": asn.get("type", "quiz"),
+            "max_score": asn.get("max_score", 100),
+            "weight": asn.get("weight", 1.0),
+            "data": {
+                "rubric": asn.get("rubric", []),
+                "questions": asn.get("questions", []),
+                "difficulty_level": asn.get("difficulty_level"),
+                "time_limit_minutes": asn.get("time_limit_minutes"),
+                "resources": asn.get("resources", []),
+            },
+        }, tx_func)

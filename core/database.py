@@ -782,6 +782,7 @@ def bulk_import_json(raw: str, validate_only: bool = False) -> tuple[int, list[s
         raw, tx_func=tx, upsert_course=upsert_course, upsert_module=upsert_module,
         upsert_lecture=upsert_lecture, unlock_achievement=unlock_achievement,
         add_xp=add_xp, validate_only=validate_only,
+        save_assignment_fn=_save_assignment_raw,
     )
 
 

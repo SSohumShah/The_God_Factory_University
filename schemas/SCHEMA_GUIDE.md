@@ -1,16 +1,38 @@
 # HOW TO GENERATE COURSES WITH AN LLM
 
+## How the 3 Schema Files Work Together
+
+```
+course_schema.json          -- LLM template (copy/paste into any LLM prompt)
+        |
+        v
+  LLM fills it in --> JSON output --> Bulk Import (Library page)
+        |                                    |
+        v                                    v
+assignment_schema.json      course_validation_schema.json
+(optional: generate              (validates structure
+ assignments separately)          before saving to DB)
+```
+
+| File | Purpose | Used By |
+|------|---------|---------|
+| `course_schema.json` | Example template you paste into an LLM prompt | You (the user) |
+| `course_validation_schema.json` | JSON Schema (Draft-07) that validates imports | `db_import.py` (automatic) |
+| `assignment_schema.json` | JSON Schema for standalone assignment batches | `db_import.py` (automatic) |
+
+---
+
 ## The 3-Step Workflow
 
-### Step 1 — Write your topic request
+### Step 1 -- Write your topic request
 Think of anything you want to learn. Examples:
 - "Quantum mechanics for programmers"
 - "History of jazz and music theory"
 - "Ethical hacking and penetration testing"
-- "Spanish language — beginner to intermediate"
+- "Spanish language -- beginner to intermediate"
 - "Economics of AI and automation"
 
-### Step 2 — Send this prompt to any LLM (ChatGPT, Claude, Copilot, Gemini, etc.)
+### Step 2 -- Send this prompt to any LLM (ChatGPT, Claude, Copilot, Gemini, etc.)
 
 ```
 Here is a JSON schema for an educational course.
@@ -24,13 +46,32 @@ SCHEMA:
 [paste the contents of schemas/course_schema.json here]
 ```
 
-### Step 3 — Paste the output into The God Factory University
+### Step 3 -- Paste the output into The God Factory University
 1. Open the app
 2. Go to **Library** page
 3. Click **Bulk Import**
 4. Paste the JSON (single object, array, or multiple newline-delimited objects)
 5. Click **Import**
-6. The app sorts and stores everything automatically
+6. The app validates your JSON against `course_validation_schema.json` automatically
+7. Valid courses are stored in the database
+
+---
+
+## Adding Assignments Separately
+
+If your course JSON didn't include assignments, or you want to add more later,
+generate a standalone assignment batch using `assignment_schema.json`:
+
+```
+Generate assignments for course CS-101 using this JSON schema.
+Create a mix of quizzes, homework, and projects.
+Return ONLY the JSON. No other text.
+
+SCHEMA:
+[paste the contents of schemas/assignment_schema.json here]
+```
+
+Paste the result into Bulk Import -- it detects assignment batches automatically.
 
 ---
 

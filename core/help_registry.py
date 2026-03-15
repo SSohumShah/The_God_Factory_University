@@ -56,8 +56,11 @@ _reg("importing-courses", "Importing Courses",
      "1. **Single course object**: `{\"course_id\": \"CS101\", \"title\": \"...\", \"modules\": [...]}`\n"
      "2. **JSON array**: `[{...}, {...}]`\n"
      "3. **Newline-separated objects**: one JSON object per line\n\n"
-     "The schema is defined in `schemas/course_schema.json`. You can also have "
-     "Professor AI generate a course for you on the Professor AI page.")
+     "The template is in `schemas/course_schema.json` and validation uses "
+     "`schemas/course_validation_schema.json`. You can also have "
+     "Professor AI generate a course for you on the Professor AI page.\n\n"
+     "Assignment batches (using `schemas/assignment_schema.json`) are also "
+     "detected and imported automatically.")
 
 _reg("course-json-schema", "Course JSON Schema",
      "Every course has this structure:\n\n"
@@ -113,7 +116,7 @@ _reg("assignment-submission", "Assignment Submission",
 
 # ─── Professor AI ─────────────────────────────────────────────────────────────
 _reg("professor-chat", "Chat with Professor",
-     "The Chat tab gives you a two-way conversation with ARCANA, your AI professor. "
+     "The Chat tab gives you a two-way conversation with Ileices, your AI professor. "
      "Ask any question about course material. The professor uses Socratic questioning "
      "to guide understanding. Chat history is saved per session.\n\n"
      "Requires a working LLM provider configured in Settings or the LLM Setup Wizard.")

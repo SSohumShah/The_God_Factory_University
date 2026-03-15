@@ -103,7 +103,7 @@ ASSIGNMENTS:
     "professor": """
 PROFESSOR AI — Your AI Academic Advisor
 
-The Professor (named ARCANA) is your AI tutor with multiple capabilities.
+The Professor (named Ileices) is your AI tutor with multiple capabilities.
 
 CHAT:
 - Ask questions about any topic in a conversational interface

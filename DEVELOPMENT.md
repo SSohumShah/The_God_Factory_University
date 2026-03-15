@@ -217,7 +217,7 @@ The project uses a dark-academic ASCII theme. No emojis in:
 - Error messages
 - README or docs
 
-Use ASCII art, rune characters, and bracket-style markers instead:
+Use ASCII art, decorative characters, and bracket-style markers instead:
 `[OK]`, `[!!]`, `[?]`, `[>]`, `[*]`, `>>>`, `---`, `===`, `+++`
 
 ---
