@@ -15,10 +15,11 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.database import get_setting, save_setting
-from ui.theme import inject_theme, gf_header, section_divider, stat_card, play_sfx, sanitize_llm_output
+from ui.theme import inject_theme, gf_header, section_divider, stat_card, play_sfx, sanitize_llm_output, help_button
 
 inject_theme()
 gf_header("LLM Setup Wizard", "Configure your AI model provider step by step.")
+help_button("llm-setup-wizard")
 
 # ─── Hardware Detection ───────────────────────────────────────────────────────
 def _detect_hardware() -> dict:
@@ -160,6 +161,7 @@ if wizard_path == "local":
 
     if local_choice == "Ollama":
         section_divider("OLLAMA SETUP")
+        help_button("llm-local-setup")
         st.markdown("""
 ### Getting Started with Ollama
 
@@ -306,6 +308,7 @@ The Ollama service starts automatically after installation.
 
     elif local_choice == "LM Studio":
         section_divider("LM STUDIO SETUP")
+        help_button("llm-local-setup")
         st.markdown("""
 ### Getting Started with LM Studio
 
@@ -503,6 +506,7 @@ if wizard_path == "cloud":
     prov = CLOUD_PROVIDERS[provider_label]
 
     section_divider(provider_label.split("(")[0].strip())
+    help_button("llm-cloud-setup")
 
     # Cost and notes
     st.markdown(f"**Cost**: {prov['cost']}")

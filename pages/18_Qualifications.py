@@ -20,6 +20,7 @@ from ui.theme import inject_theme, gf_header, section_divider, stat_card, help_b
 
 inject_theme()
 gf_header("Qualifications", "Real-world benchmark tracking and credential equivalencies.")
+help_button("qualifications-dashboard")
 
 # ─── Overview ──────────────────────────────────────────────────────────────────
 gpa, _ = compute_gpa()

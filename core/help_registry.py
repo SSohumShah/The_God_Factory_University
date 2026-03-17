@@ -349,6 +349,118 @@ _reg("xp-events", "XP Events",
      "**Streak bonus**: +5% per consecutive day (max +50% at 10-day streak).\n"
      "View your complete XP history on the Achievements page.")
 
+# ─── LLM Setup Wizard ─────────────────────────────────────────────────────────
+_reg("llm-setup-wizard", "LLM Setup Wizard",
+     "A guided walkthrough for configuring your AI model provider.\n\n"
+     "**Step 1 — Choose Your Path:**\n"
+     "- **Local**: Free models running on your machine (Ollama or LM Studio).\n"
+     "  Requires 8GB+ RAM. Works offline, fully private.\n"
+     "- **Cloud**: Remote API services (OpenAI, Anthropic, Groq, GitHub, Mistral, "
+     "Together, HuggingFace). Some offer free tiers.\n\n"
+     "**Step 2 — Hardware Profile:**\n"
+     "The wizard detects your RAM, GPU, and disk space, then recommends an "
+     "appropriate model size.\n\n"
+     "**Step 3 — Provider Setup:**\n"
+     "Step-by-step instructions for your chosen provider: account creation, "
+     "API key generation, model selection, and one-click connection testing.\n\n"
+     "**Ollama Model Catalog:**\n"
+     "50+ models organized by size (Tiny/Small/Medium/Large/XL). Pull models "
+     "directly from the UI or copy the terminal command.\n\n"
+     "**Troubleshooting:**\n"
+     "Each provider includes a troubleshooting guide for common connection issues.")
+
+_reg("llm-local-setup", "Local LLM Setup (Ollama / LM Studio)",
+     "**Ollama** — Lightweight CLI tool for running LLMs locally:\n"
+     "1. Install from ollama.com\n"
+     "2. Pull a model: `ollama pull llama3.2`\n"
+     "3. Service auto-starts on port 11434\n"
+     "4. The wizard auto-detects running Ollama and lists installed models\n\n"
+     "**LM Studio** — Desktop app with visual model management:\n"
+     "1. Install from lmstudio.ai\n"
+     "2. Download a model via the Discover tab\n"
+     "3. Start the server on the Local Server tab (port 1234)\n"
+     "4. The wizard auto-detects the running server\n\n"
+     "**Model Size Guide:**\n"
+     "| Size | VRAM | RAM (CPU) | Examples |\n"
+     "|------|------|-----------|----------|\n"
+     "| 1-3B | 2 GB | 4 GB | phi3:mini, tinyllama |\n"
+     "| 7-8B | 5 GB | 8 GB | llama3.1:8b, mistral:7b |\n"
+     "| 13B | 9 GB | 16 GB | codellama:13b |\n"
+     "| 30B+ | 20 GB | 32 GB | codellama:34b |\n"
+     "| 70B | 40 GB | 64 GB | llama3.1:70b |")
+
+_reg("llm-cloud-setup", "Cloud LLM Setup",
+     "Cloud providers ranked by ease of getting started:\n\n"
+     "1. **Groq** — FREE tier, no payment needed, extremely fast (~500 tok/s)\n"
+     "2. **GitHub Models** — FREE with any GitHub account (Personal Access Token)\n"
+     "3. **Together AI** — FREE $5 credit on signup\n"
+     "4. **HuggingFace** — FREE tier (rate-limited, cold-start delays)\n"
+     "5. **Mistral AI** — FREE experiment tier\n"
+     "6. **OpenAI** — PAID, best quality (gpt-4o-mini is affordable)\n"
+     "7. **Anthropic** — PAID, 200K context window (great for long docs)\n\n"
+     "Each provider page includes: signup link, step-by-step key generation, "
+     "model selection, one-click Save & Test, and troubleshooting tips.")
+
+# ─── Agent Dashboard ──────────────────────────────────────────────────────────
+_reg("agent-dashboard", "Agent Dashboard",
+     "The Agent is an autonomous task execution engine powered by Professor Ileices.\n\n"
+     "**How it works:**\n"
+     "1. Describe a task (e.g. 'Create a full course on Quantum Computing')\n"
+     "2. Configure execution mode, step limits, and tool categories\n"
+     "3. Launch the agent — it thinks, calls tools, and iterates until done\n\n"
+     "**Execution Modes:**\n"
+     "- **Bounded**: Stops after N steps (configurable, default 20)\n"
+     "- **Unlimited**: Runs until the task is complete or blocked\n\n"
+     "**Review Modes:**\n"
+     "- **Auto**: Tools execute immediately\n"
+     "- **Review**: Drafts are queued for your approval before executing\n\n"
+     "**Rate Limit**: Adds a delay between steps (0-10s) to avoid API throttling.\n\n"
+     "The agent has access to 17 tools across categories: course management, "
+     "video production, validation, and search. You can enable/disable tool "
+     "categories in the sidebar.")
+
+_reg("agent-tools", "Agent Tools Reference",
+     "17 tools available to the agent:\n\n"
+     "**Course Management:**\n"
+     "- create_course_outline, add_module, add_lecture, add_assignment\n"
+     "- get_course_manifest, get_all_courses_summary, search_courses\n\n"
+     "**Import & Validation:**\n"
+     "- validate_and_import (validates JSON against schema and imports)\n\n"
+     "**Video & Media:**\n"
+     "- list_scenes, render_lecture, batch_render_lectures\n\n"
+     "**Search & Analysis:**\n"
+     "- search_courses (find existing courses by keyword)\n\n"
+     "Tools marked [LOCKED] require review mode approval before execution.")
+
+_reg("agent-job-history", "Agent Job History",
+     "All agent jobs are persisted and visible in the Job History section:\n\n"
+     "- **[OK]** Completed successfully\n"
+     "- **[..]** Currently running\n"
+     "- **[||]** Paused (can be resumed)\n"
+     "- **[!!]** Failed (can be resumed or deleted)\n"
+     "- **[~~]** Pending\n\n"
+     "Click [?] on any job to view its full step log. You can resume paused/failed "
+     "jobs or delete completed ones.")
+
+# ─── Qualifications ───────────────────────────────────────────────────────────
+_reg("qualifications-dashboard", "Qualifications Dashboard",
+     "Track your progress toward real-world academic benchmark equivalencies.\n\n"
+     "**What are qualifications?**\n"
+     "Qualifications map your coursework against real university program requirements. "
+     "As you complete courses and assignments, the system evaluates how your work "
+     "compares to benchmarks from accredited institutions.\n\n"
+     "**Benchmark Comparison:**\n"
+     "- Topic Coverage: percentage of benchmark topics covered by your courses\n"
+     "- Hours Progress: study hours logged vs. required\n"
+     "- Rigor Rating: quality assessment of your coursework depth\n\n"
+     "**Gap Analysis:**\n"
+     "Shows remaining topics needed to match each benchmark, with a roadmap of "
+     "completed and remaining courses.\n\n"
+     "**Status Indicators:**\n"
+     "- [OK] Earned — qualification fully met\n"
+     "- [..] In Progress — partially completed\n"
+     "- [--] Locked — not yet started")
+
 # ─── Placement Testing ────────────────────────────────────────────────────────
 _reg("placement-testing", "Placement Testing",
      "Take an adaptive placement exam to discover your starting level in any subject.\n\n"
@@ -361,7 +473,7 @@ _reg("placement-testing", "Placement Testing",
 # ─── Test Prep ────────────────────────────────────────────────────────────────
 _reg("test-prep", "Standardized Test Prep",
      "Practice for standardized tests with timed sessions and score reports:\n\n"
-     "- **GED**: Reasoning Through Language Arts, Mathematical Reasoning, Science, Social Studies\n"
+     "- **GED** : Reasoning Through Language Arts, Mathematical Reasoning, Science, Social Studies\n"
      "- **SAT**: Reading, Writing & Language, Math (No Calc), Math (Calculator)\n"
      "- **ACT**: English, Math, Reading, Science\n"
      "- **GRE**: Verbal Reasoning, Quantitative Reasoning, Analytical Writing\n\n"

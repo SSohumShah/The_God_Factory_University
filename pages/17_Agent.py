@@ -23,6 +23,7 @@ from llm.tools import list_tools
 
 inject_theme()
 gf_header("Agent Dashboard", "Autonomous task execution engine")
+help_button("agent-dashboard")
 
 # ─── Session state init ──────────────────────────────────────────────────────
 if "agent_running" not in st.session_state:
@@ -185,7 +186,7 @@ if st.session_state.agent_current_job_id:
 
 # ─── Job History ──────────────────────────────────────────────────────────────
 section_divider("Job History")
-
+help_button("agent-job-history")
 jobs = list_jobs()
 if not jobs:
     st.info("No agent jobs yet. Launch a task above to get started.")
@@ -248,6 +249,7 @@ else:
 
 # ─── Available Tools Reference ────────────────────────────────────────────────
 section_divider("Available Tools")
+help_button("agent-tools")
 with st.expander("Tool Reference"):
     tools = list_tools()
     for cat in sorted(set(t.category for t in tools)):
