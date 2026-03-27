@@ -16,6 +16,7 @@ _tmp.close()
 os.environ["_GF_TEST_DB"] = _tmp.name
 
 import core.database as db
+from llm.model_profiles import resolve_audit_profile
 
 # Override DB_PATH to temp file
 db.DB_PATH = Path(_tmp.name)
@@ -239,6 +240,32 @@ class TestDegrees:
     def test_eligible_degrees_empty(self):
         degrees = db.eligible_degrees()
         assert isinstance(degrees, list)
+
+
+class TestAuditWorkbench:
+    def test_create_course_audit_job(self):
+        db.upsert_course("c1", "Audit Course", "desc", 3, {})
+        db.upsert_module("m1", "c1", "Module 1", 0, {})
+        db.upsert_lecture("l1", "m1", "c1", "Lecture 1", 30, 0, {})
+        db.set_progress("l1", "completed", watch_time_s=1800, score=92.0)
+        db.save_assignment({"id": "a1", "course_id": "c1", "title": "Essay 1", "type": "essay"})
+        db.submit_assignment("a1", score=88.0, feedback="Solid but incomplete")
+
+        profile = resolve_audit_profile("ollama", "phi3:mini")
+        job_id = db.create_course_audit_job("c1", "ollama", "phi3:mini", profile.to_dict())
+        job = db.get_audit_job(job_id)
+        packets = db.get_audit_packets(job_id)
+
+        assert job is not None
+        assert job["total_packets"] >= 2
+        assert len(packets) == job["total_packets"]
+        assert any(packet["packet_kind"] == "course_overview" for packet in packets)
+
+    def test_student_world_state_shape(self):
+        db.log_activity("lecture_view", duration_s=300, metadata={"lecture_id": "l1"})
+        state = db.get_student_world_state()
+        assert "days_enrolled" in state
+        assert "study_hours" in state
 
 
 # ─── Chat History ────────────────────────────────────────────────────────────

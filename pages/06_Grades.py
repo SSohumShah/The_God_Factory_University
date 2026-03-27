@@ -21,6 +21,7 @@ from core.database import (
     course_credit_hours, course_completion_pct, hours_to_credits,
     get_competency_profile, BLOOMS_LEVELS, get_assignment_ai_policy,
     time_to_degree_estimate, get_assessment_hours, DEGREE_TRACKS,
+    get_academic_progress_summary, get_course_completion_audit,
 )
 from ui.theme import (
     inject_theme, gf_header, section_divider, render_gpa_display,
@@ -39,15 +40,27 @@ gpa, _ = compute_gpa()
 credits = credits_earned()
 eligible = eligible_degrees(gpa, credits)
 deadlines_on = get_setting("deadlines_enabled", "0") == "1"
+academic_summary = get_academic_progress_summary()
+activity_credits = academic_summary["activity_credits"]
 
 g1, g2, g3 = st.columns(3)
 with g1:
     render_gpa_display(gpa)
 with g2:
     from ui.theme import stat_card
-    stat_card("Credits Earned", f"{credits:.2f}", colour="#ffd700")
+    stat_card("Verified Credits", f"{credits:.2f}", colour="#ffd700")
 with g3:
     stat_card("Eligible Degrees", ", ".join(eligible) if eligible else "None yet", colour="#40dc80")
+
+a1, a2, a3 = st.columns(3)
+with a1:
+    stat_card("Activity Credits", f"{activity_credits:.2f}", colour="#00d4ff")
+with a2:
+    stat_card("Verified Courses", str(academic_summary["completed_courses"]), colour="#40dc80")
+with a3:
+    stat_card("Verified Assessments", str(academic_summary["verified_assessments"]), colour="#ff8c00")
+
+st.caption("Verified credits require full lecture completion, passing graded assessments, and course mastery evidence. Activity credits track progress but do not count as official degree credit.")
 
 # Credit-hours summary
 total_hours = sum(course_credit_hours(c["id"]) for c in get_all_courses())
@@ -82,10 +95,10 @@ if terms:
                 mx = a.get("max_score") or 100.0
                 pct = (sc / mx * 100) if mx else 0.0
                 grade, _ = score_to_grade(pct)
-                status = "Submitted" if a.get("submitted_at") else "Pending"
+                grading_status = "Submitted" if a.get("score") is not None else "Pending review" if a.get("submitted_at") else "Pending"
                 lp = a.get("late_penalty", 0)
                 lp_str = f" (late: -{lp:.0f}%)" if lp else ""
-                st.markdown(f"- **{a['title']}** — {grade} ({pct:.0f}%) [{status}]{lp_str}")
+                st.markdown(f"- **{a['title']}** — {grade if a.get('score') is not None else 'Ungraded'} ({pct:.0f}% if graded) [{grading_status}]{lp_str}")
 
     stat_card("Days Studied", str(time_to_degree_days()), colour="#b8b8d0")
 
@@ -110,16 +123,25 @@ for course in courses:
     assignments = get_assignments(course["id"])
     cr_hours = course_credit_hours(course["id"])
     comp_pct = course_completion_pct(course["id"])
+    course_audit = get_course_completion_audit(course["id"])
     course_credits = course["credits"]
     fractional = round(comp_pct / 100.0 * course_credits, 2) if course_credits else 0
 
     label = f"{course['id']} -- {course['title']}  ({len(assignments)} asgn"
     if cr_hours > 0:
-        label += f", {cr_hours:.1f}h, {fractional:.2f}/{course_credits} cr"
+        label += f", {cr_hours:.1f}h, activity {fractional:.2f}/{course_credits} cr"
+    if course_audit["verified_complete"]:
+        label += ", verified complete"
     label += ")"
     if not assignments:
         continue
     with st.expander(label):
+        st.caption(
+            f"Verified completion: {'yes' if course_audit['verified_complete'] else 'not yet'} | "
+            f"Official credits: {course_audit['official_credits']:.2f} | "
+            f"Activity credits: {course_audit['activity_credits']:.2f} | "
+            f"Passed assignments: {course_audit['passed_assignments']}/{course_audit['total_assignments']}"
+        )
         rows = []
         for a in assignments:
             score = a.get("score") or 0.0
@@ -132,13 +154,17 @@ for course in courses:
             policy = get_assignment_ai_policy(a)
             badge = _AI_BADGE.get(policy.get("level", "assisted"), _AI_BADGE["assisted"])
 
-            status_str = "Graded" if submitted else ("Past due" if (deadlines_on and due and now > due) else "Open")
+            status_str = (
+                "Graded" if a.get("score") is not None else
+                "Pending review" if submitted else
+                ("Past due" if (deadlines_on and due and now > due) else "Open")
+            )
             rows.append({
                 "Title": a["title"],
                 "Type": a["type"],
                 "AI": policy.get("level", "assisted"),
-                "Score": f"{score}/{max_s}" if submitted else "--",
-                "Grade": grade if submitted else "--",
+                "Score": f"{score}/{max_s}" if a.get("score") is not None else "--",
+                "Grade": grade if a.get("score") is not None else "--",
                 "Status": status_str,
             })
 
@@ -164,7 +190,8 @@ def build_transcript_csv():
     writer = csv.writer(buf)
     writer.writerow(["Student", student_name])
     writer.writerow(["GPA", f"{gpa:.2f}"])
-    writer.writerow(["Credits Earned", credits])
+    writer.writerow(["Verified Credits", credits])
+    writer.writerow(["Activity Credits", activity_credits])
     writer.writerow(["Eligible Degrees", ", ".join(eligible)])
     writer.writerow([])
     writer.writerow(["Course", "Module", "Lecture", "Assignment", "Type", "Score", "Max", "Grade"])
@@ -203,7 +230,8 @@ with dl2:
     transcript_json = {
         "student": student_name,
         "gpa": gpa,
-        "credits": credits,
+        "verified_credits": credits,
+        "activity_credits": activity_credits,
         "eligible_degrees": eligible,
         "courses": [
             {
@@ -236,7 +264,6 @@ _DEGREE_COLOURS = {
 for degree, info in DEGREE_TRACKS.items():
     credit_pct = min(credits / info["min_credits"], 1.0)
     hours_needed = info.get("min_hours", info["min_credits"] * 45)
-    hours_pct = min(total_hours / hours_needed, 1.0) if hours_needed else 1.0
     gpa_ok = gpa >= info["min_gpa"]
     unlocked = degree in eligible
     colour = _DEGREE_COLOURS.get(degree, "#8080ff") if unlocked else "#303050"
@@ -247,15 +274,19 @@ for degree, info in DEGREE_TRACKS.items():
 
     gpa_marker = "[GPA OK]" if gpa_ok else f"[GPA: need {info['min_gpa']:.1f}]"
     status_marker = "[ELIGIBLE]" if unlocked else "[LOCKED]"
+    course_marker = f"[Courses {academic_summary['completed_courses']}/{info['min_courses']}]"
+    assess_marker = f"[Assessments {academic_summary['verified_assessments']}/{info['min_verified_assessments']}]"
 
     st.markdown(
         f"<div style='font-family:monospace;margin:4px 0;'>"
         f"<span style='color:{colour};font-weight:bold;'>{degree:<12}</span>  "
         f"<span style='color:#404060;'>[{bar}]</span>  "
         f"<span style='color:#a0a0c0;font-size:0.85rem;'>"
-        f"{credits:.1f}/{info['min_credits']} cr  "
-        f"({total_hours:.0f}/{hours_needed:.0f} hrs)  "
+        f"{credits:.1f}/{info['min_credits']} verified cr  "
+        f"({academic_summary['hours_logged']:.0f}/{hours_needed:.0f} hrs)  "
         f"{gpa_marker}  "
+        f"{course_marker}  "
+        f"{assess_marker}  "
         f"<span style='color:{colour};'>{status_marker}</span>"
         f"</span></div>",
         unsafe_allow_html=True,

@@ -15,12 +15,15 @@ from core.database import (
     get_subject_domains, get_subject_children, get_grade_levels,
     get_setting, set_setting, add_xp, tx,
 )
+from core.ui_mode import require_ui_mode
 from core import placement
 from ui.theme import inject_theme, gf_header, section_divider, stat_card, help_button
 
 inject_theme()
+require_ui_mode(("operator",), "Placement Testing")
 gf_header("Placement Testing", "Discover your starting level in any subject.")
 help_button("placement-testing")
+st.warning("Prototype status: placement questions are still placeholder-generated. Use results as rough practice signals, not official placement decisions.")
 
 # ─── Subject Selection ────────────────────────────────────────────────────────
 section_divider("Choose Subject")
@@ -66,8 +69,7 @@ if st.session_state.pt_test_id is None:
         st.session_state.pt_current_q = 0
         st.session_state.pt_answers = []
         st.session_state.pt_finished = False
-        # Generate first batch of placeholder questions
-        # In a real implementation, Professor AI would generate these
+        # Placeholder question bank for prototype flow only.
         _difficulties = [3, 4, 5, 5, 6, 6, 7, 7, 8, 9]
         for i in range(NUM_QUESTIONS):
             diff = _difficulties[i]

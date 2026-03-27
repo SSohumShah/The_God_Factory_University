@@ -54,12 +54,20 @@ def get_activity_summary(tx_func) -> dict:
     with tx_func() as con:
         total = con.execute("SELECT COUNT(*) as n FROM activity_log").fetchone()["n"]
         hours = con.execute("SELECT COALESCE(SUM(duration_s), 0) as s FROM activity_log").fetchone()["s"] / 3600.0
+        last_event = con.execute("SELECT MAX(occurred_at) AS ts FROM activity_log").fetchone()["ts"]
+        active_days = con.execute(
+            "SELECT COUNT(DISTINCT date(occurred_at, 'unixepoch')) AS n FROM activity_log"
+        ).fetchone()["n"]
         by_type = con.execute(
             "SELECT event_type, COUNT(*) as cnt FROM activity_log GROUP BY event_type ORDER BY cnt DESC"
         ).fetchall()
+    idle_seconds = max(time.time() - last_event, 0) if last_event else None
     return {
         "total_events": total,
         "study_hours": round(hours, 1),
+        "last_event_at": last_event,
+        "active_days": active_days,
+        "idle_seconds": idle_seconds,
         "by_type": {r["event_type"]: r["cnt"] for r in by_type},
     }
 

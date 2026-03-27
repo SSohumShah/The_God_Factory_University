@@ -13,12 +13,15 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.database import add_xp, tx
+from core.ui_mode import require_ui_mode
 from core import test_prep
 from ui.theme import inject_theme, gf_header, section_divider, stat_card, help_button
 
 inject_theme()
+require_ui_mode(("operator",), "Test Prep")
 gf_header("Test Prep", "Practice standardized tests with adaptive scoring.")
 help_button("test-prep")
+st.warning("Prototype status: current practice items are placeholder content. Timing and score reports are useful for workflow testing, not real exam benchmarking.")
 
 # ─── Test Selection ───────────────────────────────────────────────────────────
 section_divider("Select Test")
@@ -55,7 +58,7 @@ if st.session_state.tp_session_id is None:
         st.session_state.tp_answers = []
         st.session_state.tp_finished = False
         st.session_state.tp_start_time = time.time() if timed else None
-        # Generate placeholder questions
+        # Placeholder question bank for prototype flow only.
         for i in range(NUM_QUESTIONS):
             q_text = f"{sel_test} {sel_section or ''} practice question {i+1}"
             choices = ["A", "B", "C", "D"]

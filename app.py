@@ -21,14 +21,79 @@ st.set_page_config(
 
 from core.database import (
     bulk_import_json, get_all_courses, get_setting, get_level,
-    get_xp, count_completed, get_active_quests,
+    get_xp, count_completed, get_active_quests, get_student_world_state,
+    list_audit_jobs, get_academic_progress_summary,
 )
+from core.ui_mode import MODE_LABELS, get_ui_mode, set_ui_mode
+from core.tts_config import get_tts_settings
 from ui.theme import (
     inject_theme, gf_header, section_divider,
     xp_bar, level_badge, stat_card, help_button,
 )
 
 inject_theme()
+
+
+NAV_GROUPS = [
+    (
+        "Student Route",
+        True,
+        [
+            ("app.py", "[*] Dashboard"),
+            ("pages/02_Lecture_Studio.py", "[>] Study"),
+            ("pages/03_Professor_AI.py", "[>] Professor Ileices"),
+            ("pages/06_Grades.py", "[>] My Progress"),
+            ("pages/07_Achievements.py", "[>] Achievements"),
+            ("pages/14_Programs.py", "[>] Programs"),
+            ("pages/15_Profile.py", "[>] My Profile"),
+            ("pages/16_Statistics.py", "[>] Statistics"),
+        ],
+    ),
+    (
+        "Builder Route",
+        True,
+        [
+            ("pages/01_Library.py", "[>] Course Library"),
+            ("pages/04_Timeline_Editor.py", "[>] Timeline Editor"),
+            ("pages/05_Batch_Render.py", "[>] Batch Render"),
+            ("pages/17_Agent.py", "[>] AI Agent"),
+        ],
+    ),
+    (
+        "Setup & Support",
+        True,
+        [
+            ("pages/11_LLM_Setup.py", "[>] LLM Setup Wizard"),
+            ("pages/08_Settings.py", "[>] Settings"),
+            ("pages/10_Help.py", "[?] Help & Tutorial"),
+        ],
+    ),
+    (
+        "Admin & Prototype",
+        False,
+        [
+            ("pages/09_Diagnostics.py", "[>] Diagnostics"),
+            ("pages/18_Qualifications.py", "[>] Qualifications Engine"),
+            ("pages/12_Placement.py", "[proto] Placement Testing"),
+            ("pages/13_Test_Prep.py", "[proto] Test Prep"),
+        ],
+    ),
+]
+
+
+def _render_nav_groups(active_mode: str) -> None:
+    allowed_by_mode = {
+        "student": {"Student Route", "Builder Route", "Setup & Support"},
+        "builder": {"Student Route", "Builder Route", "Setup & Support"},
+        "operator": {"Student Route", "Builder Route", "Setup & Support", "Admin & Prototype"},
+    }
+    visible = allowed_by_mode.get(active_mode, allowed_by_mode["student"])
+    for title, expanded, links in NAV_GROUPS:
+        if title not in visible:
+            continue
+        with st.expander(title, expanded=expanded):
+            for page, label in links:
+                st.page_link(page, label=f"  {label}")
 
 # ─── First-run: auto-import the built-in CS/AI course ───────────────────────
 NOTES_FILE = ROOT / "notes.txt"
@@ -52,20 +117,20 @@ with st.sidebar:
     level_idx, level_title, xp_in_level, xp_to_next = get_level()
     level_badge(level_idx, level_title)
     xp_bar(xp_in_level, max(xp_to_next, 1), "XP")
+    current_mode = get_ui_mode()
+    mode_labels = list(MODE_LABELS.values())
+    current_index = list(MODE_LABELS.keys()).index(current_mode)
+    selected_label = st.selectbox("Mode", mode_labels, index=current_index)
+    selected_mode = next(key for key, value in MODE_LABELS.items() if value == selected_label)
+    if selected_mode != current_mode:
+        set_ui_mode(selected_mode)
+        st.rerun()
     st.caption(f"Lectures completed: {count_completed()}")
+    st.caption(f"Current route mode: {MODE_LABELS[current_mode]}")
+    if current_mode == "student":
+        st.caption("Builder tools are available with guided prompts in Student mode.")
     section_divider("Navigation")
-    st.page_link("app.py",                       label="  [*] Dashboard")
-    st.page_link("pages/01_Library.py",           label="  [>] Library")
-    st.page_link("pages/02_Lecture_Studio.py",    label="  [>] Lecture Studio")
-    st.page_link("pages/03_Professor_AI.py",      label="  [>] Professor AI")
-    st.page_link("pages/04_Timeline_Editor.py",   label="  [>] Timeline Editor")
-    st.page_link("pages/05_Batch_Render.py",      label="  [>] Batch Render")
-    st.page_link("pages/06_Grades.py",            label="  [>] Grades & Transcript")
-    st.page_link("pages/07_Achievements.py",      label="  [>] Achievements")
-    st.page_link("pages/08_Settings.py",          label="  [>] Settings")
-    st.page_link("pages/09_Diagnostics.py",       label="  [>] Diagnostics")
-    st.page_link("pages/10_Help.py",              label="  [?] Help")
-    st.page_link("pages/11_LLM_Setup.py",         label="  [>] LLM Setup Wizard")
+    _render_nav_groups(current_mode)
 
 # ─── Level-up Celebration ─────────────────────────────────────────────────
 _pending = get_setting("_pending_level_up")
@@ -82,6 +147,8 @@ help_button("dashboard-overview")
 courses = get_all_courses()
 xp_total = get_xp()
 completed = count_completed()
+world_state = get_student_world_state()
+academic_summary = get_academic_progress_summary()
 
 section_divider("Status")
 help_button("xp-and-levels")
@@ -94,6 +161,34 @@ with c3:
     stat_card("Total XP", f"{xp_total:,}", colour="#40dc80")
 with c4:
     stat_card("Rank", level_title, colour="#b8b8d0")
+
+w1, w2, w3, w4 = st.columns(4)
+with w1:
+    stat_card("Verified Credits", f"{academic_summary['official_credits']:.2f}", colour="#40dc80")
+with w2:
+    stat_card("Study Hours", f"{world_state['study_hours']:.1f}", colour="#00d4ff")
+with w3:
+    idle_days = world_state.get("idle_days")
+    stat_card("Idle Days", f"{idle_days:.2f}" if idle_days is not None else "--", colour="#e04040")
+with w4:
+    stat_card("Active Days", str(world_state.get("active_days", 0)), colour="#ffd700")
+
+st.caption(
+    f"Professor world state: enrolled {world_state['days_enrolled']} days | "
+    f"verified courses {academic_summary['completed_courses']} | "
+    f"activity credits {academic_summary['activity_credits']:.2f}"
+)
+
+audit_jobs = list_audit_jobs(limit=5)
+if audit_jobs:
+    section_divider("Audit Queue")
+    for job in audit_jobs[:3]:
+        remaining_packets = max(job.get("total_packets", 0) - job.get("processed_packets", 0), 0)
+        eta_left = int((job.get("estimated_seconds", 0) or 0) * (remaining_packets / max(job.get("total_packets", 1), 1)))
+        st.markdown(
+            f"[>] **{job['title']}** — {job.get('status', 'queued')} | "
+            f"{job.get('processed_packets', 0)}/{job.get('total_packets', 0)} packets | ETA {eta_left}s"
+        )
 
 # ─── Weekly Quests ────────────────────────────────────────────────────────────
 if get_setting("quests_enabled", "1") == "1":
@@ -111,15 +206,25 @@ st.markdown(
     "```\n"
     "HOW TO BEGIN\n"
     "─────────────────────────────────────────────────────────────\n"
-    "1. Library        ─ Browse & import courses (paste any LLM JSON)\n"
-    "2. Lecture Studio ─ Play lectures, watch animated videos\n"
-    "3. Professor AI   ─ Chat, generate quizzes, get feedback\n"
-    "4. Timeline Editor─ Reorder scenes and re-render custom videos\n"
-    "5. Batch Render   ─ Overnight render entire curriculum\n"
-    "6. Grades         ─ GPA, credits, degree eligibility\n"
-    "7. Achievements   ─ Unlock milestones\n"
-    "8. Settings       ─ Voice, LLM provider, video quality\n"
+    "STUDENT ROUTE\n"
+    "1. Study          ─ Play lectures and continue active coursework\n"
+    "2. Professor      ─ Ask for explanations, quizzes, and feedback\n"
+    "3. My Progress    ─ Review verified credits, GPA, and transcript data\n"
+    "4. Achievements   ─ Track milestones and momentum\n"
+    "5. My Profile     ─ Set your identity and preferences\n"
     "─────────────────────────────────────────────────────────────\n"
+    "BUILDER ROUTE\n"
+    "6. Course Library ─ Import, inspect, and organize curriculum JSON\n"
+    "7. Timeline Editor─ Reorder scenes and re-render custom videos\n"
+    "8. Batch Render   ─ Render many lectures in one session\n"
+    "9. AI Agent       ─ Run advanced automation workflows\n"
+    "─────────────────────────────────────────────────────────────\n"
+    "SUPPORT\n"
+    "10. LLM Setup     ─ Configure local or cloud models\n"
+    "11. Settings      ─ Tune voice, video, and system behavior\n"
+    "12. Help          ─ Open contextual walkthroughs and glossary entries\n"
+    "─────────────────────────────────────────────────────────────\n"
+    "Placement Testing and Test Prep remain in the admin/prototype group until they are fully wired.\n"
     "Generate a course: read schemas/SCHEMA_GUIDE.md\n"
     "```"
 )
@@ -159,8 +264,11 @@ with st.expander("System self-check (click to expand)"):
     checks_total += 1
     def _tts_check():
         import edge_tts  # noqa: F401
-        voice = get_setting("voice_id", "en-US-AriaNeural")
-        return f"edge-tts ready, voice={voice}"
+        tts_settings = get_tts_settings()
+        return (
+            f"edge-tts ready, voice={tts_settings['voice_id']}, "
+            f"rate={tts_settings['rate_str']}, pitch={tts_settings['pitch_str']}"
+        )
     if _probe("TTS Engine", _tts_check):
         checks_ok += 1
 

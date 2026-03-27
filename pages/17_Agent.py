@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.database import get_setting
+from core.ui_mode import require_ui_mode
 from ui.theme import inject_theme, gf_header, section_divider, help_button
 from llm.agent import (
     create_job, list_jobs, load_job, delete_job, run_agent, save_job,
@@ -22,6 +23,7 @@ from llm.agent import (
 from llm.tools import list_tools
 
 inject_theme()
+require_ui_mode(("builder", "operator"), "Agent Dashboard")
 gf_header("Agent Dashboard", "Autonomous task execution engine")
 help_button("agent-dashboard")
 

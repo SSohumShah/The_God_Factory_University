@@ -31,32 +31,61 @@ def save_assignment(assignment: dict, tx_func) -> None:
         )
 
 
-def submit_assignment(assignment_id: str, score: float, feedback: str,
+def submit_assignment(assignment_id: str, score: float | None, feedback: str,
                       tx_func, get_setting, add_xp_fn, unlock_fn,
                       quest_fn, check_degrees_fn) -> None:
     now = time.time()
     late_penalty = 0.0
+    assignment_data: dict = {}
+    max_score = None
     if get_setting("deadlines_enabled", "0") == "1":
         with tx_func() as con:
-            row = con.execute("SELECT due_at FROM assignments WHERE id=?", (assignment_id,)).fetchone()
+            row = con.execute("SELECT due_at, data, max_score FROM assignments WHERE id=?", (assignment_id,)).fetchone()
         if row and row["due_at"] and now > row["due_at"]:
             days_late = (now - row["due_at"]) / 86400.0
             late_penalty = min(days_late * 10.0, 50.0)
-    adjusted_score = max(score - (score * late_penalty / 100.0), 0)
+        if row and row["data"]:
+            try:
+                assignment_data = json.loads(row["data"])
+            except (json.JSONDecodeError, TypeError, ValueError):
+                assignment_data = {}
+        if row:
+            max_score = row["max_score"]
+    else:
+        with tx_func() as con:
+            row = con.execute("SELECT data, max_score FROM assignments WHERE id=?", (assignment_id,)).fetchone()
+        if row and row["data"]:
+            try:
+                assignment_data = json.loads(row["data"])
+            except (json.JSONDecodeError, TypeError, ValueError):
+                assignment_data = {}
+        if row:
+            max_score = row["max_score"]
+
+    adjusted_score = None
+    stored_feedback = ""
+    if score is not None:
+        adjusted_score = max(score - (score * late_penalty / 100.0), 0)
+        stored_feedback = feedback
+        assignment_data["grading_status"] = "graded"
+    else:
+        assignment_data["student_submission"] = feedback
+        assignment_data["grading_status"] = "pending_review"
+        assignment_data["submitted_text_at"] = now
+
     with tx_func() as con:
         row = con.execute("SELECT started_at FROM assignments WHERE id=?", (assignment_id,)).fetchone()
         duration = (now - row["started_at"]) if row and row["started_at"] else 0
         con.execute(
-            "UPDATE assignments SET submitted_at=?, score=?, feedback=?, late_penalty=?, duration_s=? WHERE id=?",
-            (now, adjusted_score, feedback, late_penalty, duration, assignment_id),
+            "UPDATE assignments SET submitted_at=?, score=?, feedback=?, late_penalty=?, duration_s=?, data=? WHERE id=?",
+            (now, adjusted_score, stored_feedback, late_penalty, duration, json.dumps(assignment_data), assignment_id),
         )
-        max_sc = con.execute("SELECT max_score FROM assignments WHERE id=?", (assignment_id,)).fetchone()
     unlock_fn("first_quiz")
-    if max_sc and max_sc["max_score"] and max_sc["max_score"] > 0 and adjusted_score >= max_sc["max_score"]:
+    if adjusted_score is not None and max_score and max_score > 0 and adjusted_score >= max_score:
         unlock_fn("perfect_score")
     if datetime.now().hour < 5:
         unlock_fn("night_owl")
-    add_xp_fn(50, f"Submitted assignment {assignment_id}", "assignment")
+    add_xp_fn(50 if adjusted_score is not None else 20, f"Submitted assignment {assignment_id}", "assignment")
     quest_fn("submit_assignment")
     check_degrees_fn()
 

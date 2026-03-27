@@ -2,6 +2,7 @@
 Programs & Curriculum — browse degree programs, enroll, track progress.
 """
 
+import json
 import sys
 from pathlib import Path
 
@@ -10,7 +11,7 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from core.database import get_all_courses, credits_earned, compute_gpa, tx
+from core.database import get_all_courses, credits_earned, compute_gpa, tx, get_academic_progress_summary
 from core import db_programs
 from ui.theme import inject_theme, gf_header, section_divider, stat_card, help_button
 
@@ -23,14 +24,17 @@ section_divider("Your Academic Status")
 
 gpa, graded_count = compute_gpa()
 creds = credits_earned()
+academic_summary = get_academic_progress_summary()
 
 c1, c2, c3 = st.columns(3)
 with c1:
     stat_card("GPA", f"{gpa:.2f}", colour="#ffd700")
 with c2:
-    stat_card("Credits Earned", str(creds), colour="#40dc80")
+    stat_card("Verified Credits", str(creds), colour="#40dc80")
 with c3:
-    stat_card("Courses", str(len(get_all_courses())), colour="#00d4ff")
+    stat_card("Verified Courses", str(academic_summary["completed_courses"]), colour="#00d4ff")
+
+st.caption("Program progress below uses verified credits only. Lecture completion and activity do not count until the course audit is fully satisfied.")
 
 # ─── Available Programs ───────────────────────────────────────────────────────
 section_divider("Available Programs")
@@ -50,7 +54,7 @@ else:
 
             # Progress bar
             progress = min(creds / prog["total_credits"], 1.0) if prog["total_credits"] > 0 else 0
-            st.progress(progress, text=f"{creds}/{prog['total_credits']} credits ({progress*100:.0f}%)")
+            st.progress(progress, text=f"{creds}/{prog['total_credits']} verified credits ({progress*100:.0f}%)")
 
             if prog["id"] in enrolled_ids:
                 st.success("[OK] Enrolled")

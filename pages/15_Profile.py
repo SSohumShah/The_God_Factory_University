@@ -13,6 +13,7 @@ sys.path.insert(0, str(ROOT))
 from core.database import (
     get_setting, set_setting, get_xp, get_level, get_grade_levels,
     get_enrollment_date, time_to_degree_days, compute_gpa, credits_earned, tx,
+    get_academic_progress_summary,
 )
 from core import db_activity
 from ui.theme import inject_theme, gf_header, section_divider, stat_card, help_button
@@ -74,6 +75,7 @@ total_xp = get_xp()
 lvl_idx, lvl_name, xp_in, xp_next = get_level(total_xp)
 gpa, _ = compute_gpa()
 creds = credits_earned()
+academic_summary = get_academic_progress_summary()
 enroll_date = get_enrollment_date()
 days = time_to_degree_days()
 
@@ -85,9 +87,10 @@ with c2:
 with c3:
     stat_card("GPA", f"{gpa:.2f}", colour="#40dc80")
 with c4:
-    stat_card("Credits", str(creds), colour="#00d4ff")
+    stat_card("Verified Credits", str(creds), colour="#00d4ff")
 
 st.markdown(f"**Enrolled since:** {enroll_date} ({days} days)")
+st.caption(f"Activity credits: {academic_summary['activity_credits']:.2f}")
 
 # ─── Study Streak ─────────────────────────────────────────────────────────────
 section_divider("Study Streak")

@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import os
 import tempfile
+import time
 from pathlib import Path
 
 import pytest
@@ -20,10 +21,23 @@ import core.database as db
 db.DB_PATH = Path(_tmp.name)
 
 
+def _cleanup_db_files() -> None:
+    paths = [Path(str(db.DB_PATH) + suffix) for suffix in ("", "-wal", "-shm")]
+    for _ in range(10):
+        blocked = False
+        for path in paths:
+            try:
+                path.unlink(missing_ok=True)
+            except PermissionError:
+                blocked = True
+        if not blocked:
+            return
+        time.sleep(0.05)
+
+
 @pytest.fixture(autouse=True)
 def fresh_db():
-    for suffix in ("", "-wal", "-shm"):
-        Path(str(db.DB_PATH) + suffix).unlink(missing_ok=True)
+    _cleanup_db_files()
     db.init_db()
     db.seed_achievements()
     db._seed_benchmarks_raw(db.tx)
@@ -31,8 +45,7 @@ def fresh_db():
     db.set_setting("streak_last_date", datetime.now().strftime("%Y-%m-%d"))
     db.set_setting("streak_days", "0")
     yield
-    for suffix in ("", "-wal", "-shm"):
-        Path(str(db.DB_PATH) + suffix).unlink(missing_ok=True)
+    _cleanup_db_files()
 
 
 # ─── Course Tree Schema ─────────────────────────────────────────────────────
@@ -268,6 +281,34 @@ class TestQualifications:
             assert "status" in r
             assert r["status"] in ("earned", "in_progress", "locked")
 
+    def test_qualification_roadmap_requires_verified_course_completion(self):
+        db.upsert_course("junior_cs301", "Algorithms", "desc", 3, {})
+        db.upsert_module("junior_cs301_m1", "junior_cs301", "Sorting", 0, {})
+        db.upsert_lecture("junior_cs301_l1", "junior_cs301_m1", "junior_cs301", "Lecture 1", 20, 0, {})
+        db.set_progress("junior_cs301_l1", "completed", watch_time_s=1200)
+
+        roadmap = db.get_qualification_roadmap("mit_6006")
+        assert "junior_cs301" in roadmap["remaining"]
+
+    def test_qualification_can_progress_with_verified_course_evidence(self):
+        db.upsert_course("junior_cs301", "Algorithms", "desc", 3, {})
+        db.upsert_module("junior_cs301_m1", "junior_cs301", "Sorting", 0, {})
+        db.upsert_lecture("junior_cs301_l1", "junior_cs301_m1", "junior_cs301", "Lecture 1", 20, 0, {})
+        db.set_progress("junior_cs301_l1", "completed", watch_time_s=7200)
+        db.save_assignment({
+            "id": "junior_cs301_q1", "course_id": "junior_cs301",
+            "lecture_id": "junior_cs301_l1", "title": "Quiz 1", "type": "quiz", "max_score": 100,
+        })
+        db.submit_assignment("junior_cs301_q1", 95.0, "Excellent")
+        for level in db.BLOOMS_LEVELS:
+            db.record_competency_score("junior_cs301", level, 90.0, 100.0, f"{level}_1")
+        db.log_study_hours("junior_cs301", 140.0)
+
+        results = db.check_qualifications()
+        mit = next(item for item in results if item["id"] == "mit_6006")
+        assert mit["verified_course_count"] >= 1
+        assert mit["progress_pct"] > 0
+
 
 # ─── Decomposition Prompts ──────────────────────────────────────────────────
 
@@ -470,6 +511,16 @@ class TestBenchmarkComparison:
         assert "rigor_pct" in result
         assert "gap_topics" in result
         assert result["school"] == "MIT"
+
+    def test_benchmark_comparison_uses_verified_course_evidence(self):
+        db.upsert_course("junior_cs301", "Algorithms", "desc", 3, {})
+        db.upsert_module("junior_cs301_m1", "junior_cs301", "Sorting", 0, {})
+        db.upsert_lecture("junior_cs301_l1", "junior_cs301_m1", "junior_cs301", "Lecture 1", 20, 0, {})
+        db.set_progress("junior_cs301_l1", "completed", watch_time_s=600)
+
+        result = db.get_benchmark_comparison("mit_6006")
+        assert result["coverage_pct"] == 0
+        assert "junior_cs301" in result["gap_topics"]
 
     def test_benchmark_comparison_not_found(self):
         result = db.get_benchmark_comparison("nonexistent_benchmark")

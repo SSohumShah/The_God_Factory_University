@@ -43,3 +43,13 @@ testrun*.txt
 test_out*.txt
 .secret_key
 test_results.txt
+
+# ── ComfyUI (downloaded at runtime) ──────────────────────────────────────
+ComfyUI-master/
+
+# ── Planning / scratch notes ─────────────────────────────────────────────
+plan*.md
+spec.md
+zero_math.md
+chat*.md
+booty.py

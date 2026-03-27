@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT))
 
 from core.database import (
     get_xp, count_completed, get_all_courses, get_assignments,
-    compute_gpa, credits_earned, tx,
+    compute_gpa, credits_earned, tx, get_academic_progress_summary,
 )
 from core import db_activity
 from ui.theme import inject_theme, gf_header, section_divider, stat_card, help_button
@@ -26,6 +26,7 @@ help_button("statistics-dashboard")
 section_divider("Overview")
 
 summary = db_activity.get_activity_summary(tx)
+academic_summary = get_academic_progress_summary()
 gpa, graded = compute_gpa()
 completed = count_completed()
 courses = len(get_all_courses())
@@ -46,11 +47,17 @@ c5, c6, c7, c8 = st.columns(4)
 with c5:
     stat_card("Courses", str(courses), colour="#ff8040")
 with c6:
-    stat_card("Credits", str(credits_earned()), colour="#ffd700")
+    stat_card("Verified Credits", str(credits_earned()), colour="#ffd700")
 with c7:
     stat_card("Total XP", str(get_xp()), colour="#40dc80")
 with c8:
     stat_card("Activities", str(summary["total_events"]), colour="#00d4ff")
+
+st.caption(
+    f"Activity credits: {academic_summary['activity_credits']:.2f} | "
+    f"Verified courses: {academic_summary['completed_courses']} | "
+    f"Verified assessments: {academic_summary['verified_assessments']}"
+)
 
 # ─── Daily Activity Chart ────────────────────────────────────────────────────
 section_divider("Daily Activity (Last 30 Days)")

@@ -12,6 +12,13 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.database import get_setting, save_setting
+from core.tts_config import (
+    format_pitch,
+    format_rate,
+    get_tts_settings,
+    save_binaural_setting,
+    save_tts_settings,
+)
 from ui.theme import inject_theme, gf_header, section_divider, play_sfx, help_button
 
 inject_theme()
@@ -47,12 +54,14 @@ VOICES = {
 }
 
 current_voice_id = get_setting("tts_voice", "en-US-AriaNeural")
+tts_settings = get_tts_settings()
+current_voice_id = tts_settings["voice_id"]
 current_voice_label = next((k for k, v in VOICES.items() if v == current_voice_id), list(VOICES.keys())[0])
 selected_voice_label = st.selectbox("TTS Voice (edge-tts — Microsoft Neural)", list(VOICES.keys()), index=list(VOICES.keys()).index(current_voice_label))
 selected_voice_id = VOICES[selected_voice_label]
 
-voice_rate = st.slider("Speaking rate", -50, 50, int(get_setting("tts_rate", "0")), step=5, help="+N = faster, -N = slower")
-voice_pitch = st.slider("Pitch", -50, 50, int(get_setting("tts_pitch", "0")), step=5)
+voice_rate = st.slider("Speaking rate", -50, 50, int(tts_settings["rate"]), step=5, help="+N = faster, -N = slower")
+voice_pitch = st.slider("Pitch", -50, 50, int(tts_settings["pitch"]), step=5)
 
 if st.button("Preview Voice"):
     try:
@@ -61,8 +70,8 @@ if st.button("Preview Voice"):
         import os
         import edge_tts
         preview_text = "Greetings, scholar. Your journey through the God Factory begins now."
-        rate_str = f"+{voice_rate}%" if voice_rate >= 0 else f"{voice_rate}%"
-        pitch_str = f"+{voice_pitch}Hz" if voice_pitch >= 0 else f"{voice_pitch}Hz"
+        rate_str = format_rate(voice_rate)
+        pitch_str = format_pitch(voice_pitch)
         comm = edge_tts.Communicate(preview_text, selected_voice_id, rate=rate_str, pitch=pitch_str)
         tmp = tempfile.NamedTemporaryFile(suffix=".mp3", delete=False)
         asyncio.run(comm.save(tmp.name))
@@ -74,9 +83,7 @@ if st.button("Preview Voice"):
         st.error(f"Voice preview failed: {e}")
 
 if st.button("Save Voice Settings"):
-    save_setting("tts_voice", selected_voice_id)
-    save_setting("tts_rate", str(voice_rate))
-    save_setting("tts_pitch", str(voice_pitch))
+    save_tts_settings(selected_voice_id, voice_rate, voice_pitch)
     play_sfx("success")
     st.success("Voice settings saved.")
 
@@ -99,9 +106,8 @@ BINAURAL_PRESETS = {
     "Alpha 10Hz — Relaxed":     ("alpha_10hz",  200, 10),
     "Theta 6Hz — Creative":     ("theta_6hz",   200,  6),
 }
-current_preset = get_setting("binaural_preset", "None")
-if current_preset not in BINAURAL_PRESETS:
-    current_preset = "None"
+current_binaural = str(tts_settings["binaural"])
+current_preset = next((label for label, value in BINAURAL_PRESETS.items() if value and value[0] == current_binaural), "None")
 selected_preset = st.radio("Preset", list(BINAURAL_PRESETS.keys()), index=list(BINAURAL_PRESETS.keys()).index(current_preset))
 
 if st.button("Preview Binaural (10 seconds)"):
@@ -117,7 +123,8 @@ if st.button("Preview Binaural (10 seconds)"):
             st.error(f"Preview failed: {e}")
 
 if st.button("Save Binaural Setting"):
-    save_setting("binaural_preset", selected_preset)
+    preset_value = BINAURAL_PRESETS[selected_preset]
+    save_binaural_setting(preset_value[0] if preset_value else "none")
     play_sfx("click")
     st.success("Binaural preset saved.")
 
@@ -156,11 +163,29 @@ else:
                               index=["960x540", "1280x720", "1920x1080"].index(
                                   get_setting("video_resolution", "960x540")))
 
-render_provider = st.selectbox("Render Engine", ["local", "runway", "pika", "comfyui"], index=["local", "runway", "pika", "comfyui"].index(get_setting("render_provider", "local")))
+render_provider = st.selectbox(
+    "Render Engine",
+    ["local", "comfyui", "free_cloud_mix", "custom_api"],
+    index=["local", "comfyui", "free_cloud_mix", "custom_api"].index(
+        get_setting("render_provider", "local")
+        if get_setting("render_provider", "local") in ("local", "comfyui", "free_cloud_mix", "custom_api")
+        else "local"
+    ),
+    format_func=lambda x: {
+        "local": "Local (Built-in PIL Renderer)",
+        "comfyui": "ComfyUI (Local Diffusion)",
+        "free_cloud_mix": "Free Cloud Mix (Auto-cycle free tiers)",
+        "custom_api": "Custom API",
+    }.get(x, x),
+)
 
-if render_provider in ("runway", "pika", "comfyui"):
-    render_api_key = st.text_input(f"{render_provider.upper()} API Key (if required)", value=get_setting("render_api_key", ""), type="password")
+if render_provider == "custom_api":
+    render_api_key = st.text_input("Custom API Key", value=get_setting("render_api_key", ""), type="password")
     save_setting("render_api_key", render_api_key)
+elif render_provider == "comfyui":
+    st.caption("ComfyUI must be installed locally. See Library → Media Sources for setup.")
+elif render_provider == "free_cloud_mix":
+    st.caption("Uses HuggingFace, GitHub Models, and other free services. Configure keys in Library → Media Sources.")
 
 if st.button("Save Video Settings"):
     save_setting("video_profile", profile)

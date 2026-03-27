@@ -42,6 +42,8 @@ from core.db_grades import (
     credits_earned as _credits_earned_raw,
     eligible_degrees as _eligible_degrees_raw,
     time_to_degree_estimate as _time_to_degree_estimate_raw,
+    get_academic_progress_summary as _get_academic_progress_summary_raw,
+    get_course_completion_audit as _get_course_completion_audit_raw,
 )
 from core.db_assignments import (
     save_assignment as _save_assignment_raw,
@@ -89,6 +91,22 @@ from core.db_activity import (
     create_tables as _create_activity_tables,
     log_activity as _log_activity_raw,
     get_activity_summary as _get_activity_summary_raw,
+)
+from core.db_facade_student import LEVELS, make_student_facade
+from core.db_facade_curriculum import make_curriculum_facade
+from core.db_facade_ai import make_ai_facade
+from core.db_audit import (
+    create_tables as _create_audit_tables,
+    create_course_audit_job as _create_course_audit_job_raw,
+    list_audit_jobs as _list_audit_jobs_raw,
+    get_audit_job as _get_audit_job_raw,
+    get_audit_packets as _get_audit_packets_raw,
+    get_next_pending_packet as _get_next_pending_packet_raw,
+    mark_job_started as _mark_job_started_raw,
+    record_packet_review as _record_packet_review_raw,
+    fail_audit_job as _fail_audit_job_raw,
+    add_remediation_item as _add_remediation_item_raw,
+    list_remediation_backlog as _list_remediation_backlog_raw,
 )
 from core.university import create_tables as _create_university_tables
 from core.course_tree import (
@@ -278,7 +296,11 @@ def init_db() -> None:
 
         INSERT OR IGNORE INTO settings VALUES ('deadlines_enabled', '0');
         INSERT OR IGNORE INTO settings VALUES ('voice_id', 'en-US-AriaNeural');
+        INSERT OR IGNORE INTO settings VALUES ('tts_voice', 'en-US-AriaNeural');
+        INSERT OR IGNORE INTO settings VALUES ('tts_rate', '0');
+        INSERT OR IGNORE INTO settings VALUES ('tts_pitch', '0');
         INSERT OR IGNORE INTO settings VALUES ('binaural_mode', 'gamma_40hz');
+        INSERT OR IGNORE INTO settings VALUES ('binaural_preset', 'gamma_40hz');
         INSERT OR IGNORE INTO settings VALUES ('llm_provider', 'ollama');
         INSERT OR IGNORE INTO settings VALUES ('llm_model', 'llama3');
         INSERT OR IGNORE INTO settings VALUES ('llm_api_key', '');
@@ -310,6 +332,7 @@ def init_db() -> None:
     _create_test_prep_tables(tx)
     _create_program_tables(tx)
     _create_activity_tables(tx)
+    _create_audit_tables(tx)
     _create_university_tables(tx)
     _create_course_tree_tables(tx)
 
@@ -361,203 +384,19 @@ def run_migrations() -> int:
     return applied
 
 
-# ─── Settings ──────────────────────────────────────────────────────────────────
-
-def get_setting(key: str, default: str = "") -> str:
-    with tx() as con:
-        row = con.execute("SELECT value FROM settings WHERE key=?", (key,)).fetchone()
-    return row["value"] if row else default
-
-
-def set_setting(key: str, value: str) -> None:
-    with tx() as con:
-        con.execute("INSERT OR REPLACE INTO settings VALUES (?,?)", (key, str(value)))
-
-
-# ─── XP & Level ────────────────────────────────────────────────────────────────
-
-LEVELS = [
-    (0,     "Seeker"),
-    (100,   "Initiate"),
-    (300,   "Scholar"),
-    (700,   "Adept"),
-    (1500,  "Expert"),
-    (3000,  "Sage"),
-    (6000,  "Transcendent"),
-    (10000, "Grandmaster"),
-    (20000, "Luminary"),
-    (50000, "Archon"),
-]
-
-
-def add_xp(amount: int, description: str, event_type: str = "general") -> int:
-    old_total = int(get_setting("xp_total", "0"))
-    # Streak bonus: consecutive days with activity
-    today = datetime.now().strftime("%Y-%m-%d")
-    last_date = get_setting("streak_last_date", "")
-    streak = int(get_setting("streak_days", "0"))
-    if last_date != today:
-        yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-        if last_date == yesterday:
-            streak += 1
-        elif last_date:
-            streak = 1
-        else:
-            streak = 1
-        set_setting("streak_days", str(streak))
-        set_setting("streak_last_date", today)
-    # Apply streak bonus (5% per day, max 50%)
-    bonus_pct = min(streak * 5, 50) / 100.0
-    effective = amount + int(amount * bonus_pct)
-    total = old_total + effective
-    set_setting("xp_total", str(total))
-    with tx() as con:
-        con.execute(
-            "INSERT INTO xp_events (event_type,xp_gained,description) VALUES (?,?,?)",
-            (event_type, effective, description),
-        )
-    # Detect level-up
-    old_level = get_level(old_total)[0]
-    new_level = get_level(total)[0]
-    if new_level > old_level:
-        set_setting("_pending_level_up", LEVELS[new_level][1])
-    _check_achievements_xp(total)
-    # Update XP quest (skip if this XP is from a quest to avoid recursion)
-    if event_type != "quest":
-        update_quest_progress("earn_200_xp", effective)
-    return total
-
-
-def get_xp() -> int:
-    return int(get_setting("xp_total", "0"))
-
-
-def get_level(xp: int | None = None) -> tuple[int, str, int, int]:
-    """Returns (level_index, title, current_xp_in_level, xp_to_next)."""
-    if xp is None:
-        xp = get_xp()
-    idx = 0
-    for i, (threshold, _) in enumerate(LEVELS):
-        if xp >= threshold:
-            idx = i
-    title = LEVELS[idx][1]
-    current = LEVELS[idx][0]
-    nxt = LEVELS[idx + 1][0] if idx + 1 < len(LEVELS) else LEVELS[idx][0] + 99999
-    return idx, title, xp - current, nxt - current
-
-
-# ─── Courses ───────────────────────────────────────────────────────────────────
-
-def upsert_course(course_id: str, title: str, description: str, credits: int, data: dict,
-                  source: str = "imported", parent_course_id: str | None = None,
-                  depth_level: int = 0, depth_target: int = 0, pacing: str = "standard",
-                  is_jargon_course: int = 0, jargon: str | None = None) -> None:
-    with tx() as con:
-        con.execute(
-            "INSERT OR REPLACE INTO courses "
-            "(id,title,description,credits,data,source,parent_course_id,depth_level,"
-            "depth_target,pacing,is_jargon_course,jargon) "
-            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
-            (course_id, title, description, credits, json.dumps(data), source,
-             parent_course_id, depth_level, depth_target, pacing,
-             is_jargon_course, jargon),
-        )
-
-
-def upsert_module(module_id: str, course_id: str, title: str, order_index: int, data: dict) -> None:
-    with tx() as con:
-        con.execute(
-            "INSERT OR REPLACE INTO modules (id,course_id,title,order_index,data) VALUES (?,?,?,?,?)",
-            (module_id, course_id, title, order_index, json.dumps(data)),
-        )
-
-
-def upsert_lecture(lecture_id: str, module_id: str, course_id: str, title: str, duration_min: int, order_index: int, data: dict) -> None:
-    with tx() as con:
-        con.execute(
-            "INSERT OR REPLACE INTO lectures (id,module_id,course_id,title,duration_min,order_index,data) VALUES (?,?,?,?,?,?,?)",
-            (lecture_id, module_id, course_id, title, duration_min, order_index, json.dumps(data)),
-        )
-
-
-def get_all_courses() -> list[dict]:
-    with tx() as con:
-        rows = con.execute("SELECT * FROM courses ORDER BY created_at").fetchall()
-    return [dict(r) for r in rows]
-
-
-def get_course(course_id: str) -> dict | None:
-    with tx() as con:
-        row = con.execute("SELECT * FROM courses WHERE id=?", (course_id,)).fetchone()
-    return dict(row) if row else None
-
-
-def get_modules(course_id: str) -> list[dict]:
-    with tx() as con:
-        rows = con.execute("SELECT * FROM modules WHERE course_id=? ORDER BY order_index", (course_id,)).fetchall()
-    return [dict(r) for r in rows]
-
-
-def get_lectures(module_id: str) -> list[dict]:
-    with tx() as con:
-        rows = con.execute("SELECT * FROM lectures WHERE module_id=? ORDER BY order_index", (module_id,)).fetchall()
-    return [dict(r) for r in rows]
-
-
-def get_lecture(lecture_id: str) -> dict | None:
-    with tx() as con:
-        row = con.execute("SELECT * FROM lectures WHERE id=?", (lecture_id,)).fetchone()
-    return dict(row) if row else None
-
-
-def delete_course(course_id: str) -> None:
-    with tx() as con:
-        con.execute("DELETE FROM courses WHERE id=?", (course_id,))
-
-
-# ─── Progress ──────────────────────────────────────────────────────────────────
-
-def get_progress(lecture_id: str) -> dict:
-    with tx() as con:
-        row = con.execute("SELECT * FROM progress WHERE lecture_id=?", (lecture_id,)).fetchone()
-    return dict(row) if row else {"status": "not_started", "watch_time_s": 0, "score": None}
-
-
-def set_progress(lecture_id: str, status: str, watch_time_s: float = 0, score: float | None = None) -> None:
-    completed_at = time.time() if status == "completed" else None
-    with tx() as con:
-        con.execute(
-            "INSERT OR REPLACE INTO progress (lecture_id,status,watch_time_s,score,completed_at) VALUES (?,?,?,?,?)",
-            (lecture_id, status, watch_time_s, score, completed_at),
-        )
-    if status == "completed":
-        add_xp(75, f"Completed lecture {lecture_id}", "lecture_complete")
-        unlock_achievement("speed_reader")
-        if count_completed() >= 10:
-            unlock_achievement("ten_lectures")
-        if datetime.now().hour < 5:
-            unlock_achievement("night_owl")
-        update_quest_progress("complete_3_lectures")
-
-
-def count_completed() -> int:
-    with tx() as con:
-        row = con.execute("SELECT COUNT(*) as n FROM progress WHERE status='completed'").fetchone()
-    return row["n"]
-
-
 # ─── Assignments (delegated to db_assignments.py) ──────────────────────────────
 
 def save_assignment(assignment: dict) -> None:
     _save_assignment_raw(assignment, tx)
 
 
-def submit_assignment(assignment_id: str, score: float, feedback: str = "") -> None:
+def submit_assignment(assignment_id: str, score: float | None, feedback: str = "") -> None:
     _submit_assignment_raw(
         assignment_id, score, feedback, tx, get_setting,
         add_xp, unlock_achievement, update_quest_progress,
         _check_achievements_degrees,
     )
+    log_activity("assignment_submit", metadata={"assignment_id": assignment_id, "graded": score is not None})
 
 
 def start_assignment(assignment_id: str) -> None:
@@ -623,60 +462,96 @@ def time_to_degree_days() -> int:
     return (datetime.now() - start).days
 
 
-def compute_gpa() -> tuple[float, int]:
-    return _compute_gpa_raw(tx)
+_student_facade = make_student_facade(
+    tx=tx,
+    compute_gpa_raw=_compute_gpa_raw,
+    credits_earned_raw=_credits_earned_raw,
+    eligible_degrees_raw=_eligible_degrees_raw,
+    get_academic_progress_summary_raw=_get_academic_progress_summary_raw,
+    get_course_completion_audit_raw=_get_course_completion_audit_raw,
+    log_activity_raw=_log_activity_raw,
+    get_activity_summary_raw=_get_activity_summary_raw,
+    unlock_achievement_raw=_unlock_achievement_raw,
+    check_achievements_xp_raw=_check_achievements_xp_raw,
+    update_quest_progress_raw=_update_quest_progress_raw,
+    get_enrollment_date=get_enrollment_date,
+    time_to_degree_days=time_to_degree_days,
+)
+
+get_setting = _student_facade["get_setting"]
+set_setting = _student_facade["set_setting"]
+add_xp = _student_facade["add_xp"]
+get_xp = _student_facade["get_xp"]
+get_level = _student_facade["get_level"]
+get_progress = _student_facade["get_progress"]
+set_progress = _student_facade["set_progress"]
+count_completed = _student_facade["count_completed"]
+compute_gpa = _student_facade["compute_gpa"]
+credits_earned = _student_facade["credits_earned"]
+eligible_degrees = _student_facade["eligible_degrees"]
+get_academic_progress_summary = _student_facade["get_academic_progress_summary"]
+get_course_completion_audit = _student_facade["get_course_completion_audit"]
+log_activity = _student_facade["log_activity"]
+get_activity_summary = _student_facade["get_activity_summary"]
+get_student_world_state = _student_facade["get_student_world_state"]
+
+_curriculum_facade = make_curriculum_facade(
+    tx=tx,
+    get_child_courses_raw=_get_child_courses_raw,
+    get_course_tree_raw=_get_course_tree_raw,
+    get_course_depth_raw=_get_course_depth_raw,
+    get_root_course_raw=_get_root_course_raw,
+    course_completion_pct_raw=_course_completion_pct_raw,
+    course_credit_hours_raw=_course_credit_hours_raw,
+    log_study_hours_raw=_log_study_hours_raw,
+    get_study_hours_raw=_get_study_hours_raw,
+    check_qualifications_raw=_check_qualifications_raw,
+    get_qualifications_raw=_get_qualifications_raw,
+    get_all_benchmarks_raw=_get_all_benchmarks_raw,
+    get_qualification_roadmap_raw=_get_qualification_roadmap_raw,
+    get_pacing_for_course_raw=_get_pacing_for_course_raw,
+    record_competency_score_raw=_record_competency_score_raw,
+    get_competency_profile_raw=_get_competency_profile_raw,
+    check_mastery_raw=_check_mastery_raw,
+    time_to_degree_estimate_raw=_time_to_degree_estimate_raw,
+    get_benchmark_comparison_raw=_get_benchmark_comparison_raw,
+    compute_gpa=compute_gpa,
+    credits_earned=credits_earned,
+)
+
+upsert_course = _curriculum_facade["upsert_course"]
+upsert_module = _curriculum_facade["upsert_module"]
+upsert_lecture = _curriculum_facade["upsert_lecture"]
+get_all_courses = _curriculum_facade["get_all_courses"]
+get_course = _curriculum_facade["get_course"]
+get_modules = _curriculum_facade["get_modules"]
+get_lectures = _curriculum_facade["get_lectures"]
+get_lecture = _curriculum_facade["get_lecture"]
+delete_course = _curriculum_facade["delete_course"]
+get_child_courses = _curriculum_facade["get_child_courses"]
+get_course_tree = _curriculum_facade["get_course_tree"]
+get_course_depth = _curriculum_facade["get_course_depth"]
+get_root_course = _curriculum_facade["get_root_course"]
+course_completion_pct = _curriculum_facade["course_completion_pct"]
+course_credit_hours = _curriculum_facade["course_credit_hours"]
+log_study_hours = _curriculum_facade["log_study_hours"]
+get_study_hours = _curriculum_facade["get_study_hours"]
+check_qualifications = _curriculum_facade["check_qualifications"]
+get_qualifications = _curriculum_facade["get_qualifications"]
+get_all_benchmarks = _curriculum_facade["get_all_benchmarks"]
+get_qualification_roadmap = _curriculum_facade["get_qualification_roadmap"]
+get_pacing_for_course = _curriculum_facade["get_pacing_for_course"]
+record_competency_score = _curriculum_facade["record_competency_score"]
+get_competency_profile = _curriculum_facade["get_competency_profile"]
+check_mastery = _curriculum_facade["check_mastery"]
+time_to_degree_estimate = _curriculum_facade["time_to_degree_estimate"]
+get_benchmark_comparison = _curriculum_facade["get_benchmark_comparison"]
 
 
-def credits_earned() -> int:
-    return _credits_earned_raw(tx)
-
-
-def eligible_degrees(gpa: float | None = None, credits: int | None = None) -> list[str]:
-    return _eligible_degrees_raw(tx, gpa, credits)
-
-
-# ─── Chat History ──────────────────────────────────────────────────────────────
-
-def append_chat(session_id: str, role: str, content: str) -> None:
+def update_lecture_data(lecture_id: str, data: dict) -> None:
+    """Update only the data JSON column for an existing lecture."""
     with tx() as con:
-        con.execute(
-            "INSERT INTO chat_history (session_id,role,content) VALUES (?,?,?)",
-            (session_id, role, content),
-        )
-    # Also persist to labelled file on disk
-    from core.chat_store import save_message
-    save_message(session_id, role, content)
-
-
-def get_chat(session_id: str, limit: int = 50) -> list[dict]:
-    with tx() as con:
-        rows = con.execute(
-            "SELECT role,content,occurred_at FROM chat_history WHERE session_id=? ORDER BY id DESC LIMIT ?",
-            (session_id, limit),
-        ).fetchall()
-    return list(reversed([dict(r) for r in rows]))
-
-
-def _save_llm_generated_canonical(content: str, content_type: str) -> int:
-    with tx() as con:
-        cur = con.execute(
-            "INSERT INTO llm_generated (content,type) VALUES (?,?)", (content, content_type)
-        )
-        row_id = cur.lastrowid
-    return row_id
-
-
-def get_llm_generated(imported: bool = False) -> list[dict]:
-    with tx() as con:
-        rows = con.execute(
-            "SELECT * FROM llm_generated WHERE imported=? ORDER BY created_at DESC", (1 if imported else 0,)
-        ).fetchall()
-    return [dict(r) for r in rows]
-
-
-def mark_imported(row_id: int) -> None:
-    with tx() as con:
-        con.execute("UPDATE llm_generated SET imported=1 WHERE id=?", (row_id,))
+        con.execute("UPDATE lectures SET data = ? WHERE id = ?", (json.dumps(data), lecture_id))
 
 
 # ─── Achievements (delegated to db_achievements.py) ────────────────────────────
@@ -700,6 +575,53 @@ def _check_achievements_xp(total_xp: int) -> None:
 
 def _check_achievements_degrees() -> None:
     _check_achievements_degrees_raw(eligible_degrees, unlock_achievement)
+
+
+_ai_facade = make_ai_facade(
+    tx=tx,
+    get_course=get_course,
+    get_modules=get_modules,
+    get_lectures=get_lectures,
+    get_progress=get_progress,
+    get_assignments=get_assignments,
+    get_competency_profile=get_competency_profile,
+    get_study_hours=get_study_hours,
+    get_course_completion_audit=get_course_completion_audit,
+    create_course_audit_job_raw=_create_course_audit_job_raw,
+    list_audit_jobs_raw=_list_audit_jobs_raw,
+    get_audit_job_raw=_get_audit_job_raw,
+    get_audit_packets_raw=_get_audit_packets_raw,
+    get_next_pending_packet_raw=_get_next_pending_packet_raw,
+    mark_job_started_raw=_mark_job_started_raw,
+    record_packet_review_raw=_record_packet_review_raw,
+    fail_audit_job_raw=_fail_audit_job_raw,
+    add_remediation_item_raw=_add_remediation_item_raw,
+    list_remediation_backlog_raw=_list_remediation_backlog_raw,
+    bulk_import_json_raw=_bulk_import_json_raw,
+    upsert_course=upsert_course,
+    upsert_module=upsert_module,
+    upsert_lecture=upsert_lecture,
+    unlock_achievement=unlock_achievement,
+    add_xp=add_xp,
+    save_assignment_raw=_save_assignment_raw,
+)
+
+append_chat = _ai_facade["append_chat"]
+get_chat = _ai_facade["get_chat"]
+_save_llm_generated_canonical = _ai_facade["save_llm_generated_raw"]
+get_llm_generated = _ai_facade["get_llm_generated"]
+mark_imported = _ai_facade["mark_imported"]
+create_course_audit_job = _ai_facade["create_course_audit_job"]
+list_audit_jobs = _ai_facade["list_audit_jobs"]
+get_audit_job = _ai_facade["get_audit_job"]
+get_audit_packets = _ai_facade["get_audit_packets"]
+get_next_pending_packet = _ai_facade["get_next_pending_packet"]
+mark_audit_job_started = _ai_facade["mark_audit_job_started"]
+record_audit_packet_review = _ai_facade["record_audit_packet_review"]
+fail_audit_job = _ai_facade["fail_audit_job"]
+add_remediation_item = _ai_facade["add_remediation_item"]
+list_remediation_backlog = _ai_facade["list_remediation_backlog"]
+bulk_import_json = _ai_facade["bulk_import_json"]
 
 
 # ─── Weekly Quests (delegated to db_quests.py) ──────────────────────────────────
@@ -762,30 +684,6 @@ def get_enrollments() -> list[dict]:
     return _get_enrollments_raw(tx)
 
 
-# ─── Activity (delegated to db_activity.py) ────────────────────────────────────
-
-def log_activity(event_type: str, duration_s: float = 0, metadata: dict | None = None) -> None:
-    _log_activity_raw(event_type, tx, duration_s, metadata)
-
-
-def get_activity_summary() -> dict:
-    return _get_activity_summary_raw(tx)
-
-
-# ─── Schema validation & Bulk import (delegated to db_import.py) ───────────────
-
-# validate_course_json imported directly from db_import
-
-
-def bulk_import_json(raw: str, validate_only: bool = False) -> tuple[int, list[str]]:
-    return _bulk_import_json_raw(
-        raw, tx_func=tx, upsert_course=upsert_course, upsert_module=upsert_module,
-        upsert_lecture=upsert_lecture, unlock_achievement=unlock_achievement,
-        add_xp=add_xp, validate_only=validate_only,
-        save_assignment_fn=_save_assignment_raw,
-    )
-
-
 # ─── Bootstrap ─────────────────────────────────────────────────────────────────
 init_db()
 run_migrations()
@@ -795,81 +693,6 @@ seed_weekly_quests()
 _seed_grade_levels_raw(tx)
 _seed_subjects_raw(tx)
 _seed_benchmarks_raw(tx)
-
-
-# ─── Course Tree (delegated to course_tree.py) ─────────────────────────────────
-
-def get_child_courses(parent_id: str) -> list[dict]:
-    return _get_child_courses_raw(parent_id, tx)
-
-
-def get_course_tree(root_id: str) -> list[dict]:
-    return _get_course_tree_raw(root_id, tx)
-
-
-def get_course_depth(course_id: str) -> int:
-    return _get_course_depth_raw(course_id, tx)
-
-
-def get_root_course(course_id: str) -> str:
-    return _get_root_course_raw(course_id, tx)
-
-
-def course_completion_pct(course_id: str) -> float:
-    return _course_completion_pct_raw(course_id, tx)
-
-
-def course_credit_hours(course_id: str) -> float:
-    return _course_credit_hours_raw(course_id, tx)
-
-
-def log_study_hours(course_id: str, hours: float, activity_type: str = "study", notes: str = "") -> None:
-    _log_study_hours_raw(course_id, hours, activity_type, notes, tx_func=tx)
-
-
-def get_study_hours(course_id: str) -> list[dict]:
-    return _get_study_hours_raw(course_id, tx)
-
-
-def check_qualifications() -> list[dict]:
-    return _check_qualifications_raw(tx, compute_gpa, credits_earned)
-
-
-def get_qualifications() -> list[dict]:
-    return _get_qualifications_raw(tx)
-
-
-def get_all_benchmarks() -> list[dict]:
-    return _get_all_benchmarks_raw(tx)
-
-
-def get_qualification_roadmap(benchmark_id: str) -> dict:
-    return _get_qualification_roadmap_raw(benchmark_id, tx)
-
-
-def get_pacing_for_course(course_id: str) -> str:
-    return _get_pacing_for_course_raw(course_id, tx)
-
-
-def record_competency_score(course_id: str, blooms_level: str, score: float,
-                            max_score: float = 100, assessment_id: str = "") -> None:
-    _record_competency_score_raw(course_id, blooms_level, score, max_score, assessment_id, tx_func=tx)
-
-
-def get_competency_profile(course_id: str) -> dict:
-    return _get_competency_profile_raw(course_id, tx)
-
-
-def check_mastery(course_id: str, min_pct: float = 70.0) -> dict:
-    return _check_mastery_raw(course_id, tx, min_pct)
-
-
-def time_to_degree_estimate(target_degree: str = "Bachelor") -> dict | None:
-    return _time_to_degree_estimate_raw(tx, target_degree)
-
-
-def get_benchmark_comparison(benchmark_id: str) -> dict:
-    return _get_benchmark_comparison_raw(benchmark_id, tx)
 
 
 # ─── Compatibility shims (re-exported for UI pages) ────────────────────────────

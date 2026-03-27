@@ -11,6 +11,7 @@ from llm.providers import (
     PROVIDER_CAPABILITIES, get_capability, estimate_tokens, estimate_cost,
     chat_with_fallback,
 )
+from llm.model_profiles import resolve_audit_profile, estimate_audit_seconds
 
 
 class TestLLMConfig:
@@ -109,3 +110,19 @@ class TestFallback:
     def test_each_has_default_models(self):
         for name, info in PROVIDER_CATALOGUE.items():
             assert "default_models" in info, f"{name} missing 'default_models' key"
+
+
+class TestAuditProfiles:
+    def test_openai_frontier_profile(self):
+        profile = resolve_audit_profile("openai", "gpt-5.4")
+        assert profile.structured_output_mode == "strict_schema"
+        assert profile.chunk_token_target >= 4000
+
+    def test_local_tiny_profile(self):
+        profile = resolve_audit_profile("ollama", "phi3:mini")
+        assert profile.recommended_passes >= 3
+        assert profile.chunk_token_target <= 800
+
+    def test_estimate_audit_seconds_positive(self):
+        seconds = estimate_audit_seconds("groq", "openai/gpt-oss-20b", 5000)
+        assert seconds > 0

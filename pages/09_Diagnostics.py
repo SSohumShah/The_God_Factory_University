@@ -16,11 +16,14 @@ sys.path.insert(0, str(ROOT))
 from core.database import (
     get_all_courses, get_modules, get_lectures, get_setting,
     get_xp, get_level, count_completed, compute_gpa,
-    credits_earned, get_assignments,
+    credits_earned, get_assignments, get_academic_progress_summary,
 )
+from core.ui_mode import require_ui_mode
+from core.tts_config import get_tts_settings
 from ui.theme import inject_theme, gf_header, section_divider, help_button
 
 inject_theme()
+require_ui_mode(("operator",), "Diagnostics")
 gf_header("Diagnostics", "Under the hood of the knowledge machinery.")
 help_button("diagnostics-page")
 
@@ -96,6 +99,7 @@ level_idx, level_name, xp_in, xp_to = get_level()
 creds = credits_earned()
 completed = count_completed()
 assignments = get_assignments()
+academic_summary = get_academic_progress_summary()
 
 c1, c2, c3, c4 = st.columns(4)
 with c1:
@@ -109,10 +113,15 @@ with c3:
     st.metric("Graded", graded_count)
 with c4:
     st.metric("GPA", f"{gpa:.2f}")
-    st.metric("Credits", creds)
+    st.metric("Verified Credits", creds)
 
 st.markdown(f"**XP:** {xp:,}  |  **Level:** {level_idx} ({level_name})  |  "
             f"**Progress:** {xp_in}/{xp_to} to next")
+st.caption(
+    f"Activity credits: {academic_summary['activity_credits']:.2f} | "
+    f"Verified courses: {academic_summary['completed_courses']} | "
+    f"Verified assessments: {academic_summary['verified_assessments']}"
+)
 
 
 # ─── LLM Provider Config ────────────────────────────────────────────────────
@@ -149,9 +158,14 @@ if st.button("Test LLM Connection"):
 # ─── Audio Engine ────────────────────────────────────────────────────────────
 section_divider("Audio Engine")
 
-voice_id = get_setting("voice_id", "en-US-AriaNeural")
-binaural = get_setting("binaural_mode", "gamma_40hz")
-st.code(f"Voice: {voice_id}\nBinaural preset: {binaural}", language="text")
+tts_settings = get_tts_settings()
+st.code(
+    f"Voice: {tts_settings['voice_id']}\n"
+    f"Rate: {tts_settings['rate_str']}\n"
+    f"Pitch: {tts_settings['pitch_str']}\n"
+    f"Binaural preset: {tts_settings['binaural']}",
+    language="text",
+)
 
 if st.button("Test TTS"):
     with st.spinner("Generating test speech..."):
@@ -159,7 +173,13 @@ if st.button("Test TTS"):
             from media.audio_engine import synth_tts, audio_duration
             test_path = ROOT / "exports" / "_diag_tts_test.mp3"
             test_path.parent.mkdir(parents=True, exist_ok=True)
-            synth_tts("System diagnostics check complete.", test_path, voice_id=voice_id)
+            synth_tts(
+                "System diagnostics check complete.",
+                test_path,
+                voice_id=str(tts_settings["voice_id"]),
+                rate=str(tts_settings["rate_str"]),
+                pitch=str(tts_settings["pitch_str"]),
+            )
             dur = audio_duration(test_path)
             st.success(f"TTS generated: {dur:.1f}s, {test_path.stat().st_size / 1024:.1f} KB")
             st.audio(str(test_path))

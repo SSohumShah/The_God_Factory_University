@@ -55,8 +55,19 @@ BINAURAL_PRESETS = {
 # ─── TTS ──────────────────────────────────────────────────────────────────────
 
 def synth_tts(text: str, out_path: Path, voice_id: str = "en-US-AriaNeural", rate: str = "+0%", pitch: str = "+0Hz") -> Path:
-    """Synthesize speech. Tries edge-tts first, falls back to pyttsx3."""
+    """Synthesize speech. Uses multi-engine cycling: local → cloud → offline."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        from media.tts_providers import synth_with_cycling
+        from core.database import get_setting
+        preferred = get_setting("tts_engine", "")
+        ok, _engine = synth_with_cycling(text, out_path, voice_id, rate, pitch,
+                                         preferred_engine=preferred)
+        if ok and out_path.exists() and out_path.stat().st_size > 500:
+            return out_path
+    except Exception:
+        pass
+    # Legacy fallback: direct edge-tts then pyttsx3
     try:
         _synth_edge_tts(text, out_path, voice_id, rate, pitch)
         if out_path.exists() and out_path.stat().st_size > 1000:

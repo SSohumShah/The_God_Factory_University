@@ -12,9 +12,12 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.database import get_all_courses, get_modules, get_lectures
+from core.ui_mode import require_ui_mode
+from media.output_paths import resolve_full_video_path
 from ui.theme import inject_theme, gf_header, section_divider, play_sfx, help_button
 
 inject_theme()
+require_ui_mode(("builder", "operator"), "Timeline Editor")
 gf_header("Timeline Editor", "Reorder and tune scenes before rendering.")
 help_button("reordering-scenes")
 
@@ -49,6 +52,10 @@ lec_row = lec_map[selected_lec]
 lec_data = json.loads(lec_row["data"] or "{}")
 lec_data.setdefault("lecture_id", lec_row["id"])
 lec_data.setdefault("title", lec_row["title"])
+lec_data.setdefault("course_id", course["id"])
+lec_data.setdefault("course_title", course["title"])
+lec_data.setdefault("module_id", module["id"])
+lec_data.setdefault("module_title", module["title"])
 
 scenes = lec_data.get("video_recipe", {}).get("scene_blocks", [])
 if not scenes:
@@ -119,7 +126,7 @@ with rd1:
                 outs = render_lecture(modified_lec, EXPORT_DIR, chunk_by_scene=False, suffix="_edited")
                 play_sfx("success")
                 st.success(f"Rendered: {outs[0].name}")
-                st.video(str(outs[0]))
+                st.video(str(resolve_full_video_path(modified_lec, EXPORT_DIR, suffix="_edited")))
             except Exception as e:
                 st.error(f"Render failed: {e}")
 
