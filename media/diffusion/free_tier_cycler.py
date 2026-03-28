@@ -80,7 +80,8 @@ def _default_providers() -> list[dict]:
     """Built-in provider list when JSON file doesn't exist."""
     return [
         {"name": "pollinations", "daily_limit": 50, "priority": 1,
-         "key_setting": None, "signup_url": None},
+         "key_setting": "pollinations_api_key",
+         "signup_url": "https://enter.pollinations.ai/"},
         {"name": "huggingface", "daily_limit": 30, "priority": 2,
          "key_setting": "hf_api_token",
          "signup_url": "https://huggingface.co/settings/tokens"},
@@ -263,3 +264,52 @@ class _TrackedProvider(ImageProvider):
             used = _get_daily_usage(self._inner.name)
             return max(0, self._inner.daily_limit - used)
         return None
+
+
+def generate_image_with_fallback(
+    prompt: str, width: int = 960, height: int = 540,
+    course_id: str = "", lecture_id: str = "",
+) -> tuple[Path | None, str]:
+    """Try every available provider in priority order until one succeeds.
+
+    Returns (path, provider_name) or (None, "") if all fail.
+    """
+    from core.logger import log_error
+    configs = _load_provider_config()
+    configs.sort(key=lambda c: c.get("priority", 99))
+
+    try:
+        from core.database import get_setting
+    except Exception:
+        get_setting = None  # type: ignore[assignment]
+
+    tried: list[str] = []
+    for cfg in configs:
+        name = cfg["name"]
+        daily_limit = cfg.get("daily_limit")
+
+        # Quota check
+        if daily_limit is not None:
+            used = _get_daily_usage(name)
+            if used >= daily_limit:
+                continue
+
+        provider = _instantiate_provider(name)
+        if not provider or not provider.is_available():
+            continue
+
+        tracked = _TrackedProvider(provider)
+        tried.append(name)
+        try:
+            result = tracked.generate_image(prompt, width, height,
+                                            course_id, lecture_id)
+            if result is not None and result.exists():
+                return result, name
+        except Exception as exc:
+            log_error(f"Provider {name} error: {exc}",
+                      category="diffusion", error_id="PROVIDER_ERR")
+
+    if tried:
+        log_error(f"All providers failed for prompt ({', '.join(tried)} tried)",
+                  category="diffusion", error_id="ALL_PROVIDERS_FAIL")
+    return None, ""

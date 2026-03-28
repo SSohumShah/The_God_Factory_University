@@ -13,11 +13,11 @@ CLOUD_SERVICES = [
     {
         "name": "Pollinations.ai",
         "provider": "pollinations",
-        "key_setting": None,
-        "signup_url": None,
+        "key_setting": "pollinations_api_key",
+        "signup_url": "https://enter.pollinations.ai/",
         "daily_limit": 50,
-        "description": "Completely free — no API key or signup needed",
-        "setup_note": "Works out of the box. Nothing to configure.",
+        "description": "Free tier with API key — FLUX model, fast generation",
+        "setup_note": "1. Go to enter.pollinations.ai  2. Register for free  3. Copy your API key (pk_...)  4. Paste below",
     },
     {
         "name": "HuggingFace",
