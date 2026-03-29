@@ -57,7 +57,7 @@ section_divider("Dependencies")
 
 DEPS = [
     "streamlit", "moviepy", "imageio", "imageio_ffmpeg", "PIL",
-    "numpy", "scipy", "edge_tts", "pyttsx3", "openai", "anthropic",
+    "numpy", "edge_tts", "pyttsx3", "openai", "anthropic",
     "httpx", "requests", "psutil",
 ]
 

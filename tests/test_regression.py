@@ -103,6 +103,22 @@ class TestInvalidLLMJSON:
         assert result is not None
         assert json.loads(result)["key"] == "value"
 
+    def test_repair_json_wrapped_in_prose(self):
+        from llm.professor import Professor
+        raw = 'Here is the jargon course you requested:\n{"key": "value"}\nUse it well.'
+        result = Professor.repair_json(raw)
+        assert result is not None
+        assert json.loads(result)["key"] == "value"
+
+    def test_repair_python_style_dict(self):
+        from llm.professor import Professor
+        raw = "{'key': 'value', 'items': ['a', 'b']}"
+        result = Professor.repair_json(raw)
+        assert result is not None
+        parsed = json.loads(result)
+        assert parsed["key"] == "value"
+        assert parsed["items"] == ["a", "b"]
+
     def test_repair_totally_invalid(self):
         from llm.professor import Professor
         result = Professor.repair_json("not json at all")

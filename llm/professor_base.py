@@ -1,6 +1,7 @@
 """Base Professor mixin: config, history, parsing, and core dialogue."""
 from __future__ import annotations
 
+import ast
 import json
 import re
 from dataclasses import dataclass, field
@@ -204,47 +205,120 @@ class ProfessorBaseMixin:
     def repair_json(raw: str) -> str | None:
         """Attempt to recover valid JSON from malformed LLM output."""
 
-        def _try_parse(text: str):
+        def _try_parse(text: str) -> str | None:
             try:
                 json.loads(text)
                 return text
             except (json.JSONDecodeError, ValueError):
                 return None
 
+        def _try_literal_eval(text: str) -> str | None:
+            try:
+                parsed = ast.literal_eval(text)
+            except (ValueError, SyntaxError):
+                return None
+            if isinstance(parsed, (dict, list)):
+                return json.dumps(parsed)
+            return None
+
+        def _strip_code_fences(text: str) -> str:
+            stripped = text.strip()
+            if stripped.startswith("```") and stripped.endswith("```"):
+                lines = stripped.splitlines()
+                if len(lines) >= 2:
+                    return "\n".join(lines[1:-1]).strip()
+            return stripped
+
+        def _remove_json_comments(text: str) -> str:
+            no_block = re.sub(r"/\*.*?\*/", "", text, flags=re.DOTALL)
+            return re.sub(r"(^|\s)//.*?$", "", no_block, flags=re.MULTILINE)
+
+        def _remove_trailing_commas(text: str) -> str:
+            return re.sub(r",\s*([}\]])", r"\1", text)
+
+        def _extract_balanced_json(text: str) -> str | None:
+            start = next((idx for idx, ch in enumerate(text) if ch in "[{"), -1)
+            if start < 0:
+                return None
+
+            opens = {"{": "}", "[": "]"}
+            closers = set(opens.values())
+            stack: list[str] = []
+            in_string = False
+            escape = False
+
+            for idx in range(start, len(text)):
+                ch = text[idx]
+                if in_string:
+                    if escape:
+                        escape = False
+                    elif ch == "\\":
+                        escape = True
+                    elif ch == '"':
+                        in_string = False
+                    continue
+
+                if ch == '"':
+                    in_string = True
+                    continue
+
+                if ch in opens:
+                    stack.append(opens[ch])
+                    continue
+
+                if ch in closers:
+                    if not stack or stack[-1] != ch:
+                        return None
+                    stack.pop()
+                    if not stack:
+                        return text[start:idx + 1].strip()
+
+            if stack:
+                return (text[start:].strip() + "".join(reversed(stack))).strip()
+            return None
+
+        def _candidates(text: str) -> list[str]:
+            variants: list[str] = []
+
+            def _add(candidate: str | None) -> None:
+                if candidate is None:
+                    return
+                cleaned = candidate.strip()
+                if cleaned and cleaned not in variants:
+                    variants.append(cleaned)
+
+            stripped = text.strip()
+            _add(stripped)
+
+            fence = re.search(r"```(?:json)?\s*\n?(.*?)```", stripped, re.DOTALL)
+            if fence:
+                _add(fence.group(1).strip())
+
+            for base in list(variants):
+                no_fence = _strip_code_fences(base)
+                _add(no_fence)
+                _add(_remove_json_comments(no_fence))
+
+            for base in list(variants):
+                _add(_remove_trailing_commas(base))
+                extracted = _extract_balanced_json(base)
+                _add(extracted)
+                if extracted:
+                    _add(_remove_trailing_commas(extracted))
+                    _add(_remove_json_comments(extracted))
+                    _add(_remove_trailing_commas(_remove_json_comments(extracted)))
+
+            return variants
+
         raw = raw.strip()
 
-        result = _try_parse(raw)
-        if result:
-            return result
-
-        fence = re.search(r"```(?:json)?\s*\n?(.*?)```", raw, re.DOTALL)
-        if fence:
-            result = _try_parse(fence.group(1).strip())
+        for candidate in _candidates(raw):
+            result = _try_parse(candidate)
             if result:
                 return result
 
-        cleaned = re.sub(r",\s*([}\]])", r"\1", raw)
-        result = _try_parse(cleaned)
-        if result:
-            return result
-
-        if fence:
-            cleaned = re.sub(r",\s*([}\]])", r"\1", fence.group(1).strip())
-            result = _try_parse(cleaned)
-            if result:
-                return result
-
-        opens = {"[": "]", "{": "}"}
-        stack = []
-        for ch in cleaned:
-            if ch in opens:
-                stack.append(opens[ch])
-            elif ch in ("]", "}"):
-                if stack and stack[-1] == ch:
-                    stack.pop()
-        if stack:
-            balanced = cleaned + "".join(reversed(stack))
-            result = _try_parse(balanced)
+        for candidate in _candidates(raw):
+            result = _try_literal_eval(candidate)
             if result:
                 return result
 
