@@ -1,0 +1,1038 @@
+{
+  "course_id": "doctoral_cs610",
+  "title": "CS 610: Advanced Machine Learning (Doctoral Level)",
+  "description": "CS 610: Advanced Machine Learning for Doctoral Level students.",
+  "credits": 3,
+  "subject_id": "cs610",
+  "modules": [
+    {
+      "module_id": "doctoral_cs610_m1",
+      "title": "Generative Models",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_cs610_m1_l1",
+          "title": "Generative Models — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to generative models"
+          ],
+          "core_terms": [
+            "Generative",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Generative Models. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Generative Models",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Generative Models. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Generative Models concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Generative Models: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Generative Models — Part 1",
+            "deliverable": "doctoral_cs610_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Generative Models — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs610_m1_l2",
+          "title": "Generative Models — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of generative models"
+          ],
+          "core_terms": [
+            "Generative",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Generative Models. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Generative Models",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Generative Models. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Generative Models concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Generative Models: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Generative Models — Part 2",
+            "deliverable": "doctoral_cs610_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Generative Models — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs610_m1_l3",
+          "title": "Generative Models — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of generative models"
+          ],
+          "core_terms": [
+            "Generative",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Generative Models. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Generative Models",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Generative Models. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Generative Models concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Generative Models: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Generative Models — Part 3",
+            "deliverable": "doctoral_cs610_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Generative Models — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "doctoral_cs610_m2",
+      "title": "Meta-Learning",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_cs610_m2_l1",
+          "title": "Meta-Learning — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to meta-learning"
+          ],
+          "core_terms": [
+            "Meta-Learning",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Meta-Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Meta-Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Meta-Learning. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Meta-Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Meta-Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Meta-Learning — Part 1",
+            "deliverable": "doctoral_cs610_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Meta-Learning — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs610_m2_l2",
+          "title": "Meta-Learning — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of meta-learning"
+          ],
+          "core_terms": [
+            "Meta-Learning",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Meta-Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Meta-Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Meta-Learning. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Meta-Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Meta-Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Meta-Learning — Part 2",
+            "deliverable": "doctoral_cs610_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Meta-Learning — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs610_m2_l3",
+          "title": "Meta-Learning — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of meta-learning"
+          ],
+          "core_terms": [
+            "Meta-Learning",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Meta-Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Meta-Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Meta-Learning. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Meta-Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Meta-Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Meta-Learning — Part 3",
+            "deliverable": "doctoral_cs610_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Meta-Learning — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "doctoral_cs610_m3",
+      "title": "Continual Learning",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_cs610_m3_l1",
+          "title": "Continual Learning — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to continual learning"
+          ],
+          "core_terms": [
+            "Continual",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Continual Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Continual Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Continual Learning. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Continual Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Continual Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Continual Learning — Part 1",
+            "deliverable": "doctoral_cs610_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Continual Learning — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs610_m3_l2",
+          "title": "Continual Learning — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of continual learning"
+          ],
+          "core_terms": [
+            "Continual",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Continual Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Continual Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Continual Learning. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Continual Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Continual Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Continual Learning — Part 2",
+            "deliverable": "doctoral_cs610_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Continual Learning — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs610_m3_l3",
+          "title": "Continual Learning — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of continual learning"
+          ],
+          "core_terms": [
+            "Continual",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Continual Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Continual Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Continual Learning. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Continual Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Continual Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Continual Learning — Part 3",
+            "deliverable": "doctoral_cs610_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Continual Learning — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "doctoral_cs610_m4",
+      "title": "Interpretable AI",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_cs610_m4_l1",
+          "title": "Interpretable AI — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to interpretable ai"
+          ],
+          "core_terms": [
+            "Interpretable",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Interpretable AI. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Interpretable AI",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Interpretable AI. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Interpretable AI concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Interpretable AI: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Interpretable AI — Part 1",
+            "deliverable": "doctoral_cs610_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Interpretable AI — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs610_m4_l2",
+          "title": "Interpretable AI — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of interpretable ai"
+          ],
+          "core_terms": [
+            "Interpretable",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Interpretable AI. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Interpretable AI",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Interpretable AI. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Interpretable AI concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Interpretable AI: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Interpretable AI — Part 2",
+            "deliverable": "doctoral_cs610_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Interpretable AI — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs610_m4_l3",
+          "title": "Interpretable AI — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of interpretable ai"
+          ],
+          "core_terms": [
+            "Interpretable",
+            "cs610"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs610_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Interpretable AI. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Interpretable AI",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Interpretable AI. This is essential for mastering CS 610: Advanced Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Interpretable AI concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs610_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Interpretable AI: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs610_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Interpretable AI — Part 3",
+            "deliverable": "doctoral_cs610_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Interpretable AI — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Doctoral",
+  "depth_target": 5,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "masters_cs510"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Generative Models",
+    "Demonstrate understanding of Meta-Learning",
+    "Demonstrate understanding of Continual Learning",
+    "Demonstrate understanding of Interpretable AI"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "doctoral_cs610-A1",
+      "title": "Generative Models Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs610_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs610-LAB1",
+      "title": "Generative Models Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs610_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs610-A2",
+      "title": "Meta-Learning Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs610_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs610-LAB2",
+      "title": "Meta-Learning Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs610_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs610-A3",
+      "title": "Continual Learning Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs610_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs610-LAB3",
+      "title": "Continual Learning Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs610_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs610-A4",
+      "title": "Interpretable AI Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs610_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs610-LAB4",
+      "title": "Interpretable AI Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs610_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

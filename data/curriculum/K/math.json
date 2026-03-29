@@ -1,0 +1,884 @@
+{
+  "course_id": "K_math",
+  "title": "Math Foundations (Kindergarten)",
+  "description": "Math Foundations for Kindergarten students.",
+  "credits": 1,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "K_math_m1",
+      "title": "Counting to 20",
+      "lectures": [
+        {
+          "lecture_id": "K_math_m1_l1",
+          "title": "Counting to 20 — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to counting to 20"
+          ],
+          "core_terms": [
+            "Counting",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Counting to 20. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Counting to 20",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Counting to 20. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Counting to 20 concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Counting to 20: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "counting_to_20"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Counting to 20 — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_math_m1_l2",
+          "title": "Counting to 20 — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of counting to 20"
+          ],
+          "core_terms": [
+            "Counting",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Counting to 20. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Counting to 20",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Counting to 20. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Counting to 20 concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Counting to 20: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "counting_to_20"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Counting to 20 — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_math_m1_l3",
+          "title": "Counting to 20 — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of counting to 20"
+          ],
+          "core_terms": [
+            "Counting",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Counting to 20. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Counting to 20",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Counting to 20. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Counting to 20 concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Counting to 20: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "counting_to_20"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Counting to 20 — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_math_m2",
+      "title": "Shapes & Patterns",
+      "lectures": [
+        {
+          "lecture_id": "K_math_m2_l1",
+          "title": "Shapes & Patterns — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to shapes & patterns"
+          ],
+          "core_terms": [
+            "Shapes",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Shapes & Patterns. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Shapes & Patterns",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Shapes & Patterns. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Shapes & Patterns concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Shapes & Patterns: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "shapes_&_patterns"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Shapes & Patterns — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_math_m2_l2",
+          "title": "Shapes & Patterns — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of shapes & patterns"
+          ],
+          "core_terms": [
+            "Shapes",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Shapes & Patterns. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Shapes & Patterns",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Shapes & Patterns. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Shapes & Patterns concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Shapes & Patterns: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "shapes_&_patterns"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Shapes & Patterns — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_math_m2_l3",
+          "title": "Shapes & Patterns — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of shapes & patterns"
+          ],
+          "core_terms": [
+            "Shapes",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Shapes & Patterns. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Shapes & Patterns",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Shapes & Patterns. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Shapes & Patterns concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Shapes & Patterns: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "shapes_&_patterns"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Shapes & Patterns — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_math_m3",
+      "title": "Comparing Sizes",
+      "lectures": [
+        {
+          "lecture_id": "K_math_m3_l1",
+          "title": "Comparing Sizes — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to comparing sizes"
+          ],
+          "core_terms": [
+            "Comparing",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Comparing Sizes. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Comparing Sizes",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Comparing Sizes. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Comparing Sizes concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Comparing Sizes: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "comparing_sizes"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Comparing Sizes — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_math_m3_l2",
+          "title": "Comparing Sizes — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of comparing sizes"
+          ],
+          "core_terms": [
+            "Comparing",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Comparing Sizes. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Comparing Sizes",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Comparing Sizes. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Comparing Sizes concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Comparing Sizes: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "comparing_sizes"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Comparing Sizes — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_math_m3_l3",
+          "title": "Comparing Sizes — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of comparing sizes"
+          ],
+          "core_terms": [
+            "Comparing",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Comparing Sizes. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Comparing Sizes",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Comparing Sizes. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Comparing Sizes concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Comparing Sizes: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "comparing_sizes"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Comparing Sizes — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_math_m4",
+      "title": "Simple Addition",
+      "lectures": [
+        {
+          "lecture_id": "K_math_m4_l1",
+          "title": "Simple Addition — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to simple addition"
+          ],
+          "core_terms": [
+            "Simple",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Simple Addition. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Simple Addition",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Simple Addition. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Simple Addition concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Simple Addition: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "simple_addition"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Simple Addition — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_math_m4_l2",
+          "title": "Simple Addition — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of simple addition"
+          ],
+          "core_terms": [
+            "Simple",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Simple Addition. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Simple Addition",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Simple Addition. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Simple Addition concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Simple Addition: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "simple_addition"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Simple Addition — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_math_m4_l3",
+          "title": "Simple Addition — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of simple addition"
+          ],
+          "core_terms": [
+            "Simple",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Simple Addition. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Simple Addition",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Simple Addition. This is essential for mastering Math Foundations.",
+                "visual_prompt": "Animated diagram illustrating Simple Addition concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Simple Addition: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "simple_addition"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Simple Addition — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Counting to 20",
+    "Demonstrate understanding of Shapes & Patterns",
+    "Demonstrate understanding of Comparing Sizes",
+    "Demonstrate understanding of Simple Addition"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "K_math-A1",
+      "title": "Counting to 20 Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_math-A2",
+      "title": "Shapes & Patterns Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_math-A3",
+      "title": "Comparing Sizes Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_math-A4",
+      "title": "Simple Addition Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

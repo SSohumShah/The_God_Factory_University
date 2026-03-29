@@ -1,0 +1,860 @@
+{
+  "course_id": "freshman_psych101",
+  "title": "Psychology 101 (College Freshman)",
+  "description": "Psychology 101 for College Freshman students.",
+  "credits": 3,
+  "subject_id": "psych101",
+  "modules": [
+    {
+      "module_id": "freshman_psych101_m1",
+      "title": "Foundations of Psychology",
+      "lectures": [
+        {
+          "lecture_id": "freshman_psych101_m1_l1",
+          "title": "Foundations of Psychology — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to foundations of psychology"
+          ],
+          "core_terms": [
+            "Foundations",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Foundations of Psychology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Foundations of Psychology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Foundations of Psychology. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Foundations of Psychology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Foundations of Psychology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Foundations of Psychology — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_psych101_m1_l2",
+          "title": "Foundations of Psychology — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of foundations of psychology"
+          ],
+          "core_terms": [
+            "Foundations",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Foundations of Psychology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Foundations of Psychology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Foundations of Psychology. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Foundations of Psychology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Foundations of Psychology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Foundations of Psychology — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_psych101_m1_l3",
+          "title": "Foundations of Psychology — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of foundations of psychology"
+          ],
+          "core_terms": [
+            "Foundations",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Foundations of Psychology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Foundations of Psychology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Foundations of Psychology. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Foundations of Psychology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Foundations of Psychology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Foundations of Psychology — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_psych101_m2",
+      "title": "Biological Bases",
+      "lectures": [
+        {
+          "lecture_id": "freshman_psych101_m2_l1",
+          "title": "Biological Bases — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to biological bases"
+          ],
+          "core_terms": [
+            "Biological",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Biological Bases. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Biological Bases",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Biological Bases. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Biological Bases concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Biological Bases: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Biological Bases — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_psych101_m2_l2",
+          "title": "Biological Bases — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of biological bases"
+          ],
+          "core_terms": [
+            "Biological",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Biological Bases. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Biological Bases",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Biological Bases. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Biological Bases concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Biological Bases: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Biological Bases — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_psych101_m2_l3",
+          "title": "Biological Bases — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of biological bases"
+          ],
+          "core_terms": [
+            "Biological",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Biological Bases. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Biological Bases",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Biological Bases. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Biological Bases concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Biological Bases: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Biological Bases — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_psych101_m3",
+      "title": "Learning & Memory",
+      "lectures": [
+        {
+          "lecture_id": "freshman_psych101_m3_l1",
+          "title": "Learning & Memory — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to learning & memory"
+          ],
+          "core_terms": [
+            "Learning",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Learning & Memory. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Learning & Memory",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Learning & Memory. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Learning & Memory concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Learning & Memory: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Learning & Memory — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_psych101_m3_l2",
+          "title": "Learning & Memory — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of learning & memory"
+          ],
+          "core_terms": [
+            "Learning",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Learning & Memory. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Learning & Memory",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Learning & Memory. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Learning & Memory concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Learning & Memory: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Learning & Memory — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_psych101_m3_l3",
+          "title": "Learning & Memory — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of learning & memory"
+          ],
+          "core_terms": [
+            "Learning",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Learning & Memory. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Learning & Memory",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Learning & Memory. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Learning & Memory concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Learning & Memory: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Learning & Memory — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_psych101_m4",
+      "title": "Social Psychology",
+      "lectures": [
+        {
+          "lecture_id": "freshman_psych101_m4_l1",
+          "title": "Social Psychology — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to social psychology"
+          ],
+          "core_terms": [
+            "Social",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Social Psychology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Social Psychology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Social Psychology. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Social Psychology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Social Psychology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Social Psychology — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_psych101_m4_l2",
+          "title": "Social Psychology — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of social psychology"
+          ],
+          "core_terms": [
+            "Social",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Social Psychology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Social Psychology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Social Psychology. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Social Psychology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Social Psychology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Social Psychology — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_psych101_m4_l3",
+          "title": "Social Psychology — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of social psychology"
+          ],
+          "core_terms": [
+            "Social",
+            "psych101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_psych101_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Social Psychology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Social Psychology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Social Psychology. This is essential for mastering Psychology 101.",
+                "visual_prompt": "Animated diagram illustrating Social Psychology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_psych101_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Social Psychology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Social Psychology — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Freshman",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Foundations of Psychology",
+    "Demonstrate understanding of Biological Bases",
+    "Demonstrate understanding of Learning & Memory",
+    "Demonstrate understanding of Social Psychology"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "freshman_psych101-A1",
+      "title": "Foundations of Psychology Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_psych101_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_psych101-A2",
+      "title": "Biological Bases Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_psych101_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_psych101-A3",
+      "title": "Learning & Memory Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_psych101_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_psych101-A4",
+      "title": "Social Psychology Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_psych101_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

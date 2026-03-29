@@ -1,0 +1,862 @@
+{
+  "course_id": "7_social_studies",
+  "title": "World Geography (7th Grade)",
+  "description": "World Geography for 7th Grade students.",
+  "credits": 2,
+  "subject_id": "social_studies",
+  "modules": [
+    {
+      "module_id": "7_social_studies_m1",
+      "title": "Physical Geography",
+      "lectures": [
+        {
+          "lecture_id": "7_social_studies_m1_l1",
+          "title": "Physical Geography — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to physical geography"
+          ],
+          "core_terms": [
+            "Physical",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Physical Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Physical Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Physical Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Physical Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Physical Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Physical Geography — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_social_studies_m1_l2",
+          "title": "Physical Geography — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of physical geography"
+          ],
+          "core_terms": [
+            "Physical",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Physical Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Physical Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Physical Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Physical Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Physical Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Physical Geography — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_social_studies_m1_l3",
+          "title": "Physical Geography — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of physical geography"
+          ],
+          "core_terms": [
+            "Physical",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Physical Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Physical Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Physical Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Physical Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Physical Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Physical Geography — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_social_studies_m2",
+      "title": "Cultural Geography",
+      "lectures": [
+        {
+          "lecture_id": "7_social_studies_m2_l1",
+          "title": "Cultural Geography — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to cultural geography"
+          ],
+          "core_terms": [
+            "Cultural",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Cultural Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Cultural Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cultural Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Cultural Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cultural Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Cultural Geography — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_social_studies_m2_l2",
+          "title": "Cultural Geography — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of cultural geography"
+          ],
+          "core_terms": [
+            "Cultural",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Cultural Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Cultural Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cultural Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Cultural Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cultural Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Cultural Geography — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_social_studies_m2_l3",
+          "title": "Cultural Geography — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of cultural geography"
+          ],
+          "core_terms": [
+            "Cultural",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Cultural Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Cultural Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cultural Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Cultural Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cultural Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Cultural Geography — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_social_studies_m3",
+      "title": "Economic Geography",
+      "lectures": [
+        {
+          "lecture_id": "7_social_studies_m3_l1",
+          "title": "Economic Geography — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to economic geography"
+          ],
+          "core_terms": [
+            "Economic",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Economic Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Economic Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Economic Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Economic Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Economic Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Economic Geography — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_social_studies_m3_l2",
+          "title": "Economic Geography — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of economic geography"
+          ],
+          "core_terms": [
+            "Economic",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Economic Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Economic Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Economic Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Economic Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Economic Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Economic Geography — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_social_studies_m3_l3",
+          "title": "Economic Geography — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of economic geography"
+          ],
+          "core_terms": [
+            "Economic",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Economic Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Economic Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Economic Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Economic Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Economic Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Economic Geography — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_social_studies_m4",
+      "title": "Political Geography",
+      "lectures": [
+        {
+          "lecture_id": "7_social_studies_m4_l1",
+          "title": "Political Geography — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to political geography"
+          ],
+          "core_terms": [
+            "Political",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Political Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Political Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Political Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Political Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Political Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Political Geography — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_social_studies_m4_l2",
+          "title": "Political Geography — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of political geography"
+          ],
+          "core_terms": [
+            "Political",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Political Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Political Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Political Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Political Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Political Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Political Geography — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_social_studies_m4_l3",
+          "title": "Political Geography — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of political geography"
+          ],
+          "core_terms": [
+            "Political",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_social_studies_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Political Geography. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Political Geography",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Political Geography. This is essential for mastering World Geography.",
+                "visual_prompt": "Animated diagram illustrating Political Geography concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_social_studies_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Political Geography: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Political Geography — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "6-8",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "6_social_studies"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Physical Geography",
+    "Demonstrate understanding of Cultural Geography",
+    "Demonstrate understanding of Economic Geography",
+    "Demonstrate understanding of Political Geography"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "7_social_studies-A1",
+      "title": "Physical Geography Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_social_studies_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_social_studies-A2",
+      "title": "Cultural Geography Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_social_studies_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_social_studies-A3",
+      "title": "Economic Geography Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_social_studies_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_social_studies-A4",
+      "title": "Political Geography Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_social_studies_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 200000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

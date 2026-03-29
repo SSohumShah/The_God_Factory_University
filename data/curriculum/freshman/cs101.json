@@ -1,0 +1,1012 @@
+{
+  "course_id": "freshman_cs101",
+  "title": "CS 101: Intro to Programming (College Freshman)",
+  "description": "CS 101: Intro to Programming for College Freshman students.",
+  "credits": 3,
+  "subject_id": "cs101",
+  "modules": [
+    {
+      "module_id": "freshman_cs101_m1",
+      "title": "Variables & Types",
+      "lectures": [
+        {
+          "lecture_id": "freshman_cs101_m1_l1",
+          "title": "Variables & Types — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to variables & types"
+          ],
+          "core_terms": [
+            "Variables",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Variables & Types. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Variables & Types",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Variables & Types. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Variables & Types concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Variables & Types: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Variables & Types — Part 1",
+            "deliverable": "freshman_cs101_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Variables & Types — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_cs101_m1_l2",
+          "title": "Variables & Types — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of variables & types"
+          ],
+          "core_terms": [
+            "Variables",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Variables & Types. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Variables & Types",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Variables & Types. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Variables & Types concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Variables & Types: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Variables & Types — Part 2",
+            "deliverable": "freshman_cs101_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Variables & Types — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_cs101_m1_l3",
+          "title": "Variables & Types — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of variables & types"
+          ],
+          "core_terms": [
+            "Variables",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Variables & Types. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Variables & Types",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Variables & Types. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Variables & Types concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Variables & Types: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Variables & Types — Part 3",
+            "deliverable": "freshman_cs101_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Variables & Types — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_cs101_m2",
+      "title": "Control Flow",
+      "lectures": [
+        {
+          "lecture_id": "freshman_cs101_m2_l1",
+          "title": "Control Flow — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to control flow"
+          ],
+          "core_terms": [
+            "Control",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Control Flow. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Control Flow",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Control Flow. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Control Flow concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Control Flow: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Control Flow — Part 1",
+            "deliverable": "freshman_cs101_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Control Flow — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_cs101_m2_l2",
+          "title": "Control Flow — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of control flow"
+          ],
+          "core_terms": [
+            "Control",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Control Flow. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Control Flow",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Control Flow. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Control Flow concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Control Flow: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Control Flow — Part 2",
+            "deliverable": "freshman_cs101_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Control Flow — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_cs101_m2_l3",
+          "title": "Control Flow — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of control flow"
+          ],
+          "core_terms": [
+            "Control",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Control Flow. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Control Flow",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Control Flow. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Control Flow concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Control Flow: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Control Flow — Part 3",
+            "deliverable": "freshman_cs101_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Control Flow — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_cs101_m3",
+      "title": "Functions & Modules",
+      "lectures": [
+        {
+          "lecture_id": "freshman_cs101_m3_l1",
+          "title": "Functions & Modules — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to functions & modules"
+          ],
+          "core_terms": [
+            "Functions",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Functions & Modules. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Functions & Modules",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Functions & Modules. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Functions & Modules concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Functions & Modules: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Functions & Modules — Part 1",
+            "deliverable": "freshman_cs101_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Functions & Modules — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_cs101_m3_l2",
+          "title": "Functions & Modules — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of functions & modules"
+          ],
+          "core_terms": [
+            "Functions",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Functions & Modules. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Functions & Modules",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Functions & Modules. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Functions & Modules concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Functions & Modules: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Functions & Modules — Part 2",
+            "deliverable": "freshman_cs101_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Functions & Modules — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_cs101_m3_l3",
+          "title": "Functions & Modules — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of functions & modules"
+          ],
+          "core_terms": [
+            "Functions",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Functions & Modules. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Functions & Modules",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Functions & Modules. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Functions & Modules concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Functions & Modules: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Functions & Modules — Part 3",
+            "deliverable": "freshman_cs101_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Functions & Modules — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_cs101_m4",
+      "title": "Data Structures Intro",
+      "lectures": [
+        {
+          "lecture_id": "freshman_cs101_m4_l1",
+          "title": "Data Structures Intro — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to data structures intro"
+          ],
+          "core_terms": [
+            "Data",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Data Structures Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Data Structures Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data Structures Intro. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Data Structures Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data Structures Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Data Structures Intro — Part 1",
+            "deliverable": "freshman_cs101_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Data Structures Intro — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_cs101_m4_l2",
+          "title": "Data Structures Intro — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of data structures intro"
+          ],
+          "core_terms": [
+            "Data",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Data Structures Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Data Structures Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data Structures Intro. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Data Structures Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data Structures Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Data Structures Intro — Part 2",
+            "deliverable": "freshman_cs101_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Data Structures Intro — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_cs101_m4_l3",
+          "title": "Data Structures Intro — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of data structures intro"
+          ],
+          "core_terms": [
+            "Data",
+            "cs101"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_cs101_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Data Structures Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Data Structures Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data Structures Intro. This is essential for mastering CS 101: Intro to Programming.",
+                "visual_prompt": "Animated diagram illustrating Data Structures Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_cs101_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data Structures Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Data Structures Intro — Part 3",
+            "deliverable": "freshman_cs101_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Data Structures Intro — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Freshman",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Variables & Types",
+    "Demonstrate understanding of Control Flow",
+    "Demonstrate understanding of Functions & Modules",
+    "Demonstrate understanding of Data Structures Intro"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "freshman_cs101-A1",
+      "title": "Variables & Types Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_cs101_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_cs101-LAB1",
+      "title": "Variables & Types Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_cs101_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_cs101-A2",
+      "title": "Control Flow Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_cs101_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_cs101-LAB2",
+      "title": "Control Flow Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_cs101_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_cs101-A3",
+      "title": "Functions & Modules Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_cs101_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_cs101-LAB3",
+      "title": "Functions & Modules Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_cs101_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_cs101-A4",
+      "title": "Data Structures Intro Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_cs101_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_cs101-LAB4",
+      "title": "Data Structures Intro Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_cs101_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

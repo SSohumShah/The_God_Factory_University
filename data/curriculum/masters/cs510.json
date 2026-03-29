@@ -1,0 +1,1038 @@
+{
+  "course_id": "masters_cs510",
+  "title": "CS 510: Distributed Systems (Master's Level)",
+  "description": "CS 510: Distributed Systems for Master's Level students.",
+  "credits": 3,
+  "subject_id": "cs510",
+  "modules": [
+    {
+      "module_id": "masters_cs510_m1",
+      "title": "Consensus Protocols",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs510_m1_l1",
+          "title": "Consensus Protocols — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to consensus protocols"
+          ],
+          "core_terms": [
+            "Consensus",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Consensus Protocols. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Consensus Protocols",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Consensus Protocols. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Consensus Protocols concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Consensus Protocols: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Consensus Protocols — Part 1",
+            "deliverable": "masters_cs510_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Consensus Protocols — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs510_m1_l2",
+          "title": "Consensus Protocols — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of consensus protocols"
+          ],
+          "core_terms": [
+            "Consensus",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Consensus Protocols. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Consensus Protocols",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Consensus Protocols. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Consensus Protocols concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Consensus Protocols: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Consensus Protocols — Part 2",
+            "deliverable": "masters_cs510_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Consensus Protocols — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs510_m1_l3",
+          "title": "Consensus Protocols — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of consensus protocols"
+          ],
+          "core_terms": [
+            "Consensus",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Consensus Protocols. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Consensus Protocols",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Consensus Protocols. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Consensus Protocols concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Consensus Protocols: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Consensus Protocols — Part 3",
+            "deliverable": "masters_cs510_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Consensus Protocols — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_cs510_m2",
+      "title": "Replication & Consistency",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs510_m2_l1",
+          "title": "Replication & Consistency — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to replication & consistency"
+          ],
+          "core_terms": [
+            "Replication",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Replication & Consistency. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Replication & Consistency",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Replication & Consistency. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Replication & Consistency concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Replication & Consistency: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Replication & Consistency — Part 1",
+            "deliverable": "masters_cs510_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Replication & Consistency — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs510_m2_l2",
+          "title": "Replication & Consistency — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of replication & consistency"
+          ],
+          "core_terms": [
+            "Replication",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Replication & Consistency. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Replication & Consistency",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Replication & Consistency. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Replication & Consistency concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Replication & Consistency: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Replication & Consistency — Part 2",
+            "deliverable": "masters_cs510_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Replication & Consistency — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs510_m2_l3",
+          "title": "Replication & Consistency — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of replication & consistency"
+          ],
+          "core_terms": [
+            "Replication",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Replication & Consistency. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Replication & Consistency",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Replication & Consistency. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Replication & Consistency concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Replication & Consistency: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Replication & Consistency — Part 3",
+            "deliverable": "masters_cs510_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Replication & Consistency — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_cs510_m3",
+      "title": "Fault Tolerance",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs510_m3_l1",
+          "title": "Fault Tolerance — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to fault tolerance"
+          ],
+          "core_terms": [
+            "Fault",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Fault Tolerance. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Fault Tolerance",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Fault Tolerance. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Fault Tolerance concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Fault Tolerance: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Fault Tolerance — Part 1",
+            "deliverable": "masters_cs510_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Fault Tolerance — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs510_m3_l2",
+          "title": "Fault Tolerance — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of fault tolerance"
+          ],
+          "core_terms": [
+            "Fault",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Fault Tolerance. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Fault Tolerance",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Fault Tolerance. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Fault Tolerance concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Fault Tolerance: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Fault Tolerance — Part 2",
+            "deliverable": "masters_cs510_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Fault Tolerance — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs510_m3_l3",
+          "title": "Fault Tolerance — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of fault tolerance"
+          ],
+          "core_terms": [
+            "Fault",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Fault Tolerance. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Fault Tolerance",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Fault Tolerance. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Fault Tolerance concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Fault Tolerance: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Fault Tolerance — Part 3",
+            "deliverable": "masters_cs510_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Fault Tolerance — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_cs510_m4",
+      "title": "Cloud Architecture",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs510_m4_l1",
+          "title": "Cloud Architecture — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to cloud architecture"
+          ],
+          "core_terms": [
+            "Cloud",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Cloud Architecture. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Cloud Architecture",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cloud Architecture. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Cloud Architecture concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cloud Architecture: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Cloud Architecture — Part 1",
+            "deliverable": "masters_cs510_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Cloud Architecture — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs510_m4_l2",
+          "title": "Cloud Architecture — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of cloud architecture"
+          ],
+          "core_terms": [
+            "Cloud",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Cloud Architecture. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Cloud Architecture",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cloud Architecture. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Cloud Architecture concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cloud Architecture: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Cloud Architecture — Part 2",
+            "deliverable": "masters_cs510_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Cloud Architecture — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs510_m4_l3",
+          "title": "Cloud Architecture — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of cloud architecture"
+          ],
+          "core_terms": [
+            "Cloud",
+            "cs510"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs510_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Cloud Architecture. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Cloud Architecture",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cloud Architecture. This is essential for mastering CS 510: Distributed Systems.",
+                "visual_prompt": "Animated diagram illustrating Cloud Architecture concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs510_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cloud Architecture: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs510_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Cloud Architecture — Part 3",
+            "deliverable": "masters_cs510_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Cloud Architecture — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Masters",
+  "depth_target": 4,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "senior_cs401"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Consensus Protocols",
+    "Demonstrate understanding of Replication & Consistency",
+    "Demonstrate understanding of Fault Tolerance",
+    "Demonstrate understanding of Cloud Architecture"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "masters_cs510-A1",
+      "title": "Consensus Protocols Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs510_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs510-LAB1",
+      "title": "Consensus Protocols Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs510_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs510-A2",
+      "title": "Replication & Consistency Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs510_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs510-LAB2",
+      "title": "Replication & Consistency Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs510_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs510-A3",
+      "title": "Fault Tolerance Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs510_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs510-LAB3",
+      "title": "Fault Tolerance Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs510_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs510-A4",
+      "title": "Cloud Architecture Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs510_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs510-LAB4",
+      "title": "Cloud Architecture Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs510_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 8000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

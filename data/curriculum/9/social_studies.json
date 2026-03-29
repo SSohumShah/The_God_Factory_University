@@ -1,0 +1,862 @@
+{
+  "course_id": "9_social_studies",
+  "title": "World History (9th Grade)",
+  "description": "World History for 9th Grade students.",
+  "credits": 3,
+  "subject_id": "social_studies",
+  "modules": [
+    {
+      "module_id": "9_social_studies_m1",
+      "title": "Renaissance & Reformation",
+      "lectures": [
+        {
+          "lecture_id": "9_social_studies_m1_l1",
+          "title": "Renaissance & Reformation — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to renaissance & reformation"
+          ],
+          "core_terms": [
+            "Renaissance",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Renaissance & Reformation. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Renaissance & Reformation",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Renaissance & Reformation. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Renaissance & Reformation concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Renaissance & Reformation: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Renaissance & Reformation — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_social_studies_m1_l2",
+          "title": "Renaissance & Reformation — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of renaissance & reformation"
+          ],
+          "core_terms": [
+            "Renaissance",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Renaissance & Reformation. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Renaissance & Reformation",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Renaissance & Reformation. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Renaissance & Reformation concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Renaissance & Reformation: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Renaissance & Reformation — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_social_studies_m1_l3",
+          "title": "Renaissance & Reformation — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of renaissance & reformation"
+          ],
+          "core_terms": [
+            "Renaissance",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Renaissance & Reformation. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Renaissance & Reformation",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Renaissance & Reformation. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Renaissance & Reformation concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Renaissance & Reformation: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Renaissance & Reformation — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_social_studies_m2",
+      "title": "Age of Exploration",
+      "lectures": [
+        {
+          "lecture_id": "9_social_studies_m2_l1",
+          "title": "Age of Exploration — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to age of exploration"
+          ],
+          "core_terms": [
+            "Age",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Age of Exploration. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Age of Exploration",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Age of Exploration. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Age of Exploration concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Age of Exploration: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Age of Exploration — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_social_studies_m2_l2",
+          "title": "Age of Exploration — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of age of exploration"
+          ],
+          "core_terms": [
+            "Age",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Age of Exploration. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Age of Exploration",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Age of Exploration. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Age of Exploration concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Age of Exploration: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Age of Exploration — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_social_studies_m2_l3",
+          "title": "Age of Exploration — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of age of exploration"
+          ],
+          "core_terms": [
+            "Age",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Age of Exploration. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Age of Exploration",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Age of Exploration. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Age of Exploration concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Age of Exploration: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Age of Exploration — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_social_studies_m3",
+      "title": "Revolutions",
+      "lectures": [
+        {
+          "lecture_id": "9_social_studies_m3_l1",
+          "title": "Revolutions — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to revolutions"
+          ],
+          "core_terms": [
+            "Revolutions",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Revolutions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Revolutions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Revolutions. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Revolutions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Revolutions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Revolutions — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_social_studies_m3_l2",
+          "title": "Revolutions — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of revolutions"
+          ],
+          "core_terms": [
+            "Revolutions",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Revolutions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Revolutions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Revolutions. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Revolutions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Revolutions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Revolutions — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_social_studies_m3_l3",
+          "title": "Revolutions — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of revolutions"
+          ],
+          "core_terms": [
+            "Revolutions",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Revolutions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Revolutions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Revolutions. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Revolutions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Revolutions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Revolutions — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_social_studies_m4",
+      "title": "Modern Era",
+      "lectures": [
+        {
+          "lecture_id": "9_social_studies_m4_l1",
+          "title": "Modern Era — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to modern era"
+          ],
+          "core_terms": [
+            "Modern",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Modern Era. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Modern Era",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Modern Era. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Modern Era concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Modern Era: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Modern Era — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_social_studies_m4_l2",
+          "title": "Modern Era — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of modern era"
+          ],
+          "core_terms": [
+            "Modern",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Modern Era. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Modern Era",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Modern Era. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Modern Era concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Modern Era: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Modern Era — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_social_studies_m4_l3",
+          "title": "Modern Era — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of modern era"
+          ],
+          "core_terms": [
+            "Modern",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_social_studies_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Modern Era. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Modern Era",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Modern Era. This is essential for mastering World History.",
+                "visual_prompt": "Animated diagram illustrating Modern Era concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_social_studies_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Modern Era: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Modern Era — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "8_social_studies"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Renaissance & Reformation",
+    "Demonstrate understanding of Age of Exploration",
+    "Demonstrate understanding of Revolutions",
+    "Demonstrate understanding of Modern Era"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "9_social_studies-A1",
+      "title": "Renaissance & Reformation Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_social_studies_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_social_studies-A2",
+      "title": "Age of Exploration Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_social_studies_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_social_studies-A3",
+      "title": "Revolutions Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_social_studies_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_social_studies-A4",
+      "title": "Modern Era Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_social_studies_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

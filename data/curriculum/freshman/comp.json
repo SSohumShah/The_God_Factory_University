@@ -1,0 +1,1012 @@
+{
+  "course_id": "freshman_comp",
+  "title": "English Composition I & II (College Freshman)",
+  "description": "English Composition I & II for College Freshman students.",
+  "credits": 3,
+  "subject_id": "comp",
+  "modules": [
+    {
+      "module_id": "freshman_comp_m1",
+      "title": "Academic Writing",
+      "lectures": [
+        {
+          "lecture_id": "freshman_comp_m1_l1",
+          "title": "Academic Writing — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to academic writing"
+          ],
+          "core_terms": [
+            "Academic",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Academic Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Academic Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Academic Writing. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Academic Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Academic Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Academic Writing — Part 1",
+            "deliverable": "freshman_comp_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Academic Writing — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_comp_m1_l2",
+          "title": "Academic Writing — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of academic writing"
+          ],
+          "core_terms": [
+            "Academic",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Academic Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Academic Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Academic Writing. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Academic Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Academic Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Academic Writing — Part 2",
+            "deliverable": "freshman_comp_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Academic Writing — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_comp_m1_l3",
+          "title": "Academic Writing — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of academic writing"
+          ],
+          "core_terms": [
+            "Academic",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Academic Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Academic Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Academic Writing. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Academic Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Academic Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Academic Writing — Part 3",
+            "deliverable": "freshman_comp_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Academic Writing — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_comp_m2",
+      "title": "Research Methods",
+      "lectures": [
+        {
+          "lecture_id": "freshman_comp_m2_l1",
+          "title": "Research Methods — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to research methods"
+          ],
+          "core_terms": [
+            "Research",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Research Methods. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Research Methods",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Methods. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Research Methods concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Methods: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Research Methods — Part 1",
+            "deliverable": "freshman_comp_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Research Methods — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_comp_m2_l2",
+          "title": "Research Methods — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of research methods"
+          ],
+          "core_terms": [
+            "Research",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Research Methods. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Research Methods",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Methods. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Research Methods concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Methods: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Research Methods — Part 2",
+            "deliverable": "freshman_comp_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Research Methods — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_comp_m2_l3",
+          "title": "Research Methods — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of research methods"
+          ],
+          "core_terms": [
+            "Research",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Research Methods. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Research Methods",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Methods. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Research Methods concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Methods: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Research Methods — Part 3",
+            "deliverable": "freshman_comp_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Research Methods — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_comp_m3",
+      "title": "Citation & Sources",
+      "lectures": [
+        {
+          "lecture_id": "freshman_comp_m3_l1",
+          "title": "Citation & Sources — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to citation & sources"
+          ],
+          "core_terms": [
+            "Citation",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Citation & Sources. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Citation & Sources",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Citation & Sources. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Citation & Sources concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Citation & Sources: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Citation & Sources — Part 1",
+            "deliverable": "freshman_comp_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Citation & Sources — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_comp_m3_l2",
+          "title": "Citation & Sources — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of citation & sources"
+          ],
+          "core_terms": [
+            "Citation",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Citation & Sources. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Citation & Sources",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Citation & Sources. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Citation & Sources concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Citation & Sources: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Citation & Sources — Part 2",
+            "deliverable": "freshman_comp_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Citation & Sources — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_comp_m3_l3",
+          "title": "Citation & Sources — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of citation & sources"
+          ],
+          "core_terms": [
+            "Citation",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Citation & Sources. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Citation & Sources",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Citation & Sources. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Citation & Sources concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Citation & Sources: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Citation & Sources — Part 3",
+            "deliverable": "freshman_comp_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Citation & Sources — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_comp_m4",
+      "title": "Argumentative Essays",
+      "lectures": [
+        {
+          "lecture_id": "freshman_comp_m4_l1",
+          "title": "Argumentative Essays — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to argumentative essays"
+          ],
+          "core_terms": [
+            "Argumentative",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Argumentative Essays. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Argumentative Essays",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Argumentative Essays. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Argumentative Essays concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Argumentative Essays: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Argumentative Essays — Part 1",
+            "deliverable": "freshman_comp_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Argumentative Essays — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_comp_m4_l2",
+          "title": "Argumentative Essays — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of argumentative essays"
+          ],
+          "core_terms": [
+            "Argumentative",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Argumentative Essays. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Argumentative Essays",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Argumentative Essays. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Argumentative Essays concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Argumentative Essays: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Argumentative Essays — Part 2",
+            "deliverable": "freshman_comp_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Argumentative Essays — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_comp_m4_l3",
+          "title": "Argumentative Essays — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of argumentative essays"
+          ],
+          "core_terms": [
+            "Argumentative",
+            "comp"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_comp_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Argumentative Essays. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Argumentative Essays",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Argumentative Essays. This is essential for mastering English Composition I & II.",
+                "visual_prompt": "Animated diagram illustrating Argumentative Essays concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_comp_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Argumentative Essays: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Argumentative Essays — Part 3",
+            "deliverable": "freshman_comp_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Argumentative Essays — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Freshman",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Academic Writing",
+    "Demonstrate understanding of Research Methods",
+    "Demonstrate understanding of Citation & Sources",
+    "Demonstrate understanding of Argumentative Essays"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "freshman_comp-A1",
+      "title": "Academic Writing Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_comp_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_comp-LAB1",
+      "title": "Academic Writing Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_comp_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_comp-A2",
+      "title": "Research Methods Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_comp_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_comp-LAB2",
+      "title": "Research Methods Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_comp_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_comp-A3",
+      "title": "Citation & Sources Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_comp_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_comp-LAB3",
+      "title": "Citation & Sources Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_comp_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_comp-A4",
+      "title": "Argumentative Essays Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_comp_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_comp-LAB4",
+      "title": "Argumentative Essays Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_comp_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

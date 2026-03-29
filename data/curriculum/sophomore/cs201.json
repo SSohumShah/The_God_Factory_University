@@ -1,0 +1,1038 @@
+{
+  "course_id": "sophomore_cs201",
+  "title": "CS 201: Data Structures (College Sophomore)",
+  "description": "CS 201: Data Structures for College Sophomore students.",
+  "credits": 3,
+  "subject_id": "cs201",
+  "modules": [
+    {
+      "module_id": "sophomore_cs201_m1",
+      "title": "Arrays & Linked Lists",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_cs201_m1_l1",
+          "title": "Arrays & Linked Lists — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to arrays & linked lists"
+          ],
+          "core_terms": [
+            "Arrays",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Arrays & Linked Lists. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Arrays & Linked Lists",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Arrays & Linked Lists. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Arrays & Linked Lists concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Arrays & Linked Lists: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Arrays & Linked Lists — Part 1",
+            "deliverable": "sophomore_cs201_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Arrays & Linked Lists — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_cs201_m1_l2",
+          "title": "Arrays & Linked Lists — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of arrays & linked lists"
+          ],
+          "core_terms": [
+            "Arrays",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Arrays & Linked Lists. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Arrays & Linked Lists",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Arrays & Linked Lists. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Arrays & Linked Lists concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Arrays & Linked Lists: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Arrays & Linked Lists — Part 2",
+            "deliverable": "sophomore_cs201_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Arrays & Linked Lists — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_cs201_m1_l3",
+          "title": "Arrays & Linked Lists — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of arrays & linked lists"
+          ],
+          "core_terms": [
+            "Arrays",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Arrays & Linked Lists. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Arrays & Linked Lists",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Arrays & Linked Lists. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Arrays & Linked Lists concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Arrays & Linked Lists: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Arrays & Linked Lists — Part 3",
+            "deliverable": "sophomore_cs201_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Arrays & Linked Lists — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_cs201_m2",
+      "title": "Trees & Graphs",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_cs201_m2_l1",
+          "title": "Trees & Graphs — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to trees & graphs"
+          ],
+          "core_terms": [
+            "Trees",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Trees & Graphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Trees & Graphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Trees & Graphs. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Trees & Graphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Trees & Graphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Trees & Graphs — Part 1",
+            "deliverable": "sophomore_cs201_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Trees & Graphs — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_cs201_m2_l2",
+          "title": "Trees & Graphs — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of trees & graphs"
+          ],
+          "core_terms": [
+            "Trees",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Trees & Graphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Trees & Graphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Trees & Graphs. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Trees & Graphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Trees & Graphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Trees & Graphs — Part 2",
+            "deliverable": "sophomore_cs201_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Trees & Graphs — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_cs201_m2_l3",
+          "title": "Trees & Graphs — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of trees & graphs"
+          ],
+          "core_terms": [
+            "Trees",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Trees & Graphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Trees & Graphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Trees & Graphs. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Trees & Graphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Trees & Graphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Trees & Graphs — Part 3",
+            "deliverable": "sophomore_cs201_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Trees & Graphs — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_cs201_m3",
+      "title": "Hash Tables",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_cs201_m3_l1",
+          "title": "Hash Tables — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to hash tables"
+          ],
+          "core_terms": [
+            "Hash",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Hash Tables. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Hash Tables",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Hash Tables. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Hash Tables concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Hash Tables: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Hash Tables — Part 1",
+            "deliverable": "sophomore_cs201_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Hash Tables — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_cs201_m3_l2",
+          "title": "Hash Tables — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of hash tables"
+          ],
+          "core_terms": [
+            "Hash",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Hash Tables. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Hash Tables",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Hash Tables. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Hash Tables concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Hash Tables: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Hash Tables — Part 2",
+            "deliverable": "sophomore_cs201_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Hash Tables — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_cs201_m3_l3",
+          "title": "Hash Tables — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of hash tables"
+          ],
+          "core_terms": [
+            "Hash",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Hash Tables. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Hash Tables",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Hash Tables. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Hash Tables concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Hash Tables: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Hash Tables — Part 3",
+            "deliverable": "sophomore_cs201_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Hash Tables — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_cs201_m4",
+      "title": "Algorithm Analysis",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_cs201_m4_l1",
+          "title": "Algorithm Analysis — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to algorithm analysis"
+          ],
+          "core_terms": [
+            "Algorithm",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Algorithm Analysis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Algorithm Analysis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Algorithm Analysis. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Algorithm Analysis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Algorithm Analysis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Algorithm Analysis — Part 1",
+            "deliverable": "sophomore_cs201_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Algorithm Analysis — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_cs201_m4_l2",
+          "title": "Algorithm Analysis — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of algorithm analysis"
+          ],
+          "core_terms": [
+            "Algorithm",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Algorithm Analysis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Algorithm Analysis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Algorithm Analysis. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Algorithm Analysis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Algorithm Analysis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Algorithm Analysis — Part 2",
+            "deliverable": "sophomore_cs201_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Algorithm Analysis — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_cs201_m4_l3",
+          "title": "Algorithm Analysis — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of algorithm analysis"
+          ],
+          "core_terms": [
+            "Algorithm",
+            "cs201"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_cs201_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Algorithm Analysis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Algorithm Analysis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Algorithm Analysis. This is essential for mastering CS 201: Data Structures.",
+                "visual_prompt": "Animated diagram illustrating Algorithm Analysis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_cs201_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Algorithm Analysis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs201_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Algorithm Analysis — Part 3",
+            "deliverable": "sophomore_cs201_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Algorithm Analysis — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Sophomore",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "freshman_cs101"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Arrays & Linked Lists",
+    "Demonstrate understanding of Trees & Graphs",
+    "Demonstrate understanding of Hash Tables",
+    "Demonstrate understanding of Algorithm Analysis"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "sophomore_cs201-A1",
+      "title": "Arrays & Linked Lists Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_cs201_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_cs201-LAB1",
+      "title": "Arrays & Linked Lists Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_cs201_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_cs201-A2",
+      "title": "Trees & Graphs Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_cs201_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_cs201-LAB2",
+      "title": "Trees & Graphs Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_cs201_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_cs201-A3",
+      "title": "Hash Tables Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_cs201_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_cs201-LAB3",
+      "title": "Hash Tables Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_cs201_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_cs201-A4",
+      "title": "Algorithm Analysis Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_cs201_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_cs201-LAB4",
+      "title": "Algorithm Analysis Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_cs201_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

@@ -1,0 +1,886 @@
+{
+  "course_id": "10_math",
+  "title": "Algebra II (10th Grade)",
+  "description": "Algebra II for 10th Grade students.",
+  "credits": 3,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "10_math_m1",
+      "title": "Complex Numbers",
+      "lectures": [
+        {
+          "lecture_id": "10_math_m1_l1",
+          "title": "Complex Numbers — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to complex numbers"
+          ],
+          "core_terms": [
+            "Complex",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Complex Numbers. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Complex Numbers",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Complex Numbers. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Complex Numbers concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Complex Numbers: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "complex_numbers"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Complex Numbers — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_math_m1_l2",
+          "title": "Complex Numbers — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of complex numbers"
+          ],
+          "core_terms": [
+            "Complex",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Complex Numbers. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Complex Numbers",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Complex Numbers. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Complex Numbers concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Complex Numbers: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "complex_numbers"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Complex Numbers — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_math_m1_l3",
+          "title": "Complex Numbers — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of complex numbers"
+          ],
+          "core_terms": [
+            "Complex",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Complex Numbers. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Complex Numbers",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Complex Numbers. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Complex Numbers concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Complex Numbers: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "complex_numbers"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Complex Numbers — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "10_math_m2",
+      "title": "Polynomial Functions",
+      "lectures": [
+        {
+          "lecture_id": "10_math_m2_l1",
+          "title": "Polynomial Functions — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to polynomial functions"
+          ],
+          "core_terms": [
+            "Polynomial",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Polynomial Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Polynomial Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Polynomial Functions. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Polynomial Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Polynomial Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "polynomial_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Polynomial Functions — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_math_m2_l2",
+          "title": "Polynomial Functions — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of polynomial functions"
+          ],
+          "core_terms": [
+            "Polynomial",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Polynomial Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Polynomial Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Polynomial Functions. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Polynomial Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Polynomial Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "polynomial_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Polynomial Functions — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_math_m2_l3",
+          "title": "Polynomial Functions — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of polynomial functions"
+          ],
+          "core_terms": [
+            "Polynomial",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Polynomial Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Polynomial Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Polynomial Functions. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Polynomial Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Polynomial Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "polynomial_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Polynomial Functions — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "10_math_m3",
+      "title": "Exponential & Logarithmic Functions",
+      "lectures": [
+        {
+          "lecture_id": "10_math_m3_l1",
+          "title": "Exponential & Logarithmic Functions — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to exponential & logarithmic functions"
+          ],
+          "core_terms": [
+            "Exponential",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Exponential & Logarithmic Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Exponential & Logarithmic Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Exponential & Logarithmic Functions. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Exponential & Logarithmic Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Exponential & Logarithmic Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "exponential_&_logarithmic_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Exponential & Logarithmic Functions — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_math_m3_l2",
+          "title": "Exponential & Logarithmic Functions — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of exponential & logarithmic functions"
+          ],
+          "core_terms": [
+            "Exponential",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Exponential & Logarithmic Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Exponential & Logarithmic Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Exponential & Logarithmic Functions. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Exponential & Logarithmic Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Exponential & Logarithmic Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "exponential_&_logarithmic_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Exponential & Logarithmic Functions — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_math_m3_l3",
+          "title": "Exponential & Logarithmic Functions — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of exponential & logarithmic functions"
+          ],
+          "core_terms": [
+            "Exponential",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Exponential & Logarithmic Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Exponential & Logarithmic Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Exponential & Logarithmic Functions. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Exponential & Logarithmic Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Exponential & Logarithmic Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "exponential_&_logarithmic_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Exponential & Logarithmic Functions — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "10_math_m4",
+      "title": "Sequences & Series",
+      "lectures": [
+        {
+          "lecture_id": "10_math_m4_l1",
+          "title": "Sequences & Series — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to sequences & series"
+          ],
+          "core_terms": [
+            "Sequences",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Sequences & Series. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Sequences & Series",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sequences & Series. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Sequences & Series concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sequences & Series: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "sequences_&_series"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Sequences & Series — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_math_m4_l2",
+          "title": "Sequences & Series — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of sequences & series"
+          ],
+          "core_terms": [
+            "Sequences",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Sequences & Series. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Sequences & Series",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sequences & Series. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Sequences & Series concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sequences & Series: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "sequences_&_series"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Sequences & Series — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_math_m4_l3",
+          "title": "Sequences & Series — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of sequences & series"
+          ],
+          "core_terms": [
+            "Sequences",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Sequences & Series. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Sequences & Series",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sequences & Series. This is essential for mastering Algebra II.",
+                "visual_prompt": "Animated diagram illustrating Sequences & Series concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sequences & Series: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "sequences_&_series"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Sequences & Series — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "9_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Complex Numbers",
+    "Demonstrate understanding of Polynomial Functions",
+    "Demonstrate understanding of Exponential & Logarithmic Functions",
+    "Demonstrate understanding of Sequences & Series"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "10_math-A1",
+      "title": "Complex Numbers Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "10_math-A2",
+      "title": "Polynomial Functions Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "10_math-A3",
+      "title": "Exponential & Logarithmic Functions Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "10_math-A4",
+      "title": "Sequences & Series Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

@@ -1,0 +1,1038 @@
+{
+  "course_id": "11_ap_cs",
+  "title": "AP Computer Science A (11th Grade)",
+  "description": "AP Computer Science A for 11th Grade students.",
+  "credits": 3,
+  "subject_id": "ap_cs",
+  "modules": [
+    {
+      "module_id": "11_ap_cs_m1",
+      "title": "Java Fundamentals",
+      "lectures": [
+        {
+          "lecture_id": "11_ap_cs_m1_l1",
+          "title": "Java Fundamentals — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to java fundamentals"
+          ],
+          "core_terms": [
+            "Java",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Java Fundamentals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Java Fundamentals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Java Fundamentals. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Java Fundamentals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Java Fundamentals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Java Fundamentals — Part 1",
+            "deliverable": "11_ap_cs_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Java Fundamentals — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_ap_cs_m1_l2",
+          "title": "Java Fundamentals — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of java fundamentals"
+          ],
+          "core_terms": [
+            "Java",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Java Fundamentals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Java Fundamentals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Java Fundamentals. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Java Fundamentals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Java Fundamentals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Java Fundamentals — Part 2",
+            "deliverable": "11_ap_cs_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Java Fundamentals — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_ap_cs_m1_l3",
+          "title": "Java Fundamentals — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of java fundamentals"
+          ],
+          "core_terms": [
+            "Java",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Java Fundamentals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Java Fundamentals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Java Fundamentals. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Java Fundamentals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Java Fundamentals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Java Fundamentals — Part 3",
+            "deliverable": "11_ap_cs_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Java Fundamentals — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_ap_cs_m2",
+      "title": "Object-Oriented Design",
+      "lectures": [
+        {
+          "lecture_id": "11_ap_cs_m2_l1",
+          "title": "Object-Oriented Design — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to object-oriented design"
+          ],
+          "core_terms": [
+            "Object-Oriented",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Object-Oriented Design. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Object-Oriented Design",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Object-Oriented Design. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Object-Oriented Design concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Object-Oriented Design: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Object-Oriented Design — Part 1",
+            "deliverable": "11_ap_cs_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Object-Oriented Design — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_ap_cs_m2_l2",
+          "title": "Object-Oriented Design — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of object-oriented design"
+          ],
+          "core_terms": [
+            "Object-Oriented",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Object-Oriented Design. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Object-Oriented Design",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Object-Oriented Design. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Object-Oriented Design concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Object-Oriented Design: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Object-Oriented Design — Part 2",
+            "deliverable": "11_ap_cs_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Object-Oriented Design — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_ap_cs_m2_l3",
+          "title": "Object-Oriented Design — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of object-oriented design"
+          ],
+          "core_terms": [
+            "Object-Oriented",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Object-Oriented Design. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Object-Oriented Design",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Object-Oriented Design. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Object-Oriented Design concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Object-Oriented Design: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Object-Oriented Design — Part 3",
+            "deliverable": "11_ap_cs_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Object-Oriented Design — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_ap_cs_m3",
+      "title": "Data Structures",
+      "lectures": [
+        {
+          "lecture_id": "11_ap_cs_m3_l1",
+          "title": "Data Structures — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to data structures"
+          ],
+          "core_terms": [
+            "Data",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Data Structures. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Data Structures",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data Structures. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Data Structures concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data Structures: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Data Structures — Part 1",
+            "deliverable": "11_ap_cs_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Data Structures — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_ap_cs_m3_l2",
+          "title": "Data Structures — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of data structures"
+          ],
+          "core_terms": [
+            "Data",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Data Structures. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Data Structures",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data Structures. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Data Structures concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data Structures: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Data Structures — Part 2",
+            "deliverable": "11_ap_cs_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Data Structures — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_ap_cs_m3_l3",
+          "title": "Data Structures — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of data structures"
+          ],
+          "core_terms": [
+            "Data",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Data Structures. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Data Structures",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data Structures. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Data Structures concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data Structures: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Data Structures — Part 3",
+            "deliverable": "11_ap_cs_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Data Structures — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_ap_cs_m4",
+      "title": "Algorithms & Complexity",
+      "lectures": [
+        {
+          "lecture_id": "11_ap_cs_m4_l1",
+          "title": "Algorithms & Complexity — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to algorithms & complexity"
+          ],
+          "core_terms": [
+            "Algorithms",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Algorithms & Complexity. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Algorithms & Complexity",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Algorithms & Complexity. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Algorithms & Complexity concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Algorithms & Complexity: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Algorithms & Complexity — Part 1",
+            "deliverable": "11_ap_cs_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Algorithms & Complexity — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_ap_cs_m4_l2",
+          "title": "Algorithms & Complexity — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of algorithms & complexity"
+          ],
+          "core_terms": [
+            "Algorithms",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Algorithms & Complexity. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Algorithms & Complexity",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Algorithms & Complexity. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Algorithms & Complexity concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Algorithms & Complexity: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Algorithms & Complexity — Part 2",
+            "deliverable": "11_ap_cs_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Algorithms & Complexity — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_ap_cs_m4_l3",
+          "title": "Algorithms & Complexity — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of algorithms & complexity"
+          ],
+          "core_terms": [
+            "Algorithms",
+            "ap_cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_ap_cs_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Algorithms & Complexity. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Algorithms & Complexity",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Algorithms & Complexity. This is essential for mastering AP Computer Science A.",
+                "visual_prompt": "Animated diagram illustrating Algorithms & Complexity concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_ap_cs_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Algorithms & Complexity: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "ap_cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Algorithms & Complexity — Part 3",
+            "deliverable": "11_ap_cs_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Algorithms & Complexity — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "9_cs"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Java Fundamentals",
+    "Demonstrate understanding of Object-Oriented Design",
+    "Demonstrate understanding of Data Structures",
+    "Demonstrate understanding of Algorithms & Complexity"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "11_ap_cs-A1",
+      "title": "Java Fundamentals Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_ap_cs_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_ap_cs-LAB1",
+      "title": "Java Fundamentals Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_ap_cs_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_ap_cs-A2",
+      "title": "Object-Oriented Design Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_ap_cs_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_ap_cs-LAB2",
+      "title": "Object-Oriented Design Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_ap_cs_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_ap_cs-A3",
+      "title": "Data Structures Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_ap_cs_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_ap_cs-LAB3",
+      "title": "Data Structures Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_ap_cs_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_ap_cs-A4",
+      "title": "Algorithms & Complexity Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_ap_cs_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_ap_cs-LAB4",
+      "title": "Algorithms & Complexity Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_ap_cs_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

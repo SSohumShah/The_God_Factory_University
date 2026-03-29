@@ -98,27 +98,15 @@ class ComfyUIProvider(ImageProvider):
             return False
 
     def _ensure_running(self) -> bool:
-        """Start ComfyUI subprocess if not already running."""
+        """Start ComfyUI via the manager (handles dep install + launch)."""
         if self.is_available():
             return True
         if not _COMFYUI_MAIN.exists():
             return False
         try:
-            _log_dir = _ROOT / "data" / "logs"
-            _log_dir.mkdir(parents=True, exist_ok=True)
-            _log_file = open(_log_dir / "comfyui_server.log", "w", encoding="utf-8")
-            self._process = subprocess.Popen(
-                [sys.executable, str(_COMFYUI_MAIN), "--listen", COMFYUI_HOST,
-                 "--port", str(COMFYUI_PORT), "--preview-method", "none"],
-                cwd=str(_COMFYUI_DIR),
-                stdout=_log_file,
-                stderr=subprocess.STDOUT,
-            )
-            # Wait for startup (up to 30s)
-            for _ in range(60):
-                time.sleep(0.5)
-                if self.is_available():
-                    return True
+            from media.diffusion.comfyui_manager import launch_server, is_running
+            ok, _msg = launch_server()
+            return ok and is_running()
         except Exception:
             pass
         return False

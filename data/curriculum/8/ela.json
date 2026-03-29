@@ -1,0 +1,862 @@
+{
+  "course_id": "8_ela",
+  "title": "English Language Arts 8 (8th Grade)",
+  "description": "English Language Arts 8 for 8th Grade students.",
+  "credits": 2,
+  "subject_id": "ela",
+  "modules": [
+    {
+      "module_id": "8_ela_m1",
+      "title": "Argumentative Essays",
+      "lectures": [
+        {
+          "lecture_id": "8_ela_m1_l1",
+          "title": "Argumentative Essays — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to argumentative essays"
+          ],
+          "core_terms": [
+            "Argumentative",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Argumentative Essays. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Argumentative Essays",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Argumentative Essays. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Argumentative Essays concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Argumentative Essays: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Argumentative Essays — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_ela_m1_l2",
+          "title": "Argumentative Essays — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of argumentative essays"
+          ],
+          "core_terms": [
+            "Argumentative",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Argumentative Essays. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Argumentative Essays",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Argumentative Essays. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Argumentative Essays concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Argumentative Essays: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Argumentative Essays — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_ela_m1_l3",
+          "title": "Argumentative Essays — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of argumentative essays"
+          ],
+          "core_terms": [
+            "Argumentative",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Argumentative Essays. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Argumentative Essays",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Argumentative Essays. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Argumentative Essays concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Argumentative Essays: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Argumentative Essays — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "8_ela_m2",
+      "title": "Shakespeare Intro",
+      "lectures": [
+        {
+          "lecture_id": "8_ela_m2_l1",
+          "title": "Shakespeare Intro — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to shakespeare intro"
+          ],
+          "core_terms": [
+            "Shakespeare",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Shakespeare Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Shakespeare Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Shakespeare Intro. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Shakespeare Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Shakespeare Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Shakespeare Intro — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_ela_m2_l2",
+          "title": "Shakespeare Intro — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of shakespeare intro"
+          ],
+          "core_terms": [
+            "Shakespeare",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Shakespeare Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Shakespeare Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Shakespeare Intro. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Shakespeare Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Shakespeare Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Shakespeare Intro — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_ela_m2_l3",
+          "title": "Shakespeare Intro — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of shakespeare intro"
+          ],
+          "core_terms": [
+            "Shakespeare",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Shakespeare Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Shakespeare Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Shakespeare Intro. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Shakespeare Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Shakespeare Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Shakespeare Intro — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "8_ela_m3",
+      "title": "Memoir Writing",
+      "lectures": [
+        {
+          "lecture_id": "8_ela_m3_l1",
+          "title": "Memoir Writing — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to memoir writing"
+          ],
+          "core_terms": [
+            "Memoir",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Memoir Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Memoir Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Memoir Writing. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Memoir Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Memoir Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Memoir Writing — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_ela_m3_l2",
+          "title": "Memoir Writing — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of memoir writing"
+          ],
+          "core_terms": [
+            "Memoir",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Memoir Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Memoir Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Memoir Writing. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Memoir Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Memoir Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Memoir Writing — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_ela_m3_l3",
+          "title": "Memoir Writing — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of memoir writing"
+          ],
+          "core_terms": [
+            "Memoir",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Memoir Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Memoir Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Memoir Writing. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Memoir Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Memoir Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Memoir Writing — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "8_ela_m4",
+      "title": "Critical Thinking",
+      "lectures": [
+        {
+          "lecture_id": "8_ela_m4_l1",
+          "title": "Critical Thinking — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to critical thinking"
+          ],
+          "core_terms": [
+            "Critical",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Critical Thinking. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Critical Thinking",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Critical Thinking. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Critical Thinking concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Critical Thinking: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Critical Thinking — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_ela_m4_l2",
+          "title": "Critical Thinking — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of critical thinking"
+          ],
+          "core_terms": [
+            "Critical",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Critical Thinking. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Critical Thinking",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Critical Thinking. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Critical Thinking concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Critical Thinking: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Critical Thinking — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_ela_m4_l3",
+          "title": "Critical Thinking — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of critical thinking"
+          ],
+          "core_terms": [
+            "Critical",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_ela_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Critical Thinking. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Critical Thinking",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Critical Thinking. This is essential for mastering English Language Arts 8.",
+                "visual_prompt": "Animated diagram illustrating Critical Thinking concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_ela_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Critical Thinking: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Critical Thinking — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "6-8",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "7_ela"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Argumentative Essays",
+    "Demonstrate understanding of Shakespeare Intro",
+    "Demonstrate understanding of Memoir Writing",
+    "Demonstrate understanding of Critical Thinking"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "8_ela-A1",
+      "title": "Argumentative Essays Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_ela_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "8_ela-A2",
+      "title": "Shakespeare Intro Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_ela_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "8_ela-A3",
+      "title": "Memoir Writing Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_ela_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "8_ela-A4",
+      "title": "Critical Thinking Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_ela_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 200000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

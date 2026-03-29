@@ -1,0 +1,862 @@
+{
+  "course_id": "9_english",
+  "title": "English I / World Literature (9th Grade)",
+  "description": "English I / World Literature for 9th Grade students.",
+  "credits": 3,
+  "subject_id": "english",
+  "modules": [
+    {
+      "module_id": "9_english_m1",
+      "title": "The Odyssey",
+      "lectures": [
+        {
+          "lecture_id": "9_english_m1_l1",
+          "title": "The Odyssey — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to the odyssey"
+          ],
+          "core_terms": [
+            "The",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to The Odyssey. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to The Odyssey",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into The Odyssey. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating The Odyssey concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about The Odyssey: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about The Odyssey — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_english_m1_l2",
+          "title": "The Odyssey — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of the odyssey"
+          ],
+          "core_terms": [
+            "The",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of The Odyssey. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of The Odyssey",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into The Odyssey. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating The Odyssey concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about The Odyssey: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about The Odyssey — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_english_m1_l3",
+          "title": "The Odyssey — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of the odyssey"
+          ],
+          "core_terms": [
+            "The",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of The Odyssey. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of The Odyssey",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into The Odyssey. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating The Odyssey concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about The Odyssey: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about The Odyssey — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_english_m2",
+      "title": "World Mythology",
+      "lectures": [
+        {
+          "lecture_id": "9_english_m2_l1",
+          "title": "World Mythology — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to world mythology"
+          ],
+          "core_terms": [
+            "World",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to World Mythology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to World Mythology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into World Mythology. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating World Mythology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about World Mythology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about World Mythology — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_english_m2_l2",
+          "title": "World Mythology — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of world mythology"
+          ],
+          "core_terms": [
+            "World",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of World Mythology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of World Mythology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into World Mythology. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating World Mythology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about World Mythology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about World Mythology — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_english_m2_l3",
+          "title": "World Mythology — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of world mythology"
+          ],
+          "core_terms": [
+            "World",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of World Mythology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of World Mythology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into World Mythology. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating World Mythology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about World Mythology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about World Mythology — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_english_m3",
+      "title": "Essay Writing",
+      "lectures": [
+        {
+          "lecture_id": "9_english_m3_l1",
+          "title": "Essay Writing — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to essay writing"
+          ],
+          "core_terms": [
+            "Essay",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Essay Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Essay Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Essay Writing. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating Essay Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Essay Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Essay Writing — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_english_m3_l2",
+          "title": "Essay Writing — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of essay writing"
+          ],
+          "core_terms": [
+            "Essay",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Essay Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Essay Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Essay Writing. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating Essay Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Essay Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Essay Writing — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_english_m3_l3",
+          "title": "Essay Writing — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of essay writing"
+          ],
+          "core_terms": [
+            "Essay",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Essay Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Essay Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Essay Writing. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating Essay Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Essay Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Essay Writing — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_english_m4",
+      "title": "Rhetoric & Persuasion",
+      "lectures": [
+        {
+          "lecture_id": "9_english_m4_l1",
+          "title": "Rhetoric & Persuasion — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to rhetoric & persuasion"
+          ],
+          "core_terms": [
+            "Rhetoric",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Rhetoric & Persuasion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Rhetoric & Persuasion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rhetoric & Persuasion. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating Rhetoric & Persuasion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rhetoric & Persuasion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rhetoric & Persuasion — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_english_m4_l2",
+          "title": "Rhetoric & Persuasion — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of rhetoric & persuasion"
+          ],
+          "core_terms": [
+            "Rhetoric",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Rhetoric & Persuasion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Rhetoric & Persuasion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rhetoric & Persuasion. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating Rhetoric & Persuasion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rhetoric & Persuasion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rhetoric & Persuasion — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_english_m4_l3",
+          "title": "Rhetoric & Persuasion — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of rhetoric & persuasion"
+          ],
+          "core_terms": [
+            "Rhetoric",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_english_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Rhetoric & Persuasion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Rhetoric & Persuasion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rhetoric & Persuasion. This is essential for mastering English I / World Literature.",
+                "visual_prompt": "Animated diagram illustrating Rhetoric & Persuasion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_english_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rhetoric & Persuasion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rhetoric & Persuasion — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "8_ela"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of The Odyssey",
+    "Demonstrate understanding of World Mythology",
+    "Demonstrate understanding of Essay Writing",
+    "Demonstrate understanding of Rhetoric & Persuasion"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "9_english-A1",
+      "title": "The Odyssey Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_english_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_english-A2",
+      "title": "World Mythology Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_english_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_english-A3",
+      "title": "Essay Writing Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_english_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_english-A4",
+      "title": "Rhetoric & Persuasion Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_english_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

@@ -1,0 +1,1038 @@
+{
+  "course_id": "masters_cs520",
+  "title": "CS 520: Advanced AI (Master's Level)",
+  "description": "CS 520: Advanced AI for Master's Level students.",
+  "credits": 3,
+  "subject_id": "cs520",
+  "modules": [
+    {
+      "module_id": "masters_cs520_m1",
+      "title": "Search & Planning",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs520_m1_l1",
+          "title": "Search & Planning — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to search & planning"
+          ],
+          "core_terms": [
+            "Search",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Search & Planning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Search & Planning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Search & Planning. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Search & Planning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Search & Planning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Search & Planning — Part 1",
+            "deliverable": "masters_cs520_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Search & Planning — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs520_m1_l2",
+          "title": "Search & Planning — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of search & planning"
+          ],
+          "core_terms": [
+            "Search",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Search & Planning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Search & Planning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Search & Planning. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Search & Planning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Search & Planning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Search & Planning — Part 2",
+            "deliverable": "masters_cs520_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Search & Planning — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs520_m1_l3",
+          "title": "Search & Planning — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of search & planning"
+          ],
+          "core_terms": [
+            "Search",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Search & Planning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Search & Planning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Search & Planning. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Search & Planning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Search & Planning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Search & Planning — Part 3",
+            "deliverable": "masters_cs520_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Search & Planning — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_cs520_m2",
+      "title": "Probabilistic Reasoning",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs520_m2_l1",
+          "title": "Probabilistic Reasoning — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to probabilistic reasoning"
+          ],
+          "core_terms": [
+            "Probabilistic",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Probabilistic Reasoning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Probabilistic Reasoning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Probabilistic Reasoning. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Probabilistic Reasoning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Probabilistic Reasoning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Probabilistic Reasoning — Part 1",
+            "deliverable": "masters_cs520_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Probabilistic Reasoning — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs520_m2_l2",
+          "title": "Probabilistic Reasoning — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of probabilistic reasoning"
+          ],
+          "core_terms": [
+            "Probabilistic",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Probabilistic Reasoning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Probabilistic Reasoning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Probabilistic Reasoning. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Probabilistic Reasoning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Probabilistic Reasoning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Probabilistic Reasoning — Part 2",
+            "deliverable": "masters_cs520_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Probabilistic Reasoning — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs520_m2_l3",
+          "title": "Probabilistic Reasoning — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of probabilistic reasoning"
+          ],
+          "core_terms": [
+            "Probabilistic",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Probabilistic Reasoning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Probabilistic Reasoning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Probabilistic Reasoning. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Probabilistic Reasoning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Probabilistic Reasoning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Probabilistic Reasoning — Part 3",
+            "deliverable": "masters_cs520_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Probabilistic Reasoning — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_cs520_m3",
+      "title": "Reinforcement Learning",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs520_m3_l1",
+          "title": "Reinforcement Learning — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to reinforcement learning"
+          ],
+          "core_terms": [
+            "Reinforcement",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Reinforcement Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Reinforcement Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Reinforcement Learning. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Reinforcement Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Reinforcement Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Reinforcement Learning — Part 1",
+            "deliverable": "masters_cs520_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Reinforcement Learning — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs520_m3_l2",
+          "title": "Reinforcement Learning — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of reinforcement learning"
+          ],
+          "core_terms": [
+            "Reinforcement",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Reinforcement Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Reinforcement Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Reinforcement Learning. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Reinforcement Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Reinforcement Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Reinforcement Learning — Part 2",
+            "deliverable": "masters_cs520_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Reinforcement Learning — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs520_m3_l3",
+          "title": "Reinforcement Learning — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of reinforcement learning"
+          ],
+          "core_terms": [
+            "Reinforcement",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Reinforcement Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Reinforcement Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Reinforcement Learning. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Reinforcement Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Reinforcement Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Reinforcement Learning — Part 3",
+            "deliverable": "masters_cs520_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Reinforcement Learning — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_cs520_m4",
+      "title": "Natural Language Processing",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs520_m4_l1",
+          "title": "Natural Language Processing — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to natural language processing"
+          ],
+          "core_terms": [
+            "Natural",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Natural Language Processing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Natural Language Processing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Natural Language Processing. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Natural Language Processing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Natural Language Processing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Natural Language Processing — Part 1",
+            "deliverable": "masters_cs520_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Natural Language Processing — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs520_m4_l2",
+          "title": "Natural Language Processing — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of natural language processing"
+          ],
+          "core_terms": [
+            "Natural",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Natural Language Processing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Natural Language Processing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Natural Language Processing. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Natural Language Processing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Natural Language Processing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Natural Language Processing — Part 2",
+            "deliverable": "masters_cs520_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Natural Language Processing — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs520_m4_l3",
+          "title": "Natural Language Processing — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of natural language processing"
+          ],
+          "core_terms": [
+            "Natural",
+            "cs520"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs520_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Natural Language Processing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Natural Language Processing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Natural Language Processing. This is essential for mastering CS 520: Advanced AI.",
+                "visual_prompt": "Animated diagram illustrating Natural Language Processing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs520_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Natural Language Processing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs520_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Natural Language Processing — Part 3",
+            "deliverable": "masters_cs520_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Natural Language Processing — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Masters",
+  "depth_target": 4,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "senior_cs450"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Search & Planning",
+    "Demonstrate understanding of Probabilistic Reasoning",
+    "Demonstrate understanding of Reinforcement Learning",
+    "Demonstrate understanding of Natural Language Processing"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "masters_cs520-A1",
+      "title": "Search & Planning Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs520_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs520-LAB1",
+      "title": "Search & Planning Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs520_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs520-A2",
+      "title": "Probabilistic Reasoning Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs520_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs520-LAB2",
+      "title": "Probabilistic Reasoning Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs520_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs520-A3",
+      "title": "Reinforcement Learning Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs520_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs520-LAB3",
+      "title": "Reinforcement Learning Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs520_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs520-A4",
+      "title": "Natural Language Processing Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs520_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs520-LAB4",
+      "title": "Natural Language Processing Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs520_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 8000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

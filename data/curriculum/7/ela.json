@@ -1,0 +1,862 @@
+{
+  "course_id": "7_ela",
+  "title": "English Language Arts 7 (7th Grade)",
+  "description": "English Language Arts 7 for 7th Grade students.",
+  "credits": 2,
+  "subject_id": "ela",
+  "modules": [
+    {
+      "module_id": "7_ela_m1",
+      "title": "Argumentative Writing",
+      "lectures": [
+        {
+          "lecture_id": "7_ela_m1_l1",
+          "title": "Argumentative Writing — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to argumentative writing"
+          ],
+          "core_terms": [
+            "Argumentative",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Argumentative Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Argumentative Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Argumentative Writing. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Argumentative Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Argumentative Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Argumentative Writing — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_ela_m1_l2",
+          "title": "Argumentative Writing — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of argumentative writing"
+          ],
+          "core_terms": [
+            "Argumentative",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Argumentative Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Argumentative Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Argumentative Writing. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Argumentative Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Argumentative Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Argumentative Writing — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_ela_m1_l3",
+          "title": "Argumentative Writing — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of argumentative writing"
+          ],
+          "core_terms": [
+            "Argumentative",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Argumentative Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Argumentative Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Argumentative Writing. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Argumentative Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Argumentative Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Argumentative Writing — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_ela_m2",
+      "title": "Poetry Analysis",
+      "lectures": [
+        {
+          "lecture_id": "7_ela_m2_l1",
+          "title": "Poetry Analysis — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to poetry analysis"
+          ],
+          "core_terms": [
+            "Poetry",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Poetry Analysis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Poetry Analysis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Poetry Analysis. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Poetry Analysis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Poetry Analysis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Poetry Analysis — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_ela_m2_l2",
+          "title": "Poetry Analysis — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of poetry analysis"
+          ],
+          "core_terms": [
+            "Poetry",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Poetry Analysis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Poetry Analysis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Poetry Analysis. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Poetry Analysis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Poetry Analysis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Poetry Analysis — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_ela_m2_l3",
+          "title": "Poetry Analysis — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of poetry analysis"
+          ],
+          "core_terms": [
+            "Poetry",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Poetry Analysis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Poetry Analysis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Poetry Analysis. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Poetry Analysis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Poetry Analysis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Poetry Analysis — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_ela_m3",
+      "title": "Research Skills",
+      "lectures": [
+        {
+          "lecture_id": "7_ela_m3_l1",
+          "title": "Research Skills — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to research skills"
+          ],
+          "core_terms": [
+            "Research",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Research Skills. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Research Skills",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Skills. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Research Skills concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Skills: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Research Skills — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_ela_m3_l2",
+          "title": "Research Skills — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of research skills"
+          ],
+          "core_terms": [
+            "Research",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Research Skills. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Research Skills",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Skills. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Research Skills concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Skills: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Research Skills — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_ela_m3_l3",
+          "title": "Research Skills — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of research skills"
+          ],
+          "core_terms": [
+            "Research",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Research Skills. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Research Skills",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Skills. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Research Skills concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Skills: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Research Skills — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_ela_m4",
+      "title": "Rhetoric",
+      "lectures": [
+        {
+          "lecture_id": "7_ela_m4_l1",
+          "title": "Rhetoric — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to rhetoric"
+          ],
+          "core_terms": [
+            "Rhetoric",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Rhetoric. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Rhetoric",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rhetoric. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Rhetoric concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rhetoric: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rhetoric — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_ela_m4_l2",
+          "title": "Rhetoric — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of rhetoric"
+          ],
+          "core_terms": [
+            "Rhetoric",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Rhetoric. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Rhetoric",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rhetoric. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Rhetoric concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rhetoric: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rhetoric — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_ela_m4_l3",
+          "title": "Rhetoric — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of rhetoric"
+          ],
+          "core_terms": [
+            "Rhetoric",
+            "ela"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_ela_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Rhetoric. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Rhetoric",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rhetoric. This is essential for mastering English Language Arts 7.",
+                "visual_prompt": "Animated diagram illustrating Rhetoric concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_ela_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rhetoric: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rhetoric — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "6-8",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "6_ela"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Argumentative Writing",
+    "Demonstrate understanding of Poetry Analysis",
+    "Demonstrate understanding of Research Skills",
+    "Demonstrate understanding of Rhetoric"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "7_ela-A1",
+      "title": "Argumentative Writing Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_ela_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_ela-A2",
+      "title": "Poetry Analysis Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_ela_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_ela-A3",
+      "title": "Research Skills Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_ela_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_ela-A4",
+      "title": "Rhetoric Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_ela_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 200000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

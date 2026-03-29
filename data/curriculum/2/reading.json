@@ -1,0 +1,862 @@
+{
+  "course_id": "2_reading",
+  "title": "Reading & Writing II (2nd Grade)",
+  "description": "Reading & Writing II for 2nd Grade students.",
+  "credits": 1,
+  "subject_id": "reading",
+  "modules": [
+    {
+      "module_id": "2_reading_m1",
+      "title": "Chapter Books",
+      "lectures": [
+        {
+          "lecture_id": "2_reading_m1_l1",
+          "title": "Chapter Books — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to chapter books"
+          ],
+          "core_terms": [
+            "Chapter",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Chapter Books. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Chapter Books",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Chapter Books. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Chapter Books concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Chapter Books: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Chapter Books — Part 1."
+          }
+        },
+        {
+          "lecture_id": "2_reading_m1_l2",
+          "title": "Chapter Books — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of chapter books"
+          ],
+          "core_terms": [
+            "Chapter",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Chapter Books. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Chapter Books",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Chapter Books. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Chapter Books concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Chapter Books: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Chapter Books — Part 2."
+          }
+        },
+        {
+          "lecture_id": "2_reading_m1_l3",
+          "title": "Chapter Books — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of chapter books"
+          ],
+          "core_terms": [
+            "Chapter",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Chapter Books. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Chapter Books",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Chapter Books. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Chapter Books concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Chapter Books: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Chapter Books — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "2_reading_m2",
+      "title": "Nonfiction Reading",
+      "lectures": [
+        {
+          "lecture_id": "2_reading_m2_l1",
+          "title": "Nonfiction Reading — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to nonfiction reading"
+          ],
+          "core_terms": [
+            "Nonfiction",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Nonfiction Reading. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Nonfiction Reading",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Nonfiction Reading. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Nonfiction Reading concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Nonfiction Reading: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Nonfiction Reading — Part 1."
+          }
+        },
+        {
+          "lecture_id": "2_reading_m2_l2",
+          "title": "Nonfiction Reading — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of nonfiction reading"
+          ],
+          "core_terms": [
+            "Nonfiction",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Nonfiction Reading. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Nonfiction Reading",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Nonfiction Reading. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Nonfiction Reading concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Nonfiction Reading: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Nonfiction Reading — Part 2."
+          }
+        },
+        {
+          "lecture_id": "2_reading_m2_l3",
+          "title": "Nonfiction Reading — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of nonfiction reading"
+          ],
+          "core_terms": [
+            "Nonfiction",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Nonfiction Reading. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Nonfiction Reading",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Nonfiction Reading. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Nonfiction Reading concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Nonfiction Reading: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Nonfiction Reading — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "2_reading_m3",
+      "title": "Writing Paragraphs",
+      "lectures": [
+        {
+          "lecture_id": "2_reading_m3_l1",
+          "title": "Writing Paragraphs — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to writing paragraphs"
+          ],
+          "core_terms": [
+            "Writing",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Writing Paragraphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Writing Paragraphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Writing Paragraphs. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Writing Paragraphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Writing Paragraphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Writing Paragraphs — Part 1."
+          }
+        },
+        {
+          "lecture_id": "2_reading_m3_l2",
+          "title": "Writing Paragraphs — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of writing paragraphs"
+          ],
+          "core_terms": [
+            "Writing",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Writing Paragraphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Writing Paragraphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Writing Paragraphs. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Writing Paragraphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Writing Paragraphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Writing Paragraphs — Part 2."
+          }
+        },
+        {
+          "lecture_id": "2_reading_m3_l3",
+          "title": "Writing Paragraphs — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of writing paragraphs"
+          ],
+          "core_terms": [
+            "Writing",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Writing Paragraphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Writing Paragraphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Writing Paragraphs. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Writing Paragraphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Writing Paragraphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Writing Paragraphs — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "2_reading_m4",
+      "title": "Poetry Intro",
+      "lectures": [
+        {
+          "lecture_id": "2_reading_m4_l1",
+          "title": "Poetry Intro — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to poetry intro"
+          ],
+          "core_terms": [
+            "Poetry",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Poetry Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Poetry Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Poetry Intro. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Poetry Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Poetry Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Poetry Intro — Part 1."
+          }
+        },
+        {
+          "lecture_id": "2_reading_m4_l2",
+          "title": "Poetry Intro — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of poetry intro"
+          ],
+          "core_terms": [
+            "Poetry",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Poetry Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Poetry Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Poetry Intro. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Poetry Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Poetry Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Poetry Intro — Part 2."
+          }
+        },
+        {
+          "lecture_id": "2_reading_m4_l3",
+          "title": "Poetry Intro — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of poetry intro"
+          ],
+          "core_terms": [
+            "Poetry",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_reading_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Poetry Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Poetry Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Poetry Intro. This is essential for mastering Reading & Writing II.",
+                "visual_prompt": "Animated diagram illustrating Poetry Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_reading_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Poetry Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Poetry Intro — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "1_reading"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Chapter Books",
+    "Demonstrate understanding of Nonfiction Reading",
+    "Demonstrate understanding of Writing Paragraphs",
+    "Demonstrate understanding of Poetry Intro"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "2_reading-A1",
+      "title": "Chapter Books Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "2_reading_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "2_reading-A2",
+      "title": "Nonfiction Reading Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "2_reading_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "2_reading-A3",
+      "title": "Writing Paragraphs Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "2_reading_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "2_reading-A4",
+      "title": "Poetry Intro Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "2_reading_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

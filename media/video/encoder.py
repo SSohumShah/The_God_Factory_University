@@ -53,29 +53,30 @@ def render_lecture(lecture_data: dict, output_dir: Path, chunk_by_scene: bool = 
     # ── Try to get AI-generated background for scenes with visual_prompt ─────
     bg_images: dict[str, "Image.Image | None"] = {}
     try:
-        from media.diffusion.free_tier_cycler import get_best_provider
-        provider = get_best_provider()
-        if provider:
-            log_render(lid, "img_gen_start", provider=provider.name, scenes=len(scenes))
-            for i, scene in enumerate(scenes):
-                visual = scene.get("visual_prompt", "")
-                bid = scene.get("block_id", "?")
-                if visual and "title card" not in visual.lower():
-                    try:
-                        img_path = provider.generate_image(visual, 960, 540)
-                        if img_path and img_path.exists():
-                            from PIL import Image
-                            bg_images[bid] = Image.open(img_path).convert("RGB")
-                            log_render(lid, "img_gen_ok", scene=bid, provider=provider.name)
-                        else:
-                            log_error(f"Image gen returned no file for scene {bid}",
-                                      category="diffusion", error_id="IMG_NO_FILE")
-                    except Exception as img_err:
-                        log_error(f"Image gen failed for scene {bid}: {img_err}",
-                                  category="diffusion", error_id="IMG_GEN_FAIL")
-            log_render(lid, "img_gen_done", generated=len(bg_images), total=len(scenes))
-        else:
-            log_render(lid, "img_gen_skip", reason="no_provider_available")
+        from media.diffusion.free_tier_cycler import generate_image_with_fallback
+        gen_count = 0
+        for i, scene in enumerate(scenes):
+            visual = scene.get("visual_prompt", "")
+            bid = scene.get("block_id", "?")
+            if visual and "title card" not in visual.lower():
+                try:
+                    img_path, prov_name = generate_image_with_fallback(
+                        visual, 960, 540,
+                        course_id=lecture_data.get("course_id", ""),
+                        lecture_id=lid,
+                    )
+                    if img_path and img_path.exists():
+                        from PIL import Image
+                        bg_images[bid] = Image.open(img_path).convert("RGB")
+                        gen_count += 1
+                        log_render(lid, "img_gen_ok", scene=bid, provider=prov_name)
+                    else:
+                        log_render(lid, "img_gen_miss", scene=bid,
+                                   reason="all_providers_returned_none")
+                except Exception as img_err:
+                    log_error(f"Image gen failed for scene {bid}: {img_err}",
+                              category="diffusion", error_id="IMG_GEN_FAIL")
+        log_render(lid, "img_gen_done", generated=gen_count, total=len(scenes))
     except ImportError:
         log_render(lid, "img_gen_skip", reason="diffusion_not_installed")
 

@@ -1,0 +1,862 @@
+{
+  "course_id": "6_social_studies",
+  "title": "Ancient Civilizations (6th Grade)",
+  "description": "Ancient Civilizations for 6th Grade students.",
+  "credits": 2,
+  "subject_id": "social_studies",
+  "modules": [
+    {
+      "module_id": "6_social_studies_m1",
+      "title": "Mesopotamia & Egypt",
+      "lectures": [
+        {
+          "lecture_id": "6_social_studies_m1_l1",
+          "title": "Mesopotamia & Egypt — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to mesopotamia & egypt"
+          ],
+          "core_terms": [
+            "Mesopotamia",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Mesopotamia & Egypt. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Mesopotamia & Egypt",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Mesopotamia & Egypt. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating Mesopotamia & Egypt concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Mesopotamia & Egypt: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Mesopotamia & Egypt — Part 1."
+          }
+        },
+        {
+          "lecture_id": "6_social_studies_m1_l2",
+          "title": "Mesopotamia & Egypt — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of mesopotamia & egypt"
+          ],
+          "core_terms": [
+            "Mesopotamia",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Mesopotamia & Egypt. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Mesopotamia & Egypt",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Mesopotamia & Egypt. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating Mesopotamia & Egypt concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Mesopotamia & Egypt: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Mesopotamia & Egypt — Part 2."
+          }
+        },
+        {
+          "lecture_id": "6_social_studies_m1_l3",
+          "title": "Mesopotamia & Egypt — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of mesopotamia & egypt"
+          ],
+          "core_terms": [
+            "Mesopotamia",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Mesopotamia & Egypt. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Mesopotamia & Egypt",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Mesopotamia & Egypt. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating Mesopotamia & Egypt concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Mesopotamia & Egypt: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Mesopotamia & Egypt — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "6_social_studies_m2",
+      "title": "Greece & Rome",
+      "lectures": [
+        {
+          "lecture_id": "6_social_studies_m2_l1",
+          "title": "Greece & Rome — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to greece & rome"
+          ],
+          "core_terms": [
+            "Greece",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Greece & Rome. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Greece & Rome",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Greece & Rome. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating Greece & Rome concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Greece & Rome: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Greece & Rome — Part 1."
+          }
+        },
+        {
+          "lecture_id": "6_social_studies_m2_l2",
+          "title": "Greece & Rome — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of greece & rome"
+          ],
+          "core_terms": [
+            "Greece",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Greece & Rome. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Greece & Rome",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Greece & Rome. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating Greece & Rome concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Greece & Rome: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Greece & Rome — Part 2."
+          }
+        },
+        {
+          "lecture_id": "6_social_studies_m2_l3",
+          "title": "Greece & Rome — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of greece & rome"
+          ],
+          "core_terms": [
+            "Greece",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Greece & Rome. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Greece & Rome",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Greece & Rome. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating Greece & Rome concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Greece & Rome: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Greece & Rome — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "6_social_studies_m3",
+      "title": "China & India",
+      "lectures": [
+        {
+          "lecture_id": "6_social_studies_m3_l1",
+          "title": "China & India — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to china & india"
+          ],
+          "core_terms": [
+            "China",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to China & India. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to China & India",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into China & India. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating China & India concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about China & India: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about China & India — Part 1."
+          }
+        },
+        {
+          "lecture_id": "6_social_studies_m3_l2",
+          "title": "China & India — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of china & india"
+          ],
+          "core_terms": [
+            "China",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of China & India. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of China & India",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into China & India. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating China & India concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about China & India: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about China & India — Part 2."
+          }
+        },
+        {
+          "lecture_id": "6_social_studies_m3_l3",
+          "title": "China & India — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of china & india"
+          ],
+          "core_terms": [
+            "China",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of China & India. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of China & India",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into China & India. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating China & India concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about China & India: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about China & India — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "6_social_studies_m4",
+      "title": "Medieval World",
+      "lectures": [
+        {
+          "lecture_id": "6_social_studies_m4_l1",
+          "title": "Medieval World — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to medieval world"
+          ],
+          "core_terms": [
+            "Medieval",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Medieval World. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Medieval World",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Medieval World. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating Medieval World concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Medieval World: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Medieval World — Part 1."
+          }
+        },
+        {
+          "lecture_id": "6_social_studies_m4_l2",
+          "title": "Medieval World — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of medieval world"
+          ],
+          "core_terms": [
+            "Medieval",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Medieval World. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Medieval World",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Medieval World. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating Medieval World concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Medieval World: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Medieval World — Part 2."
+          }
+        },
+        {
+          "lecture_id": "6_social_studies_m4_l3",
+          "title": "Medieval World — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of medieval world"
+          ],
+          "core_terms": [
+            "Medieval",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_social_studies_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Medieval World. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Medieval World",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Medieval World. This is essential for mastering Ancient Civilizations.",
+                "visual_prompt": "Animated diagram illustrating Medieval World concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_social_studies_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Medieval World: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Medieval World — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "6-8",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "5_social_studies"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Mesopotamia & Egypt",
+    "Demonstrate understanding of Greece & Rome",
+    "Demonstrate understanding of China & India",
+    "Demonstrate understanding of Medieval World"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "6_social_studies-A1",
+      "title": "Mesopotamia & Egypt Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "6_social_studies_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "6_social_studies-A2",
+      "title": "Greece & Rome Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "6_social_studies_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "6_social_studies-A3",
+      "title": "China & India Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "6_social_studies_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "6_social_studies-A4",
+      "title": "Medieval World Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "6_social_studies_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 200000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

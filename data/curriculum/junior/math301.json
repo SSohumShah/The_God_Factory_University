@@ -1,0 +1,886 @@
+{
+  "course_id": "junior_math301",
+  "title": "Linear Algebra (College Junior)",
+  "description": "Linear Algebra for College Junior students.",
+  "credits": 3,
+  "subject_id": "math301",
+  "modules": [
+    {
+      "module_id": "junior_math301_m1",
+      "title": "Vector Spaces",
+      "lectures": [
+        {
+          "lecture_id": "junior_math301_m1_l1",
+          "title": "Vector Spaces — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to vector spaces"
+          ],
+          "core_terms": [
+            "Vector",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Vector Spaces. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Vector Spaces",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Vector Spaces. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Vector Spaces concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Vector Spaces: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "vector_spaces"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Vector Spaces — Part 1."
+          }
+        },
+        {
+          "lecture_id": "junior_math301_m1_l2",
+          "title": "Vector Spaces — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of vector spaces"
+          ],
+          "core_terms": [
+            "Vector",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Vector Spaces. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Vector Spaces",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Vector Spaces. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Vector Spaces concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Vector Spaces: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "vector_spaces"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Vector Spaces — Part 2."
+          }
+        },
+        {
+          "lecture_id": "junior_math301_m1_l3",
+          "title": "Vector Spaces — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of vector spaces"
+          ],
+          "core_terms": [
+            "Vector",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Vector Spaces. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Vector Spaces",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Vector Spaces. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Vector Spaces concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Vector Spaces: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "vector_spaces"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Vector Spaces — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "junior_math301_m2",
+      "title": "Linear Transformations",
+      "lectures": [
+        {
+          "lecture_id": "junior_math301_m2_l1",
+          "title": "Linear Transformations — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to linear transformations"
+          ],
+          "core_terms": [
+            "Linear",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Linear Transformations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Linear Transformations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Linear Transformations. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Linear Transformations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Linear Transformations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "linear_transformations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Linear Transformations — Part 1."
+          }
+        },
+        {
+          "lecture_id": "junior_math301_m2_l2",
+          "title": "Linear Transformations — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of linear transformations"
+          ],
+          "core_terms": [
+            "Linear",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Linear Transformations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Linear Transformations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Linear Transformations. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Linear Transformations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Linear Transformations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "linear_transformations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Linear Transformations — Part 2."
+          }
+        },
+        {
+          "lecture_id": "junior_math301_m2_l3",
+          "title": "Linear Transformations — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of linear transformations"
+          ],
+          "core_terms": [
+            "Linear",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Linear Transformations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Linear Transformations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Linear Transformations. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Linear Transformations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Linear Transformations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "linear_transformations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Linear Transformations — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "junior_math301_m3",
+      "title": "Eigenvalues",
+      "lectures": [
+        {
+          "lecture_id": "junior_math301_m3_l1",
+          "title": "Eigenvalues — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to eigenvalues"
+          ],
+          "core_terms": [
+            "Eigenvalues",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Eigenvalues. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Eigenvalues",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Eigenvalues. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Eigenvalues concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Eigenvalues: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "eigenvalues"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Eigenvalues — Part 1."
+          }
+        },
+        {
+          "lecture_id": "junior_math301_m3_l2",
+          "title": "Eigenvalues — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of eigenvalues"
+          ],
+          "core_terms": [
+            "Eigenvalues",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Eigenvalues. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Eigenvalues",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Eigenvalues. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Eigenvalues concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Eigenvalues: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "eigenvalues"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Eigenvalues — Part 2."
+          }
+        },
+        {
+          "lecture_id": "junior_math301_m3_l3",
+          "title": "Eigenvalues — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of eigenvalues"
+          ],
+          "core_terms": [
+            "Eigenvalues",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Eigenvalues. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Eigenvalues",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Eigenvalues. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Eigenvalues concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Eigenvalues: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "eigenvalues"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Eigenvalues — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "junior_math301_m4",
+      "title": "Applications",
+      "lectures": [
+        {
+          "lecture_id": "junior_math301_m4_l1",
+          "title": "Applications — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to applications"
+          ],
+          "core_terms": [
+            "Applications",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Applications. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Applications",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Applications. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Applications concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Applications: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "applications"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Applications — Part 1."
+          }
+        },
+        {
+          "lecture_id": "junior_math301_m4_l2",
+          "title": "Applications — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of applications"
+          ],
+          "core_terms": [
+            "Applications",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Applications. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Applications",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Applications. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Applications concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Applications: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "applications"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Applications — Part 2."
+          }
+        },
+        {
+          "lecture_id": "junior_math301_m4_l3",
+          "title": "Applications — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of applications"
+          ],
+          "core_terms": [
+            "Applications",
+            "math301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_math301_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Applications. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Applications",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Applications. This is essential for mastering Linear Algebra.",
+                "visual_prompt": "Animated diagram illustrating Applications concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_math301_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Applications: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "applications"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Applications — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Junior",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "sophomore_calc"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Vector Spaces",
+    "Demonstrate understanding of Linear Transformations",
+    "Demonstrate understanding of Eigenvalues",
+    "Demonstrate understanding of Applications"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "junior_math301-A1",
+      "title": "Vector Spaces Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_math301_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "junior_math301-A2",
+      "title": "Linear Transformations Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_math301_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "junior_math301-A3",
+      "title": "Eigenvalues Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_math301_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "junior_math301-A4",
+      "title": "Applications Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_math301_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

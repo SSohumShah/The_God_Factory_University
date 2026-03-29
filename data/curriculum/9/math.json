@@ -1,0 +1,886 @@
+{
+  "course_id": "9_math",
+  "title": "Geometry (9th Grade)",
+  "description": "Geometry for 9th Grade students.",
+  "credits": 3,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "9_math_m1",
+      "title": "Foundations of Geometry",
+      "lectures": [
+        {
+          "lecture_id": "9_math_m1_l1",
+          "title": "Foundations of Geometry — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to foundations of geometry"
+          ],
+          "core_terms": [
+            "Foundations",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Foundations of Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Foundations of Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Foundations of Geometry. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Foundations of Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Foundations of Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "foundations_of_geometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Foundations of Geometry — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_math_m1_l2",
+          "title": "Foundations of Geometry — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of foundations of geometry"
+          ],
+          "core_terms": [
+            "Foundations",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Foundations of Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Foundations of Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Foundations of Geometry. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Foundations of Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Foundations of Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "foundations_of_geometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Foundations of Geometry — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_math_m1_l3",
+          "title": "Foundations of Geometry — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of foundations of geometry"
+          ],
+          "core_terms": [
+            "Foundations",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Foundations of Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Foundations of Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Foundations of Geometry. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Foundations of Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Foundations of Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "foundations_of_geometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Foundations of Geometry — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_math_m2",
+      "title": "Triangles & Congruence",
+      "lectures": [
+        {
+          "lecture_id": "9_math_m2_l1",
+          "title": "Triangles & Congruence — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to triangles & congruence"
+          ],
+          "core_terms": [
+            "Triangles",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Triangles & Congruence. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Triangles & Congruence",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Triangles & Congruence. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Triangles & Congruence concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Triangles & Congruence: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "triangles_&_congruence"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Triangles & Congruence — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_math_m2_l2",
+          "title": "Triangles & Congruence — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of triangles & congruence"
+          ],
+          "core_terms": [
+            "Triangles",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Triangles & Congruence. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Triangles & Congruence",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Triangles & Congruence. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Triangles & Congruence concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Triangles & Congruence: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "triangles_&_congruence"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Triangles & Congruence — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_math_m2_l3",
+          "title": "Triangles & Congruence — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of triangles & congruence"
+          ],
+          "core_terms": [
+            "Triangles",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Triangles & Congruence. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Triangles & Congruence",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Triangles & Congruence. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Triangles & Congruence concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Triangles & Congruence: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "triangles_&_congruence"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Triangles & Congruence — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_math_m3",
+      "title": "Similarity & Trigonometry",
+      "lectures": [
+        {
+          "lecture_id": "9_math_m3_l1",
+          "title": "Similarity & Trigonometry — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to similarity & trigonometry"
+          ],
+          "core_terms": [
+            "Similarity",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Similarity & Trigonometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Similarity & Trigonometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Similarity & Trigonometry. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Similarity & Trigonometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Similarity & Trigonometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "similarity_&_trigonometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Similarity & Trigonometry — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_math_m3_l2",
+          "title": "Similarity & Trigonometry — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of similarity & trigonometry"
+          ],
+          "core_terms": [
+            "Similarity",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Similarity & Trigonometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Similarity & Trigonometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Similarity & Trigonometry. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Similarity & Trigonometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Similarity & Trigonometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "similarity_&_trigonometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Similarity & Trigonometry — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_math_m3_l3",
+          "title": "Similarity & Trigonometry — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of similarity & trigonometry"
+          ],
+          "core_terms": [
+            "Similarity",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Similarity & Trigonometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Similarity & Trigonometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Similarity & Trigonometry. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Similarity & Trigonometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Similarity & Trigonometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "similarity_&_trigonometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Similarity & Trigonometry — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_math_m4",
+      "title": "Circles & Area",
+      "lectures": [
+        {
+          "lecture_id": "9_math_m4_l1",
+          "title": "Circles & Area — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to circles & area"
+          ],
+          "core_terms": [
+            "Circles",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Circles & Area. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Circles & Area",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Circles & Area. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Circles & Area concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Circles & Area: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "circles_&_area"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Circles & Area — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_math_m4_l2",
+          "title": "Circles & Area — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of circles & area"
+          ],
+          "core_terms": [
+            "Circles",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Circles & Area. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Circles & Area",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Circles & Area. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Circles & Area concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Circles & Area: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "circles_&_area"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Circles & Area — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_math_m4_l3",
+          "title": "Circles & Area — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of circles & area"
+          ],
+          "core_terms": [
+            "Circles",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Circles & Area. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Circles & Area",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Circles & Area. This is essential for mastering Geometry.",
+                "visual_prompt": "Animated diagram illustrating Circles & Area concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Circles & Area: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "circles_&_area"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Circles & Area — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "8_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Foundations of Geometry",
+    "Demonstrate understanding of Triangles & Congruence",
+    "Demonstrate understanding of Similarity & Trigonometry",
+    "Demonstrate understanding of Circles & Area"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "9_math-A1",
+      "title": "Foundations of Geometry Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_math-A2",
+      "title": "Triangles & Congruence Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_math-A3",
+      "title": "Similarity & Trigonometry Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_math-A4",
+      "title": "Circles & Area Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

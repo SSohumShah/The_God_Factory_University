@@ -1,0 +1,862 @@
+{
+  "course_id": "4_science",
+  "title": "Science IV (4th Grade)",
+  "description": "Science IV for 4th Grade students.",
+  "credits": 2,
+  "subject_id": "science",
+  "modules": [
+    {
+      "module_id": "4_science_m1",
+      "title": "Electricity & Magnetism",
+      "lectures": [
+        {
+          "lecture_id": "4_science_m1_l1",
+          "title": "Electricity & Magnetism — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to electricity & magnetism"
+          ],
+          "core_terms": [
+            "Electricity",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Electricity & Magnetism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Electricity & Magnetism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Electricity & Magnetism. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Electricity & Magnetism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Electricity & Magnetism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Electricity & Magnetism — Part 1."
+          }
+        },
+        {
+          "lecture_id": "4_science_m1_l2",
+          "title": "Electricity & Magnetism — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of electricity & magnetism"
+          ],
+          "core_terms": [
+            "Electricity",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Electricity & Magnetism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Electricity & Magnetism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Electricity & Magnetism. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Electricity & Magnetism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Electricity & Magnetism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Electricity & Magnetism — Part 2."
+          }
+        },
+        {
+          "lecture_id": "4_science_m1_l3",
+          "title": "Electricity & Magnetism — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of electricity & magnetism"
+          ],
+          "core_terms": [
+            "Electricity",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Electricity & Magnetism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Electricity & Magnetism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Electricity & Magnetism. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Electricity & Magnetism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Electricity & Magnetism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Electricity & Magnetism — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "4_science_m2",
+      "title": "Rocks & Minerals",
+      "lectures": [
+        {
+          "lecture_id": "4_science_m2_l1",
+          "title": "Rocks & Minerals — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to rocks & minerals"
+          ],
+          "core_terms": [
+            "Rocks",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Rocks & Minerals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Rocks & Minerals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rocks & Minerals. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Rocks & Minerals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rocks & Minerals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rocks & Minerals — Part 1."
+          }
+        },
+        {
+          "lecture_id": "4_science_m2_l2",
+          "title": "Rocks & Minerals — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of rocks & minerals"
+          ],
+          "core_terms": [
+            "Rocks",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Rocks & Minerals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Rocks & Minerals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rocks & Minerals. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Rocks & Minerals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rocks & Minerals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rocks & Minerals — Part 2."
+          }
+        },
+        {
+          "lecture_id": "4_science_m2_l3",
+          "title": "Rocks & Minerals — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of rocks & minerals"
+          ],
+          "core_terms": [
+            "Rocks",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Rocks & Minerals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Rocks & Minerals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rocks & Minerals. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Rocks & Minerals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rocks & Minerals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rocks & Minerals — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "4_science_m3",
+      "title": "Food Chains",
+      "lectures": [
+        {
+          "lecture_id": "4_science_m3_l1",
+          "title": "Food Chains — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to food chains"
+          ],
+          "core_terms": [
+            "Food",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Food Chains. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Food Chains",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Food Chains. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Food Chains concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Food Chains: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Food Chains — Part 1."
+          }
+        },
+        {
+          "lecture_id": "4_science_m3_l2",
+          "title": "Food Chains — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of food chains"
+          ],
+          "core_terms": [
+            "Food",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Food Chains. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Food Chains",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Food Chains. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Food Chains concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Food Chains: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Food Chains — Part 2."
+          }
+        },
+        {
+          "lecture_id": "4_science_m3_l3",
+          "title": "Food Chains — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of food chains"
+          ],
+          "core_terms": [
+            "Food",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Food Chains. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Food Chains",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Food Chains. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Food Chains concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Food Chains: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Food Chains — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "4_science_m4",
+      "title": "Weather Systems",
+      "lectures": [
+        {
+          "lecture_id": "4_science_m4_l1",
+          "title": "Weather Systems — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to weather systems"
+          ],
+          "core_terms": [
+            "Weather",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Weather Systems. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Weather Systems",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Weather Systems. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Weather Systems concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Weather Systems: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Weather Systems — Part 1."
+          }
+        },
+        {
+          "lecture_id": "4_science_m4_l2",
+          "title": "Weather Systems — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of weather systems"
+          ],
+          "core_terms": [
+            "Weather",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Weather Systems. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Weather Systems",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Weather Systems. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Weather Systems concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Weather Systems: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Weather Systems — Part 2."
+          }
+        },
+        {
+          "lecture_id": "4_science_m4_l3",
+          "title": "Weather Systems — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of weather systems"
+          ],
+          "core_terms": [
+            "Weather",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_science_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Weather Systems. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Weather Systems",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Weather Systems. This is essential for mastering Science IV.",
+                "visual_prompt": "Animated diagram illustrating Weather Systems concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_science_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Weather Systems: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Weather Systems — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "3_science"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Electricity & Magnetism",
+    "Demonstrate understanding of Rocks & Minerals",
+    "Demonstrate understanding of Food Chains",
+    "Demonstrate understanding of Weather Systems"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "4_science-A1",
+      "title": "Electricity & Magnetism Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "4_science_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "4_science-A2",
+      "title": "Rocks & Minerals Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "4_science_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "4_science-A3",
+      "title": "Food Chains Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "4_science_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "4_science-A4",
+      "title": "Weather Systems Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "4_science_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 60000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

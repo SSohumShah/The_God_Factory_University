@@ -1,0 +1,1038 @@
+{
+  "course_id": "masters_cs500",
+  "title": "CS 500: Advanced Algorithms (Master's Level)",
+  "description": "CS 500: Advanced Algorithms for Master's Level students.",
+  "credits": 3,
+  "subject_id": "cs500",
+  "modules": [
+    {
+      "module_id": "masters_cs500_m1",
+      "title": "Randomized Algorithms",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs500_m1_l1",
+          "title": "Randomized Algorithms — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to randomized algorithms"
+          ],
+          "core_terms": [
+            "Randomized",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Randomized Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Randomized Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Randomized Algorithms. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Randomized Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Randomized Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Randomized Algorithms — Part 1",
+            "deliverable": "masters_cs500_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Randomized Algorithms — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs500_m1_l2",
+          "title": "Randomized Algorithms — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of randomized algorithms"
+          ],
+          "core_terms": [
+            "Randomized",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Randomized Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Randomized Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Randomized Algorithms. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Randomized Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Randomized Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Randomized Algorithms — Part 2",
+            "deliverable": "masters_cs500_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Randomized Algorithms — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs500_m1_l3",
+          "title": "Randomized Algorithms — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of randomized algorithms"
+          ],
+          "core_terms": [
+            "Randomized",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Randomized Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Randomized Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Randomized Algorithms. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Randomized Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Randomized Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Randomized Algorithms — Part 3",
+            "deliverable": "masters_cs500_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Randomized Algorithms — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_cs500_m2",
+      "title": "Approximation Algorithms",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs500_m2_l1",
+          "title": "Approximation Algorithms — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to approximation algorithms"
+          ],
+          "core_terms": [
+            "Approximation",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Approximation Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Approximation Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Approximation Algorithms. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Approximation Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Approximation Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Approximation Algorithms — Part 1",
+            "deliverable": "masters_cs500_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Approximation Algorithms — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs500_m2_l2",
+          "title": "Approximation Algorithms — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of approximation algorithms"
+          ],
+          "core_terms": [
+            "Approximation",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Approximation Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Approximation Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Approximation Algorithms. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Approximation Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Approximation Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Approximation Algorithms — Part 2",
+            "deliverable": "masters_cs500_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Approximation Algorithms — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs500_m2_l3",
+          "title": "Approximation Algorithms — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of approximation algorithms"
+          ],
+          "core_terms": [
+            "Approximation",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Approximation Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Approximation Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Approximation Algorithms. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Approximation Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Approximation Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Approximation Algorithms — Part 3",
+            "deliverable": "masters_cs500_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Approximation Algorithms — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_cs500_m3",
+      "title": "Online Algorithms",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs500_m3_l1",
+          "title": "Online Algorithms — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to online algorithms"
+          ],
+          "core_terms": [
+            "Online",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Online Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Online Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Online Algorithms. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Online Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Online Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Online Algorithms — Part 1",
+            "deliverable": "masters_cs500_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Online Algorithms — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs500_m3_l2",
+          "title": "Online Algorithms — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of online algorithms"
+          ],
+          "core_terms": [
+            "Online",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Online Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Online Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Online Algorithms. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Online Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Online Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Online Algorithms — Part 2",
+            "deliverable": "masters_cs500_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Online Algorithms — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs500_m3_l3",
+          "title": "Online Algorithms — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of online algorithms"
+          ],
+          "core_terms": [
+            "Online",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Online Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Online Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Online Algorithms. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Online Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Online Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Online Algorithms — Part 3",
+            "deliverable": "masters_cs500_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Online Algorithms — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_cs500_m4",
+      "title": "Computational Geometry",
+      "lectures": [
+        {
+          "lecture_id": "masters_cs500_m4_l1",
+          "title": "Computational Geometry — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to computational geometry"
+          ],
+          "core_terms": [
+            "Computational",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Computational Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Computational Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Computational Geometry. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Computational Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Computational Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Computational Geometry — Part 1",
+            "deliverable": "masters_cs500_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Computational Geometry — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_cs500_m4_l2",
+          "title": "Computational Geometry — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of computational geometry"
+          ],
+          "core_terms": [
+            "Computational",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Computational Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Computational Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Computational Geometry. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Computational Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Computational Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Computational Geometry — Part 2",
+            "deliverable": "masters_cs500_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Computational Geometry — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_cs500_m4_l3",
+          "title": "Computational Geometry — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of computational geometry"
+          ],
+          "core_terms": [
+            "Computational",
+            "cs500"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_cs500_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Computational Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Computational Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Computational Geometry. This is essential for mastering CS 500: Advanced Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Computational Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_cs500_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Computational Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs500_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Computational Geometry — Part 3",
+            "deliverable": "masters_cs500_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Computational Geometry — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Masters",
+  "depth_target": 4,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "senior_cs401"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Randomized Algorithms",
+    "Demonstrate understanding of Approximation Algorithms",
+    "Demonstrate understanding of Online Algorithms",
+    "Demonstrate understanding of Computational Geometry"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "masters_cs500-A1",
+      "title": "Randomized Algorithms Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs500_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs500-LAB1",
+      "title": "Randomized Algorithms Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs500_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs500-A2",
+      "title": "Approximation Algorithms Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs500_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs500-LAB2",
+      "title": "Approximation Algorithms Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs500_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs500-A3",
+      "title": "Online Algorithms Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs500_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs500-LAB3",
+      "title": "Online Algorithms Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs500_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs500-A4",
+      "title": "Computational Geometry Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs500_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_cs500-LAB4",
+      "title": "Computational Geometry Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_cs500_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 8000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

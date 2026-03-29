@@ -1,0 +1,862 @@
+{
+  "course_id": "10_science",
+  "title": "Chemistry (10th Grade)",
+  "description": "Chemistry for 10th Grade students.",
+  "credits": 3,
+  "subject_id": "science",
+  "modules": [
+    {
+      "module_id": "10_science_m1",
+      "title": "Atomic Structure",
+      "lectures": [
+        {
+          "lecture_id": "10_science_m1_l1",
+          "title": "Atomic Structure — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to atomic structure"
+          ],
+          "core_terms": [
+            "Atomic",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Atomic Structure. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Atomic Structure",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Atomic Structure. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Atomic Structure concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Atomic Structure: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Atomic Structure — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_science_m1_l2",
+          "title": "Atomic Structure — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of atomic structure"
+          ],
+          "core_terms": [
+            "Atomic",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Atomic Structure. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Atomic Structure",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Atomic Structure. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Atomic Structure concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Atomic Structure: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Atomic Structure — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_science_m1_l3",
+          "title": "Atomic Structure — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of atomic structure"
+          ],
+          "core_terms": [
+            "Atomic",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Atomic Structure. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Atomic Structure",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Atomic Structure. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Atomic Structure concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Atomic Structure: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Atomic Structure — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "10_science_m2",
+      "title": "Chemical Bonding",
+      "lectures": [
+        {
+          "lecture_id": "10_science_m2_l1",
+          "title": "Chemical Bonding — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to chemical bonding"
+          ],
+          "core_terms": [
+            "Chemical",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Chemical Bonding. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Chemical Bonding",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Chemical Bonding. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Chemical Bonding concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Chemical Bonding: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Chemical Bonding — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_science_m2_l2",
+          "title": "Chemical Bonding — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of chemical bonding"
+          ],
+          "core_terms": [
+            "Chemical",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Chemical Bonding. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Chemical Bonding",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Chemical Bonding. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Chemical Bonding concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Chemical Bonding: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Chemical Bonding — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_science_m2_l3",
+          "title": "Chemical Bonding — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of chemical bonding"
+          ],
+          "core_terms": [
+            "Chemical",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Chemical Bonding. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Chemical Bonding",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Chemical Bonding. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Chemical Bonding concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Chemical Bonding: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Chemical Bonding — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "10_science_m3",
+      "title": "Stoichiometry",
+      "lectures": [
+        {
+          "lecture_id": "10_science_m3_l1",
+          "title": "Stoichiometry — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to stoichiometry"
+          ],
+          "core_terms": [
+            "Stoichiometry",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Stoichiometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Stoichiometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Stoichiometry. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Stoichiometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Stoichiometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Stoichiometry — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_science_m3_l2",
+          "title": "Stoichiometry — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of stoichiometry"
+          ],
+          "core_terms": [
+            "Stoichiometry",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Stoichiometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Stoichiometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Stoichiometry. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Stoichiometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Stoichiometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Stoichiometry — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_science_m3_l3",
+          "title": "Stoichiometry — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of stoichiometry"
+          ],
+          "core_terms": [
+            "Stoichiometry",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Stoichiometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Stoichiometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Stoichiometry. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Stoichiometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Stoichiometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Stoichiometry — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "10_science_m4",
+      "title": "Thermodynamics",
+      "lectures": [
+        {
+          "lecture_id": "10_science_m4_l1",
+          "title": "Thermodynamics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to thermodynamics"
+          ],
+          "core_terms": [
+            "Thermodynamics",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Thermodynamics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Thermodynamics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Thermodynamics. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Thermodynamics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Thermodynamics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Thermodynamics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_science_m4_l2",
+          "title": "Thermodynamics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of thermodynamics"
+          ],
+          "core_terms": [
+            "Thermodynamics",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Thermodynamics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Thermodynamics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Thermodynamics. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Thermodynamics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Thermodynamics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Thermodynamics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_science_m4_l3",
+          "title": "Thermodynamics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of thermodynamics"
+          ],
+          "core_terms": [
+            "Thermodynamics",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_science_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Thermodynamics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Thermodynamics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Thermodynamics. This is essential for mastering Chemistry.",
+                "visual_prompt": "Animated diagram illustrating Thermodynamics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_science_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Thermodynamics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Thermodynamics — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "9_science"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Atomic Structure",
+    "Demonstrate understanding of Chemical Bonding",
+    "Demonstrate understanding of Stoichiometry",
+    "Demonstrate understanding of Thermodynamics"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "10_science-A1",
+      "title": "Atomic Structure Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_science_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "10_science-A2",
+      "title": "Chemical Bonding Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_science_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "10_science-A3",
+      "title": "Stoichiometry Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_science_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "10_science-A4",
+      "title": "Thermodynamics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_science_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}
