@@ -1,0 +1,1038 @@
+{
+  "course_id": "doctoral_cs600",
+  "title": "CS 600: Theory of Computation (Doctoral Level)",
+  "description": "CS 600: Theory of Computation for Doctoral Level students.",
+  "credits": 3,
+  "subject_id": "cs600",
+  "modules": [
+    {
+      "module_id": "doctoral_cs600_m1",
+      "title": "Automata Theory",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_cs600_m1_l1",
+          "title": "Automata Theory — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to automata theory"
+          ],
+          "core_terms": [
+            "Automata",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Automata Theory. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Automata Theory",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Automata Theory. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Automata Theory concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Automata Theory: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Automata Theory — Part 1",
+            "deliverable": "doctoral_cs600_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Automata Theory — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs600_m1_l2",
+          "title": "Automata Theory — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of automata theory"
+          ],
+          "core_terms": [
+            "Automata",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Automata Theory. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Automata Theory",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Automata Theory. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Automata Theory concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Automata Theory: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Automata Theory — Part 2",
+            "deliverable": "doctoral_cs600_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Automata Theory — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs600_m1_l3",
+          "title": "Automata Theory — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of automata theory"
+          ],
+          "core_terms": [
+            "Automata",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Automata Theory. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Automata Theory",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Automata Theory. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Automata Theory concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Automata Theory: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Automata Theory — Part 3",
+            "deliverable": "doctoral_cs600_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Automata Theory — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "doctoral_cs600_m2",
+      "title": "Complexity Theory",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_cs600_m2_l1",
+          "title": "Complexity Theory — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to complexity theory"
+          ],
+          "core_terms": [
+            "Complexity",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Complexity Theory. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Complexity Theory",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Complexity Theory. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Complexity Theory concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Complexity Theory: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Complexity Theory — Part 1",
+            "deliverable": "doctoral_cs600_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Complexity Theory — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs600_m2_l2",
+          "title": "Complexity Theory — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of complexity theory"
+          ],
+          "core_terms": [
+            "Complexity",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Complexity Theory. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Complexity Theory",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Complexity Theory. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Complexity Theory concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Complexity Theory: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Complexity Theory — Part 2",
+            "deliverable": "doctoral_cs600_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Complexity Theory — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs600_m2_l3",
+          "title": "Complexity Theory — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of complexity theory"
+          ],
+          "core_terms": [
+            "Complexity",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Complexity Theory. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Complexity Theory",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Complexity Theory. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Complexity Theory concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Complexity Theory: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Complexity Theory — Part 3",
+            "deliverable": "doctoral_cs600_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Complexity Theory — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "doctoral_cs600_m3",
+      "title": "Cryptography Basics",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_cs600_m3_l1",
+          "title": "Cryptography Basics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to cryptography basics"
+          ],
+          "core_terms": [
+            "Cryptography",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Cryptography Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Cryptography Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cryptography Basics. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Cryptography Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cryptography Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Cryptography Basics — Part 1",
+            "deliverable": "doctoral_cs600_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Cryptography Basics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs600_m3_l2",
+          "title": "Cryptography Basics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of cryptography basics"
+          ],
+          "core_terms": [
+            "Cryptography",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Cryptography Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Cryptography Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cryptography Basics. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Cryptography Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cryptography Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Cryptography Basics — Part 2",
+            "deliverable": "doctoral_cs600_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Cryptography Basics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs600_m3_l3",
+          "title": "Cryptography Basics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of cryptography basics"
+          ],
+          "core_terms": [
+            "Cryptography",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Cryptography Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Cryptography Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cryptography Basics. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Cryptography Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cryptography Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Cryptography Basics — Part 3",
+            "deliverable": "doctoral_cs600_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Cryptography Basics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "doctoral_cs600_m4",
+      "title": "Quantum Computing Intro",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_cs600_m4_l1",
+          "title": "Quantum Computing Intro — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to quantum computing intro"
+          ],
+          "core_terms": [
+            "Quantum",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Quantum Computing Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Quantum Computing Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Quantum Computing Intro. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Quantum Computing Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Quantum Computing Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Quantum Computing Intro — Part 1",
+            "deliverable": "doctoral_cs600_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Quantum Computing Intro — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs600_m4_l2",
+          "title": "Quantum Computing Intro — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of quantum computing intro"
+          ],
+          "core_terms": [
+            "Quantum",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Quantum Computing Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Quantum Computing Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Quantum Computing Intro. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Quantum Computing Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Quantum Computing Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Quantum Computing Intro — Part 2",
+            "deliverable": "doctoral_cs600_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Quantum Computing Intro — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_cs600_m4_l3",
+          "title": "Quantum Computing Intro — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of quantum computing intro"
+          ],
+          "core_terms": [
+            "Quantum",
+            "cs600"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_cs600_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Quantum Computing Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Quantum Computing Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Quantum Computing Intro. This is essential for mastering CS 600: Theory of Computation.",
+                "visual_prompt": "Animated diagram illustrating Quantum Computing Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_cs600_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Quantum Computing Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs600_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Quantum Computing Intro — Part 3",
+            "deliverable": "doctoral_cs600_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Quantum Computing Intro — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Doctoral",
+  "depth_target": 5,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "masters_cs500"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Automata Theory",
+    "Demonstrate understanding of Complexity Theory",
+    "Demonstrate understanding of Cryptography Basics",
+    "Demonstrate understanding of Quantum Computing Intro"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "doctoral_cs600-A1",
+      "title": "Automata Theory Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs600_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs600-LAB1",
+      "title": "Automata Theory Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs600_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs600-A2",
+      "title": "Complexity Theory Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs600_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs600-LAB2",
+      "title": "Complexity Theory Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs600_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs600-A3",
+      "title": "Cryptography Basics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs600_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs600-LAB3",
+      "title": "Cryptography Basics Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs600_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs600-A4",
+      "title": "Quantum Computing Intro Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs600_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_cs600-LAB4",
+      "title": "Quantum Computing Intro Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_cs600_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

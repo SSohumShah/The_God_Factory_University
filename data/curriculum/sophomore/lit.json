@@ -1,0 +1,860 @@
+{
+  "course_id": "sophomore_lit",
+  "title": "World Literature (College Sophomore)",
+  "description": "World Literature for College Sophomore students.",
+  "credits": 3,
+  "subject_id": "lit",
+  "modules": [
+    {
+      "module_id": "sophomore_lit_m1",
+      "title": "Classical Literature",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_lit_m1_l1",
+          "title": "Classical Literature — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to classical literature"
+          ],
+          "core_terms": [
+            "Classical",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Classical Literature. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Classical Literature",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Classical Literature. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Classical Literature concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Classical Literature: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Classical Literature — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_lit_m1_l2",
+          "title": "Classical Literature — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of classical literature"
+          ],
+          "core_terms": [
+            "Classical",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Classical Literature. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Classical Literature",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Classical Literature. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Classical Literature concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Classical Literature: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Classical Literature — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_lit_m1_l3",
+          "title": "Classical Literature — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of classical literature"
+          ],
+          "core_terms": [
+            "Classical",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Classical Literature. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Classical Literature",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Classical Literature. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Classical Literature concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Classical Literature: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Classical Literature — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_lit_m2",
+      "title": "Renaissance Literature",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_lit_m2_l1",
+          "title": "Renaissance Literature — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to renaissance literature"
+          ],
+          "core_terms": [
+            "Renaissance",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Renaissance Literature. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Renaissance Literature",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Renaissance Literature. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Renaissance Literature concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Renaissance Literature: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Renaissance Literature — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_lit_m2_l2",
+          "title": "Renaissance Literature — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of renaissance literature"
+          ],
+          "core_terms": [
+            "Renaissance",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Renaissance Literature. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Renaissance Literature",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Renaissance Literature. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Renaissance Literature concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Renaissance Literature: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Renaissance Literature — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_lit_m2_l3",
+          "title": "Renaissance Literature — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of renaissance literature"
+          ],
+          "core_terms": [
+            "Renaissance",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Renaissance Literature. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Renaissance Literature",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Renaissance Literature. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Renaissance Literature concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Renaissance Literature: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Renaissance Literature — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_lit_m3",
+      "title": "Modern World Lit",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_lit_m3_l1",
+          "title": "Modern World Lit — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to modern world lit"
+          ],
+          "core_terms": [
+            "Modern",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Modern World Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Modern World Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Modern World Lit. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Modern World Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Modern World Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Modern World Lit — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_lit_m3_l2",
+          "title": "Modern World Lit — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of modern world lit"
+          ],
+          "core_terms": [
+            "Modern",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Modern World Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Modern World Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Modern World Lit. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Modern World Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Modern World Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Modern World Lit — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_lit_m3_l3",
+          "title": "Modern World Lit — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of modern world lit"
+          ],
+          "core_terms": [
+            "Modern",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Modern World Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Modern World Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Modern World Lit. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Modern World Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Modern World Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Modern World Lit — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_lit_m4",
+      "title": "Contemporary Global Fiction",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_lit_m4_l1",
+          "title": "Contemporary Global Fiction — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to contemporary global fiction"
+          ],
+          "core_terms": [
+            "Contemporary",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Contemporary Global Fiction. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Contemporary Global Fiction",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Contemporary Global Fiction. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Contemporary Global Fiction concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Contemporary Global Fiction: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Contemporary Global Fiction — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_lit_m4_l2",
+          "title": "Contemporary Global Fiction — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of contemporary global fiction"
+          ],
+          "core_terms": [
+            "Contemporary",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Contemporary Global Fiction. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Contemporary Global Fiction",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Contemporary Global Fiction. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Contemporary Global Fiction concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Contemporary Global Fiction: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Contemporary Global Fiction — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_lit_m4_l3",
+          "title": "Contemporary Global Fiction — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of contemporary global fiction"
+          ],
+          "core_terms": [
+            "Contemporary",
+            "lit"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_lit_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Contemporary Global Fiction. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Contemporary Global Fiction",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Contemporary Global Fiction. This is essential for mastering World Literature.",
+                "visual_prompt": "Animated diagram illustrating Contemporary Global Fiction concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_lit_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Contemporary Global Fiction: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Contemporary Global Fiction — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Sophomore",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Classical Literature",
+    "Demonstrate understanding of Renaissance Literature",
+    "Demonstrate understanding of Modern World Lit",
+    "Demonstrate understanding of Contemporary Global Fiction"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "sophomore_lit-A1",
+      "title": "Classical Literature Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_lit_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_lit-A2",
+      "title": "Renaissance Literature Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_lit_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_lit-A3",
+      "title": "Modern World Lit Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_lit_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_lit-A4",
+      "title": "Contemporary Global Fiction Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_lit_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

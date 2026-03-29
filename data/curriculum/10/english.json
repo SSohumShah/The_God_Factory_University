@@ -1,0 +1,862 @@
+{
+  "course_id": "10_english",
+  "title": "English II / American Literature (10th Grade)",
+  "description": "English II / American Literature for 10th Grade students.",
+  "credits": 3,
+  "subject_id": "english",
+  "modules": [
+    {
+      "module_id": "10_english_m1",
+      "title": "Colonial & Revolutionary Lit",
+      "lectures": [
+        {
+          "lecture_id": "10_english_m1_l1",
+          "title": "Colonial & Revolutionary Lit — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to colonial & revolutionary lit"
+          ],
+          "core_terms": [
+            "Colonial",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Colonial & Revolutionary Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Colonial & Revolutionary Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Colonial & Revolutionary Lit. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Colonial & Revolutionary Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Colonial & Revolutionary Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Colonial & Revolutionary Lit — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_english_m1_l2",
+          "title": "Colonial & Revolutionary Lit — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of colonial & revolutionary lit"
+          ],
+          "core_terms": [
+            "Colonial",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Colonial & Revolutionary Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Colonial & Revolutionary Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Colonial & Revolutionary Lit. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Colonial & Revolutionary Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Colonial & Revolutionary Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Colonial & Revolutionary Lit — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_english_m1_l3",
+          "title": "Colonial & Revolutionary Lit — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of colonial & revolutionary lit"
+          ],
+          "core_terms": [
+            "Colonial",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Colonial & Revolutionary Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Colonial & Revolutionary Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Colonial & Revolutionary Lit. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Colonial & Revolutionary Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Colonial & Revolutionary Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Colonial & Revolutionary Lit — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "10_english_m2",
+      "title": "Romanticism & Transcendentalism",
+      "lectures": [
+        {
+          "lecture_id": "10_english_m2_l1",
+          "title": "Romanticism & Transcendentalism — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to romanticism & transcendentalism"
+          ],
+          "core_terms": [
+            "Romanticism",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Romanticism & Transcendentalism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Romanticism & Transcendentalism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Romanticism & Transcendentalism. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Romanticism & Transcendentalism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Romanticism & Transcendentalism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Romanticism & Transcendentalism — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_english_m2_l2",
+          "title": "Romanticism & Transcendentalism — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of romanticism & transcendentalism"
+          ],
+          "core_terms": [
+            "Romanticism",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Romanticism & Transcendentalism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Romanticism & Transcendentalism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Romanticism & Transcendentalism. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Romanticism & Transcendentalism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Romanticism & Transcendentalism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Romanticism & Transcendentalism — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_english_m2_l3",
+          "title": "Romanticism & Transcendentalism — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of romanticism & transcendentalism"
+          ],
+          "core_terms": [
+            "Romanticism",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Romanticism & Transcendentalism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Romanticism & Transcendentalism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Romanticism & Transcendentalism. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Romanticism & Transcendentalism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Romanticism & Transcendentalism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Romanticism & Transcendentalism — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "10_english_m3",
+      "title": "Realism & Naturalism",
+      "lectures": [
+        {
+          "lecture_id": "10_english_m3_l1",
+          "title": "Realism & Naturalism — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to realism & naturalism"
+          ],
+          "core_terms": [
+            "Realism",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Realism & Naturalism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Realism & Naturalism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Realism & Naturalism. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Realism & Naturalism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Realism & Naturalism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Realism & Naturalism — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_english_m3_l2",
+          "title": "Realism & Naturalism — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of realism & naturalism"
+          ],
+          "core_terms": [
+            "Realism",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Realism & Naturalism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Realism & Naturalism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Realism & Naturalism. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Realism & Naturalism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Realism & Naturalism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Realism & Naturalism — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_english_m3_l3",
+          "title": "Realism & Naturalism — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of realism & naturalism"
+          ],
+          "core_terms": [
+            "Realism",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Realism & Naturalism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Realism & Naturalism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Realism & Naturalism. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Realism & Naturalism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Realism & Naturalism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Realism & Naturalism — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "10_english_m4",
+      "title": "Modern American Lit",
+      "lectures": [
+        {
+          "lecture_id": "10_english_m4_l1",
+          "title": "Modern American Lit — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to modern american lit"
+          ],
+          "core_terms": [
+            "Modern",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Modern American Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Modern American Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Modern American Lit. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Modern American Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Modern American Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Modern American Lit — Part 1."
+          }
+        },
+        {
+          "lecture_id": "10_english_m4_l2",
+          "title": "Modern American Lit — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of modern american lit"
+          ],
+          "core_terms": [
+            "Modern",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Modern American Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Modern American Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Modern American Lit. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Modern American Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Modern American Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Modern American Lit — Part 2."
+          }
+        },
+        {
+          "lecture_id": "10_english_m4_l3",
+          "title": "Modern American Lit — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of modern american lit"
+          ],
+          "core_terms": [
+            "Modern",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "10_english_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Modern American Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Modern American Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Modern American Lit. This is essential for mastering English II / American Literature.",
+                "visual_prompt": "Animated diagram illustrating Modern American Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "10_english_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Modern American Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Modern American Lit — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "9_english"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Colonial & Revolutionary Lit",
+    "Demonstrate understanding of Romanticism & Transcendentalism",
+    "Demonstrate understanding of Realism & Naturalism",
+    "Demonstrate understanding of Modern American Lit"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "10_english-A1",
+      "title": "Colonial & Revolutionary Lit Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_english_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "10_english-A2",
+      "title": "Romanticism & Transcendentalism Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_english_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "10_english-A3",
+      "title": "Realism & Naturalism Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_english_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "10_english-A4",
+      "title": "Modern American Lit Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "10_english_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

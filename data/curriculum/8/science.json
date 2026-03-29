@@ -1,0 +1,862 @@
+{
+  "course_id": "8_science",
+  "title": "Physical Science (8th Grade)",
+  "description": "Physical Science for 8th Grade students.",
+  "credits": 2,
+  "subject_id": "science",
+  "modules": [
+    {
+      "module_id": "8_science_m1",
+      "title": "Forces & Motion",
+      "lectures": [
+        {
+          "lecture_id": "8_science_m1_l1",
+          "title": "Forces & Motion — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to forces & motion"
+          ],
+          "core_terms": [
+            "Forces",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Forces & Motion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Forces & Motion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Forces & Motion. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Forces & Motion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Forces & Motion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Forces & Motion — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_science_m1_l2",
+          "title": "Forces & Motion — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of forces & motion"
+          ],
+          "core_terms": [
+            "Forces",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Forces & Motion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Forces & Motion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Forces & Motion. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Forces & Motion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Forces & Motion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Forces & Motion — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_science_m1_l3",
+          "title": "Forces & Motion — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of forces & motion"
+          ],
+          "core_terms": [
+            "Forces",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Forces & Motion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Forces & Motion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Forces & Motion. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Forces & Motion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Forces & Motion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Forces & Motion — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "8_science_m2",
+      "title": "Energy Transformations",
+      "lectures": [
+        {
+          "lecture_id": "8_science_m2_l1",
+          "title": "Energy Transformations — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to energy transformations"
+          ],
+          "core_terms": [
+            "Energy",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Energy Transformations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Energy Transformations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Energy Transformations. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Energy Transformations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Energy Transformations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Energy Transformations — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_science_m2_l2",
+          "title": "Energy Transformations — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of energy transformations"
+          ],
+          "core_terms": [
+            "Energy",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Energy Transformations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Energy Transformations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Energy Transformations. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Energy Transformations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Energy Transformations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Energy Transformations — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_science_m2_l3",
+          "title": "Energy Transformations — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of energy transformations"
+          ],
+          "core_terms": [
+            "Energy",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Energy Transformations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Energy Transformations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Energy Transformations. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Energy Transformations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Energy Transformations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Energy Transformations — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "8_science_m3",
+      "title": "Waves & Sound",
+      "lectures": [
+        {
+          "lecture_id": "8_science_m3_l1",
+          "title": "Waves & Sound — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to waves & sound"
+          ],
+          "core_terms": [
+            "Waves",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Waves & Sound. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Waves & Sound",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Waves & Sound. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Waves & Sound concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Waves & Sound: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Waves & Sound — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_science_m3_l2",
+          "title": "Waves & Sound — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of waves & sound"
+          ],
+          "core_terms": [
+            "Waves",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Waves & Sound. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Waves & Sound",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Waves & Sound. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Waves & Sound concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Waves & Sound: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Waves & Sound — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_science_m3_l3",
+          "title": "Waves & Sound — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of waves & sound"
+          ],
+          "core_terms": [
+            "Waves",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Waves & Sound. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Waves & Sound",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Waves & Sound. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Waves & Sound concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Waves & Sound: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Waves & Sound — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "8_science_m4",
+      "title": "Chemical Reactions",
+      "lectures": [
+        {
+          "lecture_id": "8_science_m4_l1",
+          "title": "Chemical Reactions — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to chemical reactions"
+          ],
+          "core_terms": [
+            "Chemical",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Chemical Reactions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Chemical Reactions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Chemical Reactions. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Chemical Reactions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Chemical Reactions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Chemical Reactions — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_science_m4_l2",
+          "title": "Chemical Reactions — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of chemical reactions"
+          ],
+          "core_terms": [
+            "Chemical",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Chemical Reactions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Chemical Reactions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Chemical Reactions. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Chemical Reactions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Chemical Reactions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Chemical Reactions — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_science_m4_l3",
+          "title": "Chemical Reactions — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of chemical reactions"
+          ],
+          "core_terms": [
+            "Chemical",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_science_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Chemical Reactions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Chemical Reactions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Chemical Reactions. This is essential for mastering Physical Science.",
+                "visual_prompt": "Animated diagram illustrating Chemical Reactions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_science_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Chemical Reactions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Chemical Reactions — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "6-8",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "7_science"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Forces & Motion",
+    "Demonstrate understanding of Energy Transformations",
+    "Demonstrate understanding of Waves & Sound",
+    "Demonstrate understanding of Chemical Reactions"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "8_science-A1",
+      "title": "Forces & Motion Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_science_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "8_science-A2",
+      "title": "Energy Transformations Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_science_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "8_science-A3",
+      "title": "Waves & Sound Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_science_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "8_science-A4",
+      "title": "Chemical Reactions Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_science_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 200000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

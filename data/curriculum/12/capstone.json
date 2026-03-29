@@ -1,0 +1,1012 @@
+{
+  "course_id": "12_capstone",
+  "title": "Senior Capstone Project (12th Grade)",
+  "description": "Senior Capstone Project for 12th Grade students.",
+  "credits": 3,
+  "subject_id": "capstone",
+  "modules": [
+    {
+      "module_id": "12_capstone_m1",
+      "title": "Project Proposal",
+      "lectures": [
+        {
+          "lecture_id": "12_capstone_m1_l1",
+          "title": "Project Proposal — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to project proposal"
+          ],
+          "core_terms": [
+            "Project",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Project Proposal. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Project Proposal",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Project Proposal. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Project Proposal concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Project Proposal: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Project Proposal — Part 1",
+            "deliverable": "12_capstone_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Project Proposal — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_capstone_m1_l2",
+          "title": "Project Proposal — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of project proposal"
+          ],
+          "core_terms": [
+            "Project",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Project Proposal. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Project Proposal",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Project Proposal. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Project Proposal concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Project Proposal: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Project Proposal — Part 2",
+            "deliverable": "12_capstone_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Project Proposal — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_capstone_m1_l3",
+          "title": "Project Proposal — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of project proposal"
+          ],
+          "core_terms": [
+            "Project",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Project Proposal. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Project Proposal",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Project Proposal. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Project Proposal concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Project Proposal: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Project Proposal — Part 3",
+            "deliverable": "12_capstone_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Project Proposal — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "12_capstone_m2",
+      "title": "Research & Development",
+      "lectures": [
+        {
+          "lecture_id": "12_capstone_m2_l1",
+          "title": "Research & Development — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to research & development"
+          ],
+          "core_terms": [
+            "Research",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Research & Development. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Research & Development",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research & Development. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Research & Development concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research & Development: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Research & Development — Part 1",
+            "deliverable": "12_capstone_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Research & Development — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_capstone_m2_l2",
+          "title": "Research & Development — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of research & development"
+          ],
+          "core_terms": [
+            "Research",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Research & Development. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Research & Development",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research & Development. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Research & Development concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research & Development: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Research & Development — Part 2",
+            "deliverable": "12_capstone_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Research & Development — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_capstone_m2_l3",
+          "title": "Research & Development — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of research & development"
+          ],
+          "core_terms": [
+            "Research",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Research & Development. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Research & Development",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research & Development. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Research & Development concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research & Development: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Research & Development — Part 3",
+            "deliverable": "12_capstone_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Research & Development — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "12_capstone_m3",
+      "title": "Implementation",
+      "lectures": [
+        {
+          "lecture_id": "12_capstone_m3_l1",
+          "title": "Implementation — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to implementation"
+          ],
+          "core_terms": [
+            "Implementation",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Implementation. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Implementation",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Implementation. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Implementation concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Implementation: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Implementation — Part 1",
+            "deliverable": "12_capstone_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Implementation — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_capstone_m3_l2",
+          "title": "Implementation — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of implementation"
+          ],
+          "core_terms": [
+            "Implementation",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Implementation. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Implementation",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Implementation. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Implementation concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Implementation: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Implementation — Part 2",
+            "deliverable": "12_capstone_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Implementation — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_capstone_m3_l3",
+          "title": "Implementation — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of implementation"
+          ],
+          "core_terms": [
+            "Implementation",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Implementation. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Implementation",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Implementation. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Implementation concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Implementation: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Implementation — Part 3",
+            "deliverable": "12_capstone_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Implementation — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "12_capstone_m4",
+      "title": "Presentation & Defense",
+      "lectures": [
+        {
+          "lecture_id": "12_capstone_m4_l1",
+          "title": "Presentation & Defense — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to presentation & defense"
+          ],
+          "core_terms": [
+            "Presentation",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Presentation & Defense. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Presentation & Defense",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Presentation & Defense. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Presentation & Defense concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Presentation & Defense: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Presentation & Defense — Part 1",
+            "deliverable": "12_capstone_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Presentation & Defense — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_capstone_m4_l2",
+          "title": "Presentation & Defense — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of presentation & defense"
+          ],
+          "core_terms": [
+            "Presentation",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Presentation & Defense. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Presentation & Defense",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Presentation & Defense. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Presentation & Defense concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Presentation & Defense: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Presentation & Defense — Part 2",
+            "deliverable": "12_capstone_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Presentation & Defense — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_capstone_m4_l3",
+          "title": "Presentation & Defense — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of presentation & defense"
+          ],
+          "core_terms": [
+            "Presentation",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_capstone_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Presentation & Defense. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Presentation & Defense",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Presentation & Defense. This is essential for mastering Senior Capstone Project.",
+                "visual_prompt": "Animated diagram illustrating Presentation & Defense concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_capstone_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Presentation & Defense: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Presentation & Defense — Part 3",
+            "deliverable": "12_capstone_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Presentation & Defense — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Project Proposal",
+    "Demonstrate understanding of Research & Development",
+    "Demonstrate understanding of Implementation",
+    "Demonstrate understanding of Presentation & Defense"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "12_capstone-A1",
+      "title": "Project Proposal Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_capstone_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_capstone-LAB1",
+      "title": "Project Proposal Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_capstone_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_capstone-A2",
+      "title": "Research & Development Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_capstone_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_capstone-LAB2",
+      "title": "Research & Development Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_capstone_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_capstone-A3",
+      "title": "Implementation Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_capstone_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_capstone-LAB3",
+      "title": "Implementation Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_capstone_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_capstone-A4",
+      "title": "Presentation & Defense Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_capstone_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_capstone-LAB4",
+      "title": "Presentation & Defense Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_capstone_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

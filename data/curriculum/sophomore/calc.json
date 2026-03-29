@@ -1,0 +1,886 @@
+{
+  "course_id": "sophomore_calc",
+  "title": "Calculus I & II (College Sophomore)",
+  "description": "Calculus I & II for College Sophomore students.",
+  "credits": 3,
+  "subject_id": "calc",
+  "modules": [
+    {
+      "module_id": "sophomore_calc_m1",
+      "title": "Differential Calculus",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_calc_m1_l1",
+          "title": "Differential Calculus — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to differential calculus"
+          ],
+          "core_terms": [
+            "Differential",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Differential Calculus. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Differential Calculus",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Differential Calculus. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Differential Calculus concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Differential Calculus: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "differential_calculus"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Differential Calculus — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_calc_m1_l2",
+          "title": "Differential Calculus — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of differential calculus"
+          ],
+          "core_terms": [
+            "Differential",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Differential Calculus. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Differential Calculus",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Differential Calculus. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Differential Calculus concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Differential Calculus: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "differential_calculus"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Differential Calculus — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_calc_m1_l3",
+          "title": "Differential Calculus — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of differential calculus"
+          ],
+          "core_terms": [
+            "Differential",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Differential Calculus. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Differential Calculus",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Differential Calculus. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Differential Calculus concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Differential Calculus: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "differential_calculus"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Differential Calculus — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_calc_m2",
+      "title": "Integral Calculus",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_calc_m2_l1",
+          "title": "Integral Calculus — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to integral calculus"
+          ],
+          "core_terms": [
+            "Integral",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Integral Calculus. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Integral Calculus",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Integral Calculus. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Integral Calculus concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Integral Calculus: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "integral_calculus"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Integral Calculus — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_calc_m2_l2",
+          "title": "Integral Calculus — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of integral calculus"
+          ],
+          "core_terms": [
+            "Integral",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Integral Calculus. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Integral Calculus",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Integral Calculus. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Integral Calculus concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Integral Calculus: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "integral_calculus"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Integral Calculus — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_calc_m2_l3",
+          "title": "Integral Calculus — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of integral calculus"
+          ],
+          "core_terms": [
+            "Integral",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Integral Calculus. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Integral Calculus",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Integral Calculus. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Integral Calculus concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Integral Calculus: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "integral_calculus"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Integral Calculus — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_calc_m3",
+      "title": "Applications",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_calc_m3_l1",
+          "title": "Applications — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to applications"
+          ],
+          "core_terms": [
+            "Applications",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Applications. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Applications",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Applications. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Applications concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Applications: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "applications"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Applications — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_calc_m3_l2",
+          "title": "Applications — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of applications"
+          ],
+          "core_terms": [
+            "Applications",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Applications. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Applications",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Applications. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Applications concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Applications: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "applications"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Applications — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_calc_m3_l3",
+          "title": "Applications — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of applications"
+          ],
+          "core_terms": [
+            "Applications",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Applications. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Applications",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Applications. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Applications concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Applications: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "applications"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Applications — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_calc_m4",
+      "title": "Series & Sequences",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_calc_m4_l1",
+          "title": "Series & Sequences — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to series & sequences"
+          ],
+          "core_terms": [
+            "Series",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Series & Sequences. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Series & Sequences",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Series & Sequences. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Series & Sequences concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Series & Sequences: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "series_&_sequences"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Series & Sequences — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_calc_m4_l2",
+          "title": "Series & Sequences — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of series & sequences"
+          ],
+          "core_terms": [
+            "Series",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Series & Sequences. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Series & Sequences",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Series & Sequences. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Series & Sequences concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Series & Sequences: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "series_&_sequences"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Series & Sequences — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_calc_m4_l3",
+          "title": "Series & Sequences — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of series & sequences"
+          ],
+          "core_terms": [
+            "Series",
+            "calc"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_calc_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Series & Sequences. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Series & Sequences",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Series & Sequences. This is essential for mastering Calculus I & II.",
+                "visual_prompt": "Animated diagram illustrating Series & Sequences concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_calc_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Series & Sequences: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "series_&_sequences"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Series & Sequences — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Sophomore",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "freshman_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Differential Calculus",
+    "Demonstrate understanding of Integral Calculus",
+    "Demonstrate understanding of Applications",
+    "Demonstrate understanding of Series & Sequences"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "sophomore_calc-A1",
+      "title": "Differential Calculus Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_calc_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_calc-A2",
+      "title": "Integral Calculus Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_calc_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_calc-A3",
+      "title": "Applications Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_calc_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_calc-A4",
+      "title": "Series & Sequences Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_calc_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

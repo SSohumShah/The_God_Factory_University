@@ -1,0 +1,862 @@
+{
+  "course_id": "7_science",
+  "title": "Life Science (7th Grade)",
+  "description": "Life Science for 7th Grade students.",
+  "credits": 2,
+  "subject_id": "science",
+  "modules": [
+    {
+      "module_id": "7_science_m1",
+      "title": "Cell Biology",
+      "lectures": [
+        {
+          "lecture_id": "7_science_m1_l1",
+          "title": "Cell Biology — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to cell biology"
+          ],
+          "core_terms": [
+            "Cell",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Cell Biology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Cell Biology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cell Biology. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Cell Biology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cell Biology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Cell Biology — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_science_m1_l2",
+          "title": "Cell Biology — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of cell biology"
+          ],
+          "core_terms": [
+            "Cell",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Cell Biology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Cell Biology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cell Biology. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Cell Biology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cell Biology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Cell Biology — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_science_m1_l3",
+          "title": "Cell Biology — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of cell biology"
+          ],
+          "core_terms": [
+            "Cell",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Cell Biology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Cell Biology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cell Biology. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Cell Biology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cell Biology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Cell Biology — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_science_m2",
+      "title": "Genetics & Heredity",
+      "lectures": [
+        {
+          "lecture_id": "7_science_m2_l1",
+          "title": "Genetics & Heredity — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to genetics & heredity"
+          ],
+          "core_terms": [
+            "Genetics",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Genetics & Heredity. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Genetics & Heredity",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Genetics & Heredity. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Genetics & Heredity concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Genetics & Heredity: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Genetics & Heredity — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_science_m2_l2",
+          "title": "Genetics & Heredity — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of genetics & heredity"
+          ],
+          "core_terms": [
+            "Genetics",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Genetics & Heredity. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Genetics & Heredity",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Genetics & Heredity. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Genetics & Heredity concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Genetics & Heredity: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Genetics & Heredity — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_science_m2_l3",
+          "title": "Genetics & Heredity — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of genetics & heredity"
+          ],
+          "core_terms": [
+            "Genetics",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Genetics & Heredity. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Genetics & Heredity",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Genetics & Heredity. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Genetics & Heredity concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Genetics & Heredity: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Genetics & Heredity — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_science_m3",
+      "title": "Evolution",
+      "lectures": [
+        {
+          "lecture_id": "7_science_m3_l1",
+          "title": "Evolution — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to evolution"
+          ],
+          "core_terms": [
+            "Evolution",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Evolution. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Evolution",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Evolution. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Evolution concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Evolution: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Evolution — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_science_m3_l2",
+          "title": "Evolution — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of evolution"
+          ],
+          "core_terms": [
+            "Evolution",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Evolution. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Evolution",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Evolution. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Evolution concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Evolution: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Evolution — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_science_m3_l3",
+          "title": "Evolution — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of evolution"
+          ],
+          "core_terms": [
+            "Evolution",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Evolution. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Evolution",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Evolution. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Evolution concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Evolution: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Evolution — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_science_m4",
+      "title": "Human Body Systems",
+      "lectures": [
+        {
+          "lecture_id": "7_science_m4_l1",
+          "title": "Human Body Systems — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to human body systems"
+          ],
+          "core_terms": [
+            "Human",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Human Body Systems. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Human Body Systems",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Human Body Systems. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Human Body Systems concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Human Body Systems: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Human Body Systems — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_science_m4_l2",
+          "title": "Human Body Systems — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of human body systems"
+          ],
+          "core_terms": [
+            "Human",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Human Body Systems. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Human Body Systems",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Human Body Systems. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Human Body Systems concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Human Body Systems: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Human Body Systems — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_science_m4_l3",
+          "title": "Human Body Systems — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of human body systems"
+          ],
+          "core_terms": [
+            "Human",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_science_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Human Body Systems. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Human Body Systems",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Human Body Systems. This is essential for mastering Life Science.",
+                "visual_prompt": "Animated diagram illustrating Human Body Systems concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_science_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Human Body Systems: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Human Body Systems — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "6-8",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "6_science"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Cell Biology",
+    "Demonstrate understanding of Genetics & Heredity",
+    "Demonstrate understanding of Evolution",
+    "Demonstrate understanding of Human Body Systems"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "7_science-A1",
+      "title": "Cell Biology Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_science_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_science-A2",
+      "title": "Genetics & Heredity Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_science_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_science-A3",
+      "title": "Evolution Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_science_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_science-A4",
+      "title": "Human Body Systems Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_science_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 200000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

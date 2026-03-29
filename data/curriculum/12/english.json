@@ -1,0 +1,862 @@
+{
+  "course_id": "12_english",
+  "title": "English IV / World Literature & Composition (12th Grade)",
+  "description": "English IV / World Literature & Composition for 12th Grade students.",
+  "credits": 3,
+  "subject_id": "english",
+  "modules": [
+    {
+      "module_id": "12_english_m1",
+      "title": "Existentialism & Absurdism",
+      "lectures": [
+        {
+          "lecture_id": "12_english_m1_l1",
+          "title": "Existentialism & Absurdism — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to existentialism & absurdism"
+          ],
+          "core_terms": [
+            "Existentialism",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Existentialism & Absurdism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Existentialism & Absurdism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Existentialism & Absurdism. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Existentialism & Absurdism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Existentialism & Absurdism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Existentialism & Absurdism — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_english_m1_l2",
+          "title": "Existentialism & Absurdism — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of existentialism & absurdism"
+          ],
+          "core_terms": [
+            "Existentialism",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Existentialism & Absurdism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Existentialism & Absurdism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Existentialism & Absurdism. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Existentialism & Absurdism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Existentialism & Absurdism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Existentialism & Absurdism — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_english_m1_l3",
+          "title": "Existentialism & Absurdism — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of existentialism & absurdism"
+          ],
+          "core_terms": [
+            "Existentialism",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Existentialism & Absurdism. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Existentialism & Absurdism",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Existentialism & Absurdism. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Existentialism & Absurdism concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Existentialism & Absurdism: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Existentialism & Absurdism — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "12_english_m2",
+      "title": "Postcolonial Literature",
+      "lectures": [
+        {
+          "lecture_id": "12_english_m2_l1",
+          "title": "Postcolonial Literature — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to postcolonial literature"
+          ],
+          "core_terms": [
+            "Postcolonial",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Postcolonial Literature. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Postcolonial Literature",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Postcolonial Literature. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Postcolonial Literature concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Postcolonial Literature: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Postcolonial Literature — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_english_m2_l2",
+          "title": "Postcolonial Literature — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of postcolonial literature"
+          ],
+          "core_terms": [
+            "Postcolonial",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Postcolonial Literature. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Postcolonial Literature",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Postcolonial Literature. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Postcolonial Literature concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Postcolonial Literature: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Postcolonial Literature — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_english_m2_l3",
+          "title": "Postcolonial Literature — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of postcolonial literature"
+          ],
+          "core_terms": [
+            "Postcolonial",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Postcolonial Literature. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Postcolonial Literature",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Postcolonial Literature. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Postcolonial Literature concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Postcolonial Literature: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Postcolonial Literature — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "12_english_m3",
+      "title": "Research Paper",
+      "lectures": [
+        {
+          "lecture_id": "12_english_m3_l1",
+          "title": "Research Paper — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to research paper"
+          ],
+          "core_terms": [
+            "Research",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Research Paper. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Research Paper",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Paper. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Research Paper concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Paper: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Research Paper — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_english_m3_l2",
+          "title": "Research Paper — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of research paper"
+          ],
+          "core_terms": [
+            "Research",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Research Paper. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Research Paper",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Paper. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Research Paper concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Paper: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Research Paper — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_english_m3_l3",
+          "title": "Research Paper — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of research paper"
+          ],
+          "core_terms": [
+            "Research",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Research Paper. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Research Paper",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Paper. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Research Paper concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Paper: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Research Paper — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "12_english_m4",
+      "title": "Senior Thesis",
+      "lectures": [
+        {
+          "lecture_id": "12_english_m4_l1",
+          "title": "Senior Thesis — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to senior thesis"
+          ],
+          "core_terms": [
+            "Senior",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Senior Thesis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Senior Thesis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Senior Thesis. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Senior Thesis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Senior Thesis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Senior Thesis — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_english_m4_l2",
+          "title": "Senior Thesis — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of senior thesis"
+          ],
+          "core_terms": [
+            "Senior",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Senior Thesis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Senior Thesis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Senior Thesis. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Senior Thesis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Senior Thesis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Senior Thesis — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_english_m4_l3",
+          "title": "Senior Thesis — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of senior thesis"
+          ],
+          "core_terms": [
+            "Senior",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_english_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Senior Thesis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Senior Thesis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Senior Thesis. This is essential for mastering English IV / World Literature & Composition.",
+                "visual_prompt": "Animated diagram illustrating Senior Thesis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_english_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Senior Thesis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Senior Thesis — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "11_english"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Existentialism & Absurdism",
+    "Demonstrate understanding of Postcolonial Literature",
+    "Demonstrate understanding of Research Paper",
+    "Demonstrate understanding of Senior Thesis"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "12_english-A1",
+      "title": "Existentialism & Absurdism Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_english_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_english-A2",
+      "title": "Postcolonial Literature Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_english_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_english-A3",
+      "title": "Research Paper Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_english_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_english-A4",
+      "title": "Senior Thesis Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_english_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

@@ -1,0 +1,1038 @@
+{
+  "course_id": "junior_cs301",
+  "title": "CS 301: Algorithms (College Junior)",
+  "description": "CS 301: Algorithms for College Junior students.",
+  "credits": 3,
+  "subject_id": "cs301",
+  "modules": [
+    {
+      "module_id": "junior_cs301_m1",
+      "title": "Sorting & Searching",
+      "lectures": [
+        {
+          "lecture_id": "junior_cs301_m1_l1",
+          "title": "Sorting & Searching — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to sorting & searching"
+          ],
+          "core_terms": [
+            "Sorting",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Sorting & Searching. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Sorting & Searching",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sorting & Searching. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Sorting & Searching concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sorting & Searching: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Sorting & Searching — Part 1",
+            "deliverable": "junior_cs301_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Sorting & Searching — Part 1."
+          }
+        },
+        {
+          "lecture_id": "junior_cs301_m1_l2",
+          "title": "Sorting & Searching — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of sorting & searching"
+          ],
+          "core_terms": [
+            "Sorting",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Sorting & Searching. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Sorting & Searching",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sorting & Searching. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Sorting & Searching concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sorting & Searching: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Sorting & Searching — Part 2",
+            "deliverable": "junior_cs301_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Sorting & Searching — Part 2."
+          }
+        },
+        {
+          "lecture_id": "junior_cs301_m1_l3",
+          "title": "Sorting & Searching — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of sorting & searching"
+          ],
+          "core_terms": [
+            "Sorting",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Sorting & Searching. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Sorting & Searching",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sorting & Searching. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Sorting & Searching concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sorting & Searching: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Sorting & Searching — Part 3",
+            "deliverable": "junior_cs301_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Sorting & Searching — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "junior_cs301_m2",
+      "title": "Graph Algorithms",
+      "lectures": [
+        {
+          "lecture_id": "junior_cs301_m2_l1",
+          "title": "Graph Algorithms — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to graph algorithms"
+          ],
+          "core_terms": [
+            "Graph",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Graph Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Graph Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Graph Algorithms. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Graph Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Graph Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Graph Algorithms — Part 1",
+            "deliverable": "junior_cs301_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Graph Algorithms — Part 1."
+          }
+        },
+        {
+          "lecture_id": "junior_cs301_m2_l2",
+          "title": "Graph Algorithms — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of graph algorithms"
+          ],
+          "core_terms": [
+            "Graph",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Graph Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Graph Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Graph Algorithms. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Graph Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Graph Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Graph Algorithms — Part 2",
+            "deliverable": "junior_cs301_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Graph Algorithms — Part 2."
+          }
+        },
+        {
+          "lecture_id": "junior_cs301_m2_l3",
+          "title": "Graph Algorithms — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of graph algorithms"
+          ],
+          "core_terms": [
+            "Graph",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Graph Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Graph Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Graph Algorithms. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Graph Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Graph Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Graph Algorithms — Part 3",
+            "deliverable": "junior_cs301_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Graph Algorithms — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "junior_cs301_m3",
+      "title": "Dynamic Programming",
+      "lectures": [
+        {
+          "lecture_id": "junior_cs301_m3_l1",
+          "title": "Dynamic Programming — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to dynamic programming"
+          ],
+          "core_terms": [
+            "Dynamic",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Dynamic Programming. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Dynamic Programming",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Dynamic Programming. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Dynamic Programming concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Dynamic Programming: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Dynamic Programming — Part 1",
+            "deliverable": "junior_cs301_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Dynamic Programming — Part 1."
+          }
+        },
+        {
+          "lecture_id": "junior_cs301_m3_l2",
+          "title": "Dynamic Programming — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of dynamic programming"
+          ],
+          "core_terms": [
+            "Dynamic",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Dynamic Programming. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Dynamic Programming",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Dynamic Programming. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Dynamic Programming concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Dynamic Programming: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Dynamic Programming — Part 2",
+            "deliverable": "junior_cs301_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Dynamic Programming — Part 2."
+          }
+        },
+        {
+          "lecture_id": "junior_cs301_m3_l3",
+          "title": "Dynamic Programming — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of dynamic programming"
+          ],
+          "core_terms": [
+            "Dynamic",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Dynamic Programming. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Dynamic Programming",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Dynamic Programming. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating Dynamic Programming concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Dynamic Programming: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Dynamic Programming — Part 3",
+            "deliverable": "junior_cs301_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Dynamic Programming — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "junior_cs301_m4",
+      "title": "NP-Completeness",
+      "lectures": [
+        {
+          "lecture_id": "junior_cs301_m4_l1",
+          "title": "NP-Completeness — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to np-completeness"
+          ],
+          "core_terms": [
+            "NP-Completeness",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to NP-Completeness. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to NP-Completeness",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into NP-Completeness. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating NP-Completeness concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about NP-Completeness: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from NP-Completeness — Part 1",
+            "deliverable": "junior_cs301_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about NP-Completeness — Part 1."
+          }
+        },
+        {
+          "lecture_id": "junior_cs301_m4_l2",
+          "title": "NP-Completeness — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of np-completeness"
+          ],
+          "core_terms": [
+            "NP-Completeness",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of NP-Completeness. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of NP-Completeness",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into NP-Completeness. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating NP-Completeness concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about NP-Completeness: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from NP-Completeness — Part 2",
+            "deliverable": "junior_cs301_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about NP-Completeness — Part 2."
+          }
+        },
+        {
+          "lecture_id": "junior_cs301_m4_l3",
+          "title": "NP-Completeness — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of np-completeness"
+          ],
+          "core_terms": [
+            "NP-Completeness",
+            "cs301"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "junior_cs301_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of NP-Completeness. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of NP-Completeness",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into NP-Completeness. This is essential for mastering CS 301: Algorithms.",
+                "visual_prompt": "Animated diagram illustrating NP-Completeness concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "junior_cs301_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about NP-Completeness: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs301_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from NP-Completeness — Part 3",
+            "deliverable": "junior_cs301_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about NP-Completeness — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Junior",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "sophomore_cs201"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Sorting & Searching",
+    "Demonstrate understanding of Graph Algorithms",
+    "Demonstrate understanding of Dynamic Programming",
+    "Demonstrate understanding of NP-Completeness"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "junior_cs301-A1",
+      "title": "Sorting & Searching Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_cs301_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "junior_cs301-LAB1",
+      "title": "Sorting & Searching Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_cs301_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "junior_cs301-A2",
+      "title": "Graph Algorithms Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_cs301_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "junior_cs301-LAB2",
+      "title": "Graph Algorithms Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_cs301_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "junior_cs301-A3",
+      "title": "Dynamic Programming Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_cs301_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "junior_cs301-LAB3",
+      "title": "Dynamic Programming Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_cs301_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "junior_cs301-A4",
+      "title": "NP-Completeness Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_cs301_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "junior_cs301-LAB4",
+      "title": "NP-Completeness Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "junior_cs301_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

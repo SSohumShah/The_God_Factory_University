@@ -1,0 +1,860 @@
+{
+  "course_id": "1_science",
+  "title": "Science I (1st Grade)",
+  "description": "Science I for 1st Grade students.",
+  "credits": 1,
+  "subject_id": "science",
+  "modules": [
+    {
+      "module_id": "1_science_m1",
+      "title": "Animal Habitats",
+      "lectures": [
+        {
+          "lecture_id": "1_science_m1_l1",
+          "title": "Animal Habitats — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to animal habitats"
+          ],
+          "core_terms": [
+            "Animal",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Animal Habitats. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Animal Habitats",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Animal Habitats. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Animal Habitats concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Animal Habitats: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Animal Habitats — Part 1."
+          }
+        },
+        {
+          "lecture_id": "1_science_m1_l2",
+          "title": "Animal Habitats — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of animal habitats"
+          ],
+          "core_terms": [
+            "Animal",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Animal Habitats. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Animal Habitats",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Animal Habitats. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Animal Habitats concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Animal Habitats: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Animal Habitats — Part 2."
+          }
+        },
+        {
+          "lecture_id": "1_science_m1_l3",
+          "title": "Animal Habitats — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of animal habitats"
+          ],
+          "core_terms": [
+            "Animal",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Animal Habitats. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Animal Habitats",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Animal Habitats. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Animal Habitats concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Animal Habitats: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Animal Habitats — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "1_science_m2",
+      "title": "Matter States",
+      "lectures": [
+        {
+          "lecture_id": "1_science_m2_l1",
+          "title": "Matter States — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to matter states"
+          ],
+          "core_terms": [
+            "Matter",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Matter States. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Matter States",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Matter States. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Matter States concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Matter States: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Matter States — Part 1."
+          }
+        },
+        {
+          "lecture_id": "1_science_m2_l2",
+          "title": "Matter States — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of matter states"
+          ],
+          "core_terms": [
+            "Matter",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Matter States. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Matter States",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Matter States. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Matter States concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Matter States: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Matter States — Part 2."
+          }
+        },
+        {
+          "lecture_id": "1_science_m2_l3",
+          "title": "Matter States — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of matter states"
+          ],
+          "core_terms": [
+            "Matter",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Matter States. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Matter States",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Matter States. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Matter States concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Matter States: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Matter States — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "1_science_m3",
+      "title": "Push & Pull Forces",
+      "lectures": [
+        {
+          "lecture_id": "1_science_m3_l1",
+          "title": "Push & Pull Forces — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to push & pull forces"
+          ],
+          "core_terms": [
+            "Push",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Push & Pull Forces. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Push & Pull Forces",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Push & Pull Forces. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Push & Pull Forces concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Push & Pull Forces: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Push & Pull Forces — Part 1."
+          }
+        },
+        {
+          "lecture_id": "1_science_m3_l2",
+          "title": "Push & Pull Forces — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of push & pull forces"
+          ],
+          "core_terms": [
+            "Push",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Push & Pull Forces. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Push & Pull Forces",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Push & Pull Forces. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Push & Pull Forces concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Push & Pull Forces: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Push & Pull Forces — Part 2."
+          }
+        },
+        {
+          "lecture_id": "1_science_m3_l3",
+          "title": "Push & Pull Forces — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of push & pull forces"
+          ],
+          "core_terms": [
+            "Push",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Push & Pull Forces. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Push & Pull Forces",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Push & Pull Forces. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Push & Pull Forces concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Push & Pull Forces: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Push & Pull Forces — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "1_science_m4",
+      "title": "Day & Night Cycle",
+      "lectures": [
+        {
+          "lecture_id": "1_science_m4_l1",
+          "title": "Day & Night Cycle — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to day & night cycle"
+          ],
+          "core_terms": [
+            "Day",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Day & Night Cycle. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Day & Night Cycle",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Day & Night Cycle. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Day & Night Cycle concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Day & Night Cycle: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Day & Night Cycle — Part 1."
+          }
+        },
+        {
+          "lecture_id": "1_science_m4_l2",
+          "title": "Day & Night Cycle — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of day & night cycle"
+          ],
+          "core_terms": [
+            "Day",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Day & Night Cycle. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Day & Night Cycle",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Day & Night Cycle. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Day & Night Cycle concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Day & Night Cycle: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Day & Night Cycle — Part 2."
+          }
+        },
+        {
+          "lecture_id": "1_science_m4_l3",
+          "title": "Day & Night Cycle — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of day & night cycle"
+          ],
+          "core_terms": [
+            "Day",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_science_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Day & Night Cycle. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Day & Night Cycle",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Day & Night Cycle. This is essential for mastering Science I.",
+                "visual_prompt": "Animated diagram illustrating Day & Night Cycle concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_science_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Day & Night Cycle: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Day & Night Cycle — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Animal Habitats",
+    "Demonstrate understanding of Matter States",
+    "Demonstrate understanding of Push & Pull Forces",
+    "Demonstrate understanding of Day & Night Cycle"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "1_science-A1",
+      "title": "Animal Habitats Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "1_science_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "1_science-A2",
+      "title": "Matter States Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "1_science_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "1_science-A3",
+      "title": "Push & Pull Forces Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "1_science_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "1_science-A4",
+      "title": "Day & Night Cycle Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "1_science_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

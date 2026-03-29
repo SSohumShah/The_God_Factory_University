@@ -1,0 +1,862 @@
+{
+  "course_id": "2_science",
+  "title": "Science II (2nd Grade)",
+  "description": "Science II for 2nd Grade students.",
+  "credits": 1,
+  "subject_id": "science",
+  "modules": [
+    {
+      "module_id": "2_science_m1",
+      "title": "Life Cycles",
+      "lectures": [
+        {
+          "lecture_id": "2_science_m1_l1",
+          "title": "Life Cycles — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to life cycles"
+          ],
+          "core_terms": [
+            "Life",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Life Cycles. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Life Cycles",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Life Cycles. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Life Cycles concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Life Cycles: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Life Cycles — Part 1."
+          }
+        },
+        {
+          "lecture_id": "2_science_m1_l2",
+          "title": "Life Cycles — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of life cycles"
+          ],
+          "core_terms": [
+            "Life",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Life Cycles. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Life Cycles",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Life Cycles. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Life Cycles concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Life Cycles: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Life Cycles — Part 2."
+          }
+        },
+        {
+          "lecture_id": "2_science_m1_l3",
+          "title": "Life Cycles — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of life cycles"
+          ],
+          "core_terms": [
+            "Life",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Life Cycles. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Life Cycles",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Life Cycles. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Life Cycles concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Life Cycles: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Life Cycles — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "2_science_m2",
+      "title": "Ecosystems Intro",
+      "lectures": [
+        {
+          "lecture_id": "2_science_m2_l1",
+          "title": "Ecosystems Intro — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to ecosystems intro"
+          ],
+          "core_terms": [
+            "Ecosystems",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Ecosystems Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Ecosystems Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Ecosystems Intro. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Ecosystems Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Ecosystems Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Ecosystems Intro — Part 1."
+          }
+        },
+        {
+          "lecture_id": "2_science_m2_l2",
+          "title": "Ecosystems Intro — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of ecosystems intro"
+          ],
+          "core_terms": [
+            "Ecosystems",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Ecosystems Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Ecosystems Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Ecosystems Intro. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Ecosystems Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Ecosystems Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Ecosystems Intro — Part 2."
+          }
+        },
+        {
+          "lecture_id": "2_science_m2_l3",
+          "title": "Ecosystems Intro — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of ecosystems intro"
+          ],
+          "core_terms": [
+            "Ecosystems",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Ecosystems Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Ecosystems Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Ecosystems Intro. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Ecosystems Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Ecosystems Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Ecosystems Intro — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "2_science_m3",
+      "title": "Simple Machines",
+      "lectures": [
+        {
+          "lecture_id": "2_science_m3_l1",
+          "title": "Simple Machines — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to simple machines"
+          ],
+          "core_terms": [
+            "Simple",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Simple Machines. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Simple Machines",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Simple Machines. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Simple Machines concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Simple Machines: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Simple Machines — Part 1."
+          }
+        },
+        {
+          "lecture_id": "2_science_m3_l2",
+          "title": "Simple Machines — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of simple machines"
+          ],
+          "core_terms": [
+            "Simple",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Simple Machines. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Simple Machines",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Simple Machines. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Simple Machines concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Simple Machines: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Simple Machines — Part 2."
+          }
+        },
+        {
+          "lecture_id": "2_science_m3_l3",
+          "title": "Simple Machines — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of simple machines"
+          ],
+          "core_terms": [
+            "Simple",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Simple Machines. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Simple Machines",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Simple Machines. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Simple Machines concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Simple Machines: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Simple Machines — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "2_science_m4",
+      "title": "Water Cycle",
+      "lectures": [
+        {
+          "lecture_id": "2_science_m4_l1",
+          "title": "Water Cycle — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to water cycle"
+          ],
+          "core_terms": [
+            "Water",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Water Cycle. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Water Cycle",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Water Cycle. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Water Cycle concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Water Cycle: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Water Cycle — Part 1."
+          }
+        },
+        {
+          "lecture_id": "2_science_m4_l2",
+          "title": "Water Cycle — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of water cycle"
+          ],
+          "core_terms": [
+            "Water",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Water Cycle. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Water Cycle",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Water Cycle. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Water Cycle concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Water Cycle: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Water Cycle — Part 2."
+          }
+        },
+        {
+          "lecture_id": "2_science_m4_l3",
+          "title": "Water Cycle — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of water cycle"
+          ],
+          "core_terms": [
+            "Water",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "2_science_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Water Cycle. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Water Cycle",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Water Cycle. This is essential for mastering Science II.",
+                "visual_prompt": "Animated diagram illustrating Water Cycle concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "2_science_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Water Cycle: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Water Cycle — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "1_science"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Life Cycles",
+    "Demonstrate understanding of Ecosystems Intro",
+    "Demonstrate understanding of Simple Machines",
+    "Demonstrate understanding of Water Cycle"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "2_science-A1",
+      "title": "Life Cycles Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "2_science_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "2_science-A2",
+      "title": "Ecosystems Intro Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "2_science_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "2_science-A3",
+      "title": "Simple Machines Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "2_science_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "2_science-A4",
+      "title": "Water Cycle Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "2_science_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

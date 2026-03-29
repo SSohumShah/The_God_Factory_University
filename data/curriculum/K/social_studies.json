@@ -1,0 +1,860 @@
+{
+  "course_id": "K_social_studies",
+  "title": "My World (Kindergarten)",
+  "description": "My World for Kindergarten students.",
+  "credits": 1,
+  "subject_id": "social_studies",
+  "modules": [
+    {
+      "module_id": "K_social_studies_m1",
+      "title": "Family & Community",
+      "lectures": [
+        {
+          "lecture_id": "K_social_studies_m1_l1",
+          "title": "Family & Community — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to family & community"
+          ],
+          "core_terms": [
+            "Family",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Family & Community. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Family & Community",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Family & Community. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Family & Community concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Family & Community: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Family & Community — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_social_studies_m1_l2",
+          "title": "Family & Community — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of family & community"
+          ],
+          "core_terms": [
+            "Family",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Family & Community. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Family & Community",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Family & Community. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Family & Community concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Family & Community: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Family & Community — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_social_studies_m1_l3",
+          "title": "Family & Community — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of family & community"
+          ],
+          "core_terms": [
+            "Family",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Family & Community. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Family & Community",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Family & Community. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Family & Community concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Family & Community: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Family & Community — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_social_studies_m2",
+      "title": "Rules & Safety",
+      "lectures": [
+        {
+          "lecture_id": "K_social_studies_m2_l1",
+          "title": "Rules & Safety — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to rules & safety"
+          ],
+          "core_terms": [
+            "Rules",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Rules & Safety. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Rules & Safety",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rules & Safety. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Rules & Safety concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rules & Safety: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rules & Safety — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_social_studies_m2_l2",
+          "title": "Rules & Safety — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of rules & safety"
+          ],
+          "core_terms": [
+            "Rules",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Rules & Safety. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Rules & Safety",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rules & Safety. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Rules & Safety concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rules & Safety: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rules & Safety — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_social_studies_m2_l3",
+          "title": "Rules & Safety — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of rules & safety"
+          ],
+          "core_terms": [
+            "Rules",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Rules & Safety. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Rules & Safety",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rules & Safety. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Rules & Safety concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rules & Safety: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rules & Safety — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_social_studies_m3",
+      "title": "Maps & Places",
+      "lectures": [
+        {
+          "lecture_id": "K_social_studies_m3_l1",
+          "title": "Maps & Places — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to maps & places"
+          ],
+          "core_terms": [
+            "Maps",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Maps & Places. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Maps & Places",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Maps & Places. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Maps & Places concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Maps & Places: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Maps & Places — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_social_studies_m3_l2",
+          "title": "Maps & Places — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of maps & places"
+          ],
+          "core_terms": [
+            "Maps",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Maps & Places. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Maps & Places",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Maps & Places. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Maps & Places concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Maps & Places: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Maps & Places — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_social_studies_m3_l3",
+          "title": "Maps & Places — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of maps & places"
+          ],
+          "core_terms": [
+            "Maps",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Maps & Places. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Maps & Places",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Maps & Places. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Maps & Places concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Maps & Places: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Maps & Places — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_social_studies_m4",
+      "title": "Holidays & Traditions",
+      "lectures": [
+        {
+          "lecture_id": "K_social_studies_m4_l1",
+          "title": "Holidays & Traditions — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to holidays & traditions"
+          ],
+          "core_terms": [
+            "Holidays",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Holidays & Traditions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Holidays & Traditions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Holidays & Traditions. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Holidays & Traditions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Holidays & Traditions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Holidays & Traditions — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_social_studies_m4_l2",
+          "title": "Holidays & Traditions — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of holidays & traditions"
+          ],
+          "core_terms": [
+            "Holidays",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Holidays & Traditions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Holidays & Traditions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Holidays & Traditions. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Holidays & Traditions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Holidays & Traditions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Holidays & Traditions — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_social_studies_m4_l3",
+          "title": "Holidays & Traditions — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of holidays & traditions"
+          ],
+          "core_terms": [
+            "Holidays",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_social_studies_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Holidays & Traditions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Holidays & Traditions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Holidays & Traditions. This is essential for mastering My World.",
+                "visual_prompt": "Animated diagram illustrating Holidays & Traditions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_social_studies_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Holidays & Traditions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Holidays & Traditions — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Family & Community",
+    "Demonstrate understanding of Rules & Safety",
+    "Demonstrate understanding of Maps & Places",
+    "Demonstrate understanding of Holidays & Traditions"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "K_social_studies-A1",
+      "title": "Family & Community Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_social_studies_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_social_studies-A2",
+      "title": "Rules & Safety Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_social_studies_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_social_studies-A3",
+      "title": "Maps & Places Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_social_studies_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_social_studies-A4",
+      "title": "Holidays & Traditions Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_social_studies_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

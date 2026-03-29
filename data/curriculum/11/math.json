@@ -1,0 +1,886 @@
+{
+  "course_id": "11_math",
+  "title": "Pre-Calculus (11th Grade)",
+  "description": "Pre-Calculus for 11th Grade students.",
+  "credits": 3,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "11_math_m1",
+      "title": "Trigonometric Functions",
+      "lectures": [
+        {
+          "lecture_id": "11_math_m1_l1",
+          "title": "Trigonometric Functions — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to trigonometric functions"
+          ],
+          "core_terms": [
+            "Trigonometric",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Trigonometric Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Trigonometric Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Trigonometric Functions. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Trigonometric Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Trigonometric Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "trigonometric_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Trigonometric Functions — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_math_m1_l2",
+          "title": "Trigonometric Functions — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of trigonometric functions"
+          ],
+          "core_terms": [
+            "Trigonometric",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Trigonometric Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Trigonometric Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Trigonometric Functions. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Trigonometric Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Trigonometric Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "trigonometric_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Trigonometric Functions — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_math_m1_l3",
+          "title": "Trigonometric Functions — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of trigonometric functions"
+          ],
+          "core_terms": [
+            "Trigonometric",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Trigonometric Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Trigonometric Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Trigonometric Functions. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Trigonometric Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Trigonometric Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "trigonometric_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Trigonometric Functions — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_math_m2",
+      "title": "Analytic Geometry",
+      "lectures": [
+        {
+          "lecture_id": "11_math_m2_l1",
+          "title": "Analytic Geometry — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to analytic geometry"
+          ],
+          "core_terms": [
+            "Analytic",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Analytic Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Analytic Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Analytic Geometry. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Analytic Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Analytic Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "analytic_geometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Analytic Geometry — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_math_m2_l2",
+          "title": "Analytic Geometry — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of analytic geometry"
+          ],
+          "core_terms": [
+            "Analytic",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Analytic Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Analytic Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Analytic Geometry. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Analytic Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Analytic Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "analytic_geometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Analytic Geometry — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_math_m2_l3",
+          "title": "Analytic Geometry — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of analytic geometry"
+          ],
+          "core_terms": [
+            "Analytic",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Analytic Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Analytic Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Analytic Geometry. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Analytic Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Analytic Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "analytic_geometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Analytic Geometry — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_math_m3",
+      "title": "Limits & Continuity",
+      "lectures": [
+        {
+          "lecture_id": "11_math_m3_l1",
+          "title": "Limits & Continuity — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to limits & continuity"
+          ],
+          "core_terms": [
+            "Limits",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Limits & Continuity. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Limits & Continuity",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Limits & Continuity. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Limits & Continuity concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Limits & Continuity: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "limits_&_continuity"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Limits & Continuity — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_math_m3_l2",
+          "title": "Limits & Continuity — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of limits & continuity"
+          ],
+          "core_terms": [
+            "Limits",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Limits & Continuity. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Limits & Continuity",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Limits & Continuity. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Limits & Continuity concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Limits & Continuity: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "limits_&_continuity"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Limits & Continuity — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_math_m3_l3",
+          "title": "Limits & Continuity — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of limits & continuity"
+          ],
+          "core_terms": [
+            "Limits",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Limits & Continuity. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Limits & Continuity",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Limits & Continuity. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Limits & Continuity concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Limits & Continuity: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "limits_&_continuity"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Limits & Continuity — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_math_m4",
+      "title": "Intro to Derivatives",
+      "lectures": [
+        {
+          "lecture_id": "11_math_m4_l1",
+          "title": "Intro to Derivatives — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to intro to derivatives"
+          ],
+          "core_terms": [
+            "Intro",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Intro to Derivatives. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Intro to Derivatives",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Intro to Derivatives. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Intro to Derivatives concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Intro to Derivatives: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "intro_to_derivatives"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Intro to Derivatives — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_math_m4_l2",
+          "title": "Intro to Derivatives — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of intro to derivatives"
+          ],
+          "core_terms": [
+            "Intro",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Intro to Derivatives. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Intro to Derivatives",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Intro to Derivatives. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Intro to Derivatives concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Intro to Derivatives: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "intro_to_derivatives"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Intro to Derivatives — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_math_m4_l3",
+          "title": "Intro to Derivatives — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of intro to derivatives"
+          ],
+          "core_terms": [
+            "Intro",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Intro to Derivatives. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Intro to Derivatives",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Intro to Derivatives. This is essential for mastering Pre-Calculus.",
+                "visual_prompt": "Animated diagram illustrating Intro to Derivatives concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Intro to Derivatives: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "intro_to_derivatives"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Intro to Derivatives — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "10_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Trigonometric Functions",
+    "Demonstrate understanding of Analytic Geometry",
+    "Demonstrate understanding of Limits & Continuity",
+    "Demonstrate understanding of Intro to Derivatives"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "11_math-A1",
+      "title": "Trigonometric Functions Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_math-A2",
+      "title": "Analytic Geometry Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_math-A3",
+      "title": "Limits & Continuity Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_math-A4",
+      "title": "Intro to Derivatives Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

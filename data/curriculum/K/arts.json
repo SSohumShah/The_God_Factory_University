@@ -1,0 +1,651 @@
+{
+  "course_id": "K_arts",
+  "title": "Creative Arts (Kindergarten)",
+  "description": "Creative Arts for Kindergarten students.",
+  "credits": 1,
+  "subject_id": "arts",
+  "modules": [
+    {
+      "module_id": "K_arts_m1",
+      "title": "Drawing & Coloring",
+      "lectures": [
+        {
+          "lecture_id": "K_arts_m1_l1",
+          "title": "Drawing & Coloring — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to drawing & coloring"
+          ],
+          "core_terms": [
+            "Drawing",
+            "arts"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_arts_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Drawing & Coloring. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Drawing & Coloring",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Drawing & Coloring. This is essential for mastering Creative Arts.",
+                "visual_prompt": "Animated diagram illustrating Drawing & Coloring concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Drawing & Coloring: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Drawing & Coloring — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_arts_m1_l2",
+          "title": "Drawing & Coloring — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of drawing & coloring"
+          ],
+          "core_terms": [
+            "Drawing",
+            "arts"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_arts_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Drawing & Coloring. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Drawing & Coloring",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Drawing & Coloring. This is essential for mastering Creative Arts.",
+                "visual_prompt": "Animated diagram illustrating Drawing & Coloring concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Drawing & Coloring: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Drawing & Coloring — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_arts_m1_l3",
+          "title": "Drawing & Coloring — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of drawing & coloring"
+          ],
+          "core_terms": [
+            "Drawing",
+            "arts"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_arts_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Drawing & Coloring. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Drawing & Coloring",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Drawing & Coloring. This is essential for mastering Creative Arts.",
+                "visual_prompt": "Animated diagram illustrating Drawing & Coloring concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Drawing & Coloring: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Drawing & Coloring — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_arts_m2",
+      "title": "Music & Rhythm",
+      "lectures": [
+        {
+          "lecture_id": "K_arts_m2_l1",
+          "title": "Music & Rhythm — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to music & rhythm"
+          ],
+          "core_terms": [
+            "Music",
+            "arts"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_arts_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Music & Rhythm. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Music & Rhythm",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Music & Rhythm. This is essential for mastering Creative Arts.",
+                "visual_prompt": "Animated diagram illustrating Music & Rhythm concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Music & Rhythm: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Music & Rhythm — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_arts_m2_l2",
+          "title": "Music & Rhythm — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of music & rhythm"
+          ],
+          "core_terms": [
+            "Music",
+            "arts"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_arts_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Music & Rhythm. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Music & Rhythm",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Music & Rhythm. This is essential for mastering Creative Arts.",
+                "visual_prompt": "Animated diagram illustrating Music & Rhythm concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Music & Rhythm: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Music & Rhythm — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_arts_m2_l3",
+          "title": "Music & Rhythm — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of music & rhythm"
+          ],
+          "core_terms": [
+            "Music",
+            "arts"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_arts_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Music & Rhythm. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Music & Rhythm",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Music & Rhythm. This is essential for mastering Creative Arts.",
+                "visual_prompt": "Animated diagram illustrating Music & Rhythm concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Music & Rhythm: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Music & Rhythm — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_arts_m3",
+      "title": "Movement & Dance",
+      "lectures": [
+        {
+          "lecture_id": "K_arts_m3_l1",
+          "title": "Movement & Dance — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to movement & dance"
+          ],
+          "core_terms": [
+            "Movement",
+            "arts"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_arts_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Movement & Dance. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Movement & Dance",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Movement & Dance. This is essential for mastering Creative Arts.",
+                "visual_prompt": "Animated diagram illustrating Movement & Dance concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Movement & Dance: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Movement & Dance — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_arts_m3_l2",
+          "title": "Movement & Dance — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of movement & dance"
+          ],
+          "core_terms": [
+            "Movement",
+            "arts"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_arts_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Movement & Dance. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Movement & Dance",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Movement & Dance. This is essential for mastering Creative Arts.",
+                "visual_prompt": "Animated diagram illustrating Movement & Dance concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Movement & Dance: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Movement & Dance — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_arts_m3_l3",
+          "title": "Movement & Dance — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of movement & dance"
+          ],
+          "core_terms": [
+            "Movement",
+            "arts"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_arts_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Movement & Dance. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Movement & Dance",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Movement & Dance. This is essential for mastering Creative Arts.",
+                "visual_prompt": "Animated diagram illustrating Movement & Dance concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_arts_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Movement & Dance: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Movement & Dance — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Drawing & Coloring",
+    "Demonstrate understanding of Music & Rhythm",
+    "Demonstrate understanding of Movement & Dance"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "K_arts-A1",
+      "title": "Drawing & Coloring Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_arts_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_arts-A2",
+      "title": "Music & Rhythm Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_arts_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_arts-A3",
+      "title": "Movement & Dance Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_arts_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 9
+  }
+}

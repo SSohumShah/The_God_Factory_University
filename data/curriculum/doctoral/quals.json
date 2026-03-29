@@ -1,0 +1,1015 @@
+{
+  "course_id": "doctoral_quals",
+  "title": "Comprehensive Exam Prep (Doctoral Level)",
+  "description": "Comprehensive Exam Prep for Doctoral Level students.",
+  "credits": 3,
+  "subject_id": "quals",
+  "modules": [
+    {
+      "module_id": "doctoral_quals_m1",
+      "title": "Breadth Exam Review",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_quals_m1_l1",
+          "title": "Breadth Exam Review — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to breadth exam review"
+          ],
+          "core_terms": [
+            "Breadth",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Breadth Exam Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Breadth Exam Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Breadth Exam Review. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Breadth Exam Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Breadth Exam Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Breadth Exam Review — Part 1",
+            "deliverable": "doctoral_quals_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Breadth Exam Review — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_quals_m1_l2",
+          "title": "Breadth Exam Review — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of breadth exam review"
+          ],
+          "core_terms": [
+            "Breadth",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Breadth Exam Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Breadth Exam Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Breadth Exam Review. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Breadth Exam Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Breadth Exam Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Breadth Exam Review — Part 2",
+            "deliverable": "doctoral_quals_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Breadth Exam Review — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_quals_m1_l3",
+          "title": "Breadth Exam Review — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of breadth exam review"
+          ],
+          "core_terms": [
+            "Breadth",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Breadth Exam Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Breadth Exam Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Breadth Exam Review. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Breadth Exam Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Breadth Exam Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Breadth Exam Review — Part 3",
+            "deliverable": "doctoral_quals_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Breadth Exam Review — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "doctoral_quals_m2",
+      "title": "Depth Exam Review",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_quals_m2_l1",
+          "title": "Depth Exam Review — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to depth exam review"
+          ],
+          "core_terms": [
+            "Depth",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Depth Exam Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Depth Exam Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Depth Exam Review. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Depth Exam Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Depth Exam Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Depth Exam Review — Part 1",
+            "deliverable": "doctoral_quals_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Depth Exam Review — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_quals_m2_l2",
+          "title": "Depth Exam Review — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of depth exam review"
+          ],
+          "core_terms": [
+            "Depth",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Depth Exam Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Depth Exam Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Depth Exam Review. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Depth Exam Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Depth Exam Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Depth Exam Review — Part 2",
+            "deliverable": "doctoral_quals_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Depth Exam Review — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_quals_m2_l3",
+          "title": "Depth Exam Review — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of depth exam review"
+          ],
+          "core_terms": [
+            "Depth",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Depth Exam Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Depth Exam Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Depth Exam Review. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Depth Exam Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Depth Exam Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Depth Exam Review — Part 3",
+            "deliverable": "doctoral_quals_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Depth Exam Review — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "doctoral_quals_m3",
+      "title": "Oral Exam Preparation",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_quals_m3_l1",
+          "title": "Oral Exam Preparation — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to oral exam preparation"
+          ],
+          "core_terms": [
+            "Oral",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Oral Exam Preparation. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Oral Exam Preparation",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Oral Exam Preparation. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Oral Exam Preparation concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Oral Exam Preparation: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Oral Exam Preparation — Part 1",
+            "deliverable": "doctoral_quals_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Oral Exam Preparation — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_quals_m3_l2",
+          "title": "Oral Exam Preparation — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of oral exam preparation"
+          ],
+          "core_terms": [
+            "Oral",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Oral Exam Preparation. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Oral Exam Preparation",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Oral Exam Preparation. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Oral Exam Preparation concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Oral Exam Preparation: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Oral Exam Preparation — Part 2",
+            "deliverable": "doctoral_quals_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Oral Exam Preparation — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_quals_m3_l3",
+          "title": "Oral Exam Preparation — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of oral exam preparation"
+          ],
+          "core_terms": [
+            "Oral",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Oral Exam Preparation. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Oral Exam Preparation",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Oral Exam Preparation. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Oral Exam Preparation concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Oral Exam Preparation: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Oral Exam Preparation — Part 3",
+            "deliverable": "doctoral_quals_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Oral Exam Preparation — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "doctoral_quals_m4",
+      "title": "Written Exam Strategies",
+      "lectures": [
+        {
+          "lecture_id": "doctoral_quals_m4_l1",
+          "title": "Written Exam Strategies — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to written exam strategies"
+          ],
+          "core_terms": [
+            "Written",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Written Exam Strategies. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Written Exam Strategies",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Written Exam Strategies. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Written Exam Strategies concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Written Exam Strategies: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Written Exam Strategies — Part 1",
+            "deliverable": "doctoral_quals_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Written Exam Strategies — Part 1."
+          }
+        },
+        {
+          "lecture_id": "doctoral_quals_m4_l2",
+          "title": "Written Exam Strategies — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of written exam strategies"
+          ],
+          "core_terms": [
+            "Written",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Written Exam Strategies. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Written Exam Strategies",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Written Exam Strategies. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Written Exam Strategies concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Written Exam Strategies: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Written Exam Strategies — Part 2",
+            "deliverable": "doctoral_quals_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Written Exam Strategies — Part 2."
+          }
+        },
+        {
+          "lecture_id": "doctoral_quals_m4_l3",
+          "title": "Written Exam Strategies — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of written exam strategies"
+          ],
+          "core_terms": [
+            "Written",
+            "quals"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "doctoral_quals_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Written Exam Strategies. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Written Exam Strategies",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Written Exam Strategies. This is essential for mastering Comprehensive Exam Prep.",
+                "visual_prompt": "Animated diagram illustrating Written Exam Strategies concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "doctoral_quals_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Written Exam Strategies: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Written Exam Strategies — Part 3",
+            "deliverable": "doctoral_quals_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Written Exam Strategies — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Doctoral",
+  "depth_target": 5,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "doctoral_cs600",
+    "doctoral_cs610"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Breadth Exam Review",
+    "Demonstrate understanding of Depth Exam Review",
+    "Demonstrate understanding of Oral Exam Preparation",
+    "Demonstrate understanding of Written Exam Strategies"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "doctoral_quals-A1",
+      "title": "Breadth Exam Review Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_quals_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_quals-LAB1",
+      "title": "Breadth Exam Review Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_quals_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_quals-A2",
+      "title": "Depth Exam Review Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_quals_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_quals-LAB2",
+      "title": "Depth Exam Review Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_quals_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_quals-A3",
+      "title": "Oral Exam Preparation Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_quals_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_quals-LAB3",
+      "title": "Oral Exam Preparation Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_quals_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_quals-A4",
+      "title": "Written Exam Strategies Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_quals_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "doctoral_quals-LAB4",
+      "title": "Written Exam Strategies Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "doctoral_quals_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

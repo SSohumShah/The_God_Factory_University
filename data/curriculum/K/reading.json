@@ -1,0 +1,860 @@
+{
+  "course_id": "K_reading",
+  "title": "Reading Readiness (Kindergarten)",
+  "description": "Reading Readiness for Kindergarten students.",
+  "credits": 1,
+  "subject_id": "reading",
+  "modules": [
+    {
+      "module_id": "K_reading_m1",
+      "title": "Letter Recognition",
+      "lectures": [
+        {
+          "lecture_id": "K_reading_m1_l1",
+          "title": "Letter Recognition — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to letter recognition"
+          ],
+          "core_terms": [
+            "Letter",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Letter Recognition. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Letter Recognition",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Letter Recognition. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Letter Recognition concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Letter Recognition: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Letter Recognition — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_reading_m1_l2",
+          "title": "Letter Recognition — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of letter recognition"
+          ],
+          "core_terms": [
+            "Letter",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Letter Recognition. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Letter Recognition",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Letter Recognition. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Letter Recognition concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Letter Recognition: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Letter Recognition — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_reading_m1_l3",
+          "title": "Letter Recognition — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of letter recognition"
+          ],
+          "core_terms": [
+            "Letter",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Letter Recognition. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Letter Recognition",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Letter Recognition. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Letter Recognition concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Letter Recognition: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Letter Recognition — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_reading_m2",
+      "title": "Phonics Basics",
+      "lectures": [
+        {
+          "lecture_id": "K_reading_m2_l1",
+          "title": "Phonics Basics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to phonics basics"
+          ],
+          "core_terms": [
+            "Phonics",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Phonics Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Phonics Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Phonics Basics. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Phonics Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Phonics Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Phonics Basics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_reading_m2_l2",
+          "title": "Phonics Basics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of phonics basics"
+          ],
+          "core_terms": [
+            "Phonics",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Phonics Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Phonics Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Phonics Basics. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Phonics Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Phonics Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Phonics Basics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_reading_m2_l3",
+          "title": "Phonics Basics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of phonics basics"
+          ],
+          "core_terms": [
+            "Phonics",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Phonics Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Phonics Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Phonics Basics. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Phonics Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Phonics Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Phonics Basics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_reading_m3",
+      "title": "Sight Words",
+      "lectures": [
+        {
+          "lecture_id": "K_reading_m3_l1",
+          "title": "Sight Words — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to sight words"
+          ],
+          "core_terms": [
+            "Sight",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Sight Words. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Sight Words",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sight Words. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Sight Words concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sight Words: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Sight Words — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_reading_m3_l2",
+          "title": "Sight Words — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of sight words"
+          ],
+          "core_terms": [
+            "Sight",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Sight Words. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Sight Words",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sight Words. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Sight Words concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sight Words: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Sight Words — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_reading_m3_l3",
+          "title": "Sight Words — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of sight words"
+          ],
+          "core_terms": [
+            "Sight",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Sight Words. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Sight Words",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sight Words. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Sight Words concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sight Words: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Sight Words — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "K_reading_m4",
+      "title": "Story Time",
+      "lectures": [
+        {
+          "lecture_id": "K_reading_m4_l1",
+          "title": "Story Time — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to story time"
+          ],
+          "core_terms": [
+            "Story",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Story Time. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Story Time",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Story Time. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Story Time concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Story Time: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Story Time — Part 1."
+          }
+        },
+        {
+          "lecture_id": "K_reading_m4_l2",
+          "title": "Story Time — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of story time"
+          ],
+          "core_terms": [
+            "Story",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Story Time. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Story Time",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Story Time. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Story Time concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Story Time: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Story Time — Part 2."
+          }
+        },
+        {
+          "lecture_id": "K_reading_m4_l3",
+          "title": "Story Time — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of story time"
+          ],
+          "core_terms": [
+            "Story",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "K_reading_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Story Time. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Story Time",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Story Time. This is essential for mastering Reading Readiness.",
+                "visual_prompt": "Animated diagram illustrating Story Time concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "K_reading_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Story Time: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Story Time — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Letter Recognition",
+    "Demonstrate understanding of Phonics Basics",
+    "Demonstrate understanding of Sight Words",
+    "Demonstrate understanding of Story Time"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "K_reading-A1",
+      "title": "Letter Recognition Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_reading_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_reading-A2",
+      "title": "Phonics Basics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_reading_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_reading-A3",
+      "title": "Sight Words Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_reading_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "K_reading-A4",
+      "title": "Story Time Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "K_reading_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

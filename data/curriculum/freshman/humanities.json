@@ -1,0 +1,860 @@
+{
+  "course_id": "freshman_humanities",
+  "title": "Intro to Humanities (College Freshman)",
+  "description": "Intro to Humanities for College Freshman students.",
+  "credits": 3,
+  "subject_id": "humanities",
+  "modules": [
+    {
+      "module_id": "freshman_humanities_m1",
+      "title": "Philosophy",
+      "lectures": [
+        {
+          "lecture_id": "freshman_humanities_m1_l1",
+          "title": "Philosophy — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to philosophy"
+          ],
+          "core_terms": [
+            "Philosophy",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Philosophy. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Philosophy",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Philosophy. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating Philosophy concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Philosophy: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Philosophy — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_humanities_m1_l2",
+          "title": "Philosophy — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of philosophy"
+          ],
+          "core_terms": [
+            "Philosophy",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Philosophy. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Philosophy",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Philosophy. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating Philosophy concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Philosophy: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Philosophy — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_humanities_m1_l3",
+          "title": "Philosophy — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of philosophy"
+          ],
+          "core_terms": [
+            "Philosophy",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Philosophy. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Philosophy",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Philosophy. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating Philosophy concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Philosophy: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Philosophy — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_humanities_m2",
+      "title": "Art History",
+      "lectures": [
+        {
+          "lecture_id": "freshman_humanities_m2_l1",
+          "title": "Art History — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to art history"
+          ],
+          "core_terms": [
+            "Art",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Art History. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Art History",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Art History. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating Art History concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Art History: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Art History — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_humanities_m2_l2",
+          "title": "Art History — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of art history"
+          ],
+          "core_terms": [
+            "Art",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Art History. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Art History",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Art History. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating Art History concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Art History: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Art History — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_humanities_m2_l3",
+          "title": "Art History — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of art history"
+          ],
+          "core_terms": [
+            "Art",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Art History. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Art History",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Art History. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating Art History concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Art History: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Art History — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_humanities_m3",
+      "title": "World Religions",
+      "lectures": [
+        {
+          "lecture_id": "freshman_humanities_m3_l1",
+          "title": "World Religions — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to world religions"
+          ],
+          "core_terms": [
+            "World",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to World Religions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to World Religions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into World Religions. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating World Religions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about World Religions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about World Religions — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_humanities_m3_l2",
+          "title": "World Religions — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of world religions"
+          ],
+          "core_terms": [
+            "World",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of World Religions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of World Religions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into World Religions. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating World Religions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about World Religions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about World Religions — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_humanities_m3_l3",
+          "title": "World Religions — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of world religions"
+          ],
+          "core_terms": [
+            "World",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of World Religions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of World Religions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into World Religions. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating World Religions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about World Religions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about World Religions — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_humanities_m4",
+      "title": "Ethics",
+      "lectures": [
+        {
+          "lecture_id": "freshman_humanities_m4_l1",
+          "title": "Ethics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to ethics"
+          ],
+          "core_terms": [
+            "Ethics",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Ethics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Ethics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Ethics. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating Ethics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Ethics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Ethics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_humanities_m4_l2",
+          "title": "Ethics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of ethics"
+          ],
+          "core_terms": [
+            "Ethics",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Ethics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Ethics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Ethics. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating Ethics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Ethics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Ethics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_humanities_m4_l3",
+          "title": "Ethics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of ethics"
+          ],
+          "core_terms": [
+            "Ethics",
+            "humanities"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_humanities_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Ethics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Ethics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Ethics. This is essential for mastering Intro to Humanities.",
+                "visual_prompt": "Animated diagram illustrating Ethics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_humanities_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Ethics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Ethics — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Freshman",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Philosophy",
+    "Demonstrate understanding of Art History",
+    "Demonstrate understanding of World Religions",
+    "Demonstrate understanding of Ethics"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "freshman_humanities-A1",
+      "title": "Philosophy Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_humanities_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_humanities-A2",
+      "title": "Art History Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_humanities_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_humanities-A3",
+      "title": "World Religions Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_humanities_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_humanities-A4",
+      "title": "Ethics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_humanities_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

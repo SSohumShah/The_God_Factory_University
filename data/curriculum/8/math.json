@@ -1,0 +1,886 @@
+{
+  "course_id": "8_math",
+  "title": "Algebra I (8th Grade)",
+  "description": "Algebra I for 8th Grade students.",
+  "credits": 2,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "8_math_m1",
+      "title": "Linear Functions",
+      "lectures": [
+        {
+          "lecture_id": "8_math_m1_l1",
+          "title": "Linear Functions — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to linear functions"
+          ],
+          "core_terms": [
+            "Linear",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Linear Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Linear Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Linear Functions. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Linear Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Linear Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "linear_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Linear Functions — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_math_m1_l2",
+          "title": "Linear Functions — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of linear functions"
+          ],
+          "core_terms": [
+            "Linear",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Linear Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Linear Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Linear Functions. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Linear Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Linear Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "linear_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Linear Functions — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_math_m1_l3",
+          "title": "Linear Functions — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of linear functions"
+          ],
+          "core_terms": [
+            "Linear",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Linear Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Linear Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Linear Functions. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Linear Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Linear Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "linear_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Linear Functions — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "8_math_m2",
+      "title": "Systems of Equations",
+      "lectures": [
+        {
+          "lecture_id": "8_math_m2_l1",
+          "title": "Systems of Equations — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to systems of equations"
+          ],
+          "core_terms": [
+            "Systems",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Systems of Equations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Systems of Equations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Systems of Equations. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Systems of Equations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Systems of Equations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "systems_of_equations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Systems of Equations — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_math_m2_l2",
+          "title": "Systems of Equations — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of systems of equations"
+          ],
+          "core_terms": [
+            "Systems",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Systems of Equations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Systems of Equations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Systems of Equations. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Systems of Equations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Systems of Equations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "systems_of_equations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Systems of Equations — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_math_m2_l3",
+          "title": "Systems of Equations — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of systems of equations"
+          ],
+          "core_terms": [
+            "Systems",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Systems of Equations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Systems of Equations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Systems of Equations. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Systems of Equations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Systems of Equations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "systems_of_equations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Systems of Equations — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "8_math_m3",
+      "title": "Polynomials",
+      "lectures": [
+        {
+          "lecture_id": "8_math_m3_l1",
+          "title": "Polynomials — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to polynomials"
+          ],
+          "core_terms": [
+            "Polynomials",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Polynomials. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Polynomials",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Polynomials. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Polynomials concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Polynomials: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "polynomials"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Polynomials — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_math_m3_l2",
+          "title": "Polynomials — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of polynomials"
+          ],
+          "core_terms": [
+            "Polynomials",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Polynomials. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Polynomials",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Polynomials. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Polynomials concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Polynomials: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "polynomials"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Polynomials — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_math_m3_l3",
+          "title": "Polynomials — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of polynomials"
+          ],
+          "core_terms": [
+            "Polynomials",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Polynomials. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Polynomials",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Polynomials. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Polynomials concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Polynomials: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "polynomials"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Polynomials — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "8_math_m4",
+      "title": "Quadratic Equations",
+      "lectures": [
+        {
+          "lecture_id": "8_math_m4_l1",
+          "title": "Quadratic Equations — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to quadratic equations"
+          ],
+          "core_terms": [
+            "Quadratic",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Quadratic Equations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Quadratic Equations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Quadratic Equations. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Quadratic Equations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Quadratic Equations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "quadratic_equations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Quadratic Equations — Part 1."
+          }
+        },
+        {
+          "lecture_id": "8_math_m4_l2",
+          "title": "Quadratic Equations — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of quadratic equations"
+          ],
+          "core_terms": [
+            "Quadratic",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Quadratic Equations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Quadratic Equations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Quadratic Equations. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Quadratic Equations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Quadratic Equations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "quadratic_equations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Quadratic Equations — Part 2."
+          }
+        },
+        {
+          "lecture_id": "8_math_m4_l3",
+          "title": "Quadratic Equations — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of quadratic equations"
+          ],
+          "core_terms": [
+            "Quadratic",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "8_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Quadratic Equations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Quadratic Equations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Quadratic Equations. This is essential for mastering Algebra I.",
+                "visual_prompt": "Animated diagram illustrating Quadratic Equations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "8_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Quadratic Equations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "quadratic_equations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Quadratic Equations — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "6-8",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "7_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Linear Functions",
+    "Demonstrate understanding of Systems of Equations",
+    "Demonstrate understanding of Polynomials",
+    "Demonstrate understanding of Quadratic Equations"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "8_math-A1",
+      "title": "Linear Functions Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "8_math-A2",
+      "title": "Systems of Equations Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "8_math-A3",
+      "title": "Polynomials Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "8_math-A4",
+      "title": "Quadratic Equations Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "8_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 200000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

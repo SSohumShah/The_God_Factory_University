@@ -1,0 +1,860 @@
+{
+  "course_id": "1_reading",
+  "title": "Reading & Writing I (1st Grade)",
+  "description": "Reading & Writing I for 1st Grade students.",
+  "credits": 1,
+  "subject_id": "reading",
+  "modules": [
+    {
+      "module_id": "1_reading_m1",
+      "title": "Phonics Mastery",
+      "lectures": [
+        {
+          "lecture_id": "1_reading_m1_l1",
+          "title": "Phonics Mastery — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to phonics mastery"
+          ],
+          "core_terms": [
+            "Phonics",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Phonics Mastery. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Phonics Mastery",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Phonics Mastery. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Phonics Mastery concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Phonics Mastery: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Phonics Mastery — Part 1."
+          }
+        },
+        {
+          "lecture_id": "1_reading_m1_l2",
+          "title": "Phonics Mastery — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of phonics mastery"
+          ],
+          "core_terms": [
+            "Phonics",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Phonics Mastery. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Phonics Mastery",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Phonics Mastery. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Phonics Mastery concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Phonics Mastery: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Phonics Mastery — Part 2."
+          }
+        },
+        {
+          "lecture_id": "1_reading_m1_l3",
+          "title": "Phonics Mastery — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of phonics mastery"
+          ],
+          "core_terms": [
+            "Phonics",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Phonics Mastery. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Phonics Mastery",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Phonics Mastery. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Phonics Mastery concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Phonics Mastery: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Phonics Mastery — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "1_reading_m2",
+      "title": "Sentence Building",
+      "lectures": [
+        {
+          "lecture_id": "1_reading_m2_l1",
+          "title": "Sentence Building — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to sentence building"
+          ],
+          "core_terms": [
+            "Sentence",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Sentence Building. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Sentence Building",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sentence Building. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Sentence Building concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sentence Building: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Sentence Building — Part 1."
+          }
+        },
+        {
+          "lecture_id": "1_reading_m2_l2",
+          "title": "Sentence Building — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of sentence building"
+          ],
+          "core_terms": [
+            "Sentence",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Sentence Building. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Sentence Building",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sentence Building. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Sentence Building concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sentence Building: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Sentence Building — Part 2."
+          }
+        },
+        {
+          "lecture_id": "1_reading_m2_l3",
+          "title": "Sentence Building — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of sentence building"
+          ],
+          "core_terms": [
+            "Sentence",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Sentence Building. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Sentence Building",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Sentence Building. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Sentence Building concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Sentence Building: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Sentence Building — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "1_reading_m3",
+      "title": "Reading Fluency",
+      "lectures": [
+        {
+          "lecture_id": "1_reading_m3_l1",
+          "title": "Reading Fluency — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to reading fluency"
+          ],
+          "core_terms": [
+            "Reading",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Reading Fluency. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Reading Fluency",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Reading Fluency. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Reading Fluency concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Reading Fluency: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Reading Fluency — Part 1."
+          }
+        },
+        {
+          "lecture_id": "1_reading_m3_l2",
+          "title": "Reading Fluency — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of reading fluency"
+          ],
+          "core_terms": [
+            "Reading",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Reading Fluency. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Reading Fluency",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Reading Fluency. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Reading Fluency concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Reading Fluency: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Reading Fluency — Part 2."
+          }
+        },
+        {
+          "lecture_id": "1_reading_m3_l3",
+          "title": "Reading Fluency — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of reading fluency"
+          ],
+          "core_terms": [
+            "Reading",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Reading Fluency. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Reading Fluency",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Reading Fluency. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Reading Fluency concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Reading Fluency: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Reading Fluency — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "1_reading_m4",
+      "title": "Story Comprehension",
+      "lectures": [
+        {
+          "lecture_id": "1_reading_m4_l1",
+          "title": "Story Comprehension — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to story comprehension"
+          ],
+          "core_terms": [
+            "Story",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Story Comprehension. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Story Comprehension",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Story Comprehension. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Story Comprehension concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Story Comprehension: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Story Comprehension — Part 1."
+          }
+        },
+        {
+          "lecture_id": "1_reading_m4_l2",
+          "title": "Story Comprehension — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of story comprehension"
+          ],
+          "core_terms": [
+            "Story",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Story Comprehension. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Story Comprehension",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Story Comprehension. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Story Comprehension concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Story Comprehension: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Story Comprehension — Part 2."
+          }
+        },
+        {
+          "lecture_id": "1_reading_m4_l3",
+          "title": "Story Comprehension — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of story comprehension"
+          ],
+          "core_terms": [
+            "Story",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "1_reading_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Story Comprehension. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Story Comprehension",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Story Comprehension. This is essential for mastering Reading & Writing I.",
+                "visual_prompt": "Animated diagram illustrating Story Comprehension concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "1_reading_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Story Comprehension: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Story Comprehension — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Phonics Mastery",
+    "Demonstrate understanding of Sentence Building",
+    "Demonstrate understanding of Reading Fluency",
+    "Demonstrate understanding of Story Comprehension"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "1_reading-A1",
+      "title": "Phonics Mastery Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "1_reading_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "1_reading-A2",
+      "title": "Sentence Building Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "1_reading_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "1_reading-A3",
+      "title": "Reading Fluency Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "1_reading_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "1_reading-A4",
+      "title": "Story Comprehension Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "1_reading_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 50000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

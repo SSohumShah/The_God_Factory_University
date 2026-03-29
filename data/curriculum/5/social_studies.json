@@ -1,0 +1,862 @@
+{
+  "course_id": "5_social_studies",
+  "title": "US History (5th Grade)",
+  "description": "US History for 5th Grade students.",
+  "credits": 2,
+  "subject_id": "social_studies",
+  "modules": [
+    {
+      "module_id": "5_social_studies_m1",
+      "title": "Colonial America",
+      "lectures": [
+        {
+          "lecture_id": "5_social_studies_m1_l1",
+          "title": "Colonial America — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to colonial america"
+          ],
+          "core_terms": [
+            "Colonial",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Colonial America. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Colonial America",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Colonial America. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating Colonial America concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Colonial America: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Colonial America — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_social_studies_m1_l2",
+          "title": "Colonial America — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of colonial america"
+          ],
+          "core_terms": [
+            "Colonial",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Colonial America. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Colonial America",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Colonial America. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating Colonial America concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Colonial America: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Colonial America — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_social_studies_m1_l3",
+          "title": "Colonial America — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of colonial america"
+          ],
+          "core_terms": [
+            "Colonial",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Colonial America. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Colonial America",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Colonial America. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating Colonial America concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Colonial America: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Colonial America — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "5_social_studies_m2",
+      "title": "American Revolution",
+      "lectures": [
+        {
+          "lecture_id": "5_social_studies_m2_l1",
+          "title": "American Revolution — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to american revolution"
+          ],
+          "core_terms": [
+            "American",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to American Revolution. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to American Revolution",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into American Revolution. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating American Revolution concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about American Revolution: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about American Revolution — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_social_studies_m2_l2",
+          "title": "American Revolution — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of american revolution"
+          ],
+          "core_terms": [
+            "American",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of American Revolution. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of American Revolution",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into American Revolution. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating American Revolution concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about American Revolution: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about American Revolution — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_social_studies_m2_l3",
+          "title": "American Revolution — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of american revolution"
+          ],
+          "core_terms": [
+            "American",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of American Revolution. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of American Revolution",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into American Revolution. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating American Revolution concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about American Revolution: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about American Revolution — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "5_social_studies_m3",
+      "title": "Westward Expansion",
+      "lectures": [
+        {
+          "lecture_id": "5_social_studies_m3_l1",
+          "title": "Westward Expansion — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to westward expansion"
+          ],
+          "core_terms": [
+            "Westward",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Westward Expansion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Westward Expansion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Westward Expansion. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating Westward Expansion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Westward Expansion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Westward Expansion — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_social_studies_m3_l2",
+          "title": "Westward Expansion — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of westward expansion"
+          ],
+          "core_terms": [
+            "Westward",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Westward Expansion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Westward Expansion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Westward Expansion. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating Westward Expansion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Westward Expansion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Westward Expansion — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_social_studies_m3_l3",
+          "title": "Westward Expansion — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of westward expansion"
+          ],
+          "core_terms": [
+            "Westward",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Westward Expansion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Westward Expansion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Westward Expansion. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating Westward Expansion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Westward Expansion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Westward Expansion — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "5_social_studies_m4",
+      "title": "Civil War",
+      "lectures": [
+        {
+          "lecture_id": "5_social_studies_m4_l1",
+          "title": "Civil War — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to civil war"
+          ],
+          "core_terms": [
+            "Civil",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Civil War. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Civil War",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Civil War. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating Civil War concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Civil War: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Civil War — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_social_studies_m4_l2",
+          "title": "Civil War — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of civil war"
+          ],
+          "core_terms": [
+            "Civil",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Civil War. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Civil War",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Civil War. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating Civil War concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Civil War: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Civil War — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_social_studies_m4_l3",
+          "title": "Civil War — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of civil war"
+          ],
+          "core_terms": [
+            "Civil",
+            "social_studies"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_social_studies_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Civil War. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Civil War",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Civil War. This is essential for mastering US History.",
+                "visual_prompt": "Animated diagram illustrating Civil War concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_social_studies_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Civil War: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Civil War — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "3_social_studies"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Colonial America",
+    "Demonstrate understanding of American Revolution",
+    "Demonstrate understanding of Westward Expansion",
+    "Demonstrate understanding of Civil War"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "5_social_studies-A1",
+      "title": "Colonial America Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_social_studies_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "5_social_studies-A2",
+      "title": "American Revolution Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_social_studies_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "5_social_studies-A3",
+      "title": "Westward Expansion Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_social_studies_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "5_social_studies-A4",
+      "title": "Civil War Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_social_studies_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 70000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

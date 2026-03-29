@@ -1,0 +1,1038 @@
+{
+  "course_id": "senior_cs401",
+  "title": "CS 401: Software Engineering (College Senior)",
+  "description": "CS 401: Software Engineering for College Senior students.",
+  "credits": 3,
+  "subject_id": "cs401",
+  "modules": [
+    {
+      "module_id": "senior_cs401_m1",
+      "title": "Requirements & Design",
+      "lectures": [
+        {
+          "lecture_id": "senior_cs401_m1_l1",
+          "title": "Requirements & Design — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to requirements & design"
+          ],
+          "core_terms": [
+            "Requirements",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Requirements & Design. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Requirements & Design",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Requirements & Design. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Requirements & Design concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Requirements & Design: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Requirements & Design — Part 1",
+            "deliverable": "senior_cs401_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Requirements & Design — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_cs401_m1_l2",
+          "title": "Requirements & Design — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of requirements & design"
+          ],
+          "core_terms": [
+            "Requirements",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Requirements & Design. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Requirements & Design",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Requirements & Design. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Requirements & Design concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Requirements & Design: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Requirements & Design — Part 2",
+            "deliverable": "senior_cs401_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Requirements & Design — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_cs401_m1_l3",
+          "title": "Requirements & Design — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of requirements & design"
+          ],
+          "core_terms": [
+            "Requirements",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Requirements & Design. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Requirements & Design",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Requirements & Design. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Requirements & Design concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Requirements & Design: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Requirements & Design — Part 3",
+            "deliverable": "senior_cs401_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Requirements & Design — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_cs401_m2",
+      "title": "Agile Methods",
+      "lectures": [
+        {
+          "lecture_id": "senior_cs401_m2_l1",
+          "title": "Agile Methods — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to agile methods"
+          ],
+          "core_terms": [
+            "Agile",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Agile Methods. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Agile Methods",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Agile Methods. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Agile Methods concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Agile Methods: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Agile Methods — Part 1",
+            "deliverable": "senior_cs401_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Agile Methods — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_cs401_m2_l2",
+          "title": "Agile Methods — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of agile methods"
+          ],
+          "core_terms": [
+            "Agile",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Agile Methods. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Agile Methods",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Agile Methods. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Agile Methods concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Agile Methods: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Agile Methods — Part 2",
+            "deliverable": "senior_cs401_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Agile Methods — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_cs401_m2_l3",
+          "title": "Agile Methods — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of agile methods"
+          ],
+          "core_terms": [
+            "Agile",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Agile Methods. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Agile Methods",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Agile Methods. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Agile Methods concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Agile Methods: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Agile Methods — Part 3",
+            "deliverable": "senior_cs401_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Agile Methods — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_cs401_m3",
+      "title": "Testing & QA",
+      "lectures": [
+        {
+          "lecture_id": "senior_cs401_m3_l1",
+          "title": "Testing & QA — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to testing & qa"
+          ],
+          "core_terms": [
+            "Testing",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Testing & QA. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Testing & QA",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Testing & QA. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Testing & QA concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Testing & QA: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Testing & QA — Part 1",
+            "deliverable": "senior_cs401_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Testing & QA — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_cs401_m3_l2",
+          "title": "Testing & QA — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of testing & qa"
+          ],
+          "core_terms": [
+            "Testing",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Testing & QA. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Testing & QA",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Testing & QA. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Testing & QA concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Testing & QA: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Testing & QA — Part 2",
+            "deliverable": "senior_cs401_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Testing & QA — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_cs401_m3_l3",
+          "title": "Testing & QA — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of testing & qa"
+          ],
+          "core_terms": [
+            "Testing",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Testing & QA. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Testing & QA",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Testing & QA. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Testing & QA concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Testing & QA: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Testing & QA — Part 3",
+            "deliverable": "senior_cs401_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Testing & QA — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_cs401_m4",
+      "title": "Project Management",
+      "lectures": [
+        {
+          "lecture_id": "senior_cs401_m4_l1",
+          "title": "Project Management — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to project management"
+          ],
+          "core_terms": [
+            "Project",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Project Management. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Project Management",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Project Management. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Project Management concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Project Management: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Project Management — Part 1",
+            "deliverable": "senior_cs401_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Project Management — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_cs401_m4_l2",
+          "title": "Project Management — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of project management"
+          ],
+          "core_terms": [
+            "Project",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Project Management. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Project Management",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Project Management. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Project Management concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Project Management: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Project Management — Part 2",
+            "deliverable": "senior_cs401_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Project Management — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_cs401_m4_l3",
+          "title": "Project Management — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of project management"
+          ],
+          "core_terms": [
+            "Project",
+            "cs401"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs401_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Project Management. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Project Management",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Project Management. This is essential for mastering CS 401: Software Engineering.",
+                "visual_prompt": "Animated diagram illustrating Project Management concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs401_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Project Management: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs401_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Project Management — Part 3",
+            "deliverable": "senior_cs401_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Project Management — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Senior",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "junior_cs301"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Requirements & Design",
+    "Demonstrate understanding of Agile Methods",
+    "Demonstrate understanding of Testing & QA",
+    "Demonstrate understanding of Project Management"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "senior_cs401-A1",
+      "title": "Requirements & Design Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs401_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs401-LAB1",
+      "title": "Requirements & Design Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs401_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs401-A2",
+      "title": "Agile Methods Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs401_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs401-LAB2",
+      "title": "Agile Methods Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs401_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs401-A3",
+      "title": "Testing & QA Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs401_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs401-LAB3",
+      "title": "Testing & QA Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs401_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs401-A4",
+      "title": "Project Management Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs401_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs401-LAB4",
+      "title": "Project Management Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs401_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

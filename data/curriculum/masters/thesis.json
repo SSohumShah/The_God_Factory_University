@@ -1,0 +1,1015 @@
+{
+  "course_id": "masters_thesis",
+  "title": "Thesis Preparation (Master's Level)",
+  "description": "Thesis Preparation for Master's Level students.",
+  "credits": 3,
+  "subject_id": "thesis",
+  "modules": [
+    {
+      "module_id": "masters_thesis_m1",
+      "title": "Topic Selection",
+      "lectures": [
+        {
+          "lecture_id": "masters_thesis_m1_l1",
+          "title": "Topic Selection — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to topic selection"
+          ],
+          "core_terms": [
+            "Topic",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Topic Selection. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Topic Selection",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Topic Selection. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Topic Selection concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Topic Selection: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Topic Selection — Part 1",
+            "deliverable": "masters_thesis_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Topic Selection — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_thesis_m1_l2",
+          "title": "Topic Selection — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of topic selection"
+          ],
+          "core_terms": [
+            "Topic",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Topic Selection. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Topic Selection",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Topic Selection. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Topic Selection concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Topic Selection: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Topic Selection — Part 2",
+            "deliverable": "masters_thesis_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Topic Selection — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_thesis_m1_l3",
+          "title": "Topic Selection — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of topic selection"
+          ],
+          "core_terms": [
+            "Topic",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Topic Selection. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Topic Selection",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Topic Selection. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Topic Selection concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Topic Selection: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Topic Selection — Part 3",
+            "deliverable": "masters_thesis_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Topic Selection — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_thesis_m2",
+      "title": "Literature Survey",
+      "lectures": [
+        {
+          "lecture_id": "masters_thesis_m2_l1",
+          "title": "Literature Survey — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to literature survey"
+          ],
+          "core_terms": [
+            "Literature",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Literature Survey. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Literature Survey",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Literature Survey. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Literature Survey concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Literature Survey: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Literature Survey — Part 1",
+            "deliverable": "masters_thesis_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Literature Survey — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_thesis_m2_l2",
+          "title": "Literature Survey — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of literature survey"
+          ],
+          "core_terms": [
+            "Literature",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Literature Survey. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Literature Survey",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Literature Survey. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Literature Survey concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Literature Survey: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Literature Survey — Part 2",
+            "deliverable": "masters_thesis_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Literature Survey — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_thesis_m2_l3",
+          "title": "Literature Survey — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of literature survey"
+          ],
+          "core_terms": [
+            "Literature",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Literature Survey. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Literature Survey",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Literature Survey. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Literature Survey concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Literature Survey: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Literature Survey — Part 3",
+            "deliverable": "masters_thesis_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Literature Survey — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_thesis_m3",
+      "title": "Methodology Chapter",
+      "lectures": [
+        {
+          "lecture_id": "masters_thesis_m3_l1",
+          "title": "Methodology Chapter — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to methodology chapter"
+          ],
+          "core_terms": [
+            "Methodology",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Methodology Chapter. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Methodology Chapter",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Methodology Chapter. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Methodology Chapter concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Methodology Chapter: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Methodology Chapter — Part 1",
+            "deliverable": "masters_thesis_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Methodology Chapter — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_thesis_m3_l2",
+          "title": "Methodology Chapter — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of methodology chapter"
+          ],
+          "core_terms": [
+            "Methodology",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Methodology Chapter. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Methodology Chapter",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Methodology Chapter. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Methodology Chapter concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Methodology Chapter: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Methodology Chapter — Part 2",
+            "deliverable": "masters_thesis_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Methodology Chapter — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_thesis_m3_l3",
+          "title": "Methodology Chapter — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of methodology chapter"
+          ],
+          "core_terms": [
+            "Methodology",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Methodology Chapter. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Methodology Chapter",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Methodology Chapter. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Methodology Chapter concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Methodology Chapter: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Methodology Chapter — Part 3",
+            "deliverable": "masters_thesis_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Methodology Chapter — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_thesis_m4",
+      "title": "Results & Discussion",
+      "lectures": [
+        {
+          "lecture_id": "masters_thesis_m4_l1",
+          "title": "Results & Discussion — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to results & discussion"
+          ],
+          "core_terms": [
+            "Results",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Results & Discussion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Results & Discussion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Results & Discussion. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Results & Discussion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Results & Discussion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Results & Discussion — Part 1",
+            "deliverable": "masters_thesis_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Results & Discussion — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_thesis_m4_l2",
+          "title": "Results & Discussion — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of results & discussion"
+          ],
+          "core_terms": [
+            "Results",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Results & Discussion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Results & Discussion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Results & Discussion. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Results & Discussion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Results & Discussion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Results & Discussion — Part 2",
+            "deliverable": "masters_thesis_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Results & Discussion — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_thesis_m4_l3",
+          "title": "Results & Discussion — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of results & discussion"
+          ],
+          "core_terms": [
+            "Results",
+            "thesis"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_thesis_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Results & Discussion. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Results & Discussion",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Results & Discussion. This is essential for mastering Thesis Preparation.",
+                "visual_prompt": "Animated diagram illustrating Results & Discussion concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_thesis_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Results & Discussion: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Results & Discussion — Part 3",
+            "deliverable": "masters_thesis_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Results & Discussion — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Masters",
+  "depth_target": 4,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "masters_research",
+    "masters_cs500"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Topic Selection",
+    "Demonstrate understanding of Literature Survey",
+    "Demonstrate understanding of Methodology Chapter",
+    "Demonstrate understanding of Results & Discussion"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "masters_thesis-A1",
+      "title": "Topic Selection Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_thesis_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_thesis-LAB1",
+      "title": "Topic Selection Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_thesis_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_thesis-A2",
+      "title": "Literature Survey Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_thesis_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_thesis-LAB2",
+      "title": "Literature Survey Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_thesis_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_thesis-A3",
+      "title": "Methodology Chapter Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_thesis_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_thesis-LAB3",
+      "title": "Methodology Chapter Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_thesis_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_thesis-A4",
+      "title": "Results & Discussion Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_thesis_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_thesis-LAB4",
+      "title": "Results & Discussion Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_thesis_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 8000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

@@ -1,0 +1,862 @@
+{
+  "course_id": "senior_ethics",
+  "title": "Professional Ethics (College Senior)",
+  "description": "Professional Ethics for College Senior students.",
+  "credits": 3,
+  "subject_id": "ethics",
+  "modules": [
+    {
+      "module_id": "senior_ethics_m1",
+      "title": "Tech Ethics",
+      "lectures": [
+        {
+          "lecture_id": "senior_ethics_m1_l1",
+          "title": "Tech Ethics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to tech ethics"
+          ],
+          "core_terms": [
+            "Tech",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Tech Ethics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Tech Ethics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Tech Ethics. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating Tech Ethics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Tech Ethics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Tech Ethics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_ethics_m1_l2",
+          "title": "Tech Ethics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of tech ethics"
+          ],
+          "core_terms": [
+            "Tech",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Tech Ethics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Tech Ethics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Tech Ethics. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating Tech Ethics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Tech Ethics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Tech Ethics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_ethics_m1_l3",
+          "title": "Tech Ethics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of tech ethics"
+          ],
+          "core_terms": [
+            "Tech",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Tech Ethics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Tech Ethics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Tech Ethics. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating Tech Ethics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Tech Ethics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Tech Ethics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_ethics_m2",
+      "title": "Privacy & Security",
+      "lectures": [
+        {
+          "lecture_id": "senior_ethics_m2_l1",
+          "title": "Privacy & Security — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to privacy & security"
+          ],
+          "core_terms": [
+            "Privacy",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Privacy & Security. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Privacy & Security",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Privacy & Security. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating Privacy & Security concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Privacy & Security: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Privacy & Security — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_ethics_m2_l2",
+          "title": "Privacy & Security — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of privacy & security"
+          ],
+          "core_terms": [
+            "Privacy",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Privacy & Security. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Privacy & Security",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Privacy & Security. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating Privacy & Security concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Privacy & Security: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Privacy & Security — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_ethics_m2_l3",
+          "title": "Privacy & Security — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of privacy & security"
+          ],
+          "core_terms": [
+            "Privacy",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Privacy & Security. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Privacy & Security",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Privacy & Security. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating Privacy & Security concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Privacy & Security: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Privacy & Security — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_ethics_m3",
+      "title": "AI Ethics",
+      "lectures": [
+        {
+          "lecture_id": "senior_ethics_m3_l1",
+          "title": "AI Ethics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to ai ethics"
+          ],
+          "core_terms": [
+            "AI",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to AI Ethics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to AI Ethics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into AI Ethics. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating AI Ethics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about AI Ethics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about AI Ethics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_ethics_m3_l2",
+          "title": "AI Ethics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of ai ethics"
+          ],
+          "core_terms": [
+            "AI",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of AI Ethics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of AI Ethics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into AI Ethics. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating AI Ethics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about AI Ethics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about AI Ethics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_ethics_m3_l3",
+          "title": "AI Ethics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of ai ethics"
+          ],
+          "core_terms": [
+            "AI",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of AI Ethics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of AI Ethics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into AI Ethics. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating AI Ethics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about AI Ethics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about AI Ethics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_ethics_m4",
+      "title": "Professional Responsibility",
+      "lectures": [
+        {
+          "lecture_id": "senior_ethics_m4_l1",
+          "title": "Professional Responsibility — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to professional responsibility"
+          ],
+          "core_terms": [
+            "Professional",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Professional Responsibility. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Professional Responsibility",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Professional Responsibility. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating Professional Responsibility concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Professional Responsibility: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Professional Responsibility — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_ethics_m4_l2",
+          "title": "Professional Responsibility — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of professional responsibility"
+          ],
+          "core_terms": [
+            "Professional",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Professional Responsibility. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Professional Responsibility",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Professional Responsibility. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating Professional Responsibility concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Professional Responsibility: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Professional Responsibility — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_ethics_m4_l3",
+          "title": "Professional Responsibility — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of professional responsibility"
+          ],
+          "core_terms": [
+            "Professional",
+            "ethics"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_ethics_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Professional Responsibility. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Professional Responsibility",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Professional Responsibility. This is essential for mastering Professional Ethics.",
+                "visual_prompt": "Animated diagram illustrating Professional Responsibility concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_ethics_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Professional Responsibility: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Professional Responsibility — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Senior",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "junior_research"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Tech Ethics",
+    "Demonstrate understanding of Privacy & Security",
+    "Demonstrate understanding of AI Ethics",
+    "Demonstrate understanding of Professional Responsibility"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "senior_ethics-A1",
+      "title": "Tech Ethics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_ethics_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_ethics-A2",
+      "title": "Privacy & Security Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_ethics_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_ethics-A3",
+      "title": "AI Ethics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_ethics_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_ethics-A4",
+      "title": "Professional Responsibility Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_ethics_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

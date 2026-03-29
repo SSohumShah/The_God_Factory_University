@@ -1,0 +1,862 @@
+{
+  "course_id": "masters_research",
+  "title": "Graduate Research Seminar (Master's Level)",
+  "description": "Graduate Research Seminar for Master's Level students.",
+  "credits": 3,
+  "subject_id": "research",
+  "modules": [
+    {
+      "module_id": "masters_research_m1",
+      "title": "Research Methodology",
+      "lectures": [
+        {
+          "lecture_id": "masters_research_m1_l1",
+          "title": "Research Methodology — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to research methodology"
+          ],
+          "core_terms": [
+            "Research",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Research Methodology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Research Methodology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Methodology. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Research Methodology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Methodology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Research Methodology — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_research_m1_l2",
+          "title": "Research Methodology — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of research methodology"
+          ],
+          "core_terms": [
+            "Research",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Research Methodology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Research Methodology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Methodology. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Research Methodology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Methodology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Research Methodology — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_research_m1_l3",
+          "title": "Research Methodology — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of research methodology"
+          ],
+          "core_terms": [
+            "Research",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Research Methodology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Research Methodology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Research Methodology. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Research Methodology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Research Methodology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Research Methodology — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_research_m2",
+      "title": "Paper Writing",
+      "lectures": [
+        {
+          "lecture_id": "masters_research_m2_l1",
+          "title": "Paper Writing — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to paper writing"
+          ],
+          "core_terms": [
+            "Paper",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Paper Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Paper Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Paper Writing. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Paper Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Paper Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Paper Writing — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_research_m2_l2",
+          "title": "Paper Writing — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of paper writing"
+          ],
+          "core_terms": [
+            "Paper",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Paper Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Paper Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Paper Writing. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Paper Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Paper Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Paper Writing — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_research_m2_l3",
+          "title": "Paper Writing — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of paper writing"
+          ],
+          "core_terms": [
+            "Paper",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Paper Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Paper Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Paper Writing. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Paper Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Paper Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Paper Writing — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_research_m3",
+      "title": "Peer Review",
+      "lectures": [
+        {
+          "lecture_id": "masters_research_m3_l1",
+          "title": "Peer Review — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to peer review"
+          ],
+          "core_terms": [
+            "Peer",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Peer Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Peer Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Peer Review. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Peer Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Peer Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Peer Review — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_research_m3_l2",
+          "title": "Peer Review — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of peer review"
+          ],
+          "core_terms": [
+            "Peer",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Peer Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Peer Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Peer Review. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Peer Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Peer Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Peer Review — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_research_m3_l3",
+          "title": "Peer Review — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of peer review"
+          ],
+          "core_terms": [
+            "Peer",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Peer Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Peer Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Peer Review. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Peer Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Peer Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Peer Review — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "masters_research_m4",
+      "title": "Grant Proposals",
+      "lectures": [
+        {
+          "lecture_id": "masters_research_m4_l1",
+          "title": "Grant Proposals — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to grant proposals"
+          ],
+          "core_terms": [
+            "Grant",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Grant Proposals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Grant Proposals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Grant Proposals. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Grant Proposals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Grant Proposals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Grant Proposals — Part 1."
+          }
+        },
+        {
+          "lecture_id": "masters_research_m4_l2",
+          "title": "Grant Proposals — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of grant proposals"
+          ],
+          "core_terms": [
+            "Grant",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Grant Proposals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Grant Proposals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Grant Proposals. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Grant Proposals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Grant Proposals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Grant Proposals — Part 2."
+          }
+        },
+        {
+          "lecture_id": "masters_research_m4_l3",
+          "title": "Grant Proposals — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of grant proposals"
+          ],
+          "core_terms": [
+            "Grant",
+            "research"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "masters_research_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Grant Proposals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Grant Proposals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Grant Proposals. This is essential for mastering Graduate Research Seminar.",
+                "visual_prompt": "Animated diagram illustrating Grant Proposals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "masters_research_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Grant Proposals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Grant Proposals — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Masters",
+  "depth_target": 4,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "senior_capstone"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Research Methodology",
+    "Demonstrate understanding of Paper Writing",
+    "Demonstrate understanding of Peer Review",
+    "Demonstrate understanding of Grant Proposals"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "masters_research-A1",
+      "title": "Research Methodology Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_research_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_research-A2",
+      "title": "Paper Writing Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_research_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_research-A3",
+      "title": "Peer Review Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_research_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "masters_research-A4",
+      "title": "Grant Proposals Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "masters_research_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 8000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

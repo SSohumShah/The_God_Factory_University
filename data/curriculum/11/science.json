@@ -1,0 +1,862 @@
+{
+  "course_id": "11_science",
+  "title": "Physics (11th Grade)",
+  "description": "Physics for 11th Grade students.",
+  "credits": 3,
+  "subject_id": "science",
+  "modules": [
+    {
+      "module_id": "11_science_m1",
+      "title": "Kinematics",
+      "lectures": [
+        {
+          "lecture_id": "11_science_m1_l1",
+          "title": "Kinematics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to kinematics"
+          ],
+          "core_terms": [
+            "Kinematics",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Kinematics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Kinematics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Kinematics. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Kinematics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Kinematics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Kinematics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_science_m1_l2",
+          "title": "Kinematics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of kinematics"
+          ],
+          "core_terms": [
+            "Kinematics",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Kinematics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Kinematics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Kinematics. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Kinematics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Kinematics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Kinematics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_science_m1_l3",
+          "title": "Kinematics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of kinematics"
+          ],
+          "core_terms": [
+            "Kinematics",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Kinematics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Kinematics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Kinematics. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Kinematics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Kinematics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Kinematics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_science_m2",
+      "title": "Forces & Newton's Laws",
+      "lectures": [
+        {
+          "lecture_id": "11_science_m2_l1",
+          "title": "Forces & Newton's Laws — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to forces & newton's laws"
+          ],
+          "core_terms": [
+            "Forces",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Forces & Newton's Laws. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Forces & Newton's Laws",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Forces & Newton's Laws. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Forces & Newton's Laws concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Forces & Newton's Laws: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Forces & Newton's Laws — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_science_m2_l2",
+          "title": "Forces & Newton's Laws — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of forces & newton's laws"
+          ],
+          "core_terms": [
+            "Forces",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Forces & Newton's Laws. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Forces & Newton's Laws",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Forces & Newton's Laws. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Forces & Newton's Laws concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Forces & Newton's Laws: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Forces & Newton's Laws — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_science_m2_l3",
+          "title": "Forces & Newton's Laws — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of forces & newton's laws"
+          ],
+          "core_terms": [
+            "Forces",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Forces & Newton's Laws. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Forces & Newton's Laws",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Forces & Newton's Laws. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Forces & Newton's Laws concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Forces & Newton's Laws: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Forces & Newton's Laws — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_science_m3",
+      "title": "Energy & Momentum",
+      "lectures": [
+        {
+          "lecture_id": "11_science_m3_l1",
+          "title": "Energy & Momentum — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to energy & momentum"
+          ],
+          "core_terms": [
+            "Energy",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Energy & Momentum. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Energy & Momentum",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Energy & Momentum. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Energy & Momentum concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Energy & Momentum: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Energy & Momentum — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_science_m3_l2",
+          "title": "Energy & Momentum — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of energy & momentum"
+          ],
+          "core_terms": [
+            "Energy",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Energy & Momentum. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Energy & Momentum",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Energy & Momentum. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Energy & Momentum concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Energy & Momentum: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Energy & Momentum — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_science_m3_l3",
+          "title": "Energy & Momentum — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of energy & momentum"
+          ],
+          "core_terms": [
+            "Energy",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Energy & Momentum. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Energy & Momentum",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Energy & Momentum. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Energy & Momentum concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Energy & Momentum: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Energy & Momentum — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_science_m4",
+      "title": "Waves & Optics",
+      "lectures": [
+        {
+          "lecture_id": "11_science_m4_l1",
+          "title": "Waves & Optics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to waves & optics"
+          ],
+          "core_terms": [
+            "Waves",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Waves & Optics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Waves & Optics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Waves & Optics. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Waves & Optics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Waves & Optics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Waves & Optics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_science_m4_l2",
+          "title": "Waves & Optics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of waves & optics"
+          ],
+          "core_terms": [
+            "Waves",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Waves & Optics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Waves & Optics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Waves & Optics. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Waves & Optics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Waves & Optics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Waves & Optics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_science_m4_l3",
+          "title": "Waves & Optics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of waves & optics"
+          ],
+          "core_terms": [
+            "Waves",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_science_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Waves & Optics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Waves & Optics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Waves & Optics. This is essential for mastering Physics.",
+                "visual_prompt": "Animated diagram illustrating Waves & Optics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_science_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Waves & Optics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Waves & Optics — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "10_science"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Kinematics",
+    "Demonstrate understanding of Forces & Newton's Laws",
+    "Demonstrate understanding of Energy & Momentum",
+    "Demonstrate understanding of Waves & Optics"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "11_science-A1",
+      "title": "Kinematics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_science_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_science-A2",
+      "title": "Forces & Newton's Laws Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_science_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_science-A3",
+      "title": "Energy & Momentum Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_science_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_science-A4",
+      "title": "Waves & Optics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_science_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

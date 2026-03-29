@@ -1,0 +1,860 @@
+{
+  "course_id": "5_reading",
+  "title": "Language Arts V (5th Grade)",
+  "description": "Language Arts V for 5th Grade students.",
+  "credits": 2,
+  "subject_id": "reading",
+  "modules": [
+    {
+      "module_id": "5_reading_m1",
+      "title": "Novel Studies",
+      "lectures": [
+        {
+          "lecture_id": "5_reading_m1_l1",
+          "title": "Novel Studies — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to novel studies"
+          ],
+          "core_terms": [
+            "Novel",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Novel Studies. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Novel Studies",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Novel Studies. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Novel Studies concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Novel Studies: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Novel Studies — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_reading_m1_l2",
+          "title": "Novel Studies — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of novel studies"
+          ],
+          "core_terms": [
+            "Novel",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Novel Studies. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Novel Studies",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Novel Studies. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Novel Studies concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Novel Studies: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Novel Studies — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_reading_m1_l3",
+          "title": "Novel Studies — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of novel studies"
+          ],
+          "core_terms": [
+            "Novel",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Novel Studies. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Novel Studies",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Novel Studies. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Novel Studies concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Novel Studies: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Novel Studies — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "5_reading_m2",
+      "title": "Creative Writing",
+      "lectures": [
+        {
+          "lecture_id": "5_reading_m2_l1",
+          "title": "Creative Writing — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to creative writing"
+          ],
+          "core_terms": [
+            "Creative",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Creative Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Creative Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Creative Writing. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Creative Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Creative Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Creative Writing — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_reading_m2_l2",
+          "title": "Creative Writing — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of creative writing"
+          ],
+          "core_terms": [
+            "Creative",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Creative Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Creative Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Creative Writing. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Creative Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Creative Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Creative Writing — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_reading_m2_l3",
+          "title": "Creative Writing — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of creative writing"
+          ],
+          "core_terms": [
+            "Creative",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Creative Writing. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Creative Writing",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Creative Writing. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Creative Writing concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Creative Writing: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Creative Writing — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "5_reading_m3",
+      "title": "Public Speaking",
+      "lectures": [
+        {
+          "lecture_id": "5_reading_m3_l1",
+          "title": "Public Speaking — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to public speaking"
+          ],
+          "core_terms": [
+            "Public",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Public Speaking. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Public Speaking",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Public Speaking. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Public Speaking concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Public Speaking: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Public Speaking — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_reading_m3_l2",
+          "title": "Public Speaking — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of public speaking"
+          ],
+          "core_terms": [
+            "Public",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Public Speaking. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Public Speaking",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Public Speaking. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Public Speaking concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Public Speaking: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Public Speaking — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_reading_m3_l3",
+          "title": "Public Speaking — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of public speaking"
+          ],
+          "core_terms": [
+            "Public",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Public Speaking. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Public Speaking",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Public Speaking. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Public Speaking concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Public Speaking: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Public Speaking — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "5_reading_m4",
+      "title": "Media Literacy",
+      "lectures": [
+        {
+          "lecture_id": "5_reading_m4_l1",
+          "title": "Media Literacy — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to media literacy"
+          ],
+          "core_terms": [
+            "Media",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Media Literacy. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Media Literacy",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Media Literacy. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Media Literacy concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Media Literacy: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Media Literacy — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_reading_m4_l2",
+          "title": "Media Literacy — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of media literacy"
+          ],
+          "core_terms": [
+            "Media",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Media Literacy. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Media Literacy",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Media Literacy. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Media Literacy concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Media Literacy: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Media Literacy — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_reading_m4_l3",
+          "title": "Media Literacy — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of media literacy"
+          ],
+          "core_terms": [
+            "Media",
+            "reading"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_reading_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Media Literacy. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Media Literacy",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Media Literacy. This is essential for mastering Language Arts V.",
+                "visual_prompt": "Animated diagram illustrating Media Literacy concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_reading_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Media Literacy: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Media Literacy — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Novel Studies",
+    "Demonstrate understanding of Creative Writing",
+    "Demonstrate understanding of Public Speaking",
+    "Demonstrate understanding of Media Literacy"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "5_reading-A1",
+      "title": "Novel Studies Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_reading_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "5_reading-A2",
+      "title": "Creative Writing Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_reading_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "5_reading-A3",
+      "title": "Public Speaking Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_reading_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "5_reading-A4",
+      "title": "Media Literacy Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_reading_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 70000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

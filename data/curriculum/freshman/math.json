@@ -1,0 +1,884 @@
+{
+  "course_id": "freshman_math",
+  "title": "College Algebra / Precalculus (College Freshman)",
+  "description": "College Algebra / Precalculus for College Freshman students.",
+  "credits": 3,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "freshman_math_m1",
+      "title": "Functions & Graphs",
+      "lectures": [
+        {
+          "lecture_id": "freshman_math_m1_l1",
+          "title": "Functions & Graphs — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to functions & graphs"
+          ],
+          "core_terms": [
+            "Functions",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Functions & Graphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Functions & Graphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Functions & Graphs. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Functions & Graphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Functions & Graphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "functions_&_graphs"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Functions & Graphs — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_math_m1_l2",
+          "title": "Functions & Graphs — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of functions & graphs"
+          ],
+          "core_terms": [
+            "Functions",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Functions & Graphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Functions & Graphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Functions & Graphs. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Functions & Graphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Functions & Graphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "functions_&_graphs"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Functions & Graphs — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_math_m1_l3",
+          "title": "Functions & Graphs — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of functions & graphs"
+          ],
+          "core_terms": [
+            "Functions",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Functions & Graphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Functions & Graphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Functions & Graphs. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Functions & Graphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Functions & Graphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "functions_&_graphs"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Functions & Graphs — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_math_m2",
+      "title": "Polynomial & Rational Functions",
+      "lectures": [
+        {
+          "lecture_id": "freshman_math_m2_l1",
+          "title": "Polynomial & Rational Functions — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to polynomial & rational functions"
+          ],
+          "core_terms": [
+            "Polynomial",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Polynomial & Rational Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Polynomial & Rational Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Polynomial & Rational Functions. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Polynomial & Rational Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Polynomial & Rational Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "polynomial_&_rational_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Polynomial & Rational Functions — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_math_m2_l2",
+          "title": "Polynomial & Rational Functions — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of polynomial & rational functions"
+          ],
+          "core_terms": [
+            "Polynomial",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Polynomial & Rational Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Polynomial & Rational Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Polynomial & Rational Functions. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Polynomial & Rational Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Polynomial & Rational Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "polynomial_&_rational_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Polynomial & Rational Functions — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_math_m2_l3",
+          "title": "Polynomial & Rational Functions — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of polynomial & rational functions"
+          ],
+          "core_terms": [
+            "Polynomial",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Polynomial & Rational Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Polynomial & Rational Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Polynomial & Rational Functions. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Polynomial & Rational Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Polynomial & Rational Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "polynomial_&_rational_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Polynomial & Rational Functions — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_math_m3",
+      "title": "Exponential & Log Functions",
+      "lectures": [
+        {
+          "lecture_id": "freshman_math_m3_l1",
+          "title": "Exponential & Log Functions — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to exponential & log functions"
+          ],
+          "core_terms": [
+            "Exponential",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Exponential & Log Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Exponential & Log Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Exponential & Log Functions. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Exponential & Log Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Exponential & Log Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "exponential_&_log_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Exponential & Log Functions — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_math_m3_l2",
+          "title": "Exponential & Log Functions — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of exponential & log functions"
+          ],
+          "core_terms": [
+            "Exponential",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Exponential & Log Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Exponential & Log Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Exponential & Log Functions. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Exponential & Log Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Exponential & Log Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "exponential_&_log_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Exponential & Log Functions — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_math_m3_l3",
+          "title": "Exponential & Log Functions — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of exponential & log functions"
+          ],
+          "core_terms": [
+            "Exponential",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Exponential & Log Functions. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Exponential & Log Functions",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Exponential & Log Functions. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Exponential & Log Functions concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Exponential & Log Functions: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "exponential_&_log_functions"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Exponential & Log Functions — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "freshman_math_m4",
+      "title": "Trigonometry Review",
+      "lectures": [
+        {
+          "lecture_id": "freshman_math_m4_l1",
+          "title": "Trigonometry Review — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to trigonometry review"
+          ],
+          "core_terms": [
+            "Trigonometry",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Trigonometry Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Trigonometry Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Trigonometry Review. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Trigonometry Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Trigonometry Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "trigonometry_review"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Trigonometry Review — Part 1."
+          }
+        },
+        {
+          "lecture_id": "freshman_math_m4_l2",
+          "title": "Trigonometry Review — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of trigonometry review"
+          ],
+          "core_terms": [
+            "Trigonometry",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Trigonometry Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Trigonometry Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Trigonometry Review. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Trigonometry Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Trigonometry Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "trigonometry_review"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Trigonometry Review — Part 2."
+          }
+        },
+        {
+          "lecture_id": "freshman_math_m4_l3",
+          "title": "Trigonometry Review — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of trigonometry review"
+          ],
+          "core_terms": [
+            "Trigonometry",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "freshman_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Trigonometry Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Trigonometry Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Trigonometry Review. This is essential for mastering College Algebra / Precalculus.",
+                "visual_prompt": "Animated diagram illustrating Trigonometry Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "freshman_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Trigonometry Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "trigonometry_review"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Trigonometry Review — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Freshman",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Functions & Graphs",
+    "Demonstrate understanding of Polynomial & Rational Functions",
+    "Demonstrate understanding of Exponential & Log Functions",
+    "Demonstrate understanding of Trigonometry Review"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "freshman_math-A1",
+      "title": "Functions & Graphs Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_math-A2",
+      "title": "Polynomial & Rational Functions Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_math-A3",
+      "title": "Exponential & Log Functions Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "freshman_math-A4",
+      "title": "Trigonometry Review Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "freshman_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

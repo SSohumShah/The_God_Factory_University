@@ -1,0 +1,862 @@
+{
+  "course_id": "9_science",
+  "title": "Biology (9th Grade)",
+  "description": "Biology for 9th Grade students.",
+  "credits": 3,
+  "subject_id": "science",
+  "modules": [
+    {
+      "module_id": "9_science_m1",
+      "title": "Cell Structure & Function",
+      "lectures": [
+        {
+          "lecture_id": "9_science_m1_l1",
+          "title": "Cell Structure & Function — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to cell structure & function"
+          ],
+          "core_terms": [
+            "Cell",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Cell Structure & Function. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Cell Structure & Function",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cell Structure & Function. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating Cell Structure & Function concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cell Structure & Function: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Cell Structure & Function — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_science_m1_l2",
+          "title": "Cell Structure & Function — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of cell structure & function"
+          ],
+          "core_terms": [
+            "Cell",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Cell Structure & Function. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Cell Structure & Function",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cell Structure & Function. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating Cell Structure & Function concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cell Structure & Function: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Cell Structure & Function — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_science_m1_l3",
+          "title": "Cell Structure & Function — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of cell structure & function"
+          ],
+          "core_terms": [
+            "Cell",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Cell Structure & Function. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Cell Structure & Function",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Cell Structure & Function. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating Cell Structure & Function concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Cell Structure & Function: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Cell Structure & Function — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_science_m2",
+      "title": "DNA & Genetics",
+      "lectures": [
+        {
+          "lecture_id": "9_science_m2_l1",
+          "title": "DNA & Genetics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to dna & genetics"
+          ],
+          "core_terms": [
+            "DNA",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to DNA & Genetics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to DNA & Genetics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into DNA & Genetics. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating DNA & Genetics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about DNA & Genetics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about DNA & Genetics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_science_m2_l2",
+          "title": "DNA & Genetics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of dna & genetics"
+          ],
+          "core_terms": [
+            "DNA",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of DNA & Genetics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of DNA & Genetics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into DNA & Genetics. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating DNA & Genetics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about DNA & Genetics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about DNA & Genetics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_science_m2_l3",
+          "title": "DNA & Genetics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of dna & genetics"
+          ],
+          "core_terms": [
+            "DNA",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of DNA & Genetics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of DNA & Genetics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into DNA & Genetics. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating DNA & Genetics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about DNA & Genetics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about DNA & Genetics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_science_m3",
+      "title": "Evolution & Ecology",
+      "lectures": [
+        {
+          "lecture_id": "9_science_m3_l1",
+          "title": "Evolution & Ecology — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to evolution & ecology"
+          ],
+          "core_terms": [
+            "Evolution",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Evolution & Ecology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Evolution & Ecology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Evolution & Ecology. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating Evolution & Ecology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Evolution & Ecology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Evolution & Ecology — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_science_m3_l2",
+          "title": "Evolution & Ecology — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of evolution & ecology"
+          ],
+          "core_terms": [
+            "Evolution",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Evolution & Ecology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Evolution & Ecology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Evolution & Ecology. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating Evolution & Ecology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Evolution & Ecology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Evolution & Ecology — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_science_m3_l3",
+          "title": "Evolution & Ecology — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of evolution & ecology"
+          ],
+          "core_terms": [
+            "Evolution",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Evolution & Ecology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Evolution & Ecology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Evolution & Ecology. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating Evolution & Ecology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Evolution & Ecology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Evolution & Ecology — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_science_m4",
+      "title": "Human Biology",
+      "lectures": [
+        {
+          "lecture_id": "9_science_m4_l1",
+          "title": "Human Biology — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to human biology"
+          ],
+          "core_terms": [
+            "Human",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Human Biology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Human Biology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Human Biology. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating Human Biology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Human Biology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Human Biology — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_science_m4_l2",
+          "title": "Human Biology — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of human biology"
+          ],
+          "core_terms": [
+            "Human",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Human Biology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Human Biology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Human Biology. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating Human Biology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Human Biology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Human Biology — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_science_m4_l3",
+          "title": "Human Biology — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of human biology"
+          ],
+          "core_terms": [
+            "Human",
+            "science"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_science_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Human Biology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Human Biology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Human Biology. This is essential for mastering Biology.",
+                "visual_prompt": "Animated diagram illustrating Human Biology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_science_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Human Biology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Human Biology — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "8_science"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Cell Structure & Function",
+    "Demonstrate understanding of DNA & Genetics",
+    "Demonstrate understanding of Evolution & Ecology",
+    "Demonstrate understanding of Human Biology"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "9_science-A1",
+      "title": "Cell Structure & Function Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_science_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_science-A2",
+      "title": "DNA & Genetics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_science_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_science-A3",
+      "title": "Evolution & Ecology Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_science_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_science-A4",
+      "title": "Human Biology Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_science_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

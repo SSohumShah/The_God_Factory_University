@@ -1,0 +1,886 @@
+{
+  "course_id": "sophomore_stats",
+  "title": "Statistics (College Sophomore)",
+  "description": "Statistics for College Sophomore students.",
+  "credits": 3,
+  "subject_id": "stats",
+  "modules": [
+    {
+      "module_id": "sophomore_stats_m1",
+      "title": "Descriptive Statistics",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_stats_m1_l1",
+          "title": "Descriptive Statistics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to descriptive statistics"
+          ],
+          "core_terms": [
+            "Descriptive",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Descriptive Statistics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Descriptive Statistics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Descriptive Statistics. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Descriptive Statistics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Descriptive Statistics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "descriptive_statistics"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Descriptive Statistics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_stats_m1_l2",
+          "title": "Descriptive Statistics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of descriptive statistics"
+          ],
+          "core_terms": [
+            "Descriptive",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Descriptive Statistics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Descriptive Statistics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Descriptive Statistics. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Descriptive Statistics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Descriptive Statistics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "descriptive_statistics"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Descriptive Statistics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_stats_m1_l3",
+          "title": "Descriptive Statistics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of descriptive statistics"
+          ],
+          "core_terms": [
+            "Descriptive",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Descriptive Statistics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Descriptive Statistics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Descriptive Statistics. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Descriptive Statistics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Descriptive Statistics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "descriptive_statistics"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Descriptive Statistics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_stats_m2",
+      "title": "Probability",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_stats_m2_l1",
+          "title": "Probability — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to probability"
+          ],
+          "core_terms": [
+            "Probability",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Probability. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Probability",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Probability. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Probability concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Probability: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "probability"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Probability — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_stats_m2_l2",
+          "title": "Probability — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of probability"
+          ],
+          "core_terms": [
+            "Probability",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Probability. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Probability",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Probability. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Probability concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Probability: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "probability"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Probability — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_stats_m2_l3",
+          "title": "Probability — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of probability"
+          ],
+          "core_terms": [
+            "Probability",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Probability. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Probability",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Probability. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Probability concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Probability: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "probability"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Probability — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_stats_m3",
+      "title": "Inferential Statistics",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_stats_m3_l1",
+          "title": "Inferential Statistics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to inferential statistics"
+          ],
+          "core_terms": [
+            "Inferential",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Inferential Statistics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Inferential Statistics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Inferential Statistics. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Inferential Statistics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Inferential Statistics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "inferential_statistics"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Inferential Statistics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_stats_m3_l2",
+          "title": "Inferential Statistics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of inferential statistics"
+          ],
+          "core_terms": [
+            "Inferential",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Inferential Statistics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Inferential Statistics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Inferential Statistics. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Inferential Statistics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Inferential Statistics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "inferential_statistics"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Inferential Statistics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_stats_m3_l3",
+          "title": "Inferential Statistics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of inferential statistics"
+          ],
+          "core_terms": [
+            "Inferential",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Inferential Statistics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Inferential Statistics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Inferential Statistics. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Inferential Statistics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Inferential Statistics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "inferential_statistics"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Inferential Statistics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "sophomore_stats_m4",
+      "title": "Regression Analysis",
+      "lectures": [
+        {
+          "lecture_id": "sophomore_stats_m4_l1",
+          "title": "Regression Analysis — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to regression analysis"
+          ],
+          "core_terms": [
+            "Regression",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Regression Analysis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Regression Analysis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Regression Analysis. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Regression Analysis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Regression Analysis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "regression_analysis"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Regression Analysis — Part 1."
+          }
+        },
+        {
+          "lecture_id": "sophomore_stats_m4_l2",
+          "title": "Regression Analysis — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of regression analysis"
+          ],
+          "core_terms": [
+            "Regression",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Regression Analysis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Regression Analysis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Regression Analysis. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Regression Analysis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Regression Analysis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "regression_analysis"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Regression Analysis — Part 2."
+          }
+        },
+        {
+          "lecture_id": "sophomore_stats_m4_l3",
+          "title": "Regression Analysis — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of regression analysis"
+          ],
+          "core_terms": [
+            "Regression",
+            "stats"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "sophomore_stats_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Regression Analysis. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Regression Analysis",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Regression Analysis. This is essential for mastering Statistics.",
+                "visual_prompt": "Animated diagram illustrating Regression Analysis concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "sophomore_stats_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Regression Analysis: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "regression_analysis"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Regression Analysis — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Sophomore",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "freshman_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Descriptive Statistics",
+    "Demonstrate understanding of Probability",
+    "Demonstrate understanding of Inferential Statistics",
+    "Demonstrate understanding of Regression Analysis"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "sophomore_stats-A1",
+      "title": "Descriptive Statistics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_stats_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_stats-A2",
+      "title": "Probability Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_stats_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_stats-A3",
+      "title": "Inferential Statistics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_stats_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "sophomore_stats-A4",
+      "title": "Regression Analysis Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "sophomore_stats_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

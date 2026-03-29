@@ -1,0 +1,1015 @@
+{
+  "course_id": "senior_capstone",
+  "title": "Senior Thesis / Capstone (College Senior)",
+  "description": "Senior Thesis / Capstone for College Senior students.",
+  "credits": 3,
+  "subject_id": "capstone",
+  "modules": [
+    {
+      "module_id": "senior_capstone_m1",
+      "title": "Proposal & Literature Review",
+      "lectures": [
+        {
+          "lecture_id": "senior_capstone_m1_l1",
+          "title": "Proposal & Literature Review — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to proposal & literature review"
+          ],
+          "core_terms": [
+            "Proposal",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Proposal & Literature Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Proposal & Literature Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Proposal & Literature Review. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Proposal & Literature Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Proposal & Literature Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Proposal & Literature Review — Part 1",
+            "deliverable": "senior_capstone_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Proposal & Literature Review — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_capstone_m1_l2",
+          "title": "Proposal & Literature Review — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of proposal & literature review"
+          ],
+          "core_terms": [
+            "Proposal",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Proposal & Literature Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Proposal & Literature Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Proposal & Literature Review. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Proposal & Literature Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Proposal & Literature Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Proposal & Literature Review — Part 2",
+            "deliverable": "senior_capstone_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Proposal & Literature Review — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_capstone_m1_l3",
+          "title": "Proposal & Literature Review — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of proposal & literature review"
+          ],
+          "core_terms": [
+            "Proposal",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Proposal & Literature Review. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Proposal & Literature Review",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Proposal & Literature Review. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Proposal & Literature Review concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Proposal & Literature Review: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Proposal & Literature Review — Part 3",
+            "deliverable": "senior_capstone_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Proposal & Literature Review — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_capstone_m2",
+      "title": "Methodology",
+      "lectures": [
+        {
+          "lecture_id": "senior_capstone_m2_l1",
+          "title": "Methodology — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to methodology"
+          ],
+          "core_terms": [
+            "Methodology",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Methodology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Methodology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Methodology. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Methodology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Methodology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Methodology — Part 1",
+            "deliverable": "senior_capstone_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Methodology — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_capstone_m2_l2",
+          "title": "Methodology — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of methodology"
+          ],
+          "core_terms": [
+            "Methodology",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Methodology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Methodology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Methodology. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Methodology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Methodology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Methodology — Part 2",
+            "deliverable": "senior_capstone_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Methodology — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_capstone_m2_l3",
+          "title": "Methodology — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of methodology"
+          ],
+          "core_terms": [
+            "Methodology",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Methodology. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Methodology",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Methodology. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Methodology concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Methodology: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Methodology — Part 3",
+            "deliverable": "senior_capstone_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Methodology — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_capstone_m3",
+      "title": "Implementation & Results",
+      "lectures": [
+        {
+          "lecture_id": "senior_capstone_m3_l1",
+          "title": "Implementation & Results — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to implementation & results"
+          ],
+          "core_terms": [
+            "Implementation",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Implementation & Results. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Implementation & Results",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Implementation & Results. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Implementation & Results concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Implementation & Results: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Implementation & Results — Part 1",
+            "deliverable": "senior_capstone_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Implementation & Results — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_capstone_m3_l2",
+          "title": "Implementation & Results — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of implementation & results"
+          ],
+          "core_terms": [
+            "Implementation",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Implementation & Results. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Implementation & Results",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Implementation & Results. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Implementation & Results concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Implementation & Results: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Implementation & Results — Part 2",
+            "deliverable": "senior_capstone_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Implementation & Results — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_capstone_m3_l3",
+          "title": "Implementation & Results — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of implementation & results"
+          ],
+          "core_terms": [
+            "Implementation",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Implementation & Results. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Implementation & Results",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Implementation & Results. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Implementation & Results concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Implementation & Results: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Implementation & Results — Part 3",
+            "deliverable": "senior_capstone_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Implementation & Results — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_capstone_m4",
+      "title": "Defense & Publication",
+      "lectures": [
+        {
+          "lecture_id": "senior_capstone_m4_l1",
+          "title": "Defense & Publication — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to defense & publication"
+          ],
+          "core_terms": [
+            "Defense",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Defense & Publication. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Defense & Publication",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Defense & Publication. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Defense & Publication concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Defense & Publication: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Defense & Publication — Part 1",
+            "deliverable": "senior_capstone_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Defense & Publication — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_capstone_m4_l2",
+          "title": "Defense & Publication — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of defense & publication"
+          ],
+          "core_terms": [
+            "Defense",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Defense & Publication. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Defense & Publication",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Defense & Publication. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Defense & Publication concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Defense & Publication: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Defense & Publication — Part 2",
+            "deliverable": "senior_capstone_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Defense & Publication — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_capstone_m4_l3",
+          "title": "Defense & Publication — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of defense & publication"
+          ],
+          "core_terms": [
+            "Defense",
+            "capstone"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_capstone_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Defense & Publication. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Defense & Publication",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Defense & Publication. This is essential for mastering Senior Thesis / Capstone.",
+                "visual_prompt": "Animated diagram illustrating Defense & Publication concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_capstone_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Defense & Publication: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Defense & Publication — Part 3",
+            "deliverable": "senior_capstone_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Defense & Publication — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Senior",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "junior_cs301",
+    "junior_research"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Proposal & Literature Review",
+    "Demonstrate understanding of Methodology",
+    "Demonstrate understanding of Implementation & Results",
+    "Demonstrate understanding of Defense & Publication"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "senior_capstone-A1",
+      "title": "Proposal & Literature Review Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_capstone_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_capstone-LAB1",
+      "title": "Proposal & Literature Review Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_capstone_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_capstone-A2",
+      "title": "Methodology Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_capstone_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_capstone-LAB2",
+      "title": "Methodology Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_capstone_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_capstone-A3",
+      "title": "Implementation & Results Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_capstone_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_capstone-LAB3",
+      "title": "Implementation & Results Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_capstone_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_capstone-A4",
+      "title": "Defense & Publication Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_capstone_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_capstone-LAB4",
+      "title": "Defense & Publication Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_capstone_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

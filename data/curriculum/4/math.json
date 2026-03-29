@@ -1,0 +1,886 @@
+{
+  "course_id": "4_math",
+  "title": "Math IV (4th Grade)",
+  "description": "Math IV for 4th Grade students.",
+  "credits": 2,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "4_math_m1",
+      "title": "Long Division",
+      "lectures": [
+        {
+          "lecture_id": "4_math_m1_l1",
+          "title": "Long Division — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to long division"
+          ],
+          "core_terms": [
+            "Long",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Long Division. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Long Division",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Long Division. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Long Division concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Long Division: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "long_division"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Long Division — Part 1."
+          }
+        },
+        {
+          "lecture_id": "4_math_m1_l2",
+          "title": "Long Division — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of long division"
+          ],
+          "core_terms": [
+            "Long",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Long Division. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Long Division",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Long Division. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Long Division concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Long Division: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "long_division"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Long Division — Part 2."
+          }
+        },
+        {
+          "lecture_id": "4_math_m1_l3",
+          "title": "Long Division — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of long division"
+          ],
+          "core_terms": [
+            "Long",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Long Division. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Long Division",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Long Division. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Long Division concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Long Division: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "long_division"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Long Division — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "4_math_m2",
+      "title": "Fraction Operations",
+      "lectures": [
+        {
+          "lecture_id": "4_math_m2_l1",
+          "title": "Fraction Operations — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to fraction operations"
+          ],
+          "core_terms": [
+            "Fraction",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Fraction Operations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Fraction Operations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Fraction Operations. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Fraction Operations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Fraction Operations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "fraction_operations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Fraction Operations — Part 1."
+          }
+        },
+        {
+          "lecture_id": "4_math_m2_l2",
+          "title": "Fraction Operations — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of fraction operations"
+          ],
+          "core_terms": [
+            "Fraction",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Fraction Operations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Fraction Operations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Fraction Operations. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Fraction Operations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Fraction Operations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "fraction_operations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Fraction Operations — Part 2."
+          }
+        },
+        {
+          "lecture_id": "4_math_m2_l3",
+          "title": "Fraction Operations — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of fraction operations"
+          ],
+          "core_terms": [
+            "Fraction",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Fraction Operations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Fraction Operations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Fraction Operations. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Fraction Operations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Fraction Operations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "fraction_operations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Fraction Operations — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "4_math_m3",
+      "title": "Decimals",
+      "lectures": [
+        {
+          "lecture_id": "4_math_m3_l1",
+          "title": "Decimals — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to decimals"
+          ],
+          "core_terms": [
+            "Decimals",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Decimals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Decimals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Decimals. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Decimals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Decimals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "decimals"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Decimals — Part 1."
+          }
+        },
+        {
+          "lecture_id": "4_math_m3_l2",
+          "title": "Decimals — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of decimals"
+          ],
+          "core_terms": [
+            "Decimals",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Decimals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Decimals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Decimals. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Decimals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Decimals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "decimals"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Decimals — Part 2."
+          }
+        },
+        {
+          "lecture_id": "4_math_m3_l3",
+          "title": "Decimals — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of decimals"
+          ],
+          "core_terms": [
+            "Decimals",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Decimals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Decimals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Decimals. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Decimals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Decimals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "decimals"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Decimals — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "4_math_m4",
+      "title": "Area & Perimeter",
+      "lectures": [
+        {
+          "lecture_id": "4_math_m4_l1",
+          "title": "Area & Perimeter — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to area & perimeter"
+          ],
+          "core_terms": [
+            "Area",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Area & Perimeter. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Area & Perimeter",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Area & Perimeter. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Area & Perimeter concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Area & Perimeter: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "area_&_perimeter"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Area & Perimeter — Part 1."
+          }
+        },
+        {
+          "lecture_id": "4_math_m4_l2",
+          "title": "Area & Perimeter — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of area & perimeter"
+          ],
+          "core_terms": [
+            "Area",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Area & Perimeter. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Area & Perimeter",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Area & Perimeter. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Area & Perimeter concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Area & Perimeter: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "area_&_perimeter"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Area & Perimeter — Part 2."
+          }
+        },
+        {
+          "lecture_id": "4_math_m4_l3",
+          "title": "Area & Perimeter — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of area & perimeter"
+          ],
+          "core_terms": [
+            "Area",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "4_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Area & Perimeter. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Area & Perimeter",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Area & Perimeter. This is essential for mastering Math IV.",
+                "visual_prompt": "Animated diagram illustrating Area & Perimeter concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "4_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Area & Perimeter: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "area_&_perimeter"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Area & Perimeter — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "3_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Long Division",
+    "Demonstrate understanding of Fraction Operations",
+    "Demonstrate understanding of Decimals",
+    "Demonstrate understanding of Area & Perimeter"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "4_math-A1",
+      "title": "Long Division Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "4_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "4_math-A2",
+      "title": "Fraction Operations Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "4_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "4_math-A3",
+      "title": "Decimals Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "4_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "4_math-A4",
+      "title": "Area & Perimeter Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "4_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 60000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

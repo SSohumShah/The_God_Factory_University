@@ -1,0 +1,862 @@
+{
+  "course_id": "11_english",
+  "title": "English III / British Literature (11th Grade)",
+  "description": "English III / British Literature for 11th Grade students.",
+  "credits": 3,
+  "subject_id": "english",
+  "modules": [
+    {
+      "module_id": "11_english_m1",
+      "title": "Beowulf & Medieval Lit",
+      "lectures": [
+        {
+          "lecture_id": "11_english_m1_l1",
+          "title": "Beowulf & Medieval Lit — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to beowulf & medieval lit"
+          ],
+          "core_terms": [
+            "Beowulf",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Beowulf & Medieval Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Beowulf & Medieval Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Beowulf & Medieval Lit. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Beowulf & Medieval Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Beowulf & Medieval Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Beowulf & Medieval Lit — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_english_m1_l2",
+          "title": "Beowulf & Medieval Lit — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of beowulf & medieval lit"
+          ],
+          "core_terms": [
+            "Beowulf",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Beowulf & Medieval Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Beowulf & Medieval Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Beowulf & Medieval Lit. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Beowulf & Medieval Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Beowulf & Medieval Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Beowulf & Medieval Lit — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_english_m1_l3",
+          "title": "Beowulf & Medieval Lit — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of beowulf & medieval lit"
+          ],
+          "core_terms": [
+            "Beowulf",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Beowulf & Medieval Lit. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Beowulf & Medieval Lit",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Beowulf & Medieval Lit. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Beowulf & Medieval Lit concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Beowulf & Medieval Lit: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Beowulf & Medieval Lit — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_english_m2",
+      "title": "Shakespeare",
+      "lectures": [
+        {
+          "lecture_id": "11_english_m2_l1",
+          "title": "Shakespeare — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to shakespeare"
+          ],
+          "core_terms": [
+            "Shakespeare",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Shakespeare. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Shakespeare",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Shakespeare. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Shakespeare concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Shakespeare: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Shakespeare — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_english_m2_l2",
+          "title": "Shakespeare — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of shakespeare"
+          ],
+          "core_terms": [
+            "Shakespeare",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Shakespeare. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Shakespeare",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Shakespeare. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Shakespeare concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Shakespeare: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Shakespeare — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_english_m2_l3",
+          "title": "Shakespeare — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of shakespeare"
+          ],
+          "core_terms": [
+            "Shakespeare",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Shakespeare. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Shakespeare",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Shakespeare. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Shakespeare concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Shakespeare: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Shakespeare — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_english_m3",
+      "title": "Romantic Period",
+      "lectures": [
+        {
+          "lecture_id": "11_english_m3_l1",
+          "title": "Romantic Period — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to romantic period"
+          ],
+          "core_terms": [
+            "Romantic",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Romantic Period. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Romantic Period",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Romantic Period. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Romantic Period concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Romantic Period: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Romantic Period — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_english_m3_l2",
+          "title": "Romantic Period — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of romantic period"
+          ],
+          "core_terms": [
+            "Romantic",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Romantic Period. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Romantic Period",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Romantic Period. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Romantic Period concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Romantic Period: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Romantic Period — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_english_m3_l3",
+          "title": "Romantic Period — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of romantic period"
+          ],
+          "core_terms": [
+            "Romantic",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Romantic Period. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Romantic Period",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Romantic Period. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Romantic Period concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Romantic Period: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Romantic Period — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "11_english_m4",
+      "title": "Victorian & Modern",
+      "lectures": [
+        {
+          "lecture_id": "11_english_m4_l1",
+          "title": "Victorian & Modern — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to victorian & modern"
+          ],
+          "core_terms": [
+            "Victorian",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Victorian & Modern. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Victorian & Modern",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Victorian & Modern. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Victorian & Modern concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Victorian & Modern: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Victorian & Modern — Part 1."
+          }
+        },
+        {
+          "lecture_id": "11_english_m4_l2",
+          "title": "Victorian & Modern — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of victorian & modern"
+          ],
+          "core_terms": [
+            "Victorian",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Victorian & Modern. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Victorian & Modern",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Victorian & Modern. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Victorian & Modern concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Victorian & Modern: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Victorian & Modern — Part 2."
+          }
+        },
+        {
+          "lecture_id": "11_english_m4_l3",
+          "title": "Victorian & Modern — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of victorian & modern"
+          ],
+          "core_terms": [
+            "Victorian",
+            "english"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "11_english_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Victorian & Modern. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Victorian & Modern",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Victorian & Modern. This is essential for mastering English III / British Literature.",
+                "visual_prompt": "Animated diagram illustrating Victorian & Modern concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "11_english_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Victorian & Modern: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Victorian & Modern — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "10_english"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Beowulf & Medieval Lit",
+    "Demonstrate understanding of Shakespeare",
+    "Demonstrate understanding of Romantic Period",
+    "Demonstrate understanding of Victorian & Modern"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "11_english-A1",
+      "title": "Beowulf & Medieval Lit Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_english_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_english-A2",
+      "title": "Shakespeare Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_english_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_english-A3",
+      "title": "Romantic Period Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_english_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "11_english-A4",
+      "title": "Victorian & Modern Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "11_english_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

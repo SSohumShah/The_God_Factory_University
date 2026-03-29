@@ -1,0 +1,1038 @@
+{
+  "course_id": "senior_cs450",
+  "title": "CS 450: Machine Learning (College Senior)",
+  "description": "CS 450: Machine Learning for College Senior students.",
+  "credits": 3,
+  "subject_id": "cs450",
+  "modules": [
+    {
+      "module_id": "senior_cs450_m1",
+      "title": "Supervised Learning",
+      "lectures": [
+        {
+          "lecture_id": "senior_cs450_m1_l1",
+          "title": "Supervised Learning — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to supervised learning"
+          ],
+          "core_terms": [
+            "Supervised",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Supervised Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Supervised Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Supervised Learning. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Supervised Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Supervised Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Supervised Learning — Part 1",
+            "deliverable": "senior_cs450_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Supervised Learning — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_cs450_m1_l2",
+          "title": "Supervised Learning — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of supervised learning"
+          ],
+          "core_terms": [
+            "Supervised",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Supervised Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Supervised Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Supervised Learning. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Supervised Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Supervised Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Supervised Learning — Part 2",
+            "deliverable": "senior_cs450_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Supervised Learning — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_cs450_m1_l3",
+          "title": "Supervised Learning — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of supervised learning"
+          ],
+          "core_terms": [
+            "Supervised",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Supervised Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Supervised Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Supervised Learning. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Supervised Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Supervised Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Supervised Learning — Part 3",
+            "deliverable": "senior_cs450_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Supervised Learning — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_cs450_m2",
+      "title": "Unsupervised Learning",
+      "lectures": [
+        {
+          "lecture_id": "senior_cs450_m2_l1",
+          "title": "Unsupervised Learning — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to unsupervised learning"
+          ],
+          "core_terms": [
+            "Unsupervised",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Unsupervised Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Unsupervised Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Unsupervised Learning. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Unsupervised Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Unsupervised Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Unsupervised Learning — Part 1",
+            "deliverable": "senior_cs450_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Unsupervised Learning — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_cs450_m2_l2",
+          "title": "Unsupervised Learning — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of unsupervised learning"
+          ],
+          "core_terms": [
+            "Unsupervised",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Unsupervised Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Unsupervised Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Unsupervised Learning. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Unsupervised Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Unsupervised Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Unsupervised Learning — Part 2",
+            "deliverable": "senior_cs450_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Unsupervised Learning — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_cs450_m2_l3",
+          "title": "Unsupervised Learning — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of unsupervised learning"
+          ],
+          "core_terms": [
+            "Unsupervised",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Unsupervised Learning. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Unsupervised Learning",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Unsupervised Learning. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Unsupervised Learning concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Unsupervised Learning: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Unsupervised Learning — Part 3",
+            "deliverable": "senior_cs450_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Unsupervised Learning — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_cs450_m3",
+      "title": "Neural Networks",
+      "lectures": [
+        {
+          "lecture_id": "senior_cs450_m3_l1",
+          "title": "Neural Networks — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to neural networks"
+          ],
+          "core_terms": [
+            "Neural",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Neural Networks. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Neural Networks",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Neural Networks. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Neural Networks concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Neural Networks: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Neural Networks — Part 1",
+            "deliverable": "senior_cs450_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Neural Networks — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_cs450_m3_l2",
+          "title": "Neural Networks — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of neural networks"
+          ],
+          "core_terms": [
+            "Neural",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Neural Networks. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Neural Networks",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Neural Networks. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Neural Networks concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Neural Networks: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Neural Networks — Part 2",
+            "deliverable": "senior_cs450_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Neural Networks — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_cs450_m3_l3",
+          "title": "Neural Networks — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of neural networks"
+          ],
+          "core_terms": [
+            "Neural",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Neural Networks. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Neural Networks",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Neural Networks. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Neural Networks concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Neural Networks: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Neural Networks — Part 3",
+            "deliverable": "senior_cs450_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Neural Networks — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "senior_cs450_m4",
+      "title": "Deep Learning Intro",
+      "lectures": [
+        {
+          "lecture_id": "senior_cs450_m4_l1",
+          "title": "Deep Learning Intro — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to deep learning intro"
+          ],
+          "core_terms": [
+            "Deep",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Deep Learning Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Deep Learning Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Deep Learning Intro. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Deep Learning Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Deep Learning Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Deep Learning Intro — Part 1",
+            "deliverable": "senior_cs450_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Deep Learning Intro — Part 1."
+          }
+        },
+        {
+          "lecture_id": "senior_cs450_m4_l2",
+          "title": "Deep Learning Intro — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of deep learning intro"
+          ],
+          "core_terms": [
+            "Deep",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Deep Learning Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Deep Learning Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Deep Learning Intro. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Deep Learning Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Deep Learning Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Deep Learning Intro — Part 2",
+            "deliverable": "senior_cs450_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Deep Learning Intro — Part 2."
+          }
+        },
+        {
+          "lecture_id": "senior_cs450_m4_l3",
+          "title": "Deep Learning Intro — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of deep learning intro"
+          ],
+          "core_terms": [
+            "Deep",
+            "cs450"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "senior_cs450_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Deep Learning Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Deep Learning Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Deep Learning Intro. This is essential for mastering CS 450: Machine Learning.",
+                "visual_prompt": "Animated diagram illustrating Deep Learning Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "senior_cs450_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Deep Learning Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs450_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Deep Learning Intro — Part 3",
+            "deliverable": "senior_cs450_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Deep Learning Intro — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "Senior",
+  "depth_target": 3,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "junior_cs350"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Supervised Learning",
+    "Demonstrate understanding of Unsupervised Learning",
+    "Demonstrate understanding of Neural Networks",
+    "Demonstrate understanding of Deep Learning Intro"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "senior_cs450-A1",
+      "title": "Supervised Learning Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs450_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs450-LAB1",
+      "title": "Supervised Learning Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs450_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs450-A2",
+      "title": "Unsupervised Learning Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs450_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs450-LAB2",
+      "title": "Unsupervised Learning Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs450_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs450-A3",
+      "title": "Neural Networks Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs450_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs450-LAB3",
+      "title": "Neural Networks Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs450_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs450-A4",
+      "title": "Deep Learning Intro Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs450_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "senior_cs450-LAB4",
+      "title": "Deep Learning Intro Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "senior_cs450_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 2000000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

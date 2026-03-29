@@ -1,0 +1,1036 @@
+{
+  "course_id": "9_cs",
+  "title": "Intro to Computer Science (9th Grade)",
+  "description": "Intro to Computer Science for 9th Grade students.",
+  "credits": 3,
+  "subject_id": "cs",
+  "modules": [
+    {
+      "module_id": "9_cs_m1",
+      "title": "Computational Thinking",
+      "lectures": [
+        {
+          "lecture_id": "9_cs_m1_l1",
+          "title": "Computational Thinking — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to computational thinking"
+          ],
+          "core_terms": [
+            "Computational",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Computational Thinking. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Computational Thinking",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Computational Thinking. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Computational Thinking concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Computational Thinking: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Computational Thinking — Part 1",
+            "deliverable": "9_cs_m1_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Computational Thinking — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_cs_m1_l2",
+          "title": "Computational Thinking — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of computational thinking"
+          ],
+          "core_terms": [
+            "Computational",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Computational Thinking. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Computational Thinking",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Computational Thinking. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Computational Thinking concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Computational Thinking: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Computational Thinking — Part 2",
+            "deliverable": "9_cs_m1_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Computational Thinking — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_cs_m1_l3",
+          "title": "Computational Thinking — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of computational thinking"
+          ],
+          "core_terms": [
+            "Computational",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Computational Thinking. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Computational Thinking",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Computational Thinking. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Computational Thinking concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Computational Thinking: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Computational Thinking — Part 3",
+            "deliverable": "9_cs_m1_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Computational Thinking — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_cs_m2",
+      "title": "Python Basics",
+      "lectures": [
+        {
+          "lecture_id": "9_cs_m2_l1",
+          "title": "Python Basics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to python basics"
+          ],
+          "core_terms": [
+            "Python",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Python Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Python Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Python Basics. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Python Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Python Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Python Basics — Part 1",
+            "deliverable": "9_cs_m2_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Python Basics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_cs_m2_l2",
+          "title": "Python Basics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of python basics"
+          ],
+          "core_terms": [
+            "Python",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Python Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Python Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Python Basics. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Python Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Python Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Python Basics — Part 2",
+            "deliverable": "9_cs_m2_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Python Basics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_cs_m2_l3",
+          "title": "Python Basics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of python basics"
+          ],
+          "core_terms": [
+            "Python",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Python Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Python Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Python Basics. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Python Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Python Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Python Basics — Part 3",
+            "deliverable": "9_cs_m2_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Python Basics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_cs_m3",
+      "title": "Data & Algorithms",
+      "lectures": [
+        {
+          "lecture_id": "9_cs_m3_l1",
+          "title": "Data & Algorithms — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to data & algorithms"
+          ],
+          "core_terms": [
+            "Data",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Data & Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Data & Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data & Algorithms. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Data & Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data & Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Data & Algorithms — Part 1",
+            "deliverable": "9_cs_m3_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Data & Algorithms — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_cs_m3_l2",
+          "title": "Data & Algorithms — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of data & algorithms"
+          ],
+          "core_terms": [
+            "Data",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Data & Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Data & Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data & Algorithms. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Data & Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data & Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Data & Algorithms — Part 2",
+            "deliverable": "9_cs_m3_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Data & Algorithms — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_cs_m3_l3",
+          "title": "Data & Algorithms — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of data & algorithms"
+          ],
+          "core_terms": [
+            "Data",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Data & Algorithms. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Data & Algorithms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data & Algorithms. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Data & Algorithms concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data & Algorithms: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Data & Algorithms — Part 3",
+            "deliverable": "9_cs_m3_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Data & Algorithms — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "9_cs_m4",
+      "title": "Web Fundamentals",
+      "lectures": [
+        {
+          "lecture_id": "9_cs_m4_l1",
+          "title": "Web Fundamentals — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to web fundamentals"
+          ],
+          "core_terms": [
+            "Web",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Web Fundamentals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Web Fundamentals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Web Fundamentals. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Web Fundamentals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Web Fundamentals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Web Fundamentals — Part 1",
+            "deliverable": "9_cs_m4_l1.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Web Fundamentals — Part 1."
+          }
+        },
+        {
+          "lecture_id": "9_cs_m4_l2",
+          "title": "Web Fundamentals — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of web fundamentals"
+          ],
+          "core_terms": [
+            "Web",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Web Fundamentals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Web Fundamentals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Web Fundamentals. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Web Fundamentals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Web Fundamentals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Web Fundamentals — Part 2",
+            "deliverable": "9_cs_m4_l2.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Web Fundamentals — Part 2."
+          }
+        },
+        {
+          "lecture_id": "9_cs_m4_l3",
+          "title": "Web Fundamentals — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of web fundamentals"
+          ],
+          "core_terms": [
+            "Web",
+            "cs"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "9_cs_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Web Fundamentals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Web Fundamentals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Web Fundamentals. This is essential for mastering Intro to Computer Science.",
+                "visual_prompt": "Animated diagram illustrating Web Fundamentals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "9_cs_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Web Fundamentals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [
+            "cs_fundamentals"
+          ],
+          "coding_lab": {
+            "language": "Python",
+            "task": "Implement concepts from Web Fundamentals — Part 3",
+            "deliverable": "9_cs_m4_l3.py"
+          },
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 1,
+            "reflection_prompt": "Reflect on what you learned about Web Fundamentals — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Computational Thinking",
+    "Demonstrate understanding of Python Basics",
+    "Demonstrate understanding of Data & Algorithms",
+    "Demonstrate understanding of Web Fundamentals"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "9_cs-A1",
+      "title": "Computational Thinking Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_cs_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_cs-LAB1",
+      "title": "Computational Thinking Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_cs_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_cs-A2",
+      "title": "Python Basics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_cs_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_cs-LAB2",
+      "title": "Python Basics Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_cs_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_cs-A3",
+      "title": "Data & Algorithms Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_cs_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_cs-LAB3",
+      "title": "Data & Algorithms Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_cs_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_cs-A4",
+      "title": "Web Fundamentals Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_cs_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "9_cs-LAB4",
+      "title": "Web Fundamentals Lab",
+      "type": "lab",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "9_cs_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Code correctness",
+          "points": 50
+        },
+        {
+          "criterion": "Code quality",
+          "points": 30
+        },
+        {
+          "criterion": "Documentation",
+          "points": 20
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

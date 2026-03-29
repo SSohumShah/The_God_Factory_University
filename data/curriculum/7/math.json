@@ -1,0 +1,886 @@
+{
+  "course_id": "7_math",
+  "title": "Pre-Algebra (7th Grade)",
+  "description": "Pre-Algebra for 7th Grade students.",
+  "credits": 2,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "7_math_m1",
+      "title": "Proportional Relationships",
+      "lectures": [
+        {
+          "lecture_id": "7_math_m1_l1",
+          "title": "Proportional Relationships — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to proportional relationships"
+          ],
+          "core_terms": [
+            "Proportional",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Proportional Relationships. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Proportional Relationships",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Proportional Relationships. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Proportional Relationships concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Proportional Relationships: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "proportional_relationships"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Proportional Relationships — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_math_m1_l2",
+          "title": "Proportional Relationships — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of proportional relationships"
+          ],
+          "core_terms": [
+            "Proportional",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Proportional Relationships. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Proportional Relationships",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Proportional Relationships. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Proportional Relationships concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Proportional Relationships: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "proportional_relationships"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Proportional Relationships — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_math_m1_l3",
+          "title": "Proportional Relationships — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of proportional relationships"
+          ],
+          "core_terms": [
+            "Proportional",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Proportional Relationships. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Proportional Relationships",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Proportional Relationships. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Proportional Relationships concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Proportional Relationships: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "proportional_relationships"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Proportional Relationships — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_math_m2",
+      "title": "Rational Numbers",
+      "lectures": [
+        {
+          "lecture_id": "7_math_m2_l1",
+          "title": "Rational Numbers — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to rational numbers"
+          ],
+          "core_terms": [
+            "Rational",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Rational Numbers. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Rational Numbers",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rational Numbers. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Rational Numbers concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rational Numbers: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "rational_numbers"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rational Numbers — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_math_m2_l2",
+          "title": "Rational Numbers — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of rational numbers"
+          ],
+          "core_terms": [
+            "Rational",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Rational Numbers. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Rational Numbers",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rational Numbers. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Rational Numbers concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rational Numbers: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "rational_numbers"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rational Numbers — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_math_m2_l3",
+          "title": "Rational Numbers — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of rational numbers"
+          ],
+          "core_terms": [
+            "Rational",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Rational Numbers. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Rational Numbers",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Rational Numbers. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Rational Numbers concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Rational Numbers: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "rational_numbers"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Rational Numbers — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_math_m3",
+      "title": "Linear Equations",
+      "lectures": [
+        {
+          "lecture_id": "7_math_m3_l1",
+          "title": "Linear Equations — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to linear equations"
+          ],
+          "core_terms": [
+            "Linear",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Linear Equations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Linear Equations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Linear Equations. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Linear Equations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Linear Equations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "linear_equations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Linear Equations — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_math_m3_l2",
+          "title": "Linear Equations — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of linear equations"
+          ],
+          "core_terms": [
+            "Linear",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Linear Equations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Linear Equations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Linear Equations. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Linear Equations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Linear Equations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "linear_equations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Linear Equations — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_math_m3_l3",
+          "title": "Linear Equations — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of linear equations"
+          ],
+          "core_terms": [
+            "Linear",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Linear Equations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Linear Equations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Linear Equations. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Linear Equations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Linear Equations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "linear_equations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Linear Equations — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "7_math_m4",
+      "title": "Probability",
+      "lectures": [
+        {
+          "lecture_id": "7_math_m4_l1",
+          "title": "Probability — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to probability"
+          ],
+          "core_terms": [
+            "Probability",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Probability. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Probability",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Probability. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Probability concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Probability: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "probability"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Probability — Part 1."
+          }
+        },
+        {
+          "lecture_id": "7_math_m4_l2",
+          "title": "Probability — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of probability"
+          ],
+          "core_terms": [
+            "Probability",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Probability. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Probability",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Probability. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Probability concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Probability: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "probability"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Probability — Part 2."
+          }
+        },
+        {
+          "lecture_id": "7_math_m4_l3",
+          "title": "Probability — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of probability"
+          ],
+          "core_terms": [
+            "Probability",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "7_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Probability. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Probability",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Probability. This is essential for mastering Pre-Algebra.",
+                "visual_prompt": "Animated diagram illustrating Probability concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "7_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Probability: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "probability"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Probability — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "6-8",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "6_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Proportional Relationships",
+    "Demonstrate understanding of Rational Numbers",
+    "Demonstrate understanding of Linear Equations",
+    "Demonstrate understanding of Probability"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "7_math-A1",
+      "title": "Proportional Relationships Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_math-A2",
+      "title": "Rational Numbers Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_math-A3",
+      "title": "Linear Equations Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "7_math-A4",
+      "title": "Probability Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "7_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 200000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

@@ -1,0 +1,886 @@
+{
+  "course_id": "3_math",
+  "title": "Math III (3rd Grade)",
+  "description": "Math III for 3rd Grade students.",
+  "credits": 2,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "3_math_m1",
+      "title": "Multiplication & Division",
+      "lectures": [
+        {
+          "lecture_id": "3_math_m1_l1",
+          "title": "Multiplication & Division — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to multiplication & division"
+          ],
+          "core_terms": [
+            "Multiplication",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Multiplication & Division. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Multiplication & Division",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Multiplication & Division. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Multiplication & Division concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Multiplication & Division: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "multiplication_&_division"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Multiplication & Division — Part 1."
+          }
+        },
+        {
+          "lecture_id": "3_math_m1_l2",
+          "title": "Multiplication & Division — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of multiplication & division"
+          ],
+          "core_terms": [
+            "Multiplication",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Multiplication & Division. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Multiplication & Division",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Multiplication & Division. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Multiplication & Division concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Multiplication & Division: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "multiplication_&_division"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Multiplication & Division — Part 2."
+          }
+        },
+        {
+          "lecture_id": "3_math_m1_l3",
+          "title": "Multiplication & Division — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of multiplication & division"
+          ],
+          "core_terms": [
+            "Multiplication",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Multiplication & Division. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Multiplication & Division",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Multiplication & Division. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Multiplication & Division concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Multiplication & Division: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "multiplication_&_division"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Multiplication & Division — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "3_math_m2",
+      "title": "Fractions Intro",
+      "lectures": [
+        {
+          "lecture_id": "3_math_m2_l1",
+          "title": "Fractions Intro — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to fractions intro"
+          ],
+          "core_terms": [
+            "Fractions",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Fractions Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Fractions Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Fractions Intro. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Fractions Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Fractions Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "fractions_intro"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Fractions Intro — Part 1."
+          }
+        },
+        {
+          "lecture_id": "3_math_m2_l2",
+          "title": "Fractions Intro — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of fractions intro"
+          ],
+          "core_terms": [
+            "Fractions",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Fractions Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Fractions Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Fractions Intro. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Fractions Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Fractions Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "fractions_intro"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Fractions Intro — Part 2."
+          }
+        },
+        {
+          "lecture_id": "3_math_m2_l3",
+          "title": "Fractions Intro — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of fractions intro"
+          ],
+          "core_terms": [
+            "Fractions",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Fractions Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Fractions Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Fractions Intro. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Fractions Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Fractions Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "fractions_intro"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Fractions Intro — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "3_math_m3",
+      "title": "Geometry Basics",
+      "lectures": [
+        {
+          "lecture_id": "3_math_m3_l1",
+          "title": "Geometry Basics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to geometry basics"
+          ],
+          "core_terms": [
+            "Geometry",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Geometry Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Geometry Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Geometry Basics. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Geometry Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Geometry Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "geometry_basics"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Geometry Basics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "3_math_m3_l2",
+          "title": "Geometry Basics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of geometry basics"
+          ],
+          "core_terms": [
+            "Geometry",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Geometry Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Geometry Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Geometry Basics. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Geometry Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Geometry Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "geometry_basics"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Geometry Basics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "3_math_m3_l3",
+          "title": "Geometry Basics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of geometry basics"
+          ],
+          "core_terms": [
+            "Geometry",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Geometry Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Geometry Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Geometry Basics. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Geometry Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Geometry Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "geometry_basics"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Geometry Basics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "3_math_m4",
+      "title": "Data & Graphs",
+      "lectures": [
+        {
+          "lecture_id": "3_math_m4_l1",
+          "title": "Data & Graphs — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to data & graphs"
+          ],
+          "core_terms": [
+            "Data",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Data & Graphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Data & Graphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data & Graphs. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Data & Graphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data & Graphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "data_&_graphs"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Data & Graphs — Part 1."
+          }
+        },
+        {
+          "lecture_id": "3_math_m4_l2",
+          "title": "Data & Graphs — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of data & graphs"
+          ],
+          "core_terms": [
+            "Data",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Data & Graphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Data & Graphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data & Graphs. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Data & Graphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data & Graphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "data_&_graphs"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Data & Graphs — Part 2."
+          }
+        },
+        {
+          "lecture_id": "3_math_m4_l3",
+          "title": "Data & Graphs — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of data & graphs"
+          ],
+          "core_terms": [
+            "Data",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "3_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Data & Graphs. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Data & Graphs",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Data & Graphs. This is essential for mastering Math III.",
+                "visual_prompt": "Animated diagram illustrating Data & Graphs concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "3_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Data & Graphs: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "data_&_graphs"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Data & Graphs — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "2_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Multiplication & Division",
+    "Demonstrate understanding of Fractions Intro",
+    "Demonstrate understanding of Geometry Basics",
+    "Demonstrate understanding of Data & Graphs"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "3_math-A1",
+      "title": "Multiplication & Division Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "3_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "3_math-A2",
+      "title": "Fractions Intro Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "3_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "3_math-A3",
+      "title": "Geometry Basics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "3_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "3_math-A4",
+      "title": "Data & Graphs Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "3_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 60000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

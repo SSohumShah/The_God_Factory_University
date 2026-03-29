@@ -1,0 +1,886 @@
+{
+  "course_id": "12_math",
+  "title": "AP Calculus AB (12th Grade)",
+  "description": "AP Calculus AB for 12th Grade students.",
+  "credits": 3,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "12_math_m1",
+      "title": "Limits & Derivatives",
+      "lectures": [
+        {
+          "lecture_id": "12_math_m1_l1",
+          "title": "Limits & Derivatives — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to limits & derivatives"
+          ],
+          "core_terms": [
+            "Limits",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Limits & Derivatives. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Limits & Derivatives",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Limits & Derivatives. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Limits & Derivatives concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Limits & Derivatives: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "limits_&_derivatives"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Limits & Derivatives — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_math_m1_l2",
+          "title": "Limits & Derivatives — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of limits & derivatives"
+          ],
+          "core_terms": [
+            "Limits",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Limits & Derivatives. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Limits & Derivatives",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Limits & Derivatives. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Limits & Derivatives concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Limits & Derivatives: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "limits_&_derivatives"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Limits & Derivatives — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_math_m1_l3",
+          "title": "Limits & Derivatives — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of limits & derivatives"
+          ],
+          "core_terms": [
+            "Limits",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Limits & Derivatives. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Limits & Derivatives",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Limits & Derivatives. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Limits & Derivatives concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Limits & Derivatives: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "limits_&_derivatives"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Limits & Derivatives — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "12_math_m2",
+      "title": "Applications of Derivatives",
+      "lectures": [
+        {
+          "lecture_id": "12_math_m2_l1",
+          "title": "Applications of Derivatives — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to applications of derivatives"
+          ],
+          "core_terms": [
+            "Applications",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Applications of Derivatives. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Applications of Derivatives",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Applications of Derivatives. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Applications of Derivatives concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Applications of Derivatives: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "applications_of_derivatives"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Applications of Derivatives — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_math_m2_l2",
+          "title": "Applications of Derivatives — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of applications of derivatives"
+          ],
+          "core_terms": [
+            "Applications",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Applications of Derivatives. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Applications of Derivatives",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Applications of Derivatives. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Applications of Derivatives concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Applications of Derivatives: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "applications_of_derivatives"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Applications of Derivatives — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_math_m2_l3",
+          "title": "Applications of Derivatives — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of applications of derivatives"
+          ],
+          "core_terms": [
+            "Applications",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Applications of Derivatives. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Applications of Derivatives",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Applications of Derivatives. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Applications of Derivatives concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Applications of Derivatives: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "applications_of_derivatives"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Applications of Derivatives — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "12_math_m3",
+      "title": "Integrals",
+      "lectures": [
+        {
+          "lecture_id": "12_math_m3_l1",
+          "title": "Integrals — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to integrals"
+          ],
+          "core_terms": [
+            "Integrals",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Integrals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Integrals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Integrals. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Integrals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Integrals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "integrals"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Integrals — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_math_m3_l2",
+          "title": "Integrals — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of integrals"
+          ],
+          "core_terms": [
+            "Integrals",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Integrals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Integrals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Integrals. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Integrals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Integrals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "integrals"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Integrals — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_math_m3_l3",
+          "title": "Integrals — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of integrals"
+          ],
+          "core_terms": [
+            "Integrals",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Integrals. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Integrals",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Integrals. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Integrals concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Integrals: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "integrals"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Integrals — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "12_math_m4",
+      "title": "Differential Equations Intro",
+      "lectures": [
+        {
+          "lecture_id": "12_math_m4_l1",
+          "title": "Differential Equations Intro — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to differential equations intro"
+          ],
+          "core_terms": [
+            "Differential",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Differential Equations Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Differential Equations Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Differential Equations Intro. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Differential Equations Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Differential Equations Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "differential_equations_intro"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Differential Equations Intro — Part 1."
+          }
+        },
+        {
+          "lecture_id": "12_math_m4_l2",
+          "title": "Differential Equations Intro — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of differential equations intro"
+          ],
+          "core_terms": [
+            "Differential",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Differential Equations Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Differential Equations Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Differential Equations Intro. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Differential Equations Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Differential Equations Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "differential_equations_intro"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Differential Equations Intro — Part 2."
+          }
+        },
+        {
+          "lecture_id": "12_math_m4_l3",
+          "title": "Differential Equations Intro — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of differential equations intro"
+          ],
+          "core_terms": [
+            "Differential",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "12_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Differential Equations Intro. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Differential Equations Intro",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Differential Equations Intro. This is essential for mastering AP Calculus AB.",
+                "visual_prompt": "Animated diagram illustrating Differential Equations Intro concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "12_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Differential Equations Intro: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "differential_equations_intro"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Differential Equations Intro — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "9-12",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "11_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Limits & Derivatives",
+    "Demonstrate understanding of Applications of Derivatives",
+    "Demonstrate understanding of Integrals",
+    "Demonstrate understanding of Differential Equations Intro"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "12_math-A1",
+      "title": "Limits & Derivatives Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_math-A2",
+      "title": "Applications of Derivatives Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_math-A3",
+      "title": "Integrals Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "12_math-A4",
+      "title": "Differential Equations Intro Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "12_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 500000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

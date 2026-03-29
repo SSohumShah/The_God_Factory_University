@@ -1,0 +1,886 @@
+{
+  "course_id": "5_math",
+  "title": "Math V (5th Grade)",
+  "description": "Math V for 5th Grade students.",
+  "credits": 2,
+  "subject_id": "math",
+  "modules": [
+    {
+      "module_id": "5_math_m1",
+      "title": "Decimal Operations",
+      "lectures": [
+        {
+          "lecture_id": "5_math_m1_l1",
+          "title": "Decimal Operations — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to decimal operations"
+          ],
+          "core_terms": [
+            "Decimal",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Decimal Operations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Decimal Operations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Decimal Operations. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Decimal Operations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Decimal Operations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "decimal_operations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Decimal Operations — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_math_m1_l2",
+          "title": "Decimal Operations — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of decimal operations"
+          ],
+          "core_terms": [
+            "Decimal",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Decimal Operations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Decimal Operations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Decimal Operations. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Decimal Operations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Decimal Operations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "decimal_operations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Decimal Operations — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_math_m1_l3",
+          "title": "Decimal Operations — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of decimal operations"
+          ],
+          "core_terms": [
+            "Decimal",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Decimal Operations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Decimal Operations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Decimal Operations. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Decimal Operations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Decimal Operations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "decimal_operations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Decimal Operations — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "5_math_m2",
+      "title": "Volume & Geometry",
+      "lectures": [
+        {
+          "lecture_id": "5_math_m2_l1",
+          "title": "Volume & Geometry — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to volume & geometry"
+          ],
+          "core_terms": [
+            "Volume",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Volume & Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Volume & Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Volume & Geometry. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Volume & Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Volume & Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "volume_&_geometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Volume & Geometry — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_math_m2_l2",
+          "title": "Volume & Geometry — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of volume & geometry"
+          ],
+          "core_terms": [
+            "Volume",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Volume & Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Volume & Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Volume & Geometry. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Volume & Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Volume & Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "volume_&_geometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Volume & Geometry — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_math_m2_l3",
+          "title": "Volume & Geometry — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of volume & geometry"
+          ],
+          "core_terms": [
+            "Volume",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Volume & Geometry. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Volume & Geometry",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Volume & Geometry. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Volume & Geometry concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Volume & Geometry: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "volume_&_geometry"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Volume & Geometry — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "5_math_m3",
+      "title": "Coordinate Planes",
+      "lectures": [
+        {
+          "lecture_id": "5_math_m3_l1",
+          "title": "Coordinate Planes — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to coordinate planes"
+          ],
+          "core_terms": [
+            "Coordinate",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Coordinate Planes. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Coordinate Planes",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Coordinate Planes. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Coordinate Planes concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Coordinate Planes: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "coordinate_planes"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Coordinate Planes — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_math_m3_l2",
+          "title": "Coordinate Planes — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of coordinate planes"
+          ],
+          "core_terms": [
+            "Coordinate",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Coordinate Planes. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Coordinate Planes",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Coordinate Planes. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Coordinate Planes concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Coordinate Planes: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "coordinate_planes"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Coordinate Planes — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_math_m3_l3",
+          "title": "Coordinate Planes — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of coordinate planes"
+          ],
+          "core_terms": [
+            "Coordinate",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Coordinate Planes. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Coordinate Planes",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Coordinate Planes. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Coordinate Planes concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Coordinate Planes: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "coordinate_planes"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Coordinate Planes — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "5_math_m4",
+      "title": "Order of Operations",
+      "lectures": [
+        {
+          "lecture_id": "5_math_m4_l1",
+          "title": "Order of Operations — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to order of operations"
+          ],
+          "core_terms": [
+            "Order",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Order of Operations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Order of Operations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Order of Operations. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Order of Operations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Order of Operations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "order_of_operations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Order of Operations — Part 1."
+          }
+        },
+        {
+          "lecture_id": "5_math_m4_l2",
+          "title": "Order of Operations — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of order of operations"
+          ],
+          "core_terms": [
+            "Order",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Order of Operations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Order of Operations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Order of Operations. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Order of Operations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Order of Operations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "order_of_operations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Order of Operations — Part 2."
+          }
+        },
+        {
+          "lecture_id": "5_math_m4_l3",
+          "title": "Order of Operations — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of order of operations"
+          ],
+          "core_terms": [
+            "Order",
+            "math"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "5_math_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Order of Operations. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Order of Operations",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Order of Operations. This is essential for mastering Math V.",
+                "visual_prompt": "Animated diagram illustrating Order of Operations concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "5_math_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Order of Operations: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [
+            "order_of_operations"
+          ],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Order of Operations — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "K-5",
+  "depth_target": 1,
+  "pacing": "standard",
+  "recommended_prerequisites": [
+    "4_math"
+  ],
+  "learning_outcomes": [
+    "Demonstrate understanding of Decimal Operations",
+    "Demonstrate understanding of Volume & Geometry",
+    "Demonstrate understanding of Coordinate Planes",
+    "Demonstrate understanding of Order of Operations"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "5_math-A1",
+      "title": "Decimal Operations Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_math_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "5_math-A2",
+      "title": "Volume & Geometry Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_math_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "5_math-A3",
+      "title": "Coordinate Planes Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_math_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "5_math-A4",
+      "title": "Order of Operations Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "5_math_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 70000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

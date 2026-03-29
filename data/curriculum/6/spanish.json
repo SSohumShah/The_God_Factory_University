@@ -1,0 +1,860 @@
+{
+  "course_id": "6_spanish",
+  "title": "Spanish I (6th Grade)",
+  "description": "Spanish I for 6th Grade students.",
+  "credits": 2,
+  "subject_id": "spanish",
+  "modules": [
+    {
+      "module_id": "6_spanish_m1",
+      "title": "Greetings & Basics",
+      "lectures": [
+        {
+          "lecture_id": "6_spanish_m1_l1",
+          "title": "Greetings & Basics — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to greetings & basics"
+          ],
+          "core_terms": [
+            "Greetings",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m1_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Greetings & Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Greetings & Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m1_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Greetings & Basics. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating Greetings & Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m1_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Greetings & Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Greetings & Basics — Part 1."
+          }
+        },
+        {
+          "lecture_id": "6_spanish_m1_l2",
+          "title": "Greetings & Basics — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of greetings & basics"
+          ],
+          "core_terms": [
+            "Greetings",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m1_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Greetings & Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Greetings & Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m1_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Greetings & Basics. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating Greetings & Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m1_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Greetings & Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Greetings & Basics — Part 2."
+          }
+        },
+        {
+          "lecture_id": "6_spanish_m1_l3",
+          "title": "Greetings & Basics — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of greetings & basics"
+          ],
+          "core_terms": [
+            "Greetings",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m1_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Greetings & Basics. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Greetings & Basics",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m1_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Greetings & Basics. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating Greetings & Basics concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m1_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Greetings & Basics: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Greetings & Basics — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "6_spanish_m2",
+      "title": "Family & Home",
+      "lectures": [
+        {
+          "lecture_id": "6_spanish_m2_l1",
+          "title": "Family & Home — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to family & home"
+          ],
+          "core_terms": [
+            "Family",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m2_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Family & Home. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Family & Home",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m2_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Family & Home. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating Family & Home concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m2_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Family & Home: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Family & Home — Part 1."
+          }
+        },
+        {
+          "lecture_id": "6_spanish_m2_l2",
+          "title": "Family & Home — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of family & home"
+          ],
+          "core_terms": [
+            "Family",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m2_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Family & Home. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Family & Home",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m2_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Family & Home. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating Family & Home concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m2_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Family & Home: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Family & Home — Part 2."
+          }
+        },
+        {
+          "lecture_id": "6_spanish_m2_l3",
+          "title": "Family & Home — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of family & home"
+          ],
+          "core_terms": [
+            "Family",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m2_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Family & Home. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Family & Home",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m2_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Family & Home. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating Family & Home concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m2_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Family & Home: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Family & Home — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "6_spanish_m3",
+      "title": "School & Daily Life",
+      "lectures": [
+        {
+          "lecture_id": "6_spanish_m3_l1",
+          "title": "School & Daily Life — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to school & daily life"
+          ],
+          "core_terms": [
+            "School",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m3_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to School & Daily Life. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to School & Daily Life",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m3_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into School & Daily Life. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating School & Daily Life concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m3_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about School & Daily Life: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about School & Daily Life — Part 1."
+          }
+        },
+        {
+          "lecture_id": "6_spanish_m3_l2",
+          "title": "School & Daily Life — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of school & daily life"
+          ],
+          "core_terms": [
+            "School",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m3_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of School & Daily Life. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of School & Daily Life",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m3_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into School & Daily Life. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating School & Daily Life concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m3_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about School & Daily Life: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about School & Daily Life — Part 2."
+          }
+        },
+        {
+          "lecture_id": "6_spanish_m3_l3",
+          "title": "School & Daily Life — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of school & daily life"
+          ],
+          "core_terms": [
+            "School",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m3_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of School & Daily Life. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of School & Daily Life",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m3_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into School & Daily Life. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating School & Daily Life concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m3_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about School & Daily Life: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about School & Daily Life — Part 3."
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "6_spanish_m4",
+      "title": "Food & Culture",
+      "lectures": [
+        {
+          "lecture_id": "6_spanish_m4_l1",
+          "title": "Food & Culture — Part 1",
+          "duration_min": 15,
+          "learning_objectives": [
+            "Understand introduction to food & culture"
+          ],
+          "core_terms": [
+            "Food",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m4_l1_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Introduction to Food & Culture. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Introduction to Food & Culture",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m4_l1_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Food & Culture. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating Food & Culture concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m4_l1_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Food & Culture: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Food & Culture — Part 1."
+          }
+        },
+        {
+          "lecture_id": "6_spanish_m4_l2",
+          "title": "Food & Culture — Part 2",
+          "duration_min": 20,
+          "learning_objectives": [
+            "Understand core concepts of food & culture"
+          ],
+          "core_terms": [
+            "Food",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m4_l2_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Core Concepts of Food & Culture. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Core Concepts of Food & Culture",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m4_l2_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Food & Culture. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating Food & Culture concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m4_l2_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Food & Culture: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Food & Culture — Part 2."
+          }
+        },
+        {
+          "lecture_id": "6_spanish_m4_l3",
+          "title": "Food & Culture — Part 3",
+          "duration_min": 25,
+          "learning_objectives": [
+            "Understand applications of food & culture"
+          ],
+          "core_terms": [
+            "Food",
+            "spanish"
+          ],
+          "video_recipe": {
+            "narrative_arc": [
+              "hook",
+              "exposition",
+              "summary"
+            ],
+            "scene_blocks": [
+              {
+                "block_id": "6_spanish_m4_l3_s1",
+                "duration_s": 60,
+                "narration_prompt": "Welcome to Applications of Food & Culture. In this lesson, we explore the key ideas.",
+                "visual_prompt": "Title card: Applications of Food & Culture",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m4_l3_s2",
+                "duration_s": 120,
+                "narration_prompt": "Let's dive deeper into Food & Culture. This is essential for mastering Spanish I.",
+                "visual_prompt": "Animated diagram illustrating Food & Culture concepts",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              },
+              {
+                "block_id": "6_spanish_m4_l3_s3",
+                "duration_s": 60,
+                "narration_prompt": "To summarize what we've learned about Food & Culture: the key takeaway is understanding the fundamentals.",
+                "visual_prompt": "Summary slide with key terms",
+                "ambiance": {
+                  "music": "low ambient electronic",
+                  "sfx": "gentle",
+                  "color_palette": "dark blue and cyan"
+                }
+              }
+            ]
+          },
+          "math_focus": [],
+          "ai_focus": [],
+          "assessment": {
+            "quiz_questions": 5,
+            "programming_exercises": 0,
+            "reflection_prompt": "Reflect on what you learned about Food & Culture — Part 3."
+          }
+        }
+      ]
+    }
+  ],
+  "_schema_version": "2.0",
+  "difficulty_level": "6-8",
+  "depth_target": 2,
+  "pacing": "standard",
+  "recommended_prerequisites": [],
+  "learning_outcomes": [
+    "Demonstrate understanding of Greetings & Basics",
+    "Demonstrate understanding of Family & Home",
+    "Demonstrate understanding of School & Daily Life",
+    "Demonstrate understanding of Food & Culture"
+  ],
+  "assignments": [
+    {
+      "assignment_id": "6_spanish-A1",
+      "title": "Greetings & Basics Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "6_spanish_m1_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "6_spanish-A2",
+      "title": "Family & Home Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "6_spanish_m2_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "6_spanish-A3",
+      "title": "School & Daily Life Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "6_spanish_m3_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    },
+    {
+      "assignment_id": "6_spanish-A4",
+      "title": "Food & Culture Assessment",
+      "type": "quiz",
+      "max_score": 100,
+      "weight": 0.25,
+      "due_after_lecture": "6_spanish_m4_l3",
+      "rubric": [
+        {
+          "criterion": "Conceptual understanding",
+          "points": 60
+        },
+        {
+          "criterion": "Application",
+          "points": 40
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "_token_estimate": {
+    "total_tokens": 200000,
+    "min_output_tokens": 1500,
+    "overhead_tokens": 500,
+    "lectures": 12
+  }
+}

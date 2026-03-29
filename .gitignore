@@ -17,7 +17,8 @@ build/
 
 # ── Rendered media (large, user-generated) ────────────────────────────────
 exports/
-data/
+data/*
+!data/curriculum/
 
 # ── Logs ──────────────────────────────────────────────────────────────────
 logs/
